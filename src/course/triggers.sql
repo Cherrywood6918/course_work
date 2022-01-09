@@ -209,7 +209,7 @@ $$ LANGUAGE 'plpgsql';
 CREATE TRIGGER add_carers_trainers_dragon BEFORE INSERT ON dragon_carers_trainers
 FOR EACH ROW EXECUTE PROCEDURE check_worker_and_dragon_time();
 
-
+/* дракон может жить в клетке только если в ней есть место */
 CREATE OR REPLACE FUNCTION check_is_cage_available()
 RETURNS TRIGGER AS $$
 DECLARE
@@ -227,3 +227,30 @@ $$ LANGUAGE 'plpgsql';
 
 CREATE TRIGGER add_available_cage BEFORE INSERT ON dragons
 FOR ROW EXECUTE PROCEDURE check_is_cage_available();
+
+/* если дракон сбежал или погиб, то убирается клетка и устанавливается дата смерти */
+CREATE OR REPLACE FUNCTION update_dragon()
+    RETURNS TRIGGER AS $$
+DECLARE
+    max_amount smallint = (SELECT max_amount FROM cages where id = NEW.cage_id);
+    cur_amount smallint = (SELECT count(*) FROM dragons where cage_id = NEW.cage_id);
+BEGIN
+    IF (NEW.dragon_status != 'alive')
+        THEN NEW.cage_id = null;
+        IF (NEW.dragon_status = 'death from old age' OR NEW.dragon_status = 'death due to poor care')
+            THEN NEW.date_of_death = now();
+        END IF;
+    END IF;
+    IF (max_amount >= cur_amount)
+    THEN
+        RETURN NEW;
+    ELSE
+        RAISE EXCEPTION 'can not add dragon % to the cage with id = %, cage is full', NEW.name, NEW.cage_id;
+    END IF;
+END
+$$ LANGUAGE 'plpgsql';
+
+
+CREATE TRIGGER update_dragon BEFORE UPDATE ON dragons
+FOR ROW EXECUTE PROCEDURE update_dragon();
+
