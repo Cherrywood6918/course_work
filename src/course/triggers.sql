@@ -7,7 +7,7 @@ BEGIN
 			FROM people where people.id = NEW.person_id) >= 18)
 	AND ((SELECT date_of_death FROM people where people.id = NEW.person_id) IS NULL)
 	THEN
-	RAISE NOTICE 'SUCSSES:  %', TG_NAME;
+	RAISE NOTICE 'SUCCESS:  %', TG_NAME;
 	RETURN NEW;
 	ELSE
 	RAISE NOTICE 'FAIL:  %', TG_NAME;
@@ -27,7 +27,7 @@ BEGIN
 /*count(id) оптимальнее count(*)*/
 	AND ((SELECT count(workers.id) FROM workers) > 300)
 	THEN
-	RAISE NOTICE 'SUCSSES: %', TG_NAME;
+	RAISE NOTICE 'SUCCESS: %', TG_NAME;
 	UPDATE workers SET status = false WHERE workers.id = NEW.id;
 	ELSE
 	RAISE NOTICE 'FAIL:  %', TG_NAME;
@@ -38,7 +38,7 @@ $$ LANGUAGE 'plpgsql';
 CREATE TRIGGER dismissal AFTER UPDATE OF penalty ON workers
 FOR EACH ROW EXECUTE PROCEDURE check_dismissal();
 
-/*начисление штрафов*/ПОД ВОПРОСОМ
+/*начисление штрафов*/ --ПОД ВОПРОСОМ
 CREATE OR REPLACE FUNCTION check_penalty()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -49,7 +49,7 @@ BEGIN
 	RAISE NOTICE '%',NEW.id;
 	UPDATE workers SET penalty = penalty + 1 WHERE id IN
                     (SELECT worker_id FROM dragon_carers_trainers as drt WHERE dragon_id = NEW.id AND drt.status);
-	RAISE NOTICE 'SUCSSES: %', TG_NAME;
+	RAISE NOTICE 'SUCCESS: %', TG_NAME;
 	ELSE
 	RAISE NOTICE 'FAIL:  %', TG_NAME;
 	END IF;
@@ -61,7 +61,7 @@ CREATE TRIGGER impose_a_penalty AFTER UPDATE OF dragon_status ON dragons
 FOR EACH ROW EXECUTE PROCEDURE check_penalty();
 
 -- Если на ферме нет мест, поиск и приручение драконов не проводится.
-CREATE OR REPLACE FUNCTION check_count_dragons() 
+CREATE OR REPLACE FUNCTION check_count_dragons()
 RETURNS TRIGGER AS $$
 BEGIN
     RAISE NOTICE '%', TG_NAME;
@@ -69,11 +69,11 @@ BEGIN
     RAISE NOTICE '%', (SELECT sum(max_amount) FROM cages WHERE cage_type = 'general');
     IF ((SELECT count(dragons.id) FROM dragons) < (SELECT sum(max_amount) FROM cages WHERE cage_type = 'general'))
     THEN
-        RAISE NOTICE 'SUCSSES: %', TG_NAME;
+        RAISE NOTICE 'SUCCESS: %', TG_NAME;
         RETURN NEW;
     ELSE
         RAISE NOTICE 'FAIL:  %', TG_NAME;
-        RETURN NULL;       
+        RETURN NULL;
     END IF;
 END;
 $$ LANGUAGE 'plpgsql';
@@ -94,7 +94,7 @@ BEGIN
     IF (NEW.result is not null)
     THEN
         UPDATE search_outing SET time_finish = now() WHERE id = NEW.id;
-        RAISE NOTICE 'SUCSSES: %', TG_NAME;
+        RAISE NOTICE 'SUCCESS: %', TG_NAME;
     ELSE
         RAISE NOTICE 'FAIL:  %', TG_NAME;
     END IF;
@@ -111,7 +111,7 @@ BEGIN
     IF (NEW.result is not null)
     THEN
         UPDATE tamer_outing SET time_finish = now() WHERE id = NEW.id;
-        RAISE NOTICE 'SUCSSES: %', TG_NAME;
+        RAISE NOTICE 'SUCCESS: %', TG_NAME;
     ELSE
         RAISE NOTICE 'FAIL:  %', TG_NAME;
     END IF;
@@ -141,7 +141,7 @@ $$ LANGUAGE 'plpgsql';
 CREATE TRIGGER evidence_time_finish AFTER UPDATE OF evidence_id ON seartch_history
 FOR EACH ROW EXECUTE PROCEDURE check_evidence_time_finish();
 
- 
+
 
 /* работники в зависимости от типа могут выполнять только определенные обязанности
 *  worker - id работника в таблице workers
@@ -155,7 +155,7 @@ BEGIN
 	RAISE DEBUG 'check_worker_responsibilities';
 	IF (find_type = type) AND (find_status)
 	THEN
-	RAISE DEBUG 'SUCSSES: check_worker_responsibilities';
+	RAISE DEBUG 'SUCCESS: check_worker_responsibilities';
 	RETURN TRUE;
 	ELSE
 	RAISE DEBUG 'FAIL: check_worker_responsibilities';

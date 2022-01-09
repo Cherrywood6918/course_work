@@ -73,7 +73,7 @@ CREATE TABLE IF NOT EXISTS dragons
 (
     id            SERIAL PRIMARY KEY,
     name          VARCHAR(30)   NOT NULL UNIQUE,
-    train_level   SMALLINT      REFERENCES characteristic_levels ON DELETE SET NULL ON UPDATE SET NULL,
+    train_level_id   SMALLINT      REFERENCES characteristic_levels ON DELETE SET NULL ON UPDATE SET NULL,
     type_id       SMALLINT      REFERENCES dragon_types ON DELETE SET NULL ON UPDATE CASCADE,
     age           SMALLINT      NOT NULL CHECK (age > 0),
     gender        GENDER,

@@ -687,8 +687,7 @@ VALUES ('large', 'Blue with yellow pattern',
 INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
                           hatching_age, puberty_age, appearance_id, rarity)
 VALUES ('Windstriker', 3,
-        false,
-        true, 'Skydiving',
+        null, false, 'Skydiving',
         'day', 'autumn', 5, 18, 43, 0.72);
 INSERT INTO dragon_diet (food_id, dragon_type_id)
 VALUES (3, 43);
