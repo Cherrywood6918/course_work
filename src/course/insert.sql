@@ -1,2329 +1,2335 @@
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyvind', 'Knutsen', '2005-12-18', null, 'male', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Auden', 'Solheim', '1989-07-28', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astrid', 'Henriksen', '1983-12-02', null, 'female', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigwald', 'Karlsen', '2004-03-20', null, 'male', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wemund', 'Johansen', '2006-05-04', null, 'male', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Henriksen', '1980-11-06', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ram', 'Halvorsen', '1986-12-13', null, 'male', 98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Pettersen', '1982-04-06', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Lunde', '1986-12-25', null, 'female', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westmar', 'Strand', '1980-09-30', null, 'male', -11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Andersen', '1972-11-14', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Pedersen', '2010-01-22', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Strand', '2013-03-10', null, 'female', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Knutsen', '2020-08-27', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dahlia', 'Andersen', '1973-02-08', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigwald', 'Nguyen', '1990-03-18', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Hansen', '1976-08-02', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorodd', 'Kristensen', '2003-07-03', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Call', 'Dahl', '1978-06-24', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Johansen', '2016-04-29', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liulfre', 'Johansen', '2017-06-13', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greger', 'Knutsen', '1979-12-28', null, 'male', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bödolv', 'Martinsen', '1979-09-11', null, 'male', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhild', 'Pedersen', '1997-09-19', null, 'female', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Nilsen', '1993-04-26', null, 'female', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Larsen', '2018-04-11', null, 'female', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Svendsen', '1979-04-20', null, 'female', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Pettersen', '2006-09-19', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Sørensen', '1976-07-09', null, 'male', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Lie', '2013-09-18', null, 'male', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhild', 'Jensen', '1994-07-20', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Martinsen', '1991-01-08', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Karlsen', '2000-03-30', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbjörn', 'Nygård', '2009-01-20', null, 'male', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eileithr', 'Moe', '1980-05-27', null, 'male', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Nguyen', '1980-03-07', null, 'female', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greenolve', 'Svendsen', '2008-06-08', null, 'male', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Larsen', '2003-03-05', null, 'female', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Strand', '1992-08-10', null, 'female', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westmar', 'Gundersen', '1985-11-06', null, 'male', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Kristensen', '1998-08-02', null, 'female', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Halvorsen', '2012-10-21', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Lie', '2002-01-09', null, 'male', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Svendsen', '1996-03-21', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hring', 'Paulsen', '1985-05-14', null, 'male', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Moen', '2008-05-30', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frost', 'Rasmussen', '1984-12-24', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnwold', 'Knutsen', '2019-12-07', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Moen', '1982-09-16', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vigdis', 'Iversen', '1984-02-25', null, 'female', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aswald', 'Paulsen', '1999-01-03', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asmund', 'Henriksen', '2016-12-24', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Svendsen', '2018-11-18', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Strand', '1999-10-08', null, 'female', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Susann', 'Solberg', '2002-01-09', null, 'female', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagrun', 'Eriksen', '1973-03-01', null, 'female', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Johannessen', '2015-06-13', null, 'female', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Amundsen', '1974-09-07', null, 'female', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wagni', 'Jensen', '2019-11-17', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bolly', 'Kristensen', '2002-06-20', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Bakken', '1974-02-10', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hallstein', 'Dahl', '2001-09-08', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarty', 'Kristoffersen', '2000-02-21', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vermund', 'Paulsen', '1972-10-28', null, 'male', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Rasmussen', '1990-06-04', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goody', 'Bakke', '1996-12-24', null, 'male', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loviz', 'Moe', '2020-09-21', null, 'female', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valborg', 'Henriksen', '2021-08-09', null, 'female', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Moen', '1992-10-13', null, 'female', -43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Moen', '1974-12-19', null, 'female', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snor', 'Hagen', '2007-02-15', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Halvorsen', '2006-02-12', null, 'female', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodred', 'Solberg', '2005-03-29', null, 'male', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Johannessen', '1984-07-21', null, 'male', 48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgrim', 'Strand', '1977-12-31', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Moen', '2000-11-30', null, 'female', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Kristensen', '2017-04-09', null, 'female', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Solheim', '2015-05-21', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Johnsen', '1971-12-16', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Karlsen', '1974-10-31', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Solheim', '1971-11-09', null, 'female', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rig', 'Sørensen', '2013-07-10', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgeir', 'Nygård', '2018-09-07', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Martinsen', '2010-10-03', null, 'female', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Nguyen', '1989-09-21', null, 'male', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dyarvi', 'Bakke', '1974-01-23', null, 'male', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Berg', '1991-10-15', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhild', 'Ali', '2011-03-21', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Kristoffersen', '1978-05-24', null, 'female', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Clement', 'Jørgensen', '1987-02-08', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Solheim', '1994-07-05', null, 'female', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Johansen', '1977-04-03', null, 'female', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frodie', 'Johannessen', '1994-04-06', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Bakken', '1978-05-24', null, 'female', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Andreassen', '1979-09-30', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snabjorn', 'Martinsen', '1975-08-02', null, 'male', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eisteinne', 'Kristensen', '1971-07-01', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Moen', '1983-02-18', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorbjorn', 'Ali', '1985-05-08', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjorg', 'Iversen', '1971-01-15', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Audulv', 'Berge', '2019-07-07', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingmund', 'Nguyen', '2001-11-10', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eir', 'Andersen', '1996-08-27', null, 'female', -14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Espen', 'Jørgensen', '1981-05-02', null, 'male', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Hagen', '2008-07-06', null, 'male', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Friedlave', 'Nilsen', '1999-07-26', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ormarr', 'Haugen', '1992-01-05', null, 'male', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helmi', 'Johannessen', '1997-08-20', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Bakken', '2013-04-23', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hallstein', 'Knutsen', '1998-04-17', null, 'male', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnlot', 'Olsen', '1986-06-08', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Kristoffersen', '1971-05-09', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Lunde', '1992-03-10', null, 'female', -16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Hansen', '1996-08-10', null, 'male', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Iversen', '1984-06-23', null, 'female', 95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfsen', 'Kristiansen', '2021-08-29', null, 'male', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Berg', '1996-10-08', null, 'female', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengt', 'Solheim', '2004-04-30', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorbjorn', 'Kristoffersen', '2002-12-01', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alv', 'Pettersen', '1983-11-30', null, 'male', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Sørensen', '1977-08-18', null, 'female', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Henriksen', '1986-02-25', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Knutsen', '2000-11-26', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frost', 'Lunde', '1999-04-11', null, 'male', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Svendsen', '1999-07-30', null, 'female', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snor', 'Knutsen', '1998-02-21', null, 'male', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Strand', '2011-05-25', null, 'male', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Nguyen', '1987-11-05', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfdan', 'Nygård', '1983-04-20', null, 'male', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Mathisen', '1986-10-26', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aswald', 'Eriksen', '1971-10-20', null, 'male', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Henriksen', '1992-04-26', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Eriksen', '2016-10-02', null, 'male', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Rasmussen', '2003-06-05', null, 'female', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Eriksen', '2017-11-30', null, 'female', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Hagen', '1995-10-20', null, 'female', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haward', 'Moen', '2014-02-13', null, 'male', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Claus', 'Nilsen', '1985-03-31', null, 'male', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Iversen', '1994-08-26', null, 'male', -47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agmund', 'Eide', '1974-06-15', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmod', 'Andersen', '2016-04-04', null, 'male', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Solheim', '2002-12-24', null, 'male', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Andersen', '2015-09-20', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Gundersen', '1994-07-16', null, 'female', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Jakobsen', '2004-02-08', null, 'female', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runolv', 'Ali', '1974-02-01', null, 'male', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goody', 'Nygård', '1996-09-14', null, 'male', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Mathisen', '1992-12-13', null, 'female', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dyarvi', 'Solberg', '2007-05-14', null, 'male', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigridr', 'Moe', '2004-11-06', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Iversen', '2013-11-15', null, 'female', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vermund', 'Halvorsen', '1982-05-07', null, 'male', 98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Berg', '1989-05-29', null, 'female', -50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Andreassen', '2002-10-12', null, 'female', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folk', 'Svendsen', '2006-05-28', null, 'male', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Ali', '2007-07-13', null, 'male', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Johansen', '2020-07-10', null, 'female', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hakon', 'Martinsen', '2013-05-10', null, 'male', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Lie', '1987-05-02', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lave', 'Strand', '1973-06-11', null, 'male', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Christer', 'Eide', '1980-03-24', null, 'male', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Nguyen', '1973-09-06', null, 'female', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Nygård', '1974-03-06', null, 'male', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Kristensen', '2011-04-17', null, 'female', -2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Pettersen', '2005-09-20', null, 'female', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Bakke', '2007-04-27', null, 'female', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eisteinne', 'Halvorsen', '1974-06-02', null, 'male', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agmund', 'Berge', '1972-12-01', null, 'male', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Ali', '1991-04-23', null, 'female', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbjörn', 'Karlsen', '1991-05-14', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Bakke', '1991-08-15', null, 'female', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Pedersen', '1993-05-26', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Bakken', '2003-11-04', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vigdis', 'Amundsen', '2015-12-31', null, 'female', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jorgen', 'Jakobsen', '2012-04-24', null, 'male', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Karlsen', '2014-10-04', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Solberg', '2007-07-08', null, 'female', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annika', 'Johannessen', '1994-07-25', null, 'female', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Hagen', '1983-11-28', null, 'male', -79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Amundsen', '1971-01-04', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Jakobsen', '1973-02-28', null, 'female', -71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Berg', '1985-08-02', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjef', 'Berg', '1985-05-03', null, 'male', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Iversen', '1990-07-01', null, 'female', 54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgisl', 'Larsen', '1996-04-15', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Svendsen', '1991-12-16', null, 'male', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarty', 'Moen', '1979-08-16', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Paulsen', '2017-09-07', null, 'female', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Kristoffersen', '1985-10-11', null, 'female', -79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbjörn', 'Dahl', '1998-12-01', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Henriksen', '1986-11-18', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Iversen', '2005-07-01', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agvid', 'Bakken', '2015-05-01', null, 'male', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Andersen', '1972-10-11', null, 'female', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Gundersen', '1998-11-11', null, 'female', 61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgisl', 'Pedersen', '1975-11-26', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Mathisen', '1980-07-19', null, 'female', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Jacobsen', '2003-11-07', null, 'male', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Ali', '1978-10-06', null, 'female', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sassa', 'Paulsen', '1996-05-10', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Johnsen', '1991-07-24', null, 'female', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hallstein', 'Berg', '1973-10-23', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Barebra', 'Nilsen', '2012-07-02', null, 'female', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Strand', '1976-02-05', null, 'female', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Andersen', '2014-01-30', null, 'female', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Paulsen', '1979-03-18', null, 'female', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Solheim', '1994-01-14', null, 'female', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Svendsen', '2007-10-22', null, 'female', -50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Einar', 'Andersen', '1981-06-01', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerhard', 'Jakobsen', '1983-11-23', null, 'male', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Amundsen', '2010-10-20', null, 'female', 55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Strand', '1983-06-20', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Haugen', '2005-08-29', null, 'female', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Nygård', '2013-08-06', null, 'male', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gulla', 'Mathisen', '2000-09-11', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Kristoffersen', '2017-04-05', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Halvorsen', '2021-08-23', null, 'female', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Solberg', '1988-03-19', null, 'female', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astrid', 'Haugen', '1990-08-27', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eivindr', 'Jensen', '2004-08-21', null, 'male', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ansgar', 'Amundsen', '1976-04-08', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Iversen', '2017-01-19', null, 'female', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arngeir', 'Svendsen', '2005-01-05', null, 'male', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Eide', '1995-10-20', null, 'female', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Nguyen', '2014-01-30', null, 'female', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Mathisen', '2014-08-16', null, 'female', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrid', 'Pettersen', '2000-05-23', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Andreassen', '1990-11-04', null, 'female', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injigertr', 'Berge', '1992-10-19', null, 'female', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Bakke', '1975-03-31', null, 'female', -47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Berg', '2012-12-12', null, 'female', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrun', 'Andersen', '2003-09-13', null, 'female', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Berg', '2000-01-30', null, 'male', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Sørensen', '1986-10-28', null, 'female', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Sørensen', '1975-04-29', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roald', 'Lunde', '1973-04-08', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Eriksen', '1978-07-04', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bödolv', 'Iversen', '2002-08-31', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Jensen', '1994-07-19', null, 'female', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hring', 'Bakken', '1984-08-23', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frodie', 'Karlsen', '1985-03-09', null, 'male', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thordjorn', 'Jakobsen', '2013-11-20', null, 'male', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Jensen', '1986-08-06', null, 'female', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Andreassen', '1982-02-09', null, 'female', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Bakken', '1991-05-02', null, 'female', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Saga', 'Johnsen', '2003-03-13', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Bakken', '2013-04-30', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Paulsen', '2018-05-08', null, 'female', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Lie', '1991-11-15', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swanveig', 'Iversen', '2012-11-10', null, 'female', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Halvorsen', '1992-08-02', null, 'female', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Karlsen', '2010-02-28', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingolv', 'Johnsen', '1985-12-19', null, 'male', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnlot', 'Martinsen', '1976-12-11', null, 'male', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Kristoffersen', '1976-06-12', null, 'female', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rig', 'Paulsen', '1997-06-15', null, 'male', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roerik', 'Solberg', '1994-01-12', null, 'male', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Pettersen', '1989-05-13', null, 'female', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Lund', '1996-11-12', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roald', 'Haugen', '2020-03-15', null, 'male', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Sørensen', '1982-10-26', null, 'male', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bercy', 'Halvorsen', '2000-01-28', null, 'male', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Rasmussen', '1992-07-05', null, 'female', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hertrud', 'Solberg', '1976-09-02', null, 'female', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hertrud', 'Berge', '1997-07-29', null, 'female', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thomas', 'Kristensen', '1975-05-26', null, 'male', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Nguyen', '2016-06-24', null, 'female', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agvid', 'Karlsen', '1971-05-01', null, 'male', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Sørensen', '1986-01-22', null, 'female', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulvbjorn', 'Martinsen', '1974-01-22', null, 'male', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunther', 'Hansen', '2011-03-29', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Solberg', '2001-11-17', null, 'female', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brand', 'Jakobsen', '1997-12-28', null, 'male', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Kristensen', '1985-11-15', null, 'female', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vermund', 'Dahl', '1980-01-10', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Andreassen', '1979-12-30', null, 'female', 73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Moe', '1985-12-04', null, 'female', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webrand', 'Lund', '1975-09-29', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Olsen', '1975-11-16', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingwald', 'Jørgensen', '1982-02-26', null, 'male', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Andreas', 'Eide', '2012-07-03', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yon', 'Jensen', '1990-08-23', null, 'male', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rollo', 'Berge', '1999-02-03', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jerd', 'Moen', '1981-05-13', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grid', 'Sørensen', '1971-09-05', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Stein', 'Lunde', '2012-05-29', null, 'male', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Isunnr', 'Jacobsen', '1977-11-13', null, 'female', 94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agmund', 'Mathisen', '1973-03-01', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marie', 'Solberg', '1992-08-19', null, 'male', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Hagen', '2018-03-19', null, 'female', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Bakke', '2000-08-03', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Jensen', '1997-05-22', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alvgeir', 'Moen', '2009-10-31', null, 'male', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Haugen', '1986-05-07', null, 'female', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Knud', 'Rasmussen', '2000-05-11', null, 'male', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Henriksen', '1997-03-04', null, 'female', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alvgeir', 'Eriksen', '1985-02-16', null, 'male', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Moe', '1977-12-09', null, 'female', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hrut', 'Lie', '1991-01-26', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Berg', '1998-08-20', null, 'female', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Orme', 'Pettersen', '1975-05-10', null, 'male', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfsen', 'Lie', '2011-03-28', null, 'male', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skjeld', 'Olsen', '1971-04-23', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Bakken', '2012-05-31', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tryggwi', 'Sørensen', '2018-09-27', null, 'male', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kia', 'Haugen', '2019-07-02', null, 'female', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Nguyen', '1977-08-17', null, 'male', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vigdis', 'Svendsen', '1983-09-09', null, 'female', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Pedersen', '1977-08-13', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kjarwal', 'Berge', '1985-05-17', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Lie', '2015-06-21', null, 'female', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Olsen', '2007-08-15', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjorg', 'Berg', '1986-10-20', null, 'female', 61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Nilsen', '1997-03-18', null, 'male', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kia', 'Kristoffersen', '1996-01-22', null, 'female', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Nilsen', '1988-12-27', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Mats', 'Martinsen', '1975-04-29', null, 'male', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asa', 'Kristoffersen', '1986-10-19', null, 'female', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Svendsen', '2010-03-10', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Bakke', '1993-08-28', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Hagen', '2001-10-13', null, 'male', -79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Johansen', '2016-06-28', null, 'female', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Attila', 'Eide', '1991-10-28', null, 'male', 98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Moe', '1983-04-26', null, 'female', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Bakke', '2008-06-25', null, 'female', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Nygård', '2006-01-31', null, 'female', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Andreassen', '2021-07-13', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eileithr', 'Knutsen', '2000-09-01', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Benedict', 'Knutsen', '2008-10-03', null, 'female', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Geirmund', 'Sørensen', '2019-06-10', null, 'male', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Martinsen', '1986-05-27', null, 'female', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ormarr', 'Hagen', '1999-01-27', null, 'male', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Dahl', '1989-02-24', null, 'female', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingwald', 'Dahl', '1993-10-30', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedmod', 'Bakken', '2002-10-19', null, 'male', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Amundsen', '1983-01-16', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Rasmussen', '2015-11-26', null, 'female', -79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Sørensen', '2018-01-19', null, 'female', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asver', 'Larsen', '1987-03-04', null, 'male', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Amundsen', '1986-06-05', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torketill', 'Paulsen', '2016-08-14', null, 'male', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorolf', 'Solheim', '1978-03-15', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Lund', '2017-05-17', null, 'female', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Svendsen', '1980-05-05', null, 'male', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyleave', 'Haugen', '2006-11-15', null, 'male', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Pettersen', '1978-01-11', null, 'female', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfdan', 'Jakobsen', '2007-06-12', null, 'male', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingwald', 'Rasmussen', '1987-04-25', null, 'male', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astrid', 'Halvorsen', '1987-06-11', null, 'female', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Johnsen', '1974-08-21', null, 'female', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Amundsen', '2014-10-20', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kjarwal', 'Nguyen', '1992-02-17', null, 'male', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Nygård', '2008-07-19', null, 'female', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjörn', 'Hagen', '1995-04-27', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Nilsen', '1992-03-23', null, 'female', 94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Berge', '2013-03-12', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Nguyen', '1986-12-15', null, 'female', -79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Karlsen', '1972-05-20', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ram', 'Johnsen', '1995-08-09', null, 'male', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Johansen', '2021-12-16', null, 'female', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Sørensen', '2010-08-19', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sverr', 'Jensen', '1972-08-08', null, 'male', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhield', 'Ali', '1994-04-25', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Berg', '2015-03-10', null, 'female', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Moen', '2000-04-03', null, 'male', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Nygård', '2008-08-04', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vegeir', 'Eriksen', '2013-04-02', null, 'male', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Eriksen', '1983-09-03', null, 'female', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigmund', 'Kristoffersen', '2014-07-11', null, 'male', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Moe', '1978-05-04', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wagni', 'Berg', '1997-02-02', null, 'male', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Larsen', '1991-08-25', null, 'male', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kia', 'Berge', '2017-10-13', null, 'female', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ing', 'Larsen', '1991-10-21', null, 'male', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wemund', 'Moen', '1997-11-05', null, 'male', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Pedersen', '1980-11-03', null, 'female', 54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmod', 'Hagen', '1973-09-26', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorodd', 'Nygård', '1977-06-03', null, 'male', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Andreas', 'Nguyen', '1989-01-08', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swanveig', 'Amundsen', '2009-10-25', null, 'female', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Andersen', '1972-02-07', null, 'female', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Eriksen', '1997-01-18', null, 'female', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulvar', 'Karlsen', '1981-06-18', null, 'male', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ram', 'Moe', '2001-07-29', null, 'male', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jorgen', 'Knutsen', '1981-10-18', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Randalfre', 'Gundersen', '1997-03-25', null, 'male', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jorgen', 'Sørensen', '1992-03-27', null, 'male', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dyarvi', 'Lie', '2001-06-11', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Eriksen', '2014-07-23', null, 'female', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Pettersen', '1973-11-19', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Knutsen', '1981-11-17', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Bakke', '2000-02-17', null, 'female', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Eriksen', '1980-12-21', null, 'female', 91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Geirmund', 'Berg', '2005-09-15', null, 'male', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgnir', 'Amundsen', '2021-01-27', null, 'male', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Eide', '1975-11-13', null, 'male', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgrim', 'Berge', '2010-04-11', null, 'male', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Egil', 'Kristensen', '2013-10-27', null, 'male', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Call', 'Sørensen', '1992-10-15', null, 'male', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Karlsen', '1984-07-05', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingilev', 'Sørensen', '1983-11-12', null, 'male', -43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigridr', 'Haugen', '1993-08-19', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfsen', 'Paulsen', '2011-05-20', null, 'male', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Larsen', '2020-02-05', null, 'female', -14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injigertr', 'Rasmussen', '2013-08-13', null, 'female', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arngeir', 'Svendsen', '1975-08-15', null, 'male', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hertrud', 'Berg', '2020-06-06', null, 'female', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Nygård', '2004-10-28', null, 'female', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Haugen', '1980-01-12', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Karlsen', '1972-05-04', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Iversen', '1971-08-07', null, 'female', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Hagen', '1998-07-27', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gustav', 'Solheim', '1978-05-05', null, 'male', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dahlia', 'Nilsen', '1985-09-07', null, 'female', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Jacobsen', '1999-01-18', null, 'male', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snorri', 'Knutsen', '1997-05-05', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Berg', '1973-02-04', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingired', 'Iversen', '2015-07-11', null, 'male', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gustav', 'Lunde', '1974-12-24', null, 'male', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjorg', 'Solheim', '1997-12-14', null, 'female', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Moe', '2009-08-03', null, 'female', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnulv', 'Halvorsen', '1978-01-11', null, 'male', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Lunde', '1989-04-10', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingihild', 'Olsen', '1995-05-08', null, 'female', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Sørensen', '1990-09-21', null, 'male', 91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dahlia', 'Berge', '2000-03-24', null, 'female', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eivindr', 'Eriksen', '1972-10-25', null, 'male', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Haugen', '1980-12-04', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Johannessen', '1987-09-25', null, 'male', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedvar', 'Johnsen', '1981-06-24', null, 'male', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Svendsen', '2001-05-15', null, 'male', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Moe', '2006-04-27', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sverr', 'Nygård', '2013-05-13', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Utley', 'Lund', '1999-06-20', null, 'male', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Pedersen', '1986-08-07', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gustav', 'Bakke', '1996-01-31', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Christer', 'Johnsen', '2012-11-09', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gustav', 'Eide', '1987-11-01', null, 'male', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Karlsen', '2016-07-06', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runolv', 'Sørensen', '1988-01-23', null, 'male', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helvard', 'Larsen', '2018-09-19', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Odd', 'Dahl', '2005-08-17', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vikar', 'Jørgensen', '2012-06-26', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Jacobsen', '1982-03-07', null, 'male', -71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Jensen', '2016-09-27', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Lund', '1972-04-18', null, 'female', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folk', 'Pedersen', '1993-04-03', null, 'male', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingmund', 'Halvorsen', '1979-04-12', null, 'male', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Nygård', '1972-12-05', null, 'male', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brunhild', 'Kristiansen', '1993-05-29', null, 'female', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Dahl', '1996-04-14', null, 'male', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hakon', 'Nygård', '1992-08-30', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Hagen', '2015-08-11', null, 'female', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Martinsen', '1986-02-10', null, 'female', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Jacobsen', '1976-08-20', null, 'female', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Sørensen', '1999-05-01', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Gundersen', '1992-03-29', null, 'female', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Keia', 'Dahl', '1987-09-09', null, 'female', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Kristiansen', '1988-06-02', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigwald', 'Berge', '1978-04-09', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freyr', 'Ali', '1993-08-01', null, 'male', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Susann', 'Lunde', '2019-12-11', null, 'female', 54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Berge', '2018-09-15', null, 'female', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Lie', '1998-05-06', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Andersen', '1990-02-12', null, 'female', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liulfre', 'Hansen', '2005-04-24', null, 'male', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Anders', 'Nguyen', '1992-04-17', null, 'male', 48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wendela', 'Solberg', '1997-01-21', null, 'female', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Johannessen', '2018-04-30', null, 'female', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrid', 'Solberg', '2008-04-11', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Haugen', '1981-07-14', null, 'female', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodred', 'Pedersen', '1978-09-11', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wendela', 'Henriksen', '2000-07-18', null, 'female', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Hagen', '1976-10-06', null, 'female', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wagni', 'Mathisen', '1973-10-24', null, 'male', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigurd', 'Johansen', '1974-09-07', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Odd', 'Mathisen', '2006-01-02', null, 'male', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oystein', 'Rasmussen', '2008-08-02', null, 'male', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunther', 'Jacobsen', '2010-11-09', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Nilsen', '2011-01-17', null, 'female', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Solberg', '1981-05-30', null, 'female', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Hansen', '1992-06-25', null, 'female', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Olsen', '1994-07-15', null, 'male', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greger', 'Pedersen', '2010-08-30', null, 'male', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgnir', 'Eriksen', '1980-03-24', null, 'male', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Hagen', '2002-11-28', null, 'female', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Ali', '1984-09-20', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jerd', 'Andersen', '2006-05-30', null, 'female', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Nilsen', '2003-12-04', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Lunde', '2015-01-25', null, 'female', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goody', 'Olsen', '2008-07-07', null, 'male', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Pettersen', '1987-03-03', null, 'female', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Solheim', '2009-09-01', null, 'male', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Kristensen', '2005-11-11', null, 'female', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brunhild', 'Jacobsen', '2009-08-10', null, 'female', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrid', 'Eide', '2003-07-21', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Nilsen', '2016-10-10', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haltor', 'Karlsen', '1996-09-22', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Karlsen', '1982-06-21', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swann', 'Strand', '1981-03-07', null, 'male', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Johannessen', '2018-10-17', null, 'female', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Strand', '1986-06-09', null, 'female', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Solberg', '1989-12-31', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Eide', '2012-03-15', null, 'female', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Iversen', '2005-04-22', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sassa', 'Johannessen', '1975-06-04', null, 'female', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinulv', 'Pettersen', '1983-11-06', null, 'male', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agvid', 'Solberg', '1977-11-27', null, 'male', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Ali', '1989-08-01', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Amundsen', '2020-07-29', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bernard', 'Paulsen', '1972-03-20', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingilev', 'Ali', '2002-03-24', null, 'male', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulvar', 'Halvorsen', '2006-12-11', null, 'male', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Eriksen', '1988-11-20', null, 'male', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Jensen', '1993-10-03', null, 'female', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dyarvi', 'Eriksen', '1974-04-18', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Kristiansen', '2004-04-30', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Larsen', '1997-07-04', null, 'female', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Benedict', 'Eriksen', '2011-01-04', null, 'female', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Bakke', '1992-04-21', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Eriksen', '2001-12-28', null, 'female', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marie', 'Paulsen', '2021-06-03', null, 'male', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Dahl', '1989-03-27', null, 'female', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Johannessen', '2010-02-23', null, 'female', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Orme', 'Mathisen', '1987-04-12', null, 'male', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Clement', 'Andreassen', '1984-03-03', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oddmand', 'Karlsen', '1988-06-09', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingilev', 'Nygård', '1975-12-13', null, 'male', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bo', 'Amundsen', '1985-09-01', null, 'male', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Lie', '2000-12-07', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vegard', 'Bakke', '2014-01-28', null, 'male', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Morten', 'Strand', '2011-06-14', null, 'male', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hertrud', 'Johnsen', '1975-07-22', null, 'female', 61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Henriksen', '2011-10-21', null, 'male', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Berge', '2018-09-19', null, 'female', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinulv', 'Johnsen', '1997-05-11', null, 'male', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Karlsen', '1999-10-07', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Benedict', 'Pedersen', '1992-12-13', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhield', 'Jensen', '2010-01-07', null, 'female', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holmi', 'Svendsen', '2000-10-18', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Lunde', '2009-07-05', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Dahl', '2009-12-09', null, 'male', -2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snor', 'Berge', '2003-01-18', null, 'male', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgrim', 'Eriksen', '1990-06-18', null, 'male', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Sørensen', '2021-04-20', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Andersen', '1986-10-26', null, 'female', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Olsen', '2005-04-14', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Bakke', '1989-01-17', null, 'female', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Knutsen', '2016-06-26', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Lie', '2020-11-07', null, 'female', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runolv', 'Ali', '2006-05-21', null, 'male', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgnir', 'Nguyen', '2012-02-21', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vigdis', 'Rasmussen', '1997-03-23', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rig', 'Solheim', '1986-07-27', null, 'male', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Eide', '2016-08-10', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astrid', 'Pettersen', '1971-05-07', null, 'female', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhield', 'Jensen', '1973-10-25', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asver', 'Amundsen', '1978-10-06', null, 'male', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thordjorn', 'Moe', '1978-04-19', null, 'male', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('George', 'Moen', '2016-09-19', null, 'male', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Regin', 'Nguyen', '2005-03-21', null, 'male', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigridr', 'Johannessen', '1999-01-14', null, 'female', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Andersen', '1981-03-25', null, 'female', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrid', 'Karlsen', '2002-02-11', null, 'male', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torger', 'Gundersen', '2013-05-19', null, 'male', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhild', 'Martinsen', '1972-11-21', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Berg', '1996-08-24', null, 'female', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rig', 'Johannessen', '1972-07-23', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Berg', '2014-10-15', null, 'female', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Gundersen', '2013-11-28', null, 'female', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Regin', 'Bakken', '2009-06-18', null, 'male', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Larsen', '1998-01-19', null, 'male', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Sørensen', '1980-08-12', null, 'female', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Hagen', '1997-07-22', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Knutsen', '1997-10-27', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodbrand', 'Karlsen', '2018-05-08', null, 'male', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dahlia', 'Johansen', '1993-11-02', null, 'female', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Kristiansen', '2004-09-22', null, 'female', 47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Strand', '2006-12-18', null, 'female', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sumarliter', 'Nygård', '2018-02-13', null, 'male', 80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Paulsen', '1998-04-27', null, 'female', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tordzhils', 'Olsen', '1988-11-07', null, 'male', 80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Nilsen', '1997-11-09', null, 'female', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ansgar', 'Kristoffersen', '2007-02-18', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webrand', 'Berge', '1976-09-15', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asmund', 'Paulsen', '2002-05-08', null, 'male', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Moe', '1973-07-31', null, 'female', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vardy', 'Larsen', '2001-04-24', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Carey', 'Lie', '1994-01-14', null, 'female', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swanveig', 'Henriksen', '1998-12-18', null, 'female', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Haugen', '2010-06-29', null, 'female', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Strand', '1976-03-23', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulv', 'Nygård', '2016-12-26', null, 'male', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Carey', 'Johnsen', '1983-05-20', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Lie', '2005-05-04', null, 'female', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Kristoffersen', '1983-02-06', null, 'female', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yon', 'Jacobsen', '2009-02-17', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gulla', 'Bakke', '1996-05-28', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Knutsen', '2005-02-02', null, 'male', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Karlsen', '2014-07-03', null, 'female', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Gundersen', '1997-12-25', null, 'female', 95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Andersen', '2013-04-11', null, 'female', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Haugen', '1992-03-28', null, 'male', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Iversen', '2004-12-24', null, 'female', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Berg', '2001-06-08', null, 'female', -47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgrim', 'Johansen', '1980-01-04', null, 'male', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frode', 'Andersen', '2000-10-14', null, 'male', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Jakobsen', '1993-11-22', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bercy', 'Amundsen', '2000-08-12', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Nilsen', '2020-04-25', null, 'male', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snor', 'Pedersen', '1987-07-24', null, 'male', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Lie', '2007-02-26', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Johannessen', '1998-08-09', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Shooting', 'Jakobsen', '1977-05-15', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bruni', 'Gundersen', '1979-06-16', null, 'male', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Pedersen', '2000-03-27', null, 'female', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Johannessen', '2001-01-04', null, 'female', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Jakobsen', '2002-06-03', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Kristensen', '1994-02-17', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Berge', '2003-03-31', null, 'female', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Rasmussen', '2019-03-25', null, 'female', -14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyvind', 'Iversen', '1995-12-17', null, 'male', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Larsen', '1992-05-04', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Bakken', '1998-01-08', null, 'male', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Karlsen', '2011-11-13', null, 'female', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Karlsen', '1975-02-11', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnar', 'Kristensen', '1982-04-26', null, 'male', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Eriksen', '2008-05-24', null, 'female', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Kristiansen', '2017-12-09', null, 'female', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liulfre', 'Henriksen', '1999-12-21', null, 'male', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Moen', '2012-03-20', null, 'female', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Sørensen', '1994-06-02', null, 'female', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Kristiansen', '2002-02-09', null, 'female', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Egil', 'Knutsen', '1980-04-28', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gisli', 'Pettersen', '2017-07-20', null, 'male', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Shooting', 'Johansen', '1997-07-29', null, 'male', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigmund', 'Jensen', '1976-05-22', null, 'male', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Merith', 'Lunde', '2008-05-11', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Larsen', '1996-03-14', null, 'female', -16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Larsen', '1987-10-06', null, 'male', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oddmand', 'Nygård', '1973-07-08', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgisl', 'Gundersen', '2018-06-26', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Pedersen', '2003-01-12', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Moe', '2019-04-05', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Lund', '2009-03-06', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Sørensen', '2011-11-17', null, 'male', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Solberg', '2021-04-14', null, 'male', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerhard', 'Jacobsen', '1980-09-28', null, 'male', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Moen', '1982-02-23', null, 'female', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Björn', 'Andersen', '2021-07-01', null, 'male', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Moen', '2003-01-17', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Moe', '1999-11-23', null, 'female', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Johnsen', '2003-07-25', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snabjorn', 'Dahl', '1975-09-07', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Ali', '1993-08-04', null, 'female', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Knutsen', '1995-11-22', null, 'female', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Strand', '1971-05-17', null, 'female', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Jørgensen', '2009-05-05', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agmund', 'Jacobsen', '1986-06-16', null, 'male', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Andersen', '2001-12-07', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Morten', 'Nilsen', '1998-04-22', null, 'male', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torketill', 'Gundersen', '1992-04-12', null, 'male', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Moen', '1974-10-30', null, 'female', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingilev', 'Henriksen', '1984-10-25', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Strand', '2009-08-21', null, 'female', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Hansen', '2004-04-27', null, 'male', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Isunnr', 'Henriksen', '2002-02-03', null, 'female', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bödolv', 'Eide', '2004-10-07', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rind', 'Haugen', '2013-07-25', null, 'female', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Haugen', '1982-01-27', null, 'female', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Hansen', '1993-05-11', null, 'female', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wendela', 'Henriksen', '1994-06-29', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Johansen', '1978-03-07', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marie', 'Solheim', '2019-07-04', null, 'male', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Rasmussen', '2016-09-15', null, 'female', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Andreassen', '1979-11-18', null, 'female', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Paulsen', '1986-06-25', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hrut', 'Andreassen', '2020-03-15', null, 'male', -79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrid', 'Moe', '1995-07-24', null, 'male', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Nygård', '2008-05-21', null, 'female', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorolf', 'Jakobsen', '1998-05-30', null, 'male', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Halvorsen', '2016-02-02', null, 'female', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asmund', 'Gundersen', '1985-02-16', null, 'male', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Finr', 'Jakobsen', '1985-07-05', null, 'male', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Larsen', '1991-11-07', null, 'female', 94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Johnsen', '1984-04-20', null, 'female', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Jacobsen', '1971-11-18', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Lunde', '2015-08-16', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Eriksen', '1995-04-05', null, 'female', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Solheim', '1976-10-04', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Olsen', '2018-10-24', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gulla', 'Lund', '1975-12-16', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Halvorsen', '2009-10-14', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Geirmund', 'Bakke', '2021-03-22', null, 'male', 29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Jacobsen', '2000-11-05', null, 'female', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Berge', '1972-09-12', null, 'male', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgrim', 'Karlsen', '1974-08-09', null, 'male', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Eriksen', '2008-07-19', null, 'female', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjorg', 'Dahl', '1987-10-08', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Halvorsen', '1991-11-27', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rig', 'Solberg', '2008-08-10', null, 'male', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bardi', 'Nygård', '1989-08-11', null, 'male', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Eriksen', '2019-01-11', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Eriksen', '1987-05-02', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Bakken', '1983-11-24', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Jensen', '1984-10-21', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Pedersen', '2007-12-20', null, 'female', -71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Einar', 'Paulsen', '2000-11-13', null, 'male', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Eide', '1984-11-14', null, 'female', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Kristiansen', '1974-01-03', null, 'female', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Audun', 'Solberg', '1977-11-24', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Svendsen', '1998-04-24', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Martinsen', '1990-10-23', null, 'female', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Lunde', '1991-01-11', null, 'female', -2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Kristensen', '2002-11-10', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Paulsen', '1971-04-16', null, 'female', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigmund', 'Moe', '1988-07-26', null, 'male', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Karlsen', '2011-10-04', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runnveig', 'Halvorsen', '1984-04-15', null, 'female', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Hansen', '1981-12-04', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Henriksen', '2006-03-21', null, 'female', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Larsen', '2015-02-11', null, 'female', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Knutsen', '2012-01-23', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wemund', 'Dahl', '1992-10-17', null, 'male', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Nygård', '2003-11-20', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asver', 'Johnsen', '1971-06-26', null, 'male', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snorri', 'Martinsen', '1992-08-16', null, 'male', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyvind', 'Andreassen', '2021-02-11', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Sørensen', '1975-12-05', null, 'female', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Rasmussen', '1972-04-14', null, 'female', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Moe', '1973-04-09', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sindri', 'Kristensen', '2006-04-16', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Andreassen', '2010-12-09', null, 'female', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Nygård', '1975-12-29', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Hagen', '1985-03-26', null, 'male', 76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Sørensen', '1997-11-11', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Mathisen', '1994-08-18', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Lie', '2003-12-06', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Bakken', '2020-12-28', null, 'male', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Nilsen', '2010-03-26', null, 'female', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bercy', 'Dahl', '2017-11-19', null, 'male', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Jacobsen', '2020-09-18', null, 'female', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Jørgensen', '1981-02-11', null, 'male', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Solheim', '1978-09-05', null, 'female', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Idannr', 'Sørensen', '2016-02-02', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Lund', '1998-05-14', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bernard', 'Jacobsen', '2015-12-11', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Eriksen', '2003-02-28', null, 'female', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webrand', 'Kristensen', '1980-07-28', null, 'male', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfsen', 'Berg', '1975-01-06', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kollbein', 'Henriksen', '1979-04-25', null, 'male', 29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oddmand', 'Kristiansen', '2007-09-07', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbjörn', 'Berg', '2002-09-27', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Solberg', '1997-05-08', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hrut', 'Jørgensen', '1993-10-14', null, 'male', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rind', 'Lund', '1995-12-26', null, 'female', 76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Andersen', '1975-09-20', null, 'male', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Almod', 'Sørensen', '2010-01-19', null, 'male', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Nguyen', '1992-04-20', null, 'female', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Gundersen', '1985-05-22', null, 'female', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Andersen', '1991-01-21', null, 'male', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Larsen', '1971-12-30', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Kristensen', '2014-02-21', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holger', 'Larsen', '1972-04-06', null, 'male', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Auden', 'Kristiansen', '1975-01-05', null, 'male', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulvbjorn', 'Jensen', '1983-05-31', null, 'male', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frost', 'Kristensen', '2002-05-25', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Martinsen', '1979-06-17', null, 'male', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Jensen', '1982-10-14', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjorg', 'Larsen', '1975-11-16', null, 'female', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyvind', 'Johannessen', '1977-01-27', null, 'male', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Lie', '1997-04-22', null, 'female', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Eriksen', '1995-01-18', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Martinsen', '1986-09-17', null, 'female', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmunn', 'Dahl', '2000-09-29', null, 'female', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Bakke', '1983-02-08', null, 'female', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Lund', '1998-01-17', null, 'female', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skeggie', 'Solberg', '2007-10-19', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eileithr', 'Eide', '1985-07-01', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webrand', 'Moe', '1976-06-13', null, 'male', -52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Espen', 'Pedersen', '1990-10-07', null, 'male', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunther', 'Jørgensen', '1977-12-29', null, 'male', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Haugen', '2004-03-27', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vermund', 'Jacobsen', '1980-01-27', null, 'male', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Svendsen', '1971-04-06', null, 'female', 61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrid', 'Andreassen', '2002-01-22', null, 'male', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Knutsen', '1971-11-10', null, 'female', -16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Andersen', '1980-01-26', null, 'male', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westgeir', 'Iversen', '1995-02-01', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Rasmussen', '2019-06-06', null, 'female', 60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Paulsen', '2012-12-09', null, 'female', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulv', 'Haugen', '2009-12-30', null, 'male', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbjörn', 'Moe', '2019-06-16', null, 'male', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Karlsen', '1996-09-24', null, 'female', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greger', 'Olsen', '2005-02-28', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Johannessen', '2013-02-13', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Berg', '2002-10-30', null, 'female', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Attila', 'Lunde', '2013-02-05', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Ali', '1980-08-27', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thordjorn', 'Moe', '2001-05-19', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bruni', 'Knutsen', '1999-11-25', null, 'male', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Solberg', '2017-06-04', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Hansen', '2011-01-04', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodbrand', 'Eide', '1974-08-28', null, 'male', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Finr', 'Olsen', '1998-06-03', null, 'male', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Bakken', '1979-07-27', null, 'male', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wemund', 'Dahl', '2011-07-18', null, 'male', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Eide', '2019-06-26', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Rasmussen', '2015-09-30', null, 'male', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Jørgensen', '1971-11-07', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Berg', '1987-04-03', null, 'female', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Rasmussen', '2021-08-23', null, 'female', -52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Solberg', '1979-07-18', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westein', 'Jensen', '1998-04-18', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnulv', 'Ali', '1973-03-29', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Knutsen', '1994-11-03', null, 'female', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frodie', 'Kristiansen', '1999-07-07', null, 'male', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torketill', 'Amundsen', '1974-06-22', null, 'male', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vardy', 'Rasmussen', '2009-07-08', null, 'male', -66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hawk', 'Karlsen', '2008-04-09', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Eide', '1984-10-20', null, 'female', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Martinsen', '1989-07-21', null, 'female', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Andersen', '1986-03-28', null, 'female', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Karlsen', '1983-01-18', null, 'female', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Solberg', '2017-04-23', null, 'female', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Moe', '1977-08-05', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Paulsen', '1986-02-20', null, 'female', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnhildr', 'Pettersen', '1973-07-29', null, 'female', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Henriksen', '1991-03-05', null, 'male', -84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Olsen', '2012-12-28', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Amundsen', '1997-03-09', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Hagen', '1971-11-02', null, 'male', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greger', 'Sørensen', '2009-07-18', null, 'male', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Andreassen', '2017-01-25', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valgard', 'Henriksen', '1982-02-27', null, 'male', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holmi', 'Halvorsen', '1974-11-15', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrun', 'Haugen', '2003-03-25', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Pettersen', '1988-02-28', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Jacobsen', '2005-12-28', null, 'female', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Kristoffersen', '2004-02-09', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigwald', 'Solheim', '1983-03-03', null, 'male', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigwald', 'Andreassen', '1981-05-13', null, 'male', 48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roald', 'Berg', '2004-04-01', null, 'male', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valgard', 'Strand', '1973-04-21', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Andersen', '1976-03-20', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bercy', 'Amundsen', '1996-11-07', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holmi', 'Kristiansen', '1997-03-05', null, 'male', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Kristoffersen', '1998-07-24', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Henriksen', '2017-11-01', null, 'female', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Kristoffersen', '2016-01-22', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Moe', '1974-09-20', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Andersen', '1985-03-26', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Halvorsen', '1977-03-07', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Knutsen', '1984-08-11', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Henriksen', '2021-08-12', null, 'male', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Dahl', '2021-06-07', null, 'female', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Martha', 'Nguyen', '1971-06-24', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valborg', 'Jensen', '1971-02-13', null, 'female', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyolve', 'Jensen', '2001-09-19', null, 'male', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Jensen', '1973-12-08', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Berg', '2000-05-20', null, 'female', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerhard', 'Hagen', '2011-04-08', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Solberg', '2017-06-21', null, 'female', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Björn', 'Johansen', '1997-07-10', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Odd', 'Hagen', '2018-10-14', null, 'male', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Larsen', '2008-01-20', null, 'female', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agvid', 'Sørensen', '2014-06-09', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Amundsen', '1999-05-02', null, 'female', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgrim', 'Hansen', '1982-07-02', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Dahl', '1989-09-14', null, 'female', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Andreas', 'Solberg', '1991-12-02', null, 'male', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigurd', 'Jensen', '2012-05-10', null, 'male', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holger', 'Bakken', '1982-06-22', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runnveig', 'Sørensen', '1972-08-08', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Svendsen', '1998-03-29', null, 'female', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Sørensen', '2010-04-09', null, 'female', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Nygård', '1997-05-16', null, 'male', 55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Eide', '2002-03-12', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rind', 'Solberg', '2020-11-29', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Olsen', '1999-07-03', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Martinsen', '1998-05-04', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarty', 'Lie', '2002-11-01', null, 'male', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agot', 'Lund', '2017-02-20', null, 'female', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Jakobsen', '1989-07-23', null, 'female', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roald', 'Jacobsen', '2004-03-11', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Sørensen', '2001-02-09', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Raud', 'Knutsen', '1975-12-31', null, 'male', 73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinulv', 'Martinsen', '2005-09-11', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Rasmussen', '1983-09-09', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Nilsen', '2017-05-19', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Kristoffersen', '1991-03-31', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hring', 'Svendsen', '1992-03-25', null, 'male', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Egil', 'Johnsen', '1993-05-27', null, 'male', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Pedersen', '1997-05-04', null, 'female', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holmi', 'Kristoffersen', '1986-04-21', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Nygård', '2017-04-03', null, 'female', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freyr', 'Larsen', '1987-10-20', null, 'male', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tordzhils', 'Lie', '2009-06-01', null, 'male', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Knutsen', '1982-06-17', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Sørensen', '1992-01-10', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Kristiansen', '2003-08-13', null, 'female', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lave', 'Olsen', '1993-10-26', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Berg', '2002-07-27', null, 'male', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Martha', 'Rasmussen', '2019-04-21', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jerd', 'Larsen', '1993-08-06', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Iversen', '1995-02-06', null, 'female', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Pettersen', '2017-06-24', null, 'female', -14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Andersen', '2018-12-14', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Hagen', '2010-12-25', null, 'female', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Collbjorn', 'Sørensen', '2020-08-10', null, 'male', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frederick', 'Jørgensen', '2020-08-14', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Friedmund', 'Paulsen', '1989-08-15', null, 'male', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torger', 'Kristoffersen', '1999-01-03', null, 'male', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerhard', 'Sørensen', '1980-04-26', null, 'male', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asa', 'Paulsen', '2018-09-14', null, 'female', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigridr', 'Johansen', '2019-05-11', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hallstein', 'Moe', '2011-12-02', null, 'male', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Henry', 'Sørensen', '2014-05-12', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Lund', '2019-03-17', null, 'male', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Eide', '1997-07-18', null, 'female', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Johannessen', '2005-07-31', null, 'male', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgisl', 'Nygård', '2015-08-05', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Sørensen', '2007-04-01', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Andreassen', '1987-11-21', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freya', 'Kristensen', '1972-03-07', null, 'female', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Bakke', '2017-12-29', null, 'female', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Johansen', '1991-05-30', null, 'female', 80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agmund', 'Olsen', '2016-03-05', null, 'male', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Lunde', '2008-06-25', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Nguyen', '2016-09-24', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Solheim', '2021-09-12', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Iversen', '1977-04-24', null, 'female', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodred', 'Ali', '1998-04-05', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eileithr', 'Jørgensen', '1971-11-15', null, 'male', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Moe', '2014-10-17', null, 'female', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Karlsen', '1978-05-04', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Finr', 'Solheim', '2012-10-05', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Logmair', 'Olsen', '2009-09-23', null, 'male', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Dahl', '2017-06-20', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Friedlave', 'Paulsen', '1973-03-21', null, 'male', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnwold', 'Nguyen', '1998-04-05', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Kristiansen', '1979-12-27', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helmi', 'Eide', '1983-12-17', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Bakken', '1976-05-08', null, 'female', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Strand', '2009-07-14', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webrand', 'Kristoffersen', '2003-12-04', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eisteinne', 'Johnsen', '2011-12-01', null, 'male', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freya', 'Olsen', '1978-09-15', null, 'female', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingihild', 'Strand', '2005-08-29', null, 'female', 54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Amundsen', '2003-06-05', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Pedersen', '1998-06-10', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liulfre', 'Lunde', '1976-10-02', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Johansen', '1990-02-07', null, 'female', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Andersen', '2006-02-11', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vikar', 'Kristiansen', '1993-07-25', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Jakobsen', '1985-10-21', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Amundsen', '1991-01-14', null, 'female', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Pettersen', '1981-04-03', null, 'female', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Hansen', '2010-08-18', null, 'female', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Nguyen', '1977-10-17', null, 'female', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Dahl', '1975-01-05', null, 'female', 73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Berge', '1987-02-28', null, 'male', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Nilsen', '2009-05-22', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Kristensen', '1974-07-31', null, 'female', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Iversen', '2014-06-05', null, 'female', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigurd', 'Jacobsen', '1971-07-28', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Orme', 'Johannessen', '1998-03-15', null, 'male', 47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holger', 'Pettersen', '1976-11-23', null, 'male', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Nguyen', '2006-06-06', null, 'female', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Henriksen', '1982-09-17', null, 'female', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Mathisen', '2002-07-16', null, 'female', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wendela', 'Kristoffersen', '1986-05-05', null, 'female', 76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Hagen', '2021-11-18', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Lunde', '1981-08-07', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Knud', 'Andreassen', '1981-07-15', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Orme', 'Solberg', '2016-08-11', null, 'male', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tollek', 'Gundersen', '1994-01-27', null, 'male', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Jacobsen', '1997-12-08', null, 'female', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodred', 'Kristensen', '2005-12-17', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Raud', 'Johnsen', '2007-09-26', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torger', 'Strand', '2000-08-17', null, 'male', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbert', 'Strand', '1983-05-31', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Mathisen', '1972-10-01', null, 'female', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyleave', 'Iversen', '1992-01-10', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vigdis', 'Iversen', '2016-03-04', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agvid', 'Henriksen', '2017-10-15', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Johansen', '1980-12-30', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Olsen', '2009-09-06', null, 'female', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Johannes', 'Rasmussen', '1986-11-02', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astrid', 'Gundersen', '2004-06-20', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Jensen', '1971-11-16', null, 'male', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ram', 'Eriksen', '2008-10-03', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Pettersen', '1997-01-15', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Strand', '2013-08-02', null, 'female', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wendela', 'Pettersen', '1993-11-11', null, 'female', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Jensen', '2006-02-12', null, 'female', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgeir', 'Amundsen', '2015-03-30', null, 'male', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Karlsen', '2021-07-28', null, 'female', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Olsen', '1992-04-25', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Gundersen', '1983-05-12', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbert', 'Johnsen', '1982-09-21', null, 'female', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rollo', 'Hansen', '2014-10-04', null, 'male', -66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frode', 'Iversen', '2010-07-01', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Solberg', '1978-05-31', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alv', 'Pettersen', '1972-07-08', null, 'male', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Nilsen', '2008-03-30', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Kristiansen', '1978-05-14', null, 'male', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Paulsen', '1988-12-27', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vegard', 'Larsen', '1983-12-11', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Kristensen', '1975-11-07', null, 'female', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Andreassen', '2020-10-03', null, 'male', 73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Eriksen', '2019-04-12', null, 'male', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hallstein', 'Bakke', '1987-10-19', null, 'male', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grese', 'Bakke', '2017-12-26', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Knutsen', '2012-03-05', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injigertr', 'Henriksen', '2019-06-06', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sassa', 'Olsen', '2009-01-21', null, 'female', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Knutsen', '2010-11-15', null, 'female', -50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Ali', '1983-12-19', null, 'female', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ormarr', 'Olsen', '2016-11-20', null, 'male', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Sørensen', '1994-03-24', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedmod', 'Halvorsen', '2011-04-29', null, 'male', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedmod', 'Hansen', '1993-08-21', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Larsen', '1997-07-09', null, 'female', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Einar', 'Lund', '1979-03-23', null, 'male', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Haugen', '2021-03-31', null, 'male', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bo', 'Nguyen', '1981-01-16', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Lund', '1991-12-09', null, 'female', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Haugen', '1978-10-12', null, 'female', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Nguyen', '1986-02-12', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Svendsen', '2020-05-26', null, 'female', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnlot', 'Solheim', '2019-11-29', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Jakobsen', '2010-02-21', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Johannessen', '1979-12-30', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Haugen', '2006-09-22', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Moe', '2018-12-05', null, 'female', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgnir', 'Hansen', '2020-09-03', null, 'male', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Jakobsen', '2015-11-30', null, 'male', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Martinsen', '1983-06-08', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Kristensen', '2014-05-17', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Karlsen', '2007-03-15', null, 'male', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Talek', 'Sørensen', '1983-04-02', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingilev', 'Moen', '2017-03-04', null, 'male', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Gundersen', '1998-08-06', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vegeir', 'Haugen', '2017-11-24', null, 'male', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freya', 'Andersen', '2005-10-02', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Henriksen', '2005-06-29', null, 'male', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frost', 'Gundersen', '2009-05-26', null, 'male', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Amundsen', '1973-05-14', null, 'female', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengt', 'Moen', '2016-10-13', null, 'male', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Nilsen', '2018-08-28', null, 'female', -43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aivars', 'Jakobsen', '1991-08-26', null, 'male', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Henry', 'Bakken', '2019-10-26', null, 'male', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bo', 'Halvorsen', '1988-01-07', null, 'male', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Lunde', '1989-04-25', null, 'female', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bardi', 'Jensen', '2021-05-01', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Clement', 'Jacobsen', '1994-05-14', null, 'male', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greenolve', 'Johansen', '1977-03-25', null, 'male', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Hagen', '2001-09-05', null, 'female', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigurd', 'Lunde', '1999-06-14', null, 'male', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Attila', 'Moen', '2016-11-12', null, 'male', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Olsen', '1974-05-25', null, 'female', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runnveig', 'Lund', '2016-07-09', null, 'female', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swain', 'Haugen', '2002-02-11', null, 'male', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Mathisen', '1978-11-27', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbrand', 'Gundersen', '2007-08-09', null, 'male', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Dahl', '2006-04-30', null, 'female', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Halfdan', 'Johannessen', '1998-08-24', null, 'male', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Nguyen', '1982-02-21', null, 'female', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunther', 'Kristoffersen', '1983-07-26', null, 'male', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Moe', '1995-02-28', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerard', 'Svendsen', '1973-06-15', null, 'male', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Knutsen', '2020-05-07', null, 'female', 60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Amundsen', '2017-05-30', null, 'female', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alvgeir', 'Jakobsen', '1979-04-23', null, 'male', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagrun', 'Jacobsen', '2012-10-13', null, 'female', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rind', 'Andreassen', '1983-01-24', null, 'female', -88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhild', 'Pettersen', '1974-08-19', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Regin', 'Sørensen', '2000-11-04', null, 'male', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helmi', 'Martinsen', '1998-03-14', null, 'male', 47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eir', 'Berg', '2001-02-01', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgnir', 'Lie', '2016-07-18', null, 'male', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgeir', 'Pettersen', '1986-09-19', null, 'male', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Logmair', 'Rasmussen', '1990-07-06', null, 'male', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Haugen', '1997-04-05', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Lie', '2016-06-22', null, 'male', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Svendsen', '2012-11-25', null, 'female', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hawk', 'Paulsen', '1987-11-19', null, 'male', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Axel', 'Johansen', '1980-10-21', null, 'male', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Almod', 'Lie', '2000-10-23', null, 'male', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Auden', 'Nygård', '1991-05-23', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Henriksen', '1977-02-02', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thordjorn', 'Hagen', '2003-10-22', null, 'male', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eivindr', 'Halvorsen', '1981-04-11', null, 'male', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Gundersen', '1980-08-18', null, 'female', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snor', 'Moen', '2004-06-16', null, 'male', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjef', 'Pedersen', '1975-07-10', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Randalfre', 'Iversen', '1971-07-20', null, 'male', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Moen', '1972-07-08', null, 'female', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Jacobsen', '1999-10-25', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingwald', 'Kristensen', '2005-06-15', null, 'male', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bernard', 'Bakken', '1987-10-13', null, 'male', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Pettersen', '2018-06-11', null, 'male', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Pettersen', '1988-05-20', null, 'male', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Strand', '1979-08-30', null, 'female', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gustav', 'Sørensen', '2007-12-31', null, 'male', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Svendsen', '1986-10-19', null, 'female', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aivars', 'Ali', '1999-11-05', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Pouring', 'Solheim', '2011-09-12', null, 'male', 76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Egil', 'Kristiansen', '2008-09-29', null, 'male', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Olsen', '1972-10-07', null, 'female', -71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webjorn', 'Lie', '2011-09-06', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Kristoffersen', '1981-06-14', null, 'female', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Jakobsen', '2006-03-22', null, 'male', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westein', 'Martinsen', '2010-12-07', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Lie', '1999-02-20', null, 'female', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Iversen', '2011-04-26', null, 'female', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Johannessen', '2001-03-31', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Johansen', '1980-01-31', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedvar', 'Henriksen', '2013-09-08', null, 'male', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marie', 'Bakken', '2009-09-27', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingolv', 'Knutsen', '1993-05-23', null, 'male', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brunhild', 'Kristiansen', '1979-04-08', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Nygård', '2010-07-21', null, 'male', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Lunde', '2001-11-03', null, 'male', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ansgar', 'Berge', '2000-07-01', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tryggwi', 'Berg', '1979-02-22', null, 'male', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Jørgensen', '1973-12-08', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ing', 'Nilsen', '1975-08-21', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Hansen', '2002-04-30', null, 'male', 47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Bakken', '1972-07-21', null, 'male', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedvar', 'Kristoffersen', '2013-08-07', null, 'male', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Olsen', '2010-02-28', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sindri', 'Paulsen', '2021-10-02', null, 'male', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Andreassen', '1986-04-10', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oystein', 'Lie', '2016-02-09', null, 'male', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingihild', 'Jacobsen', '2004-12-28', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torger', 'Andreassen', '1990-01-18', null, 'male', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Solberg', '2013-01-15', null, 'female', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frode', 'Rasmussen', '1991-01-17', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Paulsen', '1975-07-19', null, 'female', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Lund', '2000-11-04', null, 'female', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Kristiansen', '1972-04-16', null, 'male', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Stein', 'Nilsen', '1975-11-08', null, 'male', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fries', 'Iversen', '2008-05-30', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Svendsen', '2004-12-16', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bo', 'Hagen', '1973-09-12', null, 'male', -43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haltor', 'Gundersen', '1974-11-02', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kollbein', 'Paulsen', '1986-02-19', null, 'male', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingvar', 'Lund', '2003-11-25', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Svendsen', '2010-06-14', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Martha', 'Haugen', '1995-12-23', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yon', 'Johannessen', '1991-10-25', null, 'male', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snabjorn', 'Eide', '1988-02-15', null, 'male', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyolve', 'Berge', '1993-12-21', null, 'male', -45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Martinsen', '2016-11-29', null, 'male', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eisteinne', 'Knutsen', '1974-08-18', null, 'male', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brunhild', 'Strand', '1987-09-06', null, 'female', 55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Keia', 'Nguyen', '2001-11-28', null, 'female', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Kristoffersen', '1996-02-27', null, 'female', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Berg', '2005-07-22', null, 'female', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Larsen', '1992-01-13', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Call', 'Nygård', '1999-11-13', null, 'male', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Anders', 'Andersen', '1989-03-07', null, 'male', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Collbjorn', 'Dahl', '1998-02-15', null, 'male', 55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Amundsen', '1987-03-08', null, 'female', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgerd', 'Mathisen', '1991-04-16', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tordzhils', 'Johansen', '1983-03-23', null, 'male', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magni', 'Svendsen', '2000-09-25', null, 'male', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbert', 'Rasmussen', '1991-01-10', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Haugen', '2016-03-07', null, 'female', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Kristiansen', '1991-04-01', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Lund', '2011-03-14', null, 'male', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vikar', 'Knutsen', '2013-12-27', null, 'male', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sverr', 'Jensen', '1986-06-24', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Egil', 'Bakken', '1975-08-20', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roerik', 'Kristoffersen', '1994-12-05', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingmund', 'Pettersen', '1995-02-18', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Jensen', '1981-01-28', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjef', 'Eriksen', '2008-01-15', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Bakke', '2010-12-16', null, 'female', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Eriksen', '1993-05-08', null, 'male', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Knutsen', '2005-07-21', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wendela', 'Nilsen', '1974-01-28', null, 'female', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frode', 'Dahl', '1971-12-05', null, 'male', 73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Knud', 'Lunde', '2016-01-06', null, 'male', -47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Gundersen', '2013-08-24', null, 'female', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Andreas', 'Hagen', '1977-11-11', null, 'male', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingired', 'Solheim', '1991-08-07', null, 'male', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Halvorsen', '1983-03-27', null, 'female', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Paulsen', '1990-04-07', null, 'female', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Merith', 'Eide', '1975-01-16', null, 'female', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinulv', 'Solheim', '1982-02-11', null, 'male', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Jensen', '1998-01-09', null, 'male', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Halvorsen', '2010-11-06', null, 'female', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Gundersen', '2016-03-18', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Henriksen', '1982-04-23', null, 'male', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Barebra', 'Dahl', '1971-08-18', null, 'female', -71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Andreassen', '2009-02-15', null, 'female', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tryggwi', 'Henriksen', '1991-04-16', null, 'male', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Solheim', '2000-10-02', null, 'female', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Haugen', '2013-01-29', null, 'female', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sassa', 'Solberg', '1984-07-23', null, 'female', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Johansen', '1991-08-10', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodmund', 'Martinsen', '2017-05-11', null, 'male', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Jacobsen', '2011-09-12', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingilev', 'Mathisen', '2016-06-29', null, 'male', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Gundersen', '1976-02-13', null, 'female', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Johnsen', '1981-09-11', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Paulsen', '1977-09-19', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aivars', 'Nilsen', '1985-05-02', null, 'male', -71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingolv', 'Pedersen', '1985-05-03', null, 'male', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Carey', 'Johnsen', '1975-05-08', null, 'female', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Knutsen', '2017-09-03', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorbjorn', 'Svendsen', '1984-06-18', null, 'male', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skeggie', 'Pedersen', '1983-07-06', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Lund', '2014-06-12', null, 'female', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Pedersen', '1976-03-03', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Hagen', '1993-05-08', null, 'female', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigrun', 'Berg', '1987-06-03', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Bakke', '1999-11-06', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aswald', 'Jacobsen', '2014-05-29', null, 'male', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Lunde', '1991-02-24', null, 'male', -52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Moen', '2011-04-26', null, 'female', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Moe', '2004-09-10', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Pettersen', '1986-12-13', null, 'female', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Johnsen', '1996-04-26', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jorgen', 'Andreassen', '2001-10-14', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Moen', '1999-04-03', null, 'female', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Rasmussen', '1978-05-02', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Johannessen', '1999-03-28', null, 'male', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Rasmussen', '2012-10-10', null, 'female', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Hagen', '2006-09-05', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holger', 'Eriksen', '1991-01-04', null, 'male', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Sørensen', '2000-04-21', null, 'female', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Lund', '2001-12-31', null, 'female', -11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjörn', 'Nilsen', '1982-04-18', null, 'male', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Iversen', '2008-03-07', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eisteinne', 'Nygård', '1993-06-08', null, 'male', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Rasmussen', '1982-05-27', null, 'female', -2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagrun', 'Eide', '1976-06-27', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Pedersen', '1986-02-20', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Moe', '2010-09-01', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wagni', 'Solberg', '2002-12-03', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ram', 'Nguyen', '1980-01-18', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snorri', 'Nilsen', '1981-01-12', null, 'male', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Hagen', '1995-07-15', null, 'female', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hardy', 'Lund', '2017-02-11', null, 'male', 94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webjorn', 'Paulsen', '2013-12-06', null, 'male', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Audulv', 'Martinsen', '1983-02-11', null, 'male', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Svendsen', '2015-06-10', null, 'female', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingihild', 'Larsen', '2011-06-08', null, 'female', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Knutsen', '2009-07-20', null, 'female', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgeir', 'Gundersen', '2009-03-20', null, 'male', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Moen', '2015-05-15', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Bakke', '2007-03-09', null, 'female', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Johansen', '1991-11-23', null, 'female', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Pettersen', '2003-10-08', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eir', 'Johansen', '1991-04-11', null, 'female', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Johnsen', '1980-09-29', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hertrud', 'Lunde', '1997-02-22', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Henriksen', '1989-04-21', null, 'female', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Jacobsen', '1971-01-31', null, 'female', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Iversen', '2009-05-20', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Olsen', '2015-09-24', null, 'female', 29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brand', 'Gundersen', '1980-01-29', null, 'male', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helmi', 'Olsen', '2012-05-10', null, 'male', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Johannessen', '2021-09-28', null, 'female', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Jørgensen', '1981-02-23', null, 'female', 94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sverr', 'Bakke', '1980-02-23', null, 'male', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Stein', 'Halvorsen', '2012-11-30', null, 'male', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Paulsen', '1984-05-02', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Pettersen', '2004-07-01', null, 'female', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorolf', 'Lund', '1991-09-25', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorolf', 'Eriksen', '2001-03-03', null, 'male', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Jensen', '1982-05-18', null, 'male', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alv', 'Solberg', '1976-10-18', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Finr', 'Karlsen', '1980-04-05', null, 'male', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Amundsen', '2007-12-19', null, 'female', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kollbein', 'Karlsen', '2008-05-24', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grid', 'Rasmussen', '1984-05-15', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ansgar', 'Kristiansen', '2012-08-01', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Hansen', '2020-08-23', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Lie', '2004-05-30', null, 'male', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Larsen', '1996-09-11', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kollbein', 'Bakke', '1989-06-24', null, 'male', -84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Einar', 'Jakobsen', '1979-01-19', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grid', 'Mathisen', '1974-09-17', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ansgar', 'Berg', '2018-08-12', null, 'male', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Svendsen', '2001-10-16', null, 'female', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runolv', 'Dahl', '1987-10-30', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asa', 'Jørgensen', '2012-08-16', null, 'female', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Solberg', '2008-04-21', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Knutsen', '1988-12-13', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sumarliter', 'Dahl', '1972-02-18', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frode', 'Paulsen', '1980-03-05', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Silge', 'Ali', '2008-11-07', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holmi', 'Pedersen', '2000-08-08', null, 'male', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asver', 'Rasmussen', '1994-04-24', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Moe', '1974-03-04', null, 'female', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Jensen', '2013-04-11', null, 'female', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Hagen', '1988-01-21', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Dahl', '1996-05-20', null, 'female', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skjeld', 'Halvorsen', '2017-05-28', null, 'male', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Nguyen', '1996-12-22', null, 'male', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Hansen', '2009-03-23', null, 'female', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vermund', 'Rasmussen', '1987-07-08', null, 'male', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annika', 'Iversen', '1990-10-23', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Karlsen', '2014-05-07', null, 'female', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Rasmussen', '1986-09-21', null, 'male', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinulv', 'Jørgensen', '1989-07-14', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Randalfre', 'Johannessen', '1974-08-24', null, 'male', -50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Nilsen', '2002-06-28', null, 'female', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Sørensen', '2009-08-18', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Hansen', '1984-07-01', null, 'female', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Olsen', '2017-09-04', null, 'female', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Merith', 'Nguyen', '1984-02-09', null, 'female', 88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Jensen', '1984-08-17', null, 'male', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Pettersen', '2007-01-28', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vigdis', 'Johnsen', '1983-03-10', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Pedersen', '1976-04-25', null, 'female', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skjeld', 'Mathisen', '1990-10-26', null, 'male', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Johnsen', '2014-12-23', null, 'female', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyvind', 'Lunde', '2008-01-13', null, 'male', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eir', 'Hagen', '2013-01-07', null, 'female', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grese', 'Lund', '1995-05-23', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bolly', 'Hansen', '1982-03-05', null, 'male', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Jørgensen', '2012-08-12', null, 'male', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingolv', 'Jensen', '1977-02-28', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alvgeir', 'Gundersen', '2005-07-29', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Hagen', '2010-09-26', null, 'female', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bödolv', 'Strand', '2008-10-03', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skeggie', 'Knutsen', '1994-09-13', null, 'male', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Trude', 'Kristiansen', '1978-06-14', null, 'female', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Nygård', '1991-11-05', null, 'female', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helvard', 'Lie', '1993-10-23', null, 'male', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Nilsen', '1974-06-26', null, 'male', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Onandr', 'Johnsen', '1975-09-11', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Johnsen', '2002-06-21', null, 'female', -80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Hansen', '1975-05-06', null, 'female', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Anders', 'Ali', '2019-04-27', null, 'male', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bolly', 'Svendsen', '2005-07-20', null, 'male', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Iversen', '1985-08-10', null, 'female', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Strand', '1986-06-21', null, 'female', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Halvorsen', '1993-03-21', null, 'female', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Johannessen', '2020-07-13', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('George', 'Bakken', '1975-06-21', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swain', 'Johannessen', '1980-08-28', null, 'male', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frederick', 'Karlsen', '2007-07-06', null, 'male', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Charles', 'Halvorsen', '2020-08-31', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorodd', 'Berge', '2005-09-25', null, 'male', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Nguyen', '2009-03-31', null, 'female', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Eide', '2012-10-27', null, 'female', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Berg', '1994-04-27', null, 'female', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haward', 'Iversen', '1999-11-23', null, 'male', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarty', 'Knutsen', '2018-03-06', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Barebra', 'Sørensen', '1990-10-19', null, 'female', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Claus', 'Sørensen', '1991-06-28', null, 'male', 97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Rasmussen', '2015-08-16', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torketill', 'Nguyen', '1978-12-08', null, 'male', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Nygård', '1984-04-26', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Haugen', '2008-02-19', null, 'female', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Randalfre', 'Karlsen', '1990-10-03', null, 'male', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Johansen', '2010-06-25', null, 'female', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Webrand', 'Paulsen', '1983-08-25', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alvgeir', 'Gundersen', '2001-06-05', null, 'male', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnar', 'Knutsen', '1971-12-31', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annika', 'Svendsen', '1986-10-27', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marie', 'Amundsen', '2014-05-10', null, 'male', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Nilsen', '2015-03-12', null, 'female', -11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arngeir', 'Mathisen', '2004-05-03', null, 'male', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Randalfre', 'Johnsen', '1989-12-17', null, 'male', -88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Knud', 'Jacobsen', '2000-10-04', null, 'male', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedvar', 'Halvorsen', '1978-03-10', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Nygård', '2010-12-12', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Rasmussen', '1971-06-15', null, 'male', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyleave', 'Kristoffersen', '2009-07-02', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Martha', 'Halvorsen', '2015-08-16', null, 'female', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Idannr', 'Ali', '1974-03-12', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rollo', 'Pedersen', '2019-07-06', null, 'male', 20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grid', 'Moe', '1995-02-22', null, 'female', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Martinsen', '1999-05-27', null, 'female', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Kristoffersen', '2013-05-02', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Talek', 'Eide', '1971-12-28', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Kristiansen', '1982-09-20', null, 'female', 62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Pedersen', '1987-07-19', null, 'female', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bolly', 'Berg', '2009-10-29', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Lund', '2011-07-23', null, 'female', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magni', 'Knutsen', '2014-11-24', null, 'male', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Moen', '1975-05-14', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Eide', '1995-02-20', null, 'male', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingihild', 'Olsen', '1995-04-15', null, 'female', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eileithr', 'Karlsen', '1992-08-09', null, 'male', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Kristoffersen', '1975-03-21', null, 'female', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yoran', 'Mathisen', '2016-12-17', null, 'male', -52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Johansen', '2014-09-08', null, 'male', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Olsen', '1972-04-12', null, 'female', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bruni', 'Paulsen', '2018-06-13', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Kristiansen', '2002-02-05', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roerik', 'Haugen', '2013-11-22', null, 'male', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Modi', 'Jacobsen', '2002-12-11', null, 'male', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingolv', 'Pettersen', '2003-04-04', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eir', 'Lund', '1993-04-08', null, 'female', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vikar', 'Kristoffersen', '1974-11-12', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Henry', 'Johannessen', '2018-02-06', null, 'male', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bardi', 'Jørgensen', '1973-02-22', null, 'male', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westein', 'Hansen', '2000-05-27', null, 'male', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingemar', 'Hagen', '1987-05-09', null, 'male', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Larsen', '2009-01-07', null, 'female', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Berg', '1981-01-02', null, 'female', -16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Shooting', 'Larsen', '1972-06-06', null, 'male', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Berge', '2001-08-25', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vardy', 'Lunde', '2001-01-30', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Solberg', '2012-11-08', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Hagen', '1989-06-25', null, 'male', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gisli', 'Dahl', '1993-04-12', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agot', 'Nilsen', '2017-08-19', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Nguyen', '1991-09-16', null, 'male', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Dahl', '1989-04-30', null, 'female', -66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Mathisen', '2019-11-29', null, 'female', -88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grese', 'Solberg', '1988-03-20', null, 'female', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgeir', 'Bakke', '2017-07-10', null, 'male', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Halvorsen', '2007-08-11', null, 'male', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hring', 'Pettersen', '1985-01-23', null, 'male', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Nguyen', '1994-08-11', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Audun', 'Kristoffersen', '2001-04-26', null, 'male', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Saga', 'Kristiansen', '1977-10-07', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torketill', 'Lie', '2000-01-20', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sumarliter', 'Kristoffersen', '2012-02-02', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Bakken', '1985-09-24', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loviz', 'Bakken', '2017-01-13', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Svendsen', '1993-07-25', null, 'female', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Solheim', '1976-02-23', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Strand', '1972-09-21', null, 'female', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Harold', 'Iversen', '2017-01-04', null, 'male', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marie', 'Henriksen', '1990-03-18', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Merith', 'Jacobsen', '2016-12-10', null, 'female', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helmi', 'Lund', '1983-08-11', null, 'male', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Pedersen', '2004-11-29', null, 'female', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torger', 'Hansen', '1982-05-18', null, 'male', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Martinsen', '2006-10-12', null, 'male', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Haugen', '1982-06-02', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Eide', '2012-06-17', null, 'female', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Kristoffersen', '1972-09-21', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Odd', 'Ali', '2011-10-04', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Hansen', '2013-07-05', null, 'female', 36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulvar', 'Halvorsen', '1974-06-14', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loki', 'Berge', '2009-01-28', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedmod', 'Moe', '1972-06-21', null, 'male', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Bakke', '2007-09-22', null, 'female', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Larsen', '1976-11-16', null, 'female', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Edgill', 'Ali', '2018-02-13', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmod', 'Martinsen', '2004-09-28', null, 'male', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Martinsen', '2014-10-29', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Jørgensen', '1996-01-19', null, 'female', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bo', 'Knutsen', '2009-11-28', null, 'male', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Hansen', '1979-04-16', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Johnsen', '1999-11-02', null, 'female', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kia', 'Svendsen', '1998-05-20', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Susann', 'Moen', '1996-09-22', null, 'female', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Johannessen', '2015-06-28', null, 'female', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbrand', 'Karlsen', '1986-10-18', null, 'male', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Logmair', 'Solberg', '1979-10-06', null, 'male', 80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorolf', 'Lie', '1975-09-05', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Susann', 'Hagen', '1976-11-02', null, 'female', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Nilsen', '2019-11-14', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Halvorsen', '2019-05-11', null, 'female', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Bakke', '1972-11-01', null, 'female', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Solberg', '2020-04-21', null, 'male', 55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Eriksen', '1991-11-15', null, 'female', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnulv', 'Johannessen', '2007-03-19', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vermund', 'Mathisen', '1988-10-18', null, 'male', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Strand', '1974-07-30', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Auden', 'Lunde', '1986-06-15', null, 'male', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Lund', '2001-04-11', null, 'female', -11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinulv', 'Bakken', '1972-06-16', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjef', 'Lund', '1992-08-11', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Kristiansen', '1997-01-30', null, 'male', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Larsen', '1976-08-15', null, 'female', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Andreassen', '1995-11-01', null, 'male', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Johannessen', '1994-09-04', null, 'female', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyleave', 'Strand', '1975-12-13', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Solheim', '1987-09-15', null, 'female', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wemund', 'Ali', '1979-05-04', null, 'male', 28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Knutsen', '2005-05-02', null, 'male', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roald', 'Lie', '1975-09-11', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Merith', 'Amundsen', '2016-05-05', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rollo', 'Olsen', '1971-06-25', null, 'male', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Saga', 'Johansen', '2001-06-12', null, 'female', 91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greger', 'Andersen', '1987-02-11', null, 'male', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ormarr', 'Berg', '1983-07-12', null, 'male', 80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Berg', '1996-12-15', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarty', 'Henriksen', '1986-05-28', null, 'male', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Johansen', '1990-11-08', null, 'male', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sumarliter', 'Bakken', '2008-12-09', null, 'male', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westein', 'Berg', '1989-07-03', null, 'male', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yoann', 'Haugen', '2013-08-10', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjef', 'Sørensen', '1984-10-01', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Collbjorn', 'Haugen', '2010-06-28', null, 'male', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodmund', 'Jørgensen', '2014-11-16', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Martinsen', '1978-11-16', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Anders', 'Karlsen', '2007-04-14', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oystein', 'Larsen', '1979-09-18', null, 'male', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Gundersen', '2007-07-21', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asa', 'Hansen', '2014-05-17', null, 'female', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Larsen', '2007-08-17', null, 'male', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asa', 'Dahl', '1992-12-22', null, 'female', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wemund', 'Amundsen', '1975-01-14', null, 'male', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valborg', 'Moe', '2003-01-13', null, 'female', 98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunhield', 'Lund', '1993-04-21', null, 'female', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tollek', 'Kristiansen', '2013-01-17', null, 'male', -52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Burnt', 'Moen', '2011-09-19', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Almod', 'Kristensen', '1989-02-24', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Strand', '1990-01-15', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Moen', '2006-02-28', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haltor', 'Dahl', '2019-02-27', null, 'male', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loviz', 'Ali', '1971-10-31', null, 'female', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Attila', 'Jakobsen', '2007-01-19', null, 'male', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Moen', '2005-06-16', null, 'female', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dahlia', 'Hagen', '2018-03-29', null, 'female', -4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Paulsen', '1993-07-03', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Rasmussen', '1992-09-05', null, 'female', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Nilsen', '1994-08-24', null, 'male', 73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerard', 'Johansen', '2019-06-26', null, 'male', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Jacobsen', '2007-11-23', null, 'female', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Jørgensen', '2014-01-18', null, 'female', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Lie', '2001-08-04', null, 'female', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Friedlave', 'Hansen', '1997-06-14', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Pouring', 'Strand', '1996-12-27', null, 'male', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liz', 'Mathisen', '2016-06-15', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Solheim', '1982-12-20', null, 'female', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Hagen', '2020-07-03', null, 'female', -2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Pouring', 'Martinsen', '2001-05-03', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aivars', 'Lund', '2011-01-03', null, 'male', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Burnt', 'Iversen', '1982-12-10', null, 'male', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grid', 'Moe', '1975-12-30', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Larsen', '1994-02-10', null, 'female', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Jørgensen', '1981-06-26', null, 'female', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valborg', 'Nygård', '1984-09-21', null, 'female', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Henry', 'Bakken', '1991-01-05', null, 'male', 71);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aivars', 'Nilsen', '1990-08-12', null, 'male', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Mathisen', '2010-03-09', null, 'female', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kia', 'Jensen', '1997-12-23', null, 'female', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torketill', 'Haugen', '1979-06-27', null, 'male', -52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Pedersen', '1984-04-30', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Idannr', 'Johannessen', '1997-05-29', null, 'female', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Utley', 'Nguyen', '1989-07-09', null, 'male', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Larsen', '1988-03-28', null, 'male', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Kristiansen', '1996-01-06', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gisli', 'Eriksen', '1972-06-24', null, 'male', 6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulvar', 'Strand', '1994-08-22', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hrolfr', 'Berge', '2017-02-25', null, 'male', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Lund', '2004-06-27', null, 'male', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Moe', '1983-02-17', null, 'male', -50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eidis', 'Berge', '2020-02-27', null, 'female', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Gundersen', '2011-04-02', null, 'female', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Björn', 'Eide', '2002-05-04', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Johannessen', '2008-07-07', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brunhild', 'Kristensen', '1984-10-03', null, 'female', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Nilsen', '1971-08-17', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eileithr', 'Johannessen', '1975-12-31', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sumarliter', 'Jacobsen', '1994-11-21', null, 'male', -40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Nygård', '1986-11-06', null, 'female', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Lunde', '1998-02-14', null, 'female', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bo', 'Knutsen', '1998-08-15', null, 'male', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tollek', 'Svendsen', '1989-04-13', null, 'male', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Moen', '1988-03-22', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Lunde', '2005-05-21', null, 'male', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnulv', 'Ali', '2011-07-20', null, 'male', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hrut', 'Dahl', '2002-12-19', null, 'male', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmunn', 'Jørgensen', '1980-02-20', null, 'female', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Johannessen', '1994-07-20', null, 'female', 27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bernard', 'Lund', '2005-08-06', null, 'male', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Kristoffersen', '1993-05-09', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Pedersen', '2009-12-03', null, 'male', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gottfried', 'Rasmussen', '1994-10-22', null, 'male', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Jørgensen', '2013-10-17', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Gundersen', '1995-05-15', null, 'female', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorodd', 'Rasmussen', '1986-04-08', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bernard', 'Solberg', '2009-02-10', null, 'male', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Audulv', 'Jacobsen', '1992-06-09', null, 'male', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Nygård', '1996-08-09', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injigertr', 'Pedersen', '1990-03-12', null, 'female', -13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westmar', 'Nygård', '2006-10-05', null, 'male', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tryggwi', 'Solberg', '1995-09-03', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Karlsen', '2015-11-24', null, 'male', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarvard', 'Gundersen', '1988-02-09', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bercy', 'Johannessen', '1991-06-27', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Lie', '1978-12-16', null, 'male', -43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grese', 'Lie', '1989-09-25', null, 'female', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sassa', 'Bakken', '1998-05-10', null, 'female', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vikar', 'Nguyen', '2018-04-08', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Pettersen', '1998-06-21', null, 'male', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingihild', 'Sørensen', '1977-05-25', null, 'female', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Iversen', '2011-03-29', null, 'female', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Jensen', '2000-05-09', null, 'female', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Almod', 'Hansen', '2006-01-15', null, 'male', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Larsen', '1991-12-12', null, 'female', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Hagen', '1984-04-11', null, 'female', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigwald', 'Strand', '1994-06-10', null, 'male', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Henriksen', '1985-02-11', null, 'female', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnhildr', 'Gundersen', '1971-11-23', null, 'female', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Henriksen', '2008-07-25', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnar', 'Pettersen', '2012-03-11', null, 'male', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astrid', 'Mathisen', '2002-08-04', null, 'female', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorstein', 'Iversen', '1979-01-20', null, 'male', 91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Moen', '1979-02-04', null, 'male', 95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Kristiansen', '2002-10-29', null, 'female', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Pedersen', '1976-06-11', null, 'female', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Knutsen', '1987-02-01', null, 'male', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Jensen', '1971-07-13', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sigridr', 'Bakke', '1992-09-14', null, 'female', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Rasmussen', '2012-11-02', null, 'female', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhield', 'Lie', '2020-10-17', null, 'female', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Pouring', 'Hansen', '1993-05-04', null, 'male', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Johansen', '1984-10-24', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Lie', '1976-03-26', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Mathisen', '1972-06-07', null, 'female', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Audulv', 'Bakken', '1972-10-13', null, 'male', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Halvorsen', '2013-05-29', null, 'female', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Westmar', 'Pedersen', '1988-02-07', null, 'male', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Paulsen', '2010-03-07', null, 'female', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tollek', 'Paulsen', '2013-01-17', null, 'male', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agot', 'Moe', '2010-02-12', null, 'female', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyolve', 'Mathisen', '1993-12-09', null, 'male', -68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Skuld', 'Moe', '2008-03-29', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greenolve', 'Lunde', '1995-06-30', null, 'male', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vegeir', 'Lunde', '2017-01-18', null, 'male', -50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Saga', 'Lund', '1983-05-12', null, 'female', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oddmand', 'Nguyen', '2019-09-02', null, 'male', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnhildr', 'Paulsen', '2007-01-07', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Michaela', 'Pedersen', '2012-08-07', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Johansen', '1985-08-04', null, 'female', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swanveig', 'Andersen', '1990-02-15', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thomas', 'Larsen', '1985-12-22', null, 'male', -28);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Nygård', '1974-05-22', null, 'female', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Eide', '2006-07-15', null, 'female', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frode', 'Kristoffersen', '1994-04-11', null, 'male', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haward', 'Larsen', '1981-12-07', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingvar', 'Rasmussen', '2009-12-31', null, 'male', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Kristensen', '1992-06-13', null, 'female', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Rasmussen', '2003-11-23', null, 'male', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgnir', 'Hagen', '1999-02-27', null, 'male', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siggrid', 'Kristensen', '1987-04-03', null, 'female', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Karlsen', '1974-02-10', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Pettersen', '2015-12-09', null, 'male', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Marne', 'Eide', '2014-12-27', null, 'female', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Wagni', 'Olsen', '1983-04-13', null, 'male', 86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Rasmussen', '1999-09-18', null, 'male', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Christer', 'Berge', '2011-05-30', null, 'male', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Lund', '1971-02-25', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Nilsen', '1976-12-11', null, 'female', 96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yon', 'Olsen', '2021-10-19', null, 'male', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yon', 'Jensen', '2014-06-03', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingvar', 'Karlsen', '1974-06-27', null, 'male', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Nilsen', '2009-12-06', null, 'male', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgeir', 'Bakken', '2007-01-18', null, 'male', -44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swann', 'Paulsen', '1971-03-28', null, 'male', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Pettersen', '1982-03-28', null, 'female', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerhard', 'Svendsen', '2019-03-21', null, 'male', -21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Nguyen', '2013-03-11', null, 'male', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eivindr', 'Berge', '2021-11-12', null, 'male', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vestar', 'Strand', '1974-10-09', null, 'male', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asne', 'Pettersen', '1991-11-08', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gisli', 'Nilsen', '1995-10-13', null, 'male', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Isunnr', 'Paulsen', '2012-11-22', null, 'female', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Strand', '1993-10-12', null, 'female', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Khjalmer', 'Berg', '1985-03-07', null, 'male', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Karlsen', '2013-12-16', null, 'female', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Solheim', '1984-04-01', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Pedersen', '2002-02-02', null, 'female', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Gundersen', '1971-11-08', null, 'female', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Berge', '2012-06-07', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lave', 'Bakke', '1989-05-19', null, 'male', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dan', 'Eriksen', '2016-10-28', null, 'male', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorbjorn', 'Berg', '1990-06-04', null, 'male', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bercy', 'Gundersen', '2006-03-11', null, 'male', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Grese', 'Mathisen', '2016-03-09', null, 'female', 59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sumarliter', 'Sørensen', '1984-07-17', null, 'male', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Hagen', '1999-04-10', null, 'female', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Pedersen', '2002-04-02', null, 'male', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Collbjorn', 'Henriksen', '1994-06-18', null, 'male', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Larsen', '2014-07-30', null, 'female', -8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eisteinne', 'Andreassen', '2002-05-30', null, 'male', -56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hrolfr', 'Martinsen', '2009-03-24', null, 'male', -38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Martha', 'Haugen', '1982-10-24', null, 'female', -2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Hansen', '1988-02-09', null, 'male', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bödolv', 'Pettersen', '1988-02-24', null, 'male', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agmund', 'Berge', '2006-04-17', null, 'male', 61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valgard', 'Haugen', '2004-03-14', null, 'male', 98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Auden', 'Johannessen', '2002-01-05', null, 'male', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dyarvi', 'Berg', '2013-08-19', null, 'male', 69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Valborg', 'Larsen', '1993-11-17', null, 'female', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Merith', 'Pettersen', '1989-10-27', null, 'female', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Kristensen', '1981-02-08', null, 'female', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Lunde', '1984-05-16', null, 'female', -94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Loviz', 'Olsen', '1988-05-15', null, 'female', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Dahl', '2016-07-28', null, 'female', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vardy', 'Berge', '2002-12-29', null, 'male', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgisl', 'Larsen', '1986-03-21', null, 'male', -3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goody', 'Moe', '1998-08-26', null, 'male', 34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freyr', 'Strand', '1972-04-10', null, 'male', -53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Berge', '2007-05-06', null, 'female', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swain', 'Henriksen', '1990-08-13', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agot', 'Kristiansen', '1994-11-07', null, 'female', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Amundsen', '2014-08-13', null, 'female', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Bakken', '1986-02-21', null, 'female', -9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arngeir', 'Kristiansen', '2008-05-07', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Lund', '1971-07-29', null, 'male', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Snabjorn', 'Kristoffersen', '1998-12-28', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Pouring', 'Svendsen', '1984-02-13', null, 'male', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Haugen', '1992-12-01', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yoann', 'Pedersen', '2001-08-14', null, 'male', 46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Lunde', '1972-04-25', null, 'female', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Jensen', '1983-08-16', null, 'female', 83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Logmair', 'Sørensen', '2002-03-25', null, 'male', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Christer', 'Jørgensen', '2001-09-28', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Olsen', '2004-06-11', null, 'female', 81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hallstein', 'Moe', '2010-01-26', null, 'male', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Inga', 'Solberg', '1984-09-11', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injeborg', 'Hansen', '1997-03-29', null, 'female', -39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingvar', 'Jørgensen', '1989-04-23', null, 'male', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asgeir', 'Solheim', '1973-03-24', null, 'male', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gulla', 'Jørgensen', '2003-04-21', null, 'female', -42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frederick', 'Moen', '2008-06-22', null, 'male', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Andersen', '2012-07-01', null, 'female', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingvar', 'Nguyen', '1996-11-05', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guest', 'Hansen', '1990-04-02', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Pedersen', '1976-01-24', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Hagen', '1997-12-25', null, 'female', 66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Rasmussen', '1994-11-11', null, 'female', -88);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Raud', 'Andreassen', '2013-04-21', null, 'male', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Eriksen', '2002-11-03', null, 'male', -96);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frederick', 'Larsen', '2003-08-08', null, 'male', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ketilridr', 'Haugen', '2004-07-27', null, 'female', 4);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Olsen', '2019-04-22', null, 'female', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Friedmund', 'Strand', '1982-11-08', null, 'male', -95);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gulla', 'Johnsen', '2008-02-03', null, 'female', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Jakobsen', '1991-05-17', null, 'female', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Olsen', '1975-11-27', null, 'female', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freya', 'Rasmussen', '1992-11-20', null, 'female', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Isunnr', 'Pedersen', '1993-12-11', null, 'female', 60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Eide', '1980-07-10', null, 'female', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorbjorn', 'Svendsen', '1996-02-04', null, 'male', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Onandr', 'Bakke', '2004-10-04', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dahlia', 'Lunde', '2016-11-08', null, 'female', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brand', 'Bakke', '1978-08-09', null, 'male', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ormarr', 'Nygård', '2002-10-21', null, 'male', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solgerd', 'Bakken', '1980-12-29', null, 'female', -37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Saga', 'Jakobsen', '1984-01-08', null, 'female', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Strand', '1974-10-09', null, 'female', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torah', 'Nygård', '2018-10-30', null, 'female', 78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gerd', 'Kristiansen', '1995-06-29', null, 'female', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragngerd', 'Berge', '1996-12-11', null, 'female', -6);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnar', 'Olsen', '1976-09-29', null, 'male', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gulla', 'Paulsen', '1983-03-26', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svea', 'Pettersen', '1981-01-27', null, 'female', 48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Collbjorn', 'Jakobsen', '2017-12-07', null, 'male', 47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Charles', 'Lund', '1996-08-21', null, 'male', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfheeld', 'Moe', '1977-09-06', null, 'female', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frost', 'Berg', '1988-08-05', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Hansen', '1990-02-14', null, 'female', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yoran', 'Solberg', '2021-12-02', null, 'male', -86);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Berge', '1995-04-10', null, 'male', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Kristoffersen', '2018-10-17', null, 'female', -30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Svendsen', '1994-05-01', null, 'female', -81);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Haugen', '2010-11-18', null, 'female', -31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbert', 'Berge', '1974-07-05', null, 'female', 13);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torgeir', 'Olsen', '2015-11-22', null, 'male', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Rasmussen', '2012-08-29', null, 'female', -17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Edgill', 'Kristensen', '1972-07-07', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Jensen', '2014-04-16', null, 'female', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedvar', 'Karlsen', '1994-04-11', null, 'male', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Jacobsen', '1972-03-13', null, 'female', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thordjorn', 'Kristiansen', '2019-02-04', null, 'male', 38);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yoran', 'Solheim', '1978-12-29', null, 'male', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Akke', 'Johansen', '1985-01-02', null, 'male', -19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Dahl', '1972-04-03', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Siv', 'Berg', '1983-08-04', null, 'female', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bengta', 'Mathisen', '1991-10-06', null, 'female', 68);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Randalfre', 'Hagen', '1971-07-29', null, 'male', -34);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frita', 'Lund', '1988-07-27', null, 'female', 54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swain', 'Kristoffersen', '2007-08-10', null, 'male', -18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorn', 'Hagen', '2010-09-09', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Johnsen', '1978-07-30', null, 'female', -100);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Benedict', 'Bakke', '1976-05-02', null, 'female', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorodd', 'Nguyen', '1998-01-08', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kalle', 'Moen', '1996-09-27', null, 'male', 31);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Berg', '2014-03-21', null, 'female', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alvgeir', 'Knutsen', '2005-05-29', null, 'male', 57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sassa', 'Strand', '1991-07-02', null, 'female', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bedvar', 'Nygård', '2007-09-02', null, 'male', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Miya', 'Kristoffersen', '1990-09-06', null, 'female', 89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Magnheeld', 'Berge', '1975-03-18', null, 'female', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aslog', 'Eriksen', '1997-10-17', null, 'female', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Strand', '2005-06-28', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Auden', 'Lunde', '2006-11-24', null, 'male', 50);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Amundsen', '1990-11-19', null, 'male', 0);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Finr', 'Bakke', '1988-01-10', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helvard', 'Jacobsen', '1972-04-19', null, 'male', -26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Borghild', 'Johnsen', '2018-02-27', null, 'female', -35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Jakobsen', '2006-06-02', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brunhild', 'Rasmussen', '2001-01-20', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vikar', 'Pettersen', '1989-01-07', null, 'male', -66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Martinsen', '2020-07-04', null, 'female', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnild', 'Johansen', '2020-07-20', null, 'female', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Edgill', 'Nilsen', '1992-08-23', null, 'male', 76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Friedlave', 'Rasmussen', '2013-03-24', null, 'male', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fredrika', 'Lund', '1987-04-10', null, 'female', 30);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Saga', 'Lunde', '1992-08-07', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Carey', 'Eriksen', '1979-04-09', null, 'female', 10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorgerd', 'Olsen', '2018-07-09', null, 'female', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Jensen', '2007-01-16', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Eide', '2007-08-22', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Rasmussen', '2010-01-05', null, 'female', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Mathisen', '2004-12-20', null, 'female', -1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Martha', 'Lie', '2015-01-26', null, 'female', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Yoann', 'Pedersen', '1991-10-30', null, 'male', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aswald', 'Karlsen', '1994-08-21', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Dahl', '1990-02-08', null, 'male', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aswald', 'Larsen', '1972-06-27', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Iversen', '1990-12-30', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eyleave', 'Larsen', '1981-01-20', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Andreassen', '2018-07-07', null, 'female', 90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haward', 'Mathisen', '2018-01-07', null, 'male', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Pedersen', '1998-05-17', null, 'female', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Holger', 'Andreassen', '1976-08-28', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmod', 'Hansen', '1972-01-03', null, 'male', 45);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Charles', 'Rasmussen', '1981-12-10', null, 'male', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Andreassen', '2008-12-04', null, 'female', 91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Swanveig', 'Lie', '1995-09-15', null, 'female', -72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helgi', 'Kristiansen', '1997-07-05', null, 'male', -5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Svendsen', '1988-09-24', null, 'male', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Karita', 'Amundsen', '2020-04-08', null, 'female', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arngeir', 'Amundsen', '1995-11-05', null, 'male', -89);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Johansen', '1999-01-23', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingolv', 'Halvorsen', '1984-06-08', null, 'male', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Knutsen', '1990-03-31', null, 'female', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aud', 'Moen', '1988-12-28', null, 'female', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Karlsen', '1975-11-02', null, 'female', 41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Larsen', '1990-05-01', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kaisa', 'Moen', '2011-12-12', null, 'female', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Bakken', '2018-09-26', null, 'female', -7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Helga', 'Berg', '1974-12-22', null, 'female', -12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Runnveig', 'Halvorsen', '2009-02-23', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Bakke', '2006-04-17', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Clement', 'Amundsen', '1989-05-09', null, 'male', -61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kelda', 'Eide', '1978-10-10', null, 'female', -99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arnbjorg', 'Dahl', '1977-10-13', null, 'female', -97);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bruni', 'Nygård', '2013-08-10', null, 'male', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ode', 'Andersen', '1972-06-30', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Andersen', '1974-08-02', null, 'male', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Larsen', '2011-11-28', null, 'female', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Barebra', 'Moe', '1996-08-23', null, 'female', -48);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Isunnr', 'Eriksen', '2018-10-26', null, 'female', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gretta', 'Karlsen', '1987-08-24', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Olsen', '1977-11-06', null, 'female', -49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorhield', 'Knutsen', '1989-07-01', null, 'female', -36);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vardy', 'Johansen', '1980-09-09', null, 'male', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eirik', 'Paulsen', '1986-08-02', null, 'male', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Benedict', 'Nguyen', '2018-12-06', null, 'female', 42);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodhild', 'Rasmussen', '2003-05-12', null, 'female', 17);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Solveig', 'Martinsen', '1974-02-18', null, 'female', -87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tofa', 'Jacobsen', '1998-11-22', null, 'female', 98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Karlsen', '2012-05-22', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Knutsen', '2005-06-07', null, 'female', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Anders', 'Kristiansen', '1973-08-10', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Geirmund', 'Johansen', '1980-05-31', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('OL', 'Paulsen', '1991-06-12', null, 'male', 72);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lyotolf', 'Dahl', '2020-10-11', null, 'male', 53);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Barebra', 'Strand', '2004-09-25', null, 'female', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Paulsen', '1992-02-14', null, 'female', -16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bödolv', 'Moe', '2000-10-19', null, 'male', -78);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagrun', 'Dahl', '1999-02-08', null, 'female', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jorgen', 'Jakobsen', '1975-10-12', null, 'male', -43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Larsen', '1996-03-04', null, 'female', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rungerd', 'Olsen', '1992-04-17', null, 'female', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Finr', 'Andreassen', '2000-03-11', null, 'male', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kjarwal', 'Solheim', '2011-01-25', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Claus', 'Jakobsen', '1997-08-31', null, 'male', -90);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Rebecca', 'Eriksen', '1995-01-02', null, 'female', -46);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jorgen', 'Nguyen', '2007-03-15', null, 'male', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Christer', 'Iversen', '2012-04-15', null, 'male', -29);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Andreassen', '2001-07-07', null, 'female', 70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freya', 'Jensen', '1974-01-30', null, 'female', -54);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Claus', 'Solberg', '1997-09-13', null, 'male', 92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Dagny', 'Moe', '1980-03-25', null, 'female', -22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Odd', 'Rasmussen', '1988-06-17', null, 'male', 65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Adela', 'Lie', '1985-01-15', null, 'female', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Larsen', '1989-08-24', null, 'female', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Mats', 'Gundersen', '1988-02-09', null, 'male', -23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Gundersen', '1980-03-31', null, 'female', 19);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Morten', 'Moe', '2011-05-19', null, 'male', -64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Pedersen', '1996-06-14', null, 'male', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Knutsen', '1980-09-18', null, 'female', 12);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Solberg', '2017-10-13', null, 'female', 14);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergdis', 'Berge', '2021-03-16', null, 'female', 23);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnulv', 'Lunde', '1986-01-17', null, 'male', 7);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Jacobsen', '2007-06-22', null, 'female', -69);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guthrun', 'Mathisen', '1990-11-03', null, 'female', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frost', 'Berge', '1977-03-25', null, 'male', -91);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hannah', 'Martinsen', '1989-03-12', null, 'female', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnwold', 'Nygård', '1977-10-21', null, 'male', 22);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kjarwal', 'Andersen', '1982-01-03', null, 'male', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eir', 'Eriksen', '2004-06-03', null, 'female', 52);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbert', 'Moen', '2001-10-09', null, 'female', -70);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Liulfre', 'Larsen', '1994-06-20', null, 'male', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alfsigr', 'Nygård', '2000-01-18', null, 'female', 32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ysgerd', 'Pedersen', '1979-01-06', null, 'female', -11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Caroline', 'Gundersen', '2018-10-25', null, 'female', -55);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Einar', 'Solberg', '1992-10-14', null, 'male', -65);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gustav', 'Eriksen', '2001-12-03', null, 'male', 87);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thorbjorn', 'Sørensen', '1989-04-30', null, 'male', 1);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Larsen', '2011-09-12', null, 'male', -41);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ottalia', 'Hagen', '1975-10-29', null, 'female', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Freyr', 'Johansen', '2010-08-01', null, 'male', 2);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Greenolve', 'Knutsen', '2005-08-29', null, 'male', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oddmand', 'Jørgensen', '2014-03-06', null, 'male', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Solheim', '1992-12-13', null, 'female', 82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hertrud', 'Mathisen', '1983-03-22', null, 'female', -73);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bathilda', 'Henriksen', '1974-08-10', null, 'female', 24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torfridr', 'Kristoffersen', '2014-12-16', null, 'female', 39);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunvor', 'Lie', '2005-05-17', null, 'female', 26);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bergtora', 'Jakobsen', '1999-06-30', null, 'female', 21);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vegeir', 'Iversen', '2000-04-10', null, 'male', -98);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alv', 'Strand', '2013-04-03', null, 'male', 58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjef', 'Nilsen', '2021-07-11', null, 'male', -27);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Claus', 'Lunde', '1982-11-19', null, 'male', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Astritr', 'Nygård', '1976-12-31', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Björn', 'Larsen', '1991-03-28', null, 'male', 35);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ide', 'Henriksen', '2017-12-13', null, 'female', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Arngeir', 'Johnsen', '1994-01-08', null, 'male', 3);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torger', 'Johnsen', '1981-09-02', null, 'male', 61);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Viva', 'Johansen', '1987-05-10', null, 'female', -60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Henry', 'Karlsen', '1975-08-06', null, 'male', -82);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Utley', 'Nilsen', '2015-11-26', null, 'male', 37);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Johnsen', '2017-07-21', null, 'female', 9);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ansgar', 'Nilsen', '1972-03-16', null, 'male', 49);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tormod', 'Amundsen', '2017-09-22', null, 'male', -51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Susann', 'Hagen', '2021-06-28', null, 'female', 56);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sindri', 'Kristensen', '1974-03-09', null, 'male', -66);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torbjorg', 'Jørgensen', '1974-01-06', null, 'female', 11);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lagertha', 'Jakobsen', '1977-07-04', null, 'female', -58);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Andreas', 'Kristoffersen', '1996-12-01', null, 'male', -77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodbrand', 'Haugen', '2006-12-07', null, 'male', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingired', 'Pettersen', '1987-03-17', null, 'male', -67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Eymund', 'Lie', '2019-07-04', null, 'male', 8);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Folkor', 'Ali', '1971-06-12', null, 'male', 51);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vincent', 'Martinsen', '1971-11-03', null, 'male', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vertendi', 'Sørensen', '1984-08-31', null, 'female', 25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sign', 'Berge', '1994-05-01', null, 'female', 79);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Svanhild', 'Johnsen', '2018-12-22', null, 'female', 74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annika', 'Hagen', '2012-07-09', null, 'female', 33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Kia', 'Pedersen', '1997-10-24', null, 'female', -32);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Frigga', 'Jakobsen', '2005-09-12', null, 'female', 18);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hild', 'Lund', '2005-02-12', null, 'female', -76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gisli', 'Jørgensen', '1990-10-15', null, 'male', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Brinhield', 'Solheim', '1995-11-01', null, 'female', -59);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Sverr', 'Pettersen', '2004-08-26', null, 'male', 15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Emily', 'Haugen', '1974-07-04', null, 'female', -57);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Stein', 'Hansen', '2020-01-27', null, 'male', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agneta', 'Mathisen', '1994-07-09', null, 'female', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asweig', 'Gundersen', '1985-09-26', null, 'female', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Signe', 'Svendsen', '1995-10-18', null, 'female', 63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Fritjof', 'Jakobsen', '1986-01-05', null, 'male', 47);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Thor', 'Jensen', '2004-03-18', null, 'male', 75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alva', 'Andreassen', '1989-11-14', null, 'female', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Guda', 'Berge', '2002-08-15', null, 'female', -93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Alric', 'Haugen', '1976-03-29', null, 'male', 84);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asbrand', 'Hansen', '1997-03-16', null, 'male', 77);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Aivars', 'Hansen', '1979-04-03', null, 'male', 16);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Agot', 'Johannessen', '2016-01-01', null, 'female', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Oyvind', 'Eriksen', '2008-11-16', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ittan', 'Hansen', '2008-10-21', null, 'female', -25);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gray', 'Iversen', '2013-07-20', null, 'female', -24);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Asmund', 'Mathisen', '1985-07-08', null, 'male', -10);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Haltor', 'Nygård', '2007-11-14', null, 'male', -62);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Torvi', 'Ali', '1976-08-17', null, 'female', -63);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Tyra', 'Nygård', '2004-09-03', null, 'female', 94);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Annalize', 'Pettersen', '2000-06-30', null, 'female', 67);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Espen', 'Mathisen', '2008-01-10', null, 'male', -15);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bardi', 'Ali', '1995-12-30', null, 'male', 99);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Roerik', 'Lunde', '1992-04-14', null, 'male', 93);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Vivec', 'Paulsen', '2013-04-16', null, 'female', -75);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmod', 'Kristensen', '1979-12-28', null, 'male', -20);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Gunnulv', 'Nygård', '2018-05-11', null, 'male', 80);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingrid', 'Karlsen', '2015-09-19', null, 'female', -83);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Bolly', 'Bakke', '1992-03-09', null, 'male', 76);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hyarvard', 'Lie', '1987-09-14', null, 'male', 40);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Burnt', 'Lund', '2018-01-24', null, 'male', 43);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Steinmunn', 'Jørgensen', '2011-11-29', null, 'female', -33);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Hring', 'Solberg', '2003-05-19', null, 'male', 44);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ragnbjorg', 'Andersen', '2014-04-04', null, 'female', 5);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ulv', 'Dahl', '1982-11-08', null, 'male', 85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Lynn', 'Moen', '2011-09-21', null, 'female', -85);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Injigertr', 'Eriksen', '2021-11-27', null, 'female', 60);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Ingridr', 'Lie', '2006-05-29', null, 'female', -92);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Logmair', 'Sørensen', '1973-04-20', null, 'male', 64);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Goodbrand', 'Eriksen', '1982-07-18', null, 'male', -74);
-INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES('Jerd', 'Moe', '2015-12-05', null, 'female', 92);
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(2, 'researcher', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(3, 'researcher', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(4, 'researcher', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(5, 'researcher', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(6, 'researcher', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(7, 'researcher', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(8, 'researcher', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(9, 'researcher', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(10, 'researcher', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(11, 'researcher', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(12, 'researcher', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(13, 'researcher', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(14, 'researcher', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(15, 'researcher', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(16, 'researcher', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(17, 'researcher', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(18, 'researcher', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(19, 'researcher', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(20, 'researcher', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(21, 'researcher', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(22, 'researcher', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(23, 'researcher', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(24, 'researcher', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(25, 'researcher', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(26, 'researcher', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(27, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(28, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(29, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(30, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(31, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(32, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(33, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(34, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(35, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(36, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(37, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(38, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(39, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(40, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(41, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(42, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(43, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(44, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(45, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(46, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(47, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(48, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(49, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(50, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(51, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(52, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(53, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(54, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(55, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(56, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(57, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(58, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(59, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(60, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(61, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(62, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(63, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(64, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(65, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(66, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(67, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(68, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(69, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(70, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(71, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(72, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(73, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(74, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(75, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(76, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(77, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(78, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(79, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(80, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(81, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(82, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(83, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(84, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(85, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(86, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(87, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(88, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(89, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(90, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(91, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(92, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(93, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(94, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(95, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(96, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(97, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(98, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(99, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(100, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(101, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(102, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(103, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(104, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(105, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(106, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(107, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(108, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(109, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(110, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(111, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(112, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(113, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(114, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(115, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(116, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(117, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(118, 'tamer', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(119, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(120, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(121, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(122, 'tamer', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(123, 'tamer', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(124, 'tamer', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(125, 'tamer', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(126, 'tamer', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(127, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(128, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(129, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(130, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(131, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(132, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(133, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(134, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(135, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(136, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(137, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(138, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(139, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(140, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(141, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(142, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(143, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(144, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(145, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(146, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(147, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(148, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(149, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(150, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(151, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(152, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(153, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(154, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(155, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(156, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(157, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(158, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(159, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(160, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(161, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(162, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(163, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(164, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(165, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(166, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(167, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(168, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(169, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(170, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(171, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(172, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(173, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(174, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(175, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(176, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(177, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(178, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(179, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(180, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(181, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(182, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(183, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(184, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(185, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(186, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(187, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(188, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(189, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(190, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(191, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(192, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(193, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(194, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(195, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(196, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(197, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(198, 'сaretaker', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(199, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(200, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(201, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(202, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(203, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(204, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(205, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(206, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(207, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(208, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(209, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(210, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(211, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(212, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(213, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(214, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(215, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(216, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(217, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(218, 'сaretaker', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(219, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(220, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(221, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(222, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(223, 'сaretaker', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(224, 'сaretaker', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(225, 'сaretaker', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(226, 'сaretaker', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(227, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(228, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(229, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(230, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(231, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(232, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(233, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(234, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(235, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(236, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(237, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(238, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(239, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(240, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(241, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(242, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(243, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(244, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(245, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(246, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(247, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(248, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(249, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(250, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(251, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(252, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(253, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(254, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(255, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(256, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(257, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(258, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(259, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(260, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(261, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(262, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(263, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(264, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(265, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(266, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(267, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(268, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(269, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(270, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(271, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(272, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(273, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(274, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(275, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(276, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(277, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(278, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(279, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(280, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(281, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(282, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(283, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(284, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(285, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(286, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(287, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(288, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(289, 'nanny', 0, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(290, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(291, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(292, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(293, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(294, 'nanny', 2, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(295, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(296, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(297, 'nanny', 0, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(298, 'nanny', 1, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(299, 'nanny', 1, true, 'night');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(300, 'nanny', 2, true, 'day');
-INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES(301, 'nanny', 0, true, 'day');
+INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) VALUES
+('Eyvind', 'Knutsen', '2005-12-18', null, 'male', 2),
+('Auden', 'Solheim', '1989-07-28', null, 'male', -41),
+('Astrid', 'Henriksen', '1983-12-02', null, 'female', -54),
+('Sigwald', 'Karlsen', '2004-03-20', null, 'male', 41),
+('Wemund', 'Johansen', '2006-05-04', null, 'male', -91),
+('Asne', 'Henriksen', '1980-11-06', null, 'female', 92),
+('Ram', 'Halvorsen', '1986-12-13', null, 'male', 98),
+('Ketilridr', 'Pettersen', '1982-04-06', null, 'female', 19),
+('Frita', 'Lunde', '1986-12-25', null, 'female', -56),
+('Westmar', 'Strand', '1980-09-30', null, 'male', -11),
+('Vertendi', 'Andersen', '1972-11-14', null, 'female', 56),
+('Ittan', 'Pedersen', '2010-01-22', null, 'female', -78),
+('Alfheeld', 'Strand', '2013-03-10', null, 'female', -42),
+('Ingridr', 'Knutsen', '2020-08-27', null, 'female', -51),
+('Dahlia', 'Andersen', '1973-02-08', null, 'female', 67),
+('Sigwald', 'Nguyen', '1990-03-18', null, 'male', 63),
+('Bathilda', 'Hansen', '1976-08-02', null, 'female', -26),
+('Thorodd', 'Kristensen', '2003-07-03', null, 'male', -27),
+('Call', 'Dahl', '1978-06-24', null, 'male', 52),
+('Torbjorg', 'Johansen', '2016-04-29', null, 'female', -37),
+('Liulfre', 'Johansen', '2017-06-13', null, 'male', 45),
+('Greger', 'Knutsen', '1979-12-28', null, 'male', -85),
+('Bödolv', 'Martinsen', '1979-09-11', null, 'male', -9),
+('Thorhild', 'Pedersen', '1997-09-19', null, 'female', -87),
+('Lynn', 'Nilsen', '1993-04-26', null, 'female', 97),
+('Adela', 'Larsen', '2018-04-11', null, 'female', 52),
+('Silge', 'Svendsen', '1979-04-20', null, 'female', -41),
+('Khjalmer', 'Pettersen', '2006-09-19', null, 'male', 59),
+('OL', 'Sørensen', '1976-07-09', null, 'male', 11),
+('Arnulv', 'Lie', '2013-09-18', null, 'male', -63),
+('Thorhild', 'Jensen', '1994-07-20', null, 'female', 66),
+('Gunhield', 'Martinsen', '1991-01-08', null, 'female', -26),
+('Ingemar', 'Karlsen', '2000-03-30', null, 'male', -67),
+('Asbjörn', 'Nygård', '2009-01-20', null, 'male', 92),
+('Eileithr', 'Moe', '1980-05-27', null, 'male', -68),
+('Dagny', 'Nguyen', '1980-03-07', null, 'female', 26),
+('Greenolve', 'Svendsen', '2008-06-08', null, 'male', 50),
+('Ottalia', 'Larsen', '2003-03-05', null, 'female', 46),
+('Ode', 'Strand', '1992-08-10', null, 'female', -87),
+('Westmar', 'Gundersen', '1985-11-06', null, 'male', 34),
+('Tofa', 'Kristensen', '1998-08-02', null, 'female', 99),
+('Svea', 'Halvorsen', '2012-10-21', null, 'female', -18),
+('Eirik', 'Lie', '2002-01-09', null, 'male', 67),
+('Hannah', 'Svendsen', '1996-03-21', null, 'female', 3),
+('Hring', 'Paulsen', '1985-05-14', null, 'male', 14),
+('Eidis', 'Moen', '2008-05-30', null, 'female', 31),
+('Frost', 'Rasmussen', '1984-12-24', null, 'male', 89),
+('Ragnwold', 'Knutsen', '2019-12-07', null, 'male', 37),
+('Vertendi', 'Moen', '1982-09-16', null, 'female', 42),
+('Vigdis', 'Iversen', '1984-02-25', null, 'female', 14),
+('Aswald', 'Paulsen', '1999-01-03', null, 'male', -15),
+('Asmund', 'Henriksen', '2016-12-24', null, 'male', 51),
+('Kelda', 'Svendsen', '2018-11-18', null, 'female', 70),
+('Injeborg', 'Strand', '1999-10-08', null, 'female', -74),
+('Susann', 'Solberg', '2002-01-09', null, 'female', -42),
+('Dagrun', 'Eriksen', '1973-03-01', null, 'female', 32),
+('Rebecca', 'Johannessen', '2015-06-13', null, 'female', -87),
+('Rungerd', 'Amundsen', '1974-09-07', null, 'female', 9),
+('Wagni', 'Jensen', '2019-11-17', null, 'male', 90),
+('Bolly', 'Kristensen', '2002-06-20', null, 'male', -23),
+('Lynn', 'Bakken', '1974-02-10', null, 'female', -61),
+('Hallstein', 'Dahl', '2001-09-08', null, 'male', -59),
+('Hyarty', 'Kristoffersen', '2000-02-21', null, 'male', 24),
+('Vermund', 'Paulsen', '1972-10-28', null, 'male', 56),
+('Ingrid', 'Rasmussen', '1990-06-04', null, 'female', 24),
+('Goody', 'Bakke', '1996-12-24', null, 'male', 25),
+('Loviz', 'Moe', '2020-09-21', null, 'female', -54),
+('Valborg', 'Henriksen', '2021-08-09', null, 'female', 20),
+('Inga', 'Moen', '1992-10-13', null, 'female', -43),
+('Svea', 'Moen', '1974-12-19', null, 'female', 27),
+('Snor', 'Hagen', '2007-02-15', null, 'male', 52),
+('Sign', 'Halvorsen', '2006-02-12', null, 'female', -70),
+('Goodred', 'Solberg', '2005-03-29', null, 'male', -4),
+('OL', 'Johannessen', '1984-07-21', null, 'male', 48),
+('Asgrim', 'Strand', '1977-12-31', null, 'male', 93),
+('Ode', 'Moen', '2000-11-30', null, 'female', -73),
+('Skuld', 'Kristensen', '2017-04-09', null, 'female', 35),
+('Trude', 'Solheim', '2015-05-21', null, 'female', -18),
+('Viva', 'Johnsen', '1971-12-16', null, 'female', -5),
+('Aud', 'Karlsen', '1974-10-31', null, 'male', 53),
+('Alfsigr', 'Solheim', '1971-11-09', null, 'female', -6),
+('Rig', 'Sørensen', '2013-07-10', null, 'male', 16),
+('Asgeir', 'Nygård', '2018-09-07', null, 'male', -100),
+('Lynn', 'Martinsen', '2010-10-03', null, 'female', 7),
+('Akke', 'Nguyen', '1989-09-21', null, 'male', 33),
+('Dyarvi', 'Bakke', '1974-01-23', null, 'male', 39),
+('Helgi', 'Berg', '1991-10-15', null, 'male', -100),
+('Thorhild', 'Ali', '2011-03-21', null, 'female', 3),
+('Ragnbjorg', 'Kristoffersen', '1978-05-24', null, 'female', -72),
+('Clement', 'Jørgensen', '1987-02-08', null, 'male', -15),
+('Solveig', 'Solheim', '1994-07-05', null, 'female', 72),
+('Rungerd', 'Johansen', '1977-04-03', null, 'female', 50),
+('Frodie', 'Johannessen', '1994-04-06', null, 'male', 89),
+('Agneta', 'Bakken', '1978-05-24', null, 'female', -7),
+('Eidis', 'Andreassen', '1979-09-30', null, 'female', 66),
+('Snabjorn', 'Martinsen', '1975-08-02', null, 'male', -33),
+('Eisteinne', 'Kristensen', '1971-07-01', null, 'male', -15),
+('Johannes', 'Moen', '1983-02-18', null, 'male', 10),
+('Thorbjorn', 'Ali', '1985-05-08', null, 'male', 22),
+('Arnbjorg', 'Iversen', '1971-01-15', null, 'female', 66),
+('Audulv', 'Berge', '2019-07-07', null, 'male', -92),
+('Ingmund', 'Nguyen', '2001-11-10', null, 'male', 49),
+('Eir', 'Andersen', '1996-08-27', null, 'female', -14),
+('Espen', 'Jørgensen', '1981-05-02', null, 'male', 87),
+('Eirik', 'Hagen', '2008-07-06', null, 'male', -73),
+('Friedlave', 'Nilsen', '1999-07-26', null, 'male', 86),
+('Ormarr', 'Haugen', '1992-01-05', null, 'male', -61),
+('Helmi', 'Johannessen', '1997-08-20', null, 'male', -96),
+('Bergtora', 'Bakken', '2013-04-23', null, 'female', 79),
+('Hallstein', 'Knutsen', '1998-04-17', null, 'male', -34),
+('Arnlot', 'Olsen', '1986-06-08', null, 'male', 51),
+('Astritr', 'Kristoffersen', '1971-05-09', null, 'female', 67),
+('Tofa', 'Lunde', '1992-03-10', null, 'female', -16),
+('Ingemar', 'Hansen', '1996-08-10', null, 'male', 88),
+('Michaela', 'Iversen', '1984-06-23', null, 'female', 95),
+('Halfsen', 'Kristiansen', '2021-08-29', null, 'male', 25),
+('Guthrun', 'Berg', '1996-10-08', null, 'female', -95),
+('Bengt', 'Solheim', '2004-04-30', null, 'male', 90),
+('Thorbjorn', 'Kristoffersen', '2002-12-01', null, 'male', 45),
+('Alv', 'Pettersen', '1983-11-30', null, 'male', -35),
+('Ragnbjorg', 'Sørensen', '1977-08-18', null, 'female', -45),
+('Solgerd', 'Henriksen', '1986-02-25', null, 'female', -81),
+('Oyvind', 'Knutsen', '2000-11-26', null, 'male', -20),
+('Frost', 'Lunde', '1999-04-11', null, 'male', 84),
+('Gray', 'Svendsen', '1999-07-30', null, 'female', -7),
+('Snor', 'Knutsen', '1998-02-21', null, 'male', -25),
+('Johannes', 'Strand', '2011-05-25', null, 'male', 4),
+('Thorstein', 'Nguyen', '1987-11-05', null, 'male', 22),
+('Halfdan', 'Nygård', '1983-04-20', null, 'male', -30),
+('Vivec', 'Mathisen', '1986-10-26', null, 'female', -37),
+('Aswald', 'Eriksen', '1971-10-20', null, 'male', -35),
+('Ragnar', 'Henriksen', '1992-04-26', null, 'male', -15),
+('Axel', 'Eriksen', '2016-10-02', null, 'male', 18),
+('Torvi', 'Rasmussen', '2003-06-05', null, 'female', -77),
+('Gretta', 'Eriksen', '2017-11-30', null, 'female', 37),
+('Marne', 'Hagen', '1995-10-20', null, 'female', 38),
+('Haward', 'Moen', '2014-02-13', null, 'male', 71),
+('Claus', 'Nilsen', '1985-03-31', null, 'male', 13),
+('Eirik', 'Iversen', '1994-08-26', null, 'male', -47),
+('Agmund', 'Eide', '1974-06-15', null, 'male', 51),
+('Steinmod', 'Andersen', '2016-04-04', null, 'male', -24),
+('Loki', 'Solheim', '2002-12-24', null, 'male', 36),
+('Miya', 'Andersen', '2015-09-20', null, 'female', -91),
+('Goodhild', 'Gundersen', '1994-07-16', null, 'female', 4),
+('Thorgerd', 'Jakobsen', '2004-02-08', null, 'female', 9),
+('Runolv', 'Ali', '1974-02-01', null, 'male', -30),
+('Goody', 'Nygård', '1996-09-14', null, 'male', -8),
+('Dagny', 'Mathisen', '1992-12-13', null, 'female', -17),
+('Dyarvi', 'Solberg', '2007-05-14', null, 'male', -46),
+('Sigridr', 'Moe', '2004-11-06', null, 'female', -85),
+('Bergtora', 'Iversen', '2013-11-15', null, 'female', 63),
+('Vermund', 'Halvorsen', '1982-05-07', null, 'male', 98),
+('Gerd', 'Berg', '1989-05-29', null, 'female', -50),
+('Michaela', 'Andreassen', '2002-10-12', null, 'female', -32),
+('Folk', 'Svendsen', '2006-05-28', null, 'male', -6),
+('Akke', 'Ali', '2007-07-13', null, 'male', -62),
+('Aslog', 'Johansen', '2020-07-10', null, 'female', 88),
+('Hakon', 'Martinsen', '2013-05-10', null, 'male', 77),
+('Vestar', 'Lie', '1987-05-02', null, 'male', -20),
+('Lave', 'Strand', '1973-06-11', null, 'male', 66),
+('Christer', 'Eide', '1980-03-24', null, 'male', 56),
+('Guthrun', 'Nguyen', '1973-09-06', null, 'female', -73),
+('Eirik', 'Nygård', '1974-03-06', null, 'male', -4),
+('Kelda', 'Kristensen', '2011-04-17', null, 'female', -2),
+('Kaisa', 'Pettersen', '2005-09-20', null, 'female', 44),
+('Siggrid', 'Bakke', '2007-04-27', null, 'female', 45),
+('Eisteinne', 'Halvorsen', '1974-06-02', null, 'male', 97),
+('Agmund', 'Berge', '1972-12-01', null, 'male', 3),
+('Aslog', 'Ali', '1991-04-23', null, 'female', -30),
+('Asbjörn', 'Karlsen', '1991-05-14', null, 'male', -23),
+('Ingridr', 'Bakke', '1991-08-15', null, 'female', -68),
+('Oyvind', 'Pedersen', '1993-05-26', null, 'male', -92),
+('Frigga', 'Bakken', '2003-11-04', null, 'female', 90),
+('Vigdis', 'Amundsen', '2015-12-31', null, 'female', -46),
+('Jorgen', 'Jakobsen', '2012-04-24', null, 'male', -98),
+('Hannah', 'Karlsen', '2014-10-04', null, 'female', -12),
+('Ragnild', 'Solberg', '2007-07-08', null, 'female', 41),
+('Annika', 'Johannessen', '1994-07-25', null, 'female', 10),
+('Modi', 'Hagen', '1983-11-28', null, 'male', -79),
+('Torvi', 'Amundsen', '1971-01-04', null, 'female', 3),
+('Ingrid', 'Jakobsen', '1973-02-28', null, 'female', -71),
+('Rebecca', 'Berg', '1985-08-02', null, 'female', 31),
+('Fritjef', 'Berg', '1985-05-03', null, 'male', -21),
+('Karita', 'Iversen', '1990-07-01', null, 'female', 54),
+('Torgisl', 'Larsen', '1996-04-15', null, 'male', 69),
+('Loki', 'Svendsen', '1991-12-16', null, 'male', -80),
+('Hyarty', 'Moen', '1979-08-16', null, 'male', -18),
+('Bergdis', 'Paulsen', '2017-09-07', null, 'female', -32),
+('Injeborg', 'Kristoffersen', '1985-10-11', null, 'female', -79),
+('Asbjörn', 'Dahl', '1998-12-01', null, 'male', 93),
+('Eirik', 'Henriksen', '1986-11-18', null, 'male', 51),
+('Adela', 'Iversen', '2005-07-01', null, 'female', 78),
+('Agvid', 'Bakken', '2015-05-01', null, 'male', -98),
+('Bergtora', 'Andersen', '1972-10-11', null, 'female', 99),
+('Asne', 'Gundersen', '1998-11-11', null, 'female', 61),
+('Torgisl', 'Pedersen', '1975-11-26', null, 'male', -29),
+('Eidis', 'Mathisen', '1980-07-19', null, 'female', -28),
+('Akke', 'Jacobsen', '2003-11-07', null, 'male', 75),
+('Goodhild', 'Ali', '1978-10-06', null, 'female', 59),
+('Sassa', 'Paulsen', '1996-05-10', null, 'female', 49),
+('Frita', 'Johnsen', '1991-07-24', null, 'female', 74),
+('Hallstein', 'Berg', '1973-10-23', null, 'male', 69),
+('Barebra', 'Nilsen', '2012-07-02', null, 'female', 46),
+('Vertendi', 'Strand', '1976-02-05', null, 'female', 32),
+('Guthrun', 'Andersen', '2014-01-30', null, 'female', -89),
+('Solgerd', 'Paulsen', '1979-03-18', null, 'female', -58),
+('Gretta', 'Solheim', '1994-01-14', null, 'female', -46),
+('Sign', 'Svendsen', '2007-10-22', null, 'female', -50),
+('Einar', 'Andersen', '1981-06-01', null, 'male', -53),
+('Gerhard', 'Jakobsen', '1983-11-23', null, 'male', 3),
+('Liz', 'Amundsen', '2010-10-20', null, 'female', 55),
+('Solgerd', 'Strand', '1983-06-20', null, 'female', 2),
+('Liz', 'Haugen', '2005-08-29', null, 'female', -63),
+('Loki', 'Nygård', '2013-08-06', null, 'male', 57),
+('Gulla', 'Mathisen', '2000-09-11', null, 'female', 56),
+('Gerd', 'Kristoffersen', '2017-04-05', null, 'female', 30),
+('Guthrun', 'Halvorsen', '2021-08-23', null, 'female', 35),
+('Thorgerd', 'Solberg', '1988-03-19', null, 'female', -94),
+('Astrid', 'Haugen', '1990-08-27', null, 'female', -5),
+('Eivindr', 'Jensen', '2004-08-21', null, 'male', -55),
+('Ansgar', 'Amundsen', '1976-04-08', null, 'male', -96),
+('Signe', 'Iversen', '2017-01-19', null, 'female', 85),
+('Arngeir', 'Svendsen', '2005-01-05', null, 'male', -56),
+('Asne', 'Eide', '1995-10-20', null, 'female', -17),
+('Ragngerd', 'Nguyen', '2014-01-30', null, 'female', -30),
+('Aslog', 'Mathisen', '2014-08-16', null, 'female', -45),
+('Sigrid', 'Pettersen', '2000-05-23', null, 'male', 22),
+('Svea', 'Andreassen', '1990-11-04', null, 'female', -27),
+('Injigertr', 'Berge', '1992-10-19', null, 'female', -72),
+('Torbjorg', 'Bakke', '1975-03-31', null, 'female', -47),
+('Dagny', 'Berg', '2012-12-12', null, 'female', 87),
+('Sigrun', 'Andersen', '2003-09-13', null, 'female', -44),
+('Eymund', 'Berg', '2000-01-30', null, 'male', -37),
+('Ode', 'Sørensen', '1986-10-28', null, 'female', -57),
+('Eirik', 'Sørensen', '1975-04-29', null, 'male', 52),
+('Roald', 'Lunde', '1973-04-08', null, 'male', -96),
+('Ingridr', 'Eriksen', '1978-07-04', null, 'female', -3),
+('Bödolv', 'Iversen', '2002-08-31', null, 'male', -5),
+('Aud', 'Jensen', '1994-07-19', null, 'female', -44),
+('Hring', 'Bakken', '1984-08-23', null, 'male', 22),
+('Frodie', 'Karlsen', '1985-03-09', null, 'male', -19),
+('Thordjorn', 'Jakobsen', '2013-11-20', null, 'male', 18),
+('Gray', 'Jensen', '1986-08-06', null, 'female', 15),
+('Solveig', 'Andreassen', '1982-02-09', null, 'female', 40),
+('Rebecca', 'Bakken', '1991-05-02', null, 'female', 22),
+('Saga', 'Johnsen', '2003-03-13', null, 'female', -100),
+('Torah', 'Bakken', '2013-04-30', null, 'female', -97),
+('Injeborg', 'Paulsen', '2018-05-08', null, 'female', -98),
+('Tyra', 'Lie', '1991-11-15', null, 'female', -3),
+('Swanveig', 'Iversen', '2012-11-10', null, 'female', -69),
+('Solveig', 'Halvorsen', '1992-08-02', null, 'female', 71),
+('Solgerd', 'Karlsen', '2010-02-28', null, 'female', 90),
+('Ingolv', 'Johnsen', '1985-12-19', null, 'male', 82),
+('Arnlot', 'Martinsen', '1976-12-11', null, 'male', 0),
+('Gunvor', 'Kristoffersen', '1976-06-12', null, 'female', -60),
+('Rig', 'Paulsen', '1997-06-15', null, 'male', 64),
+('Roerik', 'Solberg', '1994-01-12', null, 'male', 6),
+('Emily', 'Pettersen', '1989-05-13', null, 'female', 10),
+('Karita', 'Lund', '1996-11-12', null, 'female', 49),
+('Roald', 'Haugen', '2020-03-15', null, 'male', -8),
+('Johannes', 'Sørensen', '1982-10-26', null, 'male', 92),
+('Bercy', 'Halvorsen', '2000-01-28', null, 'male', -93),
+('Hannah', 'Rasmussen', '1992-07-05', null, 'female', -40),
+('Hertrud', 'Solberg', '1976-09-02', null, 'female', 1),
+('Hertrud', 'Berge', '1997-07-29', null, 'female', 99),
+('Thomas', 'Kristensen', '1975-05-26', null, 'male', 56),
+('Borghild', 'Nguyen', '2016-06-24', null, 'female', 11),
+('Agvid', 'Karlsen', '1971-05-01', null, 'male', 11),
+('Torbjorg', 'Sørensen', '1986-01-22', null, 'female', -56),
+('Ulvbjorn', 'Martinsen', '1974-01-22', null, 'male', -83),
+('Gunther', 'Hansen', '2011-03-29', null, 'male', -96),
+('Agneta', 'Solberg', '2001-11-17', null, 'female', -32),
+('Brand', 'Jakobsen', '1997-12-28', null, 'male', 97),
+('Torbjorg', 'Kristensen', '1985-11-15', null, 'female', -53),
+('Vermund', 'Dahl', '1980-01-10', null, 'male', -100),
+('Tofa', 'Andreassen', '1979-12-30', null, 'female', 73),
+('Guthrun', 'Moe', '1985-12-04', null, 'female', -20),
+('Webrand', 'Lund', '1975-09-29', null, 'male', -18),
+('Vertendi', 'Olsen', '1975-11-16', null, 'female', 79),
+('Ingwald', 'Jørgensen', '1982-02-26', null, 'male', 41),
+('Andreas', 'Eide', '2012-07-03', null, 'male', 79),
+('Yon', 'Jensen', '1990-08-23', null, 'male', -1),
+('Rollo', 'Berge', '1999-02-03', null, 'male', 53),
+('Jerd', 'Moen', '1981-05-13', null, 'female', -96),
+('Grid', 'Sørensen', '1971-09-05', null, 'female', -22),
+('Stein', 'Lunde', '2012-05-29', null, 'male', -54),
+('Isunnr', 'Jacobsen', '1977-11-13', null, 'female', 94),
+('Agmund', 'Mathisen', '1973-03-01', null, 'male', 37),
+('Marie', 'Solberg', '1992-08-19', null, 'male', -57),
+('Alva', 'Hagen', '2018-03-19', null, 'female', 37),
+('Annalize', 'Bakke', '2000-08-03', null, 'female', -12),
+('Goodhild', 'Jensen', '1997-05-22', null, 'female', -96),
+('Alvgeir', 'Moen', '2009-10-31', null, 'male', -46),
+('Adela', 'Haugen', '1986-05-07', null, 'female', -74),
+('Knud', 'Rasmussen', '2000-05-11', null, 'male', 74),
+('Marne', 'Henriksen', '1997-03-04', null, 'female', -45),
+('Alvgeir', 'Eriksen', '1985-02-16', null, 'male', 28),
+('Bergtora', 'Moe', '1977-12-09', null, 'female', -9),
+('Hrut', 'Lie', '1991-01-26', null, 'male', -67),
+('Siv', 'Berg', '1998-08-20', null, 'female', 28),
+('Orme', 'Pettersen', '1975-05-10', null, 'male', 2),
+('Halfsen', 'Lie', '2011-03-28', null, 'male', -40),
+('Skjeld', 'Olsen', '1971-04-23', null, 'male', 59),
+('Asgerd', 'Bakken', '2012-05-31', null, 'female', -78),
+('Tryggwi', 'Sørensen', '2018-09-27', null, 'male', 12),
+('Kia', 'Haugen', '2019-07-02', null, 'female', -15),
+('Vincent', 'Nguyen', '1977-08-17', null, 'male', -95),
+('Vigdis', 'Svendsen', '1983-09-09', null, 'female', 97),
+('Gunhield', 'Pedersen', '1977-08-13', null, 'female', -24),
+('Kjarwal', 'Berge', '1985-05-17', null, 'male', -53),
+('Guthrun', 'Lie', '2015-06-21', null, 'female', -46),
+('Torbjorg', 'Olsen', '2007-08-15', null, 'female', 19),
+('Arnbjorg', 'Berg', '1986-10-20', null, 'female', 61),
+('Ragnar', 'Nilsen', '1997-03-18', null, 'male', -87),
+('Kia', 'Kristoffersen', '1996-01-22', null, 'female', -95),
+('Torbjorn', 'Nilsen', '1988-12-27', null, 'male', 69),
+('Mats', 'Martinsen', '1975-04-29', null, 'male', -44),
+('Asa', 'Kristoffersen', '1986-10-19', null, 'female', -40),
+('Fredrika', 'Svendsen', '2010-03-10', null, 'female', 16),
+('Karita', 'Bakke', '1993-08-28', null, 'female', -13),
+('Guest', 'Hagen', '2001-10-13', null, 'male', -79),
+('Viva', 'Johansen', '2016-06-28', null, 'female', -1),
+('Attila', 'Eide', '1991-10-28', null, 'male', 98),
+('Goodhild', 'Moe', '1983-04-26', null, 'female', -31),
+('Ketilridr', 'Bakke', '2008-06-25', null, 'female', -40),
+('Solgerd', 'Nygård', '2006-01-31', null, 'female', -19),
+('Silge', 'Andreassen', '2021-07-13', null, 'female', -5),
+('Eileithr', 'Knutsen', '2000-09-01', null, 'male', 86),
+('Benedict', 'Knutsen', '2008-10-03', null, 'female', 75),
+('Geirmund', 'Sørensen', '2019-06-10', null, 'male', 38),
+('Helga', 'Martinsen', '1986-05-27', null, 'female', 64),
+('Ormarr', 'Hagen', '1999-01-27', null, 'male', -17),
+('Ingridr', 'Dahl', '1989-02-24', null, 'female', 17),
+('Ingwald', 'Dahl', '1993-10-30', null, 'male', -15),
+('Bedmod', 'Bakken', '2002-10-19', null, 'male', 1),
+('Axel', 'Amundsen', '1983-01-16', null, 'male', -51),
+('Kaisa', 'Rasmussen', '2015-11-26', null, 'female', -79),
+('Gerd', 'Sørensen', '2018-01-19', null, 'female', 81),
+('Asver', 'Larsen', '1987-03-04', null, 'male', 28),
+('Alva', 'Amundsen', '1986-06-05', null, 'female', 92),
+('Torketill', 'Paulsen', '2016-08-14', null, 'male', 85),
+('Thorolf', 'Solheim', '1978-03-15', null, 'male', 93),
+('Torbjorg', 'Lund', '2017-05-17', null, 'female', -44),
+('Tormod', 'Svendsen', '1980-05-05', null, 'male', -39),
+('Eyleave', 'Haugen', '2006-11-15', null, 'male', 82),
+('Kaisa', 'Pettersen', '1978-01-11', null, 'female', -34),
+('Halfdan', 'Jakobsen', '2007-06-12', null, 'male', 71),
+('Ingwald', 'Rasmussen', '1987-04-25', null, 'male', 30),
+('Astrid', 'Halvorsen', '1987-06-11', null, 'female', 36),
+('Gerd', 'Johnsen', '1974-08-21', null, 'female', -20),
+('Oyvind', 'Amundsen', '2014-10-20', null, 'male', 86),
+('Kjarwal', 'Nguyen', '1992-02-17', null, 'male', 5),
+('Dagny', 'Nygård', '2008-07-19', null, 'female', 64),
+('Arnbjörn', 'Hagen', '1995-04-27', null, 'male', -59),
+('Torfridr', 'Nilsen', '1992-03-23', null, 'female', 94),
+('Alric', 'Berge', '2013-03-12', null, 'male', -90),
+('Eidis', 'Nguyen', '1986-12-15', null, 'female', -79),
+('Torvi', 'Karlsen', '1972-05-20', null, 'female', 92),
+('Ram', 'Johnsen', '1995-08-09', null, 'male', -36),
+('Eidis', 'Johansen', '2021-12-16', null, 'female', -57),
+('Guest', 'Sørensen', '2010-08-19', null, 'male', 52),
+('Sverr', 'Jensen', '1972-08-08', null, 'male', 9),
+('Thorhield', 'Ali', '1994-04-25', null, 'female', -26),
+('Rungerd', 'Berg', '2015-03-10', null, 'female', 71),
+('Torbjorn', 'Moen', '2000-04-03', null, 'male', 72),
+('Eidis', 'Nygård', '2008-08-04', null, 'female', 58),
+('Vegeir', 'Eriksen', '2013-04-02', null, 'male', 77),
+('Siggrid', 'Eriksen', '1983-09-03', null, 'female', 87),
+('Sigmund', 'Kristoffersen', '2014-07-11', null, 'male', 14),
+('Solveig', 'Moe', '1978-05-04', null, 'female', -26),
+('Wagni', 'Berg', '1997-02-02', null, 'male', 71),
+('Ragnar', 'Larsen', '1991-08-25', null, 'male', 13),
+('Kia', 'Berge', '2017-10-13', null, 'female', 15),
+('Ing', 'Larsen', '1991-10-21', null, 'male', -7),
+('Wemund', 'Moen', '1997-11-05', null, 'male', -78),
+('Silge', 'Pedersen', '1980-11-03', null, 'female', 54),
+('Steinmod', 'Hagen', '1973-09-26', null, 'male', -92),
+('Thorodd', 'Nygård', '1977-06-03', null, 'male', -39),
+('Andreas', 'Nguyen', '1989-01-08', null, 'male', 51),
+('Swanveig', 'Amundsen', '2009-10-25', null, 'female', 7),
+('Svanhild', 'Andersen', '1972-02-07', null, 'female', -57),
+('Gunhield', 'Eriksen', '1997-01-18', null, 'female', 52),
+('Ulvar', 'Karlsen', '1981-06-18', null, 'male', 5),
+('Ram', 'Moe', '2001-07-29', null, 'male', 31),
+('Jorgen', 'Knutsen', '1981-10-18', null, 'male', -65),
+('Randalfre', 'Gundersen', '1997-03-25', null, 'male', 11),
+('Jorgen', 'Sørensen', '1992-03-27', null, 'male', 30),
+('Dyarvi', 'Lie', '2001-06-11', null, 'male', -51),
+('Asgerd', 'Eriksen', '2014-07-23', null, 'female', -39),
+('Solveig', 'Pettersen', '1973-11-19', null, 'female', -49),
+('Ide', 'Knutsen', '1981-11-17', null, 'female', -13),
+('Hannah', 'Bakke', '2000-02-17', null, 'female', 25),
+('Asne', 'Eriksen', '1980-12-21', null, 'female', 91),
+('Geirmund', 'Berg', '2005-09-15', null, 'male', 14),
+('Torgnir', 'Amundsen', '2021-01-27', null, 'male', 77),
+('Modi', 'Eide', '1975-11-13', null, 'male', -38),
+('Asgrim', 'Berge', '2010-04-11', null, 'male', -93),
+('Egil', 'Kristensen', '2013-10-27', null, 'male', -39),
+('Call', 'Sørensen', '1992-10-15', null, 'male', 36),
+('Bergtora', 'Karlsen', '1984-07-05', null, 'female', -5),
+('Ingilev', 'Sørensen', '1983-11-12', null, 'male', -43),
+('Sigridr', 'Haugen', '1993-08-19', null, 'female', -91),
+('Halfsen', 'Paulsen', '2011-05-20', null, 'male', -24),
+('Dagny', 'Larsen', '2020-02-05', null, 'female', -14),
+('Injigertr', 'Rasmussen', '2013-08-13', null, 'female', -21),
+('Arngeir', 'Svendsen', '1975-08-15', null, 'male', 44),
+('Hertrud', 'Berg', '2020-06-06', null, 'female', -17),
+('Gunvor', 'Nygård', '2004-10-28', null, 'female', -42),
+('Siv', 'Haugen', '1980-01-12', null, 'female', 93),
+('Arnulv', 'Karlsen', '1972-05-04', null, 'male', 24),
+('Ingrid', 'Iversen', '1971-08-07', null, 'female', 81),
+('Annalize', 'Hagen', '1998-07-27', null, 'female', 84),
+('Gustav', 'Solheim', '1978-05-05', null, 'male', -80),
+('Dahlia', 'Nilsen', '1985-09-07', null, 'female', -21),
+('Eymund', 'Jacobsen', '1999-01-18', null, 'male', -48),
+('Snorri', 'Knutsen', '1997-05-05', null, 'male', -90),
+('Liz', 'Berg', '1973-02-04', null, 'female', -61),
+('Ingired', 'Iversen', '2015-07-11', null, 'male', -75),
+('Gustav', 'Lunde', '1974-12-24', null, 'male', -36),
+('Arnbjorg', 'Solheim', '1997-12-14', null, 'female', 89),
+('Ode', 'Moe', '2009-08-03', null, 'female', -35),
+('Gunnulv', 'Halvorsen', '1978-01-11', null, 'male', 50),
+('Modi', 'Lunde', '1989-04-10', null, 'male', -100),
+('Ingihild', 'Olsen', '1995-05-08', null, 'female', -95),
+('Folkor', 'Sørensen', '1990-09-21', null, 'male', 91),
+('Dahlia', 'Berge', '2000-03-24', null, 'female', 7),
+('Eivindr', 'Eriksen', '1972-10-25', null, 'male', -73),
+('Gunhield', 'Haugen', '1980-12-04', null, 'female', 42),
+('Dan', 'Johannessen', '1987-09-25', null, 'male', 39),
+('Bedvar', 'Johnsen', '1981-06-24', null, 'male', -63),
+('Axel', 'Svendsen', '2001-05-15', null, 'male', 97),
+('Miya', 'Moe', '2006-04-27', null, 'female', 70),
+('Sverr', 'Nygård', '2013-05-13', null, 'male', -53),
+('Utley', 'Lund', '1999-06-20', null, 'male', 66),
+('Rebecca', 'Pedersen', '1986-08-07', null, 'female', -22),
+('Gustav', 'Bakke', '1996-01-31', null, 'male', -67),
+('Christer', 'Johnsen', '2012-11-09', null, 'male', -53),
+('Gustav', 'Eide', '1987-11-01', null, 'male', 81),
+('Eidis', 'Karlsen', '2016-07-06', null, 'female', -96),
+('Runolv', 'Sørensen', '1988-01-23', null, 'male', -42),
+('Helvard', 'Larsen', '2018-09-19', null, 'male', 10),
+('Odd', 'Dahl', '2005-08-17', null, 'male', -20),
+('Vikar', 'Jørgensen', '2012-06-26', null, 'male', -59),
+('Johannes', 'Jacobsen', '1982-03-07', null, 'male', -71),
+('Ketilridr', 'Jensen', '2016-09-27', null, 'female', -13),
+('Gray', 'Lund', '1972-04-18', null, 'female', -67),
+('Folk', 'Pedersen', '1993-04-03', null, 'male', -4),
+('Ingmund', 'Halvorsen', '1979-04-12', null, 'male', 6),
+('Vestar', 'Nygård', '1972-12-05', null, 'male', -80),
+('Brunhild', 'Kristiansen', '1993-05-29', null, 'female', -74),
+('Aud', 'Dahl', '1996-04-14', null, 'male', 38),
+('Hakon', 'Nygård', '1992-08-30', null, 'male', 69),
+('Inga', 'Hagen', '2015-08-11', null, 'female', -80),
+('Ottalia', 'Martinsen', '1986-02-10', null, 'female', -95),
+('Bengta', 'Jacobsen', '1976-08-20', null, 'female', 10),
+('Borghild', 'Sørensen', '1999-05-01', null, 'female', 66),
+('Siv', 'Gundersen', '1992-03-29', null, 'female', -94),
+('Keia', 'Dahl', '1987-09-09', null, 'female', -31),
+('Guthrun', 'Kristiansen', '1988-06-02', null, 'female', 42),
+('Sigwald', 'Berge', '1978-04-09', null, 'male', 52),
+('Freyr', 'Ali', '1993-08-01', null, 'male', -97),
+('Susann', 'Lunde', '2019-12-11', null, 'female', 54),
+('Ittan', 'Berge', '2018-09-15', null, 'female', 65),
+('Siv', 'Lie', '1998-05-06', null, 'female', 3),
+('Caroline', 'Andersen', '1990-02-12', null, 'female', 20),
+('Liulfre', 'Hansen', '2005-04-24', null, 'male', 81),
+('Anders', 'Nguyen', '1992-04-17', null, 'male', 48),
+('Wendela', 'Solberg', '1997-01-21', null, 'female', -76),
+('Eidis', 'Johannessen', '2018-04-30', null, 'female', 21),
+('Sigrid', 'Solberg', '2008-04-11', null, 'male', -92),
+('Ragngerd', 'Haugen', '1981-07-14', null, 'female', 65),
+('Goodred', 'Pedersen', '1978-09-11', null, 'male', 89),
+('Wendela', 'Henriksen', '2000-07-18', null, 'female', -98),
+('Guthrun', 'Hagen', '1976-10-06', null, 'female', -4),
+('Wagni', 'Mathisen', '1973-10-24', null, 'male', 99),
+('Sigurd', 'Johansen', '1974-09-07', null, 'male', 90),
+('Odd', 'Mathisen', '2006-01-02', null, 'male', -4),
+('Oystein', 'Rasmussen', '2008-08-02', null, 'male', 46),
+('Gunther', 'Jacobsen', '2010-11-09', null, 'male', -51),
+('Aud', 'Nilsen', '2011-01-17', null, 'female', 9),
+('Viva', 'Solberg', '1981-05-30', null, 'female', -6),
+('Hild', 'Hansen', '1992-06-25', null, 'female', -21),
+('Khjalmer', 'Olsen', '1994-07-15', null, 'male', -33),
+('Greger', 'Pedersen', '2010-08-30', null, 'male', 30),
+('Torgnir', 'Eriksen', '1980-03-24', null, 'male', 78),
+('Vertendi', 'Hagen', '2002-11-28', null, 'female', 25),
+('Thorstein', 'Ali', '1984-09-20', null, 'male', 90),
+('Jerd', 'Andersen', '2006-05-30', null, 'female', 97),
+('Eidis', 'Nilsen', '2003-12-04', null, 'female', -78),
+('Aslog', 'Lunde', '2015-01-25', null, 'female', 39),
+('Goody', 'Olsen', '2008-07-07', null, 'male', 33),
+('Bergdis', 'Pettersen', '1987-03-03', null, 'female', -83),
+('Guest', 'Solheim', '2009-09-01', null, 'male', -57),
+('Liz', 'Kristensen', '2005-11-11', null, 'female', -68),
+('Brunhild', 'Jacobsen', '2009-08-10', null, 'female', -17),
+('Sigrid', 'Eide', '2003-07-21', null, 'male', 22),
+('Tyra', 'Nilsen', '2016-10-10', null, 'female', -100),
+('Haltor', 'Karlsen', '1996-09-22', null, 'male', 37),
+('Torah', 'Karlsen', '1982-06-21', null, 'female', 24),
+('Swann', 'Strand', '1981-03-07', null, 'male', -55),
+('Goodhild', 'Johannessen', '2018-10-17', null, 'female', 13),
+('Torah', 'Strand', '1986-06-09', null, 'female', -39),
+('Johannes', 'Solberg', '1989-12-31', null, 'male', -59),
+('Brinhield', 'Eide', '2012-03-15', null, 'female', -20),
+('Emily', 'Iversen', '2005-04-22', null, 'female', -81),
+('Sassa', 'Johannessen', '1975-06-04', null, 'female', -38),
+('Steinulv', 'Pettersen', '1983-11-06', null, 'male', -8),
+('Agvid', 'Solberg', '1977-11-27', null, 'male', 26),
+('Asgerd', 'Ali', '1989-08-01', null, 'female', -48),
+('Tyra', 'Amundsen', '2020-07-29', null, 'female', 42),
+('Bernard', 'Paulsen', '1972-03-20', null, 'male', -18),
+('Ingilev', 'Ali', '2002-03-24', null, 'male', -26),
+('Ulvar', 'Halvorsen', '2006-12-11', null, 'male', -36),
+('Tormod', 'Eriksen', '1988-11-20', null, 'male', -49),
+('Ysgerd', 'Jensen', '1993-10-03', null, 'female', 11),
+('Dyarvi', 'Eriksen', '1974-04-18', null, 'male', 89),
+('Trude', 'Kristiansen', '2004-04-30', null, 'female', -36),
+('Caroline', 'Larsen', '1997-07-04', null, 'female', 5),
+('Benedict', 'Eriksen', '2011-01-04', null, 'female', -9),
+('Thorgerd', 'Bakke', '1992-04-21', null, 'female', 24),
+('Ragngerd', 'Eriksen', '2001-12-28', null, 'female', 8),
+('Marie', 'Paulsen', '2021-06-03', null, 'male', -10),
+('Solgerd', 'Dahl', '1989-03-27', null, 'female', -73),
+('Vertendi', 'Johannessen', '2010-02-23', null, 'female', 7),
+('Orme', 'Mathisen', '1987-04-12', null, 'male', -61),
+('Clement', 'Andreassen', '1984-03-03', null, 'male', 24),
+('Oddmand', 'Karlsen', '1988-06-09', null, 'male', 24),
+('Ingilev', 'Nygård', '1975-12-13', null, 'male', -4),
+('Bo', 'Amundsen', '1985-09-01', null, 'male', -34),
+('Gray', 'Lie', '2000-12-07', null, 'female', 90),
+('Vegard', 'Bakke', '2014-01-28', null, 'male', 85),
+('Morten', 'Strand', '2011-06-14', null, 'male', -7),
+('Hertrud', 'Johnsen', '1975-07-22', null, 'female', 61),
+('Kalle', 'Henriksen', '2011-10-21', null, 'male', 4),
+('Emily', 'Berge', '2018-09-19', null, 'female', 72),
+('Steinulv', 'Johnsen', '1997-05-11', null, 'male', -22),
+('Liz', 'Karlsen', '1999-10-07', null, 'female', 31),
+('Benedict', 'Pedersen', '1992-12-13', null, 'female', -37),
+('Thorhield', 'Jensen', '2010-01-07', null, 'female', 46),
+('Holmi', 'Svendsen', '2000-10-18', null, 'male', 63),
+('Akke', 'Lunde', '2009-07-05', null, 'male', -94),
+('Lyotolf', 'Dahl', '2009-12-09', null, 'male', -2),
+('Snor', 'Berge', '2003-01-18', null, 'male', 92),
+('Asgrim', 'Eriksen', '1990-06-18', null, 'male', -58),
+('Michaela', 'Sørensen', '2021-04-20', null, 'female', -100),
+('Annalize', 'Andersen', '1986-10-26', null, 'female', -9),
+('Alfheeld', 'Olsen', '2005-04-14', null, 'female', -51),
+('Ragnbjorg', 'Bakke', '1989-01-17', null, 'female', 64),
+('Eirik', 'Knutsen', '2016-06-26', null, 'male', -100),
+('Bengta', 'Lie', '2020-11-07', null, 'female', -56),
+('Runolv', 'Ali', '2006-05-21', null, 'male', -58),
+('Torgnir', 'Nguyen', '2012-02-21', null, 'male', 22),
+('Vigdis', 'Rasmussen', '1997-03-23', null, 'female', -81),
+('Rig', 'Solheim', '1986-07-27', null, 'male', -38),
+('Aslog', 'Eide', '2016-08-10', null, 'female', 58),
+('Astrid', 'Pettersen', '1971-05-07', null, 'female', 15),
+('Thorhield', 'Jensen', '1973-10-25', null, 'female', 16),
+('Asver', 'Amundsen', '1978-10-06', null, 'male', -60),
+('Thordjorn', 'Moe', '1978-04-19', null, 'male', -89),
+('George', 'Moen', '2016-09-19', null, 'male', 64),
+('Regin', 'Nguyen', '2005-03-21', null, 'male', 15),
+('Sigridr', 'Johannessen', '1999-01-14', null, 'female', 62),
+('Tyra', 'Andersen', '1981-03-25', null, 'female', 59),
+('Sigrid', 'Karlsen', '2002-02-11', null, 'male', 40),
+('Torger', 'Gundersen', '2013-05-19', null, 'male', -45),
+('Thorhild', 'Martinsen', '1972-11-21', null, 'female', 58),
+('Frigga', 'Berg', '1996-08-24', null, 'female', 88),
+('Rig', 'Johannessen', '1972-07-23', null, 'male', 8),
+('Rebecca', 'Berg', '2014-10-15', null, 'female', -53),
+('Alfheeld', 'Gundersen', '2013-11-28', null, 'female', 74),
+('Regin', 'Bakken', '2009-06-18', null, 'male', 74),
+('Arnulv', 'Larsen', '1998-01-19', null, 'male', 75),
+('Torbjorg', 'Sørensen', '1980-08-12', null, 'female', -25),
+('Trude', 'Hagen', '1997-07-22', null, 'female', -100),
+('Ysgerd', 'Knutsen', '1997-10-27', null, 'female', 58),
+('Goodbrand', 'Karlsen', '2018-05-08', null, 'male', -17),
+('Dahlia', 'Johansen', '1993-11-02', null, 'female', -68),
+('Silge', 'Kristiansen', '2004-09-22', null, 'female', 47),
+('Asgerd', 'Strand', '2006-12-18', null, 'female', 27),
+('Sumarliter', 'Nygård', '2018-02-13', null, 'male', 80),
+('Kaisa', 'Paulsen', '1998-04-27', null, 'female', 85),
+('Tordzhils', 'Olsen', '1988-11-07', null, 'male', 80),
+('Gray', 'Nilsen', '1997-11-09', null, 'female', -21),
+('Ansgar', 'Kristoffersen', '2007-02-18', null, 'male', 20),
+('Webrand', 'Berge', '1976-09-15', null, 'male', -51),
+('Asmund', 'Paulsen', '2002-05-08', null, 'male', 62),
+('Adela', 'Moe', '1973-07-31', null, 'female', 21),
+('Vardy', 'Larsen', '2001-04-24', null, 'male', 49),
+('Carey', 'Lie', '1994-01-14', null, 'female', -55),
+('Swanveig', 'Henriksen', '1998-12-18', null, 'female', -34),
+('Thorgerd', 'Haugen', '2010-06-29', null, 'female', -95),
+('Gunhield', 'Strand', '1976-03-23', null, 'female', 79),
+('Ulv', 'Nygård', '2016-12-26', null, 'male', 27),
+('Carey', 'Johnsen', '1983-05-20', null, 'female', 19),
+('Torah', 'Lie', '2005-05-04', null, 'female', 14),
+('Michaela', 'Kristoffersen', '1983-02-06', null, 'female', 26),
+('Yon', 'Jacobsen', '2009-02-17', null, 'male', -29),
+('Gulla', 'Bakke', '1996-05-28', null, 'female', -51),
+('Tormod', 'Knutsen', '2005-02-02', null, 'male', 62),
+('Karita', 'Karlsen', '2014-07-03', null, 'female', 41),
+('Tyra', 'Gundersen', '1997-12-25', null, 'female', 95),
+('Torah', 'Andersen', '2013-04-11', null, 'female', 44),
+('Eirik', 'Haugen', '1992-03-28', null, 'male', -24),
+('Guda', 'Iversen', '2004-12-24', null, 'female', -44),
+('Gray', 'Berg', '2001-06-08', null, 'female', -47),
+('Asgrim', 'Johansen', '1980-01-04', null, 'male', 34),
+('Frode', 'Andersen', '2000-10-14', null, 'male', 68),
+('Rungerd', 'Jakobsen', '1993-11-22', null, 'female', -3),
+('Bercy', 'Amundsen', '2000-08-12', null, 'male', -96),
+('Eymund', 'Nilsen', '2020-04-25', null, 'male', 66),
+('Snor', 'Pedersen', '1987-07-24', null, 'male', 32),
+('Siv', 'Lie', '2007-02-26', null, 'female', -91),
+('Kelda', 'Johannessen', '1998-08-09', null, 'female', 16),
+('Shooting', 'Jakobsen', '1977-05-15', null, 'male', -23),
+('Bruni', 'Gundersen', '1979-06-16', null, 'male', -39),
+('Ottalia', 'Pedersen', '2000-03-27', null, 'female', 41),
+('Alva', 'Johannessen', '2001-01-04', null, 'female', -68),
+('Gretta', 'Jakobsen', '2002-06-03', null, 'female', -49),
+('Asgerd', 'Kristensen', '1994-02-17', null, 'female', 19),
+('Rungerd', 'Berge', '2003-03-31', null, 'female', -23),
+('Bathilda', 'Rasmussen', '2019-03-25', null, 'female', -14),
+('Eyvind', 'Iversen', '1995-12-17', null, 'male', -7),
+('Signe', 'Larsen', '1992-05-04', null, 'female', 42),
+('Ragnar', 'Bakken', '1998-01-08', null, 'male', -28),
+('Asgerd', 'Karlsen', '2011-11-13', null, 'female', 86),
+('Gretta', 'Karlsen', '1975-02-11', null, 'female', 70),
+('Gunnar', 'Kristensen', '1982-04-26', null, 'male', 58),
+('Ragnild', 'Eriksen', '2008-05-24', null, 'female', -29),
+('Eidis', 'Kristiansen', '2017-12-09', null, 'female', -1),
+('Liulfre', 'Henriksen', '1999-12-21', null, 'male', -93),
+('Bergdis', 'Moen', '2012-03-20', null, 'female', -64),
+('Lynn', 'Sørensen', '1994-06-02', null, 'female', 1),
+('Svanhild', 'Kristiansen', '2002-02-09', null, 'female', -98),
+('Egil', 'Knutsen', '1980-04-28', null, 'male', 69),
+('Gisli', 'Pettersen', '2017-07-20', null, 'male', -44),
+('Shooting', 'Johansen', '1997-07-29', null, 'male', -44),
+('Sigmund', 'Jensen', '1976-05-22', null, 'male', 14),
+('Merith', 'Lunde', '2008-05-11', null, 'female', 3),
+('Tyra', 'Larsen', '1996-03-14', null, 'female', -16),
+('Arnulv', 'Larsen', '1987-10-06', null, 'male', -38),
+('Oddmand', 'Nygård', '1973-07-08', null, 'male', -90),
+('Torgisl', 'Gundersen', '2018-06-26', null, 'male', 37),
+('Torbjorn', 'Pedersen', '2003-01-12', null, 'male', 8),
+('Kalle', 'Moe', '2019-04-05', null, 'male', -5),
+('Alva', 'Lund', '2009-03-06', null, 'female', 34),
+('Lyotolf', 'Sørensen', '2011-11-17', null, 'male', 5),
+('Ingemar', 'Solberg', '2021-04-14', null, 'male', -76),
+('Gerhard', 'Jacobsen', '1980-09-28', null, 'male', -10),
+('Solgerd', 'Moen', '1982-02-23', null, 'female', 81),
+('Björn', 'Andersen', '2021-07-01', null, 'male', -56),
+('Gunvor', 'Moen', '2003-01-17', null, 'female', 58),
+('Caroline', 'Moe', '1999-11-23', null, 'female', 18),
+('Gray', 'Johnsen', '2003-07-25', null, 'female', -96),
+('Snabjorn', 'Dahl', '1975-09-07', null, 'male', -15),
+('Gerd', 'Ali', '1993-08-04', null, 'female', 53),
+('Ysgerd', 'Knutsen', '1995-11-22', null, 'female', 44),
+('Hild', 'Strand', '1971-05-17', null, 'female', 99),
+('Tormod', 'Jørgensen', '2009-05-05', null, 'male', 10),
+('Agmund', 'Jacobsen', '1986-06-16', null, 'male', -54),
+('Eirik', 'Andersen', '2001-12-07', null, 'male', 7),
+('Morten', 'Nilsen', '1998-04-22', null, 'male', -35),
+('Torketill', 'Gundersen', '1992-04-12', null, 'male', 15),
+('Helga', 'Moen', '1974-10-30', null, 'female', -38),
+('Ingilev', 'Henriksen', '1984-10-25', null, 'male', 37),
+('Ittan', 'Strand', '2009-08-21', null, 'female', 6),
+('Khjalmer', 'Hansen', '2004-04-27', null, 'male', 33),
+('Isunnr', 'Henriksen', '2002-02-03', null, 'female', 35),
+('Bödolv', 'Eide', '2004-10-07', null, 'male', 8),
+('Rind', 'Haugen', '2013-07-25', null, 'female', -70),
+('Rungerd', 'Haugen', '1982-01-27', null, 'female', -45),
+('Magnheeld', 'Hansen', '1993-05-11', null, 'female', -89),
+('Wendela', 'Henriksen', '1994-06-29', null, 'female', -3),
+('OL', 'Johansen', '1978-03-07', null, 'male', 24),
+('Marie', 'Solheim', '2019-07-04', null, 'male', 44),
+('Asne', 'Rasmussen', '2016-09-15', null, 'female', -73),
+('Silge', 'Andreassen', '1979-11-18', null, 'female', 77),
+('Frita', 'Paulsen', '1986-06-25', null, 'female', -24),
+('Hrut', 'Andreassen', '2020-03-15', null, 'male', -79),
+('Sigrid', 'Moe', '1995-07-24', null, 'male', -95),
+('Brinhield', 'Nygård', '2008-05-21', null, 'female', -31),
+('Thorolf', 'Jakobsen', '1998-05-30', null, 'male', 39),
+('Aud', 'Halvorsen', '2016-02-02', null, 'female', -73),
+('Asmund', 'Gundersen', '1985-02-16', null, 'male', -3),
+('Finr', 'Jakobsen', '1985-07-05', null, 'male', -30),
+('Inga', 'Larsen', '1991-11-07', null, 'female', 94),
+('Dagny', 'Johnsen', '1984-04-20', null, 'female', -38),
+('Kelda', 'Jacobsen', '1971-11-18', null, 'female', 30),
+('Alfheeld', 'Lunde', '2015-08-16', null, 'female', 66),
+('Rebecca', 'Eriksen', '1995-04-05', null, 'female', -64),
+('Vertendi', 'Solheim', '1976-10-04', null, 'female', -36),
+('Solgerd', 'Olsen', '2018-10-24', null, 'female', -100),
+('Gulla', 'Lund', '1975-12-16', null, 'female', 90),
+('Magnheeld', 'Halvorsen', '2009-10-14', null, 'female', -8),
+('Geirmund', 'Bakke', '2021-03-22', null, 'male', 29),
+('Ottalia', 'Jacobsen', '2000-11-05', null, 'female', -89),
+('Tormod', 'Berge', '1972-09-12', null, 'male', -56),
+('Asgrim', 'Karlsen', '1974-08-09', null, 'male', 41),
+('Ragnild', 'Eriksen', '2008-07-19', null, 'female', 51),
+('Arnbjorg', 'Dahl', '1987-10-08', null, 'female', -49),
+('Aslog', 'Halvorsen', '1991-11-27', null, 'female', 84),
+('Rig', 'Solberg', '2008-08-10', null, 'male', 23),
+('Bardi', 'Nygård', '1989-08-11', null, 'male', 70),
+('Aud', 'Eriksen', '2019-01-11', null, 'female', -81),
+('Eymund', 'Eriksen', '1987-05-02', null, 'male', 79),
+('Thorgerd', 'Bakken', '1983-11-24', null, 'female', -36),
+('Ode', 'Jensen', '1984-10-21', null, 'female', -85),
+('Aud', 'Pedersen', '2007-12-20', null, 'female', -71),
+('Einar', 'Paulsen', '2000-11-13', null, 'male', -31),
+('Ragnbjorg', 'Eide', '1984-11-14', null, 'female', 14),
+('Ketilridr', 'Kristiansen', '1974-01-03', null, 'female', 74),
+('Audun', 'Solberg', '1977-11-24', null, 'male', 59),
+('Eymund', 'Svendsen', '1998-04-24', null, 'male', 37),
+('Siggrid', 'Martinsen', '1990-10-23', null, 'female', -92),
+('Svanhild', 'Lunde', '1991-01-11', null, 'female', -2),
+('Frita', 'Kristensen', '2002-11-10', null, 'female', -8),
+('Asweig', 'Paulsen', '1971-04-16', null, 'female', -77),
+('Sigmund', 'Moe', '1988-07-26', null, 'male', -80),
+('Dagny', 'Karlsen', '2011-10-04', null, 'female', -96),
+('Runnveig', 'Halvorsen', '1984-04-15', null, 'female', -30),
+('Tofa', 'Hansen', '1981-12-04', null, 'female', 2),
+('Fredrika', 'Henriksen', '2006-03-21', null, 'female', -57),
+('Karita', 'Larsen', '2015-02-11', null, 'female', 88),
+('Ottalia', 'Knutsen', '2012-01-23', null, 'female', -85),
+('Wemund', 'Dahl', '1992-10-17', null, 'male', 72),
+('Skuld', 'Nygård', '2003-11-20', null, 'female', -36),
+('Asver', 'Johnsen', '1971-06-26', null, 'male', -63),
+('Snorri', 'Martinsen', '1992-08-16', null, 'male', 12),
+('Eyvind', 'Andreassen', '2021-02-11', null, 'male', 22),
+('Bergdis', 'Sørensen', '1975-12-05', null, 'female', -76),
+('Miya', 'Rasmussen', '1972-04-14', null, 'female', -64),
+('Dagny', 'Moe', '1973-04-09', null, 'female', -3),
+('Sindri', 'Kristensen', '2006-04-16', null, 'male', 20),
+('Ingridr', 'Andreassen', '2010-12-09', null, 'female', -69),
+('Aud', 'Nygård', '1975-12-29', null, 'male', 8),
+('Aud', 'Hagen', '1985-03-26', null, 'male', 76),
+('Marne', 'Sørensen', '1997-11-11', null, 'female', 78),
+('Guest', 'Mathisen', '1994-08-18', null, 'male', -92),
+('Torah', 'Lie', '2003-12-06', null, 'female', -91),
+('Torbjorn', 'Bakken', '2020-12-28', null, 'male', -6),
+('Liz', 'Nilsen', '2010-03-26', null, 'female', -38),
+('Bercy', 'Dahl', '2017-11-19', null, 'male', 70),
+('Inga', 'Jacobsen', '2020-09-18', null, 'female', 27),
+('Johannes', 'Jørgensen', '1981-02-11', null, 'male', -89),
+('Caroline', 'Solheim', '1978-09-05', null, 'female', -41),
+('Idannr', 'Sørensen', '2016-02-02', null, 'female', 2),
+('Thor', 'Lund', '1998-05-14', null, 'male', 89),
+('Bernard', 'Jacobsen', '2015-12-11', null, 'male', 79),
+('Bathilda', 'Eriksen', '2003-02-28', null, 'female', -21),
+('Webrand', 'Kristensen', '1980-07-28', null, 'male', 18),
+('Halfsen', 'Berg', '1975-01-06', null, 'male', 96),
+('Kollbein', 'Henriksen', '1979-04-25', null, 'male', 29),
+('Oddmand', 'Kristiansen', '2007-09-07', null, 'male', 65),
+('Asbjörn', 'Berg', '2002-09-27', null, 'male', 45),
+('Arnulv', 'Solberg', '1997-05-08', null, 'male', 65),
+('Hrut', 'Jørgensen', '1993-10-14', null, 'male', -13),
+('Rind', 'Lund', '1995-12-26', null, 'female', 76),
+('Arnulv', 'Andersen', '1975-09-20', null, 'male', -34),
+('Almod', 'Sørensen', '2010-01-19', null, 'male', 88),
+('Asweig', 'Nguyen', '1992-04-20', null, 'female', -44),
+('Ode', 'Gundersen', '1985-05-22', null, 'female', 52),
+('Lyotolf', 'Andersen', '1991-01-21', null, 'male', -30),
+('Lagertha', 'Larsen', '1971-12-30', null, 'female', 3),
+('Ottalia', 'Kristensen', '2014-02-21', null, 'female', 34),
+('Holger', 'Larsen', '1972-04-06', null, 'male', -76),
+('Auden', 'Kristiansen', '1975-01-05', null, 'male', 25),
+('Ulvbjorn', 'Jensen', '1983-05-31', null, 'male', 78),
+('Frost', 'Kristensen', '2002-05-25', null, 'male', 10),
+('Ragnar', 'Martinsen', '1979-06-17', null, 'male', 70),
+('Ysgerd', 'Jensen', '1982-10-14', null, 'female', -12),
+('Arnbjorg', 'Larsen', '1975-11-16', null, 'female', -90),
+('Eyvind', 'Johannessen', '1977-01-27', null, 'male', -98),
+('Frigga', 'Lie', '1997-04-22', null, 'female', 75),
+('Solveig', 'Eriksen', '1995-01-18', null, 'female', -18),
+('Siggrid', 'Martinsen', '1986-09-17', null, 'female', -56),
+('Steinmunn', 'Dahl', '2000-09-29', null, 'female', -23),
+('Helga', 'Bakke', '1983-02-08', null, 'female', -62),
+('Marne', 'Lund', '1998-01-17', null, 'female', 6),
+('Skeggie', 'Solberg', '2007-10-19', null, 'male', 93),
+('Eileithr', 'Eide', '1985-07-01', null, 'male', 86),
+('Webrand', 'Moe', '1976-06-13', null, 'male', -52),
+('Espen', 'Pedersen', '1990-10-07', null, 'male', 9),
+('Gunther', 'Jørgensen', '1977-12-29', null, 'male', -28),
+('Kelda', 'Haugen', '2004-03-27', null, 'female', 34),
+('Vermund', 'Jacobsen', '1980-01-27', null, 'male', -86),
+('Michaela', 'Svendsen', '1971-04-06', null, 'female', 61),
+('Sigrid', 'Andreassen', '2002-01-22', null, 'male', -36),
+('Guda', 'Knutsen', '1971-11-10', null, 'female', -16),
+('Folkor', 'Andersen', '1980-01-26', null, 'male', 92),
+('Westgeir', 'Iversen', '1995-02-01', null, 'male', 49),
+('Svea', 'Rasmussen', '2019-06-06', null, 'female', 60),
+('Emily', 'Paulsen', '2012-12-09', null, 'female', 68),
+('Ulv', 'Haugen', '2009-12-30', null, 'male', 70),
+('Asbjörn', 'Moe', '2019-06-16', null, 'male', 81),
+('Vivec', 'Karlsen', '1996-09-24', null, 'female', 97),
+('Greger', 'Olsen', '2005-02-28', null, 'male', -96),
+('Hannah', 'Johannessen', '2013-02-13', null, 'female', -24),
+('Asne', 'Berg', '2002-10-30', null, 'female', -99),
+('Attila', 'Lunde', '2013-02-05', null, 'male', -53),
+('Magnheeld', 'Ali', '1980-08-27', null, 'female', -5),
+('Thordjorn', 'Moe', '2001-05-19', null, 'male', 49),
+('Bruni', 'Knutsen', '1999-11-25', null, 'male', -6),
+('Ottalia', 'Solberg', '2017-06-04', null, 'female', 84),
+('Vincent', 'Hansen', '2011-01-04', null, 'male', 89),
+('Goodbrand', 'Eide', '1974-08-28', null, 'male', -30),
+('Finr', 'Olsen', '1998-06-03', null, 'male', -31),
+('Helgi', 'Bakken', '1979-07-27', null, 'male', 5),
+('Wemund', 'Dahl', '2011-07-18', null, 'male', 36),
+('Loki', 'Eide', '2019-06-26', null, 'male', 35),
+('Vestar', 'Rasmussen', '2015-09-30', null, 'male', -12),
+('Frita', 'Jørgensen', '1971-11-07', null, 'female', -26),
+('Guthrun', 'Berg', '1987-04-03', null, 'female', 1),
+('Miya', 'Rasmussen', '2021-08-23', null, 'female', -52),
+('Asgerd', 'Solberg', '1979-07-18', null, 'female', 24),
+('Westein', 'Jensen', '1998-04-18', null, 'male', 10),
+('Gunnulv', 'Ali', '1973-03-29', null, 'male', -27),
+('Lynn', 'Knutsen', '1994-11-03', null, 'female', 57),
+('Frodie', 'Kristiansen', '1999-07-07', null, 'male', -35),
+('Torketill', 'Amundsen', '1974-06-22', null, 'male', -3),
+('Vardy', 'Rasmussen', '2009-07-08', null, 'male', -66),
+('Hawk', 'Karlsen', '2008-04-09', null, 'male', -94),
+('Siggrid', 'Eide', '1984-10-20', null, 'female', 97),
+('Ragnild', 'Martinsen', '1989-07-21', null, 'female', -45),
+('Svanhild', 'Andersen', '1986-03-28', null, 'female', 8),
+('Signe', 'Karlsen', '1983-01-18', null, 'female', -82),
+('Caroline', 'Solberg', '2017-04-23', null, 'female', 83),
+('Bergtora', 'Moe', '1977-08-05', null, 'female', 30),
+('Brinhield', 'Paulsen', '1986-02-20', null, 'female', 69),
+('Ragnhildr', 'Pettersen', '1973-07-29', null, 'female', 36),
+('Axel', 'Henriksen', '1991-03-05', null, 'male', -84),
+('Torbjorg', 'Olsen', '2012-12-28', null, 'female', 90),
+('Asweig', 'Amundsen', '1997-03-09', null, 'female', -18),
+('Ingemar', 'Hagen', '1971-11-02', null, 'male', 62),
+('Greger', 'Sørensen', '2009-07-18', null, 'male', 40),
+('Frigga', 'Andreassen', '2017-01-25', null, 'female', 49),
+('Valgard', 'Henriksen', '1982-02-27', null, 'male', -89),
+('Holmi', 'Halvorsen', '1974-11-15', null, 'male', -15),
+('Sigrun', 'Haugen', '2003-03-25', null, 'female', 19),
+('Modi', 'Pettersen', '1988-02-28', null, 'male', -18),
+('Aslog', 'Jacobsen', '2005-12-28', null, 'female', -83),
+('Ingrid', 'Kristoffersen', '2004-02-09', null, 'female', -3),
+('Sigwald', 'Solheim', '1983-03-03', null, 'male', -56),
+('Sigwald', 'Andreassen', '1981-05-13', null, 'male', 48),
+('Roald', 'Berg', '2004-04-01', null, 'male', 27),
+('Valgard', 'Strand', '1973-04-21', null, 'male', 37),
+('Gray', 'Andersen', '1976-03-20', null, 'female', 43),
+('Bercy', 'Amundsen', '1996-11-07', null, 'male', 37),
+('Holmi', 'Kristiansen', '1997-03-05', null, 'male', -21),
+('Guda', 'Kristoffersen', '1998-07-24', null, 'female', 43),
+('Inga', 'Henriksen', '2017-11-01', null, 'female', 63),
+('Lagertha', 'Kristoffersen', '2016-01-22', null, 'female', -81),
+('Folkor', 'Moe', '1974-09-20', null, 'male', -94),
+('Lynn', 'Andersen', '1985-03-26', null, 'female', -5),
+('Tyra', 'Halvorsen', '1977-03-07', null, 'female', 34),
+('Brinhield', 'Knutsen', '1984-08-11', null, 'female', -24),
+('Torbjorn', 'Henriksen', '2021-08-12', null, 'male', -70),
+('Solveig', 'Dahl', '2021-06-07', null, 'female', 51),
+('Martha', 'Nguyen', '1971-06-24', null, 'female', -51),
+('Valborg', 'Jensen', '1971-02-13', null, 'female', 13),
+('Eyolve', 'Jensen', '2001-09-19', null, 'male', -13),
+('Fredrika', 'Jensen', '1973-12-08', null, 'female', -5),
+('Siv', 'Berg', '2000-05-20', null, 'female', -23),
+('Gerhard', 'Hagen', '2011-04-08', null, 'male', -23),
+('Hild', 'Solberg', '2017-06-21', null, 'female', -75),
+('Björn', 'Johansen', '1997-07-10', null, 'male', -90),
+('Odd', 'Hagen', '2018-10-14', null, 'male', -45),
+('Alfsigr', 'Larsen', '2008-01-20', null, 'female', -39),
+('Agvid', 'Sørensen', '2014-06-09', null, 'male', -92),
+('Astritr', 'Amundsen', '1999-05-02', null, 'female', -35),
+('Asgrim', 'Hansen', '1982-07-02', null, 'male', 65),
+('Emily', 'Dahl', '1989-09-14', null, 'female', -72),
+('Andreas', 'Solberg', '1991-12-02', null, 'male', -9),
+('Sigurd', 'Jensen', '2012-05-10', null, 'male', -12),
+('Holger', 'Bakken', '1982-06-22', null, 'male', 53),
+('Runnveig', 'Sørensen', '1972-08-08', null, 'female', 70),
+('Injeborg', 'Svendsen', '1998-03-29', null, 'female', -38),
+('Bengta', 'Sørensen', '2010-04-09', null, 'female', 44),
+('Lyotolf', 'Nygård', '1997-05-16', null, 'male', 55),
+('Skuld', 'Eide', '2002-03-12', null, 'female', 49),
+('Rind', 'Solberg', '2020-11-29', null, 'female', 56),
+('Hild', 'Olsen', '1999-07-03', null, 'female', -12),
+('Rebecca', 'Martinsen', '1998-05-04', null, 'female', -96),
+('Hyarty', 'Lie', '2002-11-01', null, 'male', -97),
+('Agot', 'Lund', '2017-02-20', null, 'female', 6),
+('Gunhield', 'Jakobsen', '1989-07-23', null, 'female', -45),
+('Roald', 'Jacobsen', '2004-03-11', null, 'male', -15),
+('Caroline', 'Sørensen', '2001-02-09', null, 'female', 31),
+('Raud', 'Knutsen', '1975-12-31', null, 'male', 73),
+('Steinulv', 'Martinsen', '2005-09-11', null, 'male', 22),
+('Lagertha', 'Rasmussen', '1983-09-09', null, 'female', 43),
+('Aslog', 'Nilsen', '2017-05-19', null, 'female', -85),
+('Adela', 'Kristoffersen', '1991-03-31', null, 'female', -8),
+('Hring', 'Svendsen', '1992-03-25', null, 'male', -93),
+('Egil', 'Johnsen', '1993-05-27', null, 'male', -32),
+('Gretta', 'Pedersen', '1997-05-04', null, 'female', -4),
+('Holmi', 'Kristoffersen', '1986-04-21', null, 'male', 20),
+('Michaela', 'Nygård', '2017-04-03', null, 'female', 23),
+('Freyr', 'Larsen', '1987-10-20', null, 'male', 31),
+('Tordzhils', 'Lie', '2009-06-01', null, 'male', 82),
+('Johannes', 'Knutsen', '1982-06-17', null, 'male', 20),
+('Torfridr', 'Sørensen', '1992-01-10', null, 'female', 66),
+('Ittan', 'Kristiansen', '2003-08-13', null, 'female', -74),
+('Lave', 'Olsen', '1993-10-26', null, 'male', 45),
+('Loki', 'Berg', '2002-07-27', null, 'male', 71),
+('Martha', 'Rasmussen', '2019-04-21', null, 'female', 93),
+('Jerd', 'Larsen', '1993-08-06', null, 'female', -24),
+('Ingrid', 'Iversen', '1995-02-06', null, 'female', 69),
+('Aud', 'Pettersen', '2017-06-24', null, 'female', -14),
+('Alric', 'Andersen', '2018-12-14', null, 'male', -67),
+('Silge', 'Hagen', '2010-12-25', null, 'female', 63),
+('Collbjorn', 'Sørensen', '2020-08-10', null, 'male', 34),
+('Frederick', 'Jørgensen', '2020-08-14', null, 'male', -65),
+('Friedmund', 'Paulsen', '1989-08-15', null, 'male', -82),
+('Torger', 'Kristoffersen', '1999-01-03', null, 'male', 68),
+('Gerhard', 'Sørensen', '1980-04-26', null, 'male', 89),
+('Asa', 'Paulsen', '2018-09-14', null, 'female', -33),
+('Sigridr', 'Johansen', '2019-05-11', null, 'female', 79),
+('Hallstein', 'Moe', '2011-12-02', null, 'male', 9),
+('Henry', 'Sørensen', '2014-05-12', null, 'male', -20),
+('Eirik', 'Lund', '2019-03-17', null, 'male', 15),
+('Vertendi', 'Eide', '1997-07-18', null, 'female', 37),
+('Torbjorn', 'Johannessen', '2005-07-31', null, 'male', -48),
+('Torgisl', 'Nygård', '2015-08-05', null, 'male', 20),
+('Solveig', 'Sørensen', '2007-04-01', null, 'female', 70),
+('Torbjorg', 'Andreassen', '1987-11-21', null, 'female', -18),
+('Freya', 'Kristensen', '1972-03-07', null, 'female', 53),
+('Silge', 'Bakke', '2017-12-29', null, 'female', 5),
+('Ottalia', 'Johansen', '1991-05-30', null, 'female', 80),
+('Agmund', 'Olsen', '2016-03-05', null, 'male', 21),
+('Adela', 'Lunde', '2008-06-25', null, 'female', -8),
+('Helga', 'Nguyen', '2016-09-24', null, 'female', -26),
+('Asweig', 'Solheim', '2021-09-12', null, 'female', -12),
+('Aslog', 'Iversen', '1977-04-24', null, 'female', -4),
+('Goodred', 'Ali', '1998-04-05', null, 'male', -90),
+('Eileithr', 'Jørgensen', '1971-11-15', null, 'male', -37),
+('Alfheeld', 'Moe', '2014-10-17', null, 'female', 64),
+('Borghild', 'Karlsen', '1978-05-04', null, 'female', -13),
+('Finr', 'Solheim', '2012-10-05', null, 'male', -59),
+('Logmair', 'Olsen', '2009-09-23', null, 'male', 81),
+('Eirik', 'Dahl', '2017-06-20', null, 'male', 45),
+('Friedlave', 'Paulsen', '1973-03-21', null, 'male', -28),
+('Ragnwold', 'Nguyen', '1998-04-05', null, 'male', 63),
+('Vestar', 'Kristiansen', '1979-12-27', null, 'male', -59),
+('Helmi', 'Eide', '1983-12-17', null, 'male', -67),
+('Asgerd', 'Bakken', '1976-05-08', null, 'female', 87),
+('Bergdis', 'Strand', '2009-07-14', null, 'female', 78),
+('Webrand', 'Kristoffersen', '2003-12-04', null, 'male', 16),
+('Eisteinne', 'Johnsen', '2011-12-01', null, 'male', 57),
+('Freya', 'Olsen', '1978-09-15', null, 'female', -15),
+('Ingihild', 'Strand', '2005-08-29', null, 'female', 54),
+('Rungerd', 'Amundsen', '2003-06-05', null, 'female', -13),
+('Liz', 'Pedersen', '1998-06-10', null, 'female', 56),
+('Liulfre', 'Lunde', '1976-10-02', null, 'male', 59),
+('Astritr', 'Johansen', '1990-02-07', null, 'female', 74),
+('Magnheeld', 'Andersen', '2006-02-11', null, 'female', -13),
+('Vikar', 'Kristiansen', '1993-07-25', null, 'male', -29),
+('Astritr', 'Jakobsen', '1985-10-21', null, 'female', 34),
+('Bergtora', 'Amundsen', '1991-01-14', null, 'female', 45),
+('Trude', 'Pettersen', '1981-04-03', null, 'female', 81),
+('Trude', 'Hansen', '2010-08-18', null, 'female', 85),
+('Rungerd', 'Nguyen', '1977-10-17', null, 'female', 83),
+('Thorgerd', 'Dahl', '1975-01-05', null, 'female', 73),
+('Eymund', 'Berge', '1987-02-28', null, 'male', -95),
+('Ragnbjorg', 'Nilsen', '2009-05-22', null, 'female', -10),
+('Tofa', 'Kristensen', '1974-07-31', null, 'female', -41),
+('Kaisa', 'Iversen', '2014-06-05', null, 'female', 5),
+('Sigurd', 'Jacobsen', '1971-07-28', null, 'male', 93),
+('Orme', 'Johannessen', '1998-03-15', null, 'male', 47),
+('Holger', 'Pettersen', '1976-11-23', null, 'male', -93),
+('Eidis', 'Nguyen', '2006-06-06', null, 'female', 96),
+('Ide', 'Henriksen', '1982-09-17', null, 'female', -35),
+('Brinhield', 'Mathisen', '2002-07-16', null, 'female', -56),
+('Wendela', 'Kristoffersen', '1986-05-05', null, 'female', 76),
+('Bergtora', 'Hagen', '2021-11-18', null, 'female', 43),
+('Torvi', 'Lunde', '1981-08-07', null, 'female', -12),
+('Knud', 'Andreassen', '1981-07-15', null, 'male', 37),
+('Orme', 'Solberg', '2016-08-11', null, 'male', -45),
+('Tollek', 'Gundersen', '1994-01-27', null, 'male', -44),
+('Alfsigr', 'Jacobsen', '1997-12-08', null, 'female', 25),
+('Goodred', 'Kristensen', '2005-12-17', null, 'male', 24),
+('Raud', 'Johnsen', '2007-09-26', null, 'male', 53),
+('Torger', 'Strand', '2000-08-17', null, 'male', -19),
+('Torbert', 'Strand', '1983-05-31', null, 'female', -8),
+('Thorgerd', 'Mathisen', '1972-10-01', null, 'female', 57),
+('Eyleave', 'Iversen', '1992-01-10', null, 'male', -51),
+('Vigdis', 'Iversen', '2016-03-04', null, 'female', 3),
+('Agvid', 'Henriksen', '2017-10-15', null, 'male', 93),
+('Thor', 'Johansen', '1980-12-30', null, 'male', 65),
+('Torah', 'Olsen', '2009-09-06', null, 'female', 89),
+('Johannes', 'Rasmussen', '1986-11-02', null, 'male', 59),
+('Astrid', 'Gundersen', '2004-06-20', null, 'female', -91),
+('Thorstein', 'Jensen', '1971-11-16', null, 'male', 6),
+('Ram', 'Eriksen', '2008-10-03', null, 'male', 45),
+('Tormod', 'Pettersen', '1997-01-15', null, 'male', 79),
+('Solveig', 'Strand', '2013-08-02', null, 'female', 89),
+('Wendela', 'Pettersen', '1993-11-11', null, 'female', 87),
+('Asweig', 'Jensen', '2006-02-12', null, 'female', -41),
+('Torgeir', 'Amundsen', '2015-03-30', null, 'male', -40),
+('Magnheeld', 'Karlsen', '2021-07-28', null, 'female', 39),
+('Ingridr', 'Olsen', '1992-04-25', null, 'female', 31),
+('Frita', 'Gundersen', '1983-05-12', null, 'female', -48),
+('Torbert', 'Johnsen', '1982-09-21', null, 'female', 37),
+('Rollo', 'Hansen', '2014-10-04', null, 'male', -66),
+('Frode', 'Iversen', '2010-07-01', null, 'male', -41),
+('Emily', 'Solberg', '1978-05-31', null, 'female', -37),
+('Alv', 'Pettersen', '1972-07-08', null, 'male', 72),
+('Fredrika', 'Nilsen', '2008-03-30', null, 'female', 93),
+('Kalle', 'Kristiansen', '1978-05-14', null, 'male', -12),
+('Ode', 'Paulsen', '1988-12-27', null, 'female', 93),
+('Vegard', 'Larsen', '1983-12-11', null, 'male', 24),
+('Asweig', 'Kristensen', '1975-11-07', null, 'female', -56),
+('Arnulv', 'Andreassen', '2020-10-03', null, 'male', 73),
+('Khjalmer', 'Eriksen', '2019-04-12', null, 'male', 81),
+('Hallstein', 'Bakke', '1987-10-19', null, 'male', 1),
+('Grese', 'Bakke', '2017-12-26', null, 'female', 16),
+('Alva', 'Knutsen', '2012-03-05', null, 'female', 70),
+('Injigertr', 'Henriksen', '2019-06-06', null, 'female', -18),
+('Sassa', 'Olsen', '2009-01-21', null, 'female', -64),
+('Marne', 'Knutsen', '2010-11-15', null, 'female', -50),
+('Dagny', 'Ali', '1983-12-19', null, 'female', 14),
+('Ormarr', 'Olsen', '2016-11-20', null, 'male', -24),
+('Axel', 'Sørensen', '1994-03-24', null, 'male', 35),
+('Bedmod', 'Halvorsen', '2011-04-29', null, 'male', -60),
+('Bedmod', 'Hansen', '1993-08-21', null, 'male', 7),
+('Asne', 'Larsen', '1997-07-09', null, 'female', 32),
+('Einar', 'Lund', '1979-03-23', null, 'male', -10),
+('Modi', 'Haugen', '2021-03-31', null, 'male', -8),
+('Bo', 'Nguyen', '1981-01-16', null, 'male', -5),
+('Caroline', 'Lund', '1991-12-09', null, 'female', -96),
+('Gunhield', 'Haugen', '1978-10-12', null, 'female', 26),
+('Ingemar', 'Nguyen', '1986-02-12', null, 'male', -59),
+('Kaisa', 'Svendsen', '2020-05-26', null, 'female', 53),
+('Arnlot', 'Solheim', '2019-11-29', null, 'male', -18),
+('Trude', 'Jakobsen', '2010-02-21', null, 'female', -97),
+('Axel', 'Johannessen', '1979-12-30', null, 'male', 63),
+('Annalize', 'Haugen', '2006-09-22', null, 'female', -10),
+('Gunvor', 'Moe', '2018-12-05', null, 'female', -28),
+('Torgnir', 'Hansen', '2020-09-03', null, 'male', 33),
+('Axel', 'Jakobsen', '2015-11-30', null, 'male', -77),
+('Gray', 'Martinsen', '1983-06-08', null, 'female', 93),
+('Vincent', 'Kristensen', '2014-05-17', null, 'male', 49),
+('Thorstein', 'Karlsen', '2007-03-15', null, 'male', 31),
+('Talek', 'Sørensen', '1983-04-02', null, 'male', -96),
+('Ingilev', 'Moen', '2017-03-04', null, 'male', 62),
+('Emily', 'Gundersen', '1998-08-06', null, 'female', -24),
+('Vegeir', 'Haugen', '2017-11-24', null, 'male', 38),
+('Freya', 'Andersen', '2005-10-02', null, 'female', -10),
+('Aud', 'Henriksen', '2005-06-29', null, 'male', -38),
+('Frost', 'Gundersen', '2009-05-26', null, 'male', -69),
+('Vertendi', 'Amundsen', '1973-05-14', null, 'female', 85),
+('Bengt', 'Moen', '2016-10-13', null, 'male', -39),
+('Frigga', 'Nilsen', '2018-08-28', null, 'female', -43),
+('Aivars', 'Jakobsen', '1991-08-26', null, 'male', -93),
+('Henry', 'Bakken', '2019-10-26', null, 'male', -6),
+('Bo', 'Halvorsen', '1988-01-07', null, 'male', 58),
+('Asgerd', 'Lunde', '1989-04-25', null, 'female', -19),
+('Bardi', 'Jensen', '2021-05-01', null, 'male', -41),
+('Clement', 'Jacobsen', '1994-05-14', null, 'male', 50),
+('Greenolve', 'Johansen', '1977-03-25', null, 'male', -78),
+('Asweig', 'Hagen', '2001-09-05', null, 'female', 15),
+('Sigurd', 'Lunde', '1999-06-14', null, 'male', -58),
+('Attila', 'Moen', '2016-11-12', null, 'male', -1),
+('Rungerd', 'Olsen', '1974-05-25', null, 'female', -29),
+('Runnveig', 'Lund', '2016-07-09', null, 'female', 4),
+('Swain', 'Haugen', '2002-02-11', null, 'male', 42),
+('Helga', 'Mathisen', '1978-11-27', null, 'female', -5),
+('Asbrand', 'Gundersen', '2007-08-09', null, 'male', -83),
+('Gerd', 'Dahl', '2006-04-30', null, 'female', 25),
+('Halfdan', 'Johannessen', '1998-08-24', null, 'male', -86),
+('Ysgerd', 'Nguyen', '1982-02-21', null, 'female', 82),
+('Gunther', 'Kristoffersen', '1983-07-26', null, 'male', 74),
+('Vincent', 'Moe', '1995-02-28', null, 'male', 45),
+('Gerard', 'Svendsen', '1973-06-15', null, 'male', 4),
+('Bathilda', 'Knutsen', '2020-05-07', null, 'female', 60),
+('Vivec', 'Amundsen', '2017-05-30', null, 'female', -82),
+('Alvgeir', 'Jakobsen', '1979-04-23', null, 'male', -12),
+('Dagrun', 'Jacobsen', '2012-10-13', null, 'female', -42),
+('Rind', 'Andreassen', '1983-01-24', null, 'female', -88),
+('Thorhild', 'Pettersen', '1974-08-19', null, 'female', -10),
+('Regin', 'Sørensen', '2000-11-04', null, 'male', 41),
+('Helmi', 'Martinsen', '1998-03-14', null, 'male', 47),
+('Eir', 'Berg', '2001-02-01', null, 'female', 93),
+('Torgnir', 'Lie', '2016-07-18', null, 'male', 19),
+('Asgeir', 'Pettersen', '1986-09-19', null, 'male', 50),
+('Logmair', 'Rasmussen', '1990-07-06', null, 'male', -34),
+('Liz', 'Haugen', '1997-04-05', null, 'female', 3),
+('Loki', 'Lie', '2016-06-22', null, 'male', -37),
+('Aud', 'Svendsen', '2012-11-25', null, 'female', -60),
+('Hawk', 'Paulsen', '1987-11-19', null, 'male', 78),
+('Axel', 'Johansen', '1980-10-21', null, 'male', -97),
+('Almod', 'Lie', '2000-10-23', null, 'male', 68),
+('Auden', 'Nygård', '1991-05-23', null, 'male', -67),
+('Helga', 'Henriksen', '1977-02-02', null, 'female', 84),
+('Thordjorn', 'Hagen', '2003-10-22', null, 'male', -60),
+('Eivindr', 'Halvorsen', '1981-04-11', null, 'male', 14),
+('Silge', 'Gundersen', '1980-08-18', null, 'female', -63),
+('Snor', 'Moen', '2004-06-16', null, 'male', -9),
+('Fritjef', 'Pedersen', '1975-07-10', null, 'male', -27),
+('Randalfre', 'Iversen', '1971-07-20', null, 'male', 44),
+('Asweig', 'Moen', '1972-07-08', null, 'female', 28),
+('Alva', 'Jacobsen', '1999-10-25', null, 'female', 67),
+('Ingwald', 'Kristensen', '2005-06-15', null, 'male', -97),
+('Bernard', 'Bakken', '1987-10-13', null, 'male', 30),
+('Ingemar', 'Pettersen', '2018-06-11', null, 'male', -40),
+('Eirik', 'Pettersen', '1988-05-20', null, 'male', 17),
+('Bengta', 'Strand', '1979-08-30', null, 'female', 5),
+('Gustav', 'Sørensen', '2007-12-31', null, 'male', -42),
+('Ingrid', 'Svendsen', '1986-10-19', null, 'female', 8),
+('Aivars', 'Ali', '1999-11-05', null, 'male', 86),
+('Pouring', 'Solheim', '2011-09-12', null, 'male', 76),
+('Egil', 'Kristiansen', '2008-09-29', null, 'male', -44),
+('Torvi', 'Olsen', '1972-10-07', null, 'female', -71),
+('Webjorn', 'Lie', '2011-09-06', null, 'male', -18),
+('Asne', 'Kristoffersen', '1981-06-14', null, 'female', -75),
+('Eirik', 'Jakobsen', '2006-03-22', null, 'male', 72),
+('Westein', 'Martinsen', '2010-12-07', null, 'male', 24),
+('Injeborg', 'Lie', '1999-02-20', null, 'female', 53),
+('Ragnbjorg', 'Iversen', '2011-04-26', null, 'female', 82),
+('Thorgerd', 'Johannessen', '2001-03-31', null, 'female', -37),
+('Lagertha', 'Johansen', '1980-01-31', null, 'female', -81),
+('Bedvar', 'Henriksen', '2013-09-08', null, 'male', 58),
+('Marie', 'Bakken', '2009-09-27', null, 'male', 16),
+('Ingolv', 'Knutsen', '1993-05-23', null, 'male', -46),
+('Brunhild', 'Kristiansen', '1979-04-08', null, 'female', 34),
+('OL', 'Nygård', '2010-07-21', null, 'male', -32),
+('Lyotolf', 'Lunde', '2001-11-03', null, 'male', 12),
+('Ansgar', 'Berge', '2000-07-01', null, 'male', 96),
+('Tryggwi', 'Berg', '1979-02-22', null, 'male', 15),
+('Annalize', 'Jørgensen', '1973-12-08', null, 'female', 2),
+('Ing', 'Nilsen', '1975-08-21', null, 'male', 65),
+('OL', 'Hansen', '2002-04-30', null, 'male', 47),
+('Dan', 'Bakken', '1972-07-21', null, 'male', 4),
+('Bedvar', 'Kristoffersen', '2013-08-07', null, 'male', 1),
+('Fredrika', 'Olsen', '2010-02-28', null, 'female', -91),
+('Sindri', 'Paulsen', '2021-10-02', null, 'male', 27),
+('Svea', 'Andreassen', '1986-04-10', null, 'female', 16),
+('Oystein', 'Lie', '2016-02-09', null, 'male', 21),
+('Ingihild', 'Jacobsen', '2004-12-28', null, 'female', -12),
+('Torger', 'Andreassen', '1990-01-18', null, 'male', 43),
+('Viva', 'Solberg', '2013-01-15', null, 'female', 12),
+('Frode', 'Rasmussen', '1991-01-17', null, 'male', 69),
+('Gunvor', 'Paulsen', '1975-07-19', null, 'female', 45),
+('Ketilridr', 'Lund', '2000-11-04', null, 'female', -4),
+('Arnulv', 'Kristiansen', '1972-04-16', null, 'male', 99),
+('Stein', 'Nilsen', '1975-11-08', null, 'male', -19),
+('Fries', 'Iversen', '2008-05-30', null, 'male', 49),
+('Michaela', 'Svendsen', '2004-12-16', null, 'female', -13),
+('Bo', 'Hagen', '1973-09-12', null, 'male', -43),
+('Haltor', 'Gundersen', '1974-11-02', null, 'male', -20),
+('Kollbein', 'Paulsen', '1986-02-19', null, 'male', -21),
+('Ingvar', 'Lund', '2003-11-25', null, 'male', -18),
+('Solveig', 'Svendsen', '2010-06-14', null, 'female', 19),
+('Martha', 'Haugen', '1995-12-23', null, 'female', 30),
+('Yon', 'Johannessen', '1991-10-25', null, 'male', -46),
+('Snabjorn', 'Eide', '1988-02-15', null, 'male', -80),
+('Eyolve', 'Berge', '1993-12-21', null, 'male', -45),
+('Eirik', 'Martinsen', '2016-11-29', null, 'male', 84),
+('Eisteinne', 'Knutsen', '1974-08-18', null, 'male', -77),
+('Brunhild', 'Strand', '1987-09-06', null, 'female', 55),
+('Keia', 'Nguyen', '2001-11-28', null, 'female', 35),
+('Thorgerd', 'Kristoffersen', '1996-02-27', null, 'female', -82),
+('Adela', 'Berg', '2005-07-22', null, 'female', -94),
+('Ragnbjorg', 'Larsen', '1992-01-13', null, 'female', 84),
+('Call', 'Nygård', '1999-11-13', null, 'male', -13),
+('Anders', 'Andersen', '1989-03-07', null, 'male', 81),
+('Collbjorn', 'Dahl', '1998-02-15', null, 'male', 55),
+('Hild', 'Amundsen', '1987-03-08', null, 'female', -34),
+('Asgerd', 'Mathisen', '1991-04-16', null, 'female', -12),
+('Tordzhils', 'Johansen', '1983-03-23', null, 'male', 67),
+('Magni', 'Svendsen', '2000-09-25', null, 'male', 38),
+('Torbert', 'Rasmussen', '1991-01-10', null, 'female', 66),
+('Marne', 'Haugen', '2016-03-07', null, 'female', -83),
+('Goodhild', 'Kristiansen', '1991-04-01', null, 'female', -8),
+('Helgi', 'Lund', '2011-03-14', null, 'male', -73),
+('Vikar', 'Knutsen', '2013-12-27', null, 'male', -77),
+('Sverr', 'Jensen', '1986-06-24', null, 'male', -27),
+('Egil', 'Bakken', '1975-08-20', null, 'male', -96),
+('Roerik', 'Kristoffersen', '1994-12-05', null, 'male', 93),
+('Ingmund', 'Pettersen', '1995-02-18', null, 'male', -15),
+('Siggrid', 'Jensen', '1981-01-28', null, 'female', 92),
+('Fritjef', 'Eriksen', '2008-01-15', null, 'male', 22),
+('Gray', 'Bakke', '2010-12-16', null, 'female', -77),
+('Khjalmer', 'Eriksen', '1993-05-08', null, 'male', 17),
+('Alric', 'Knutsen', '2005-07-21', null, 'male', 51),
+('Wendela', 'Nilsen', '1974-01-28', null, 'female', 39),
+('Frode', 'Dahl', '1971-12-05', null, 'male', 73),
+('Knud', 'Lunde', '2016-01-06', null, 'male', -47),
+('Trude', 'Gundersen', '2013-08-24', null, 'female', -86),
+('Andreas', 'Hagen', '1977-11-11', null, 'male', 21),
+('Ingired', 'Solheim', '1991-08-07', null, 'male', 21),
+('Karita', 'Halvorsen', '1983-03-27', null, 'female', -90),
+('Kaisa', 'Paulsen', '1990-04-07', null, 'female', 89),
+('Merith', 'Eide', '1975-01-16', null, 'female', 23),
+('Steinulv', 'Solheim', '1982-02-11', null, 'male', -3),
+('Khjalmer', 'Jensen', '1998-01-09', null, 'male', 4),
+('Alfheeld', 'Halvorsen', '2010-11-06', null, 'female', -98),
+('Aud', 'Gundersen', '2016-03-18', null, 'female', -97),
+('Dan', 'Henriksen', '1982-04-23', null, 'male', 18),
+('Barebra', 'Dahl', '1971-08-18', null, 'female', -71),
+('Solveig', 'Andreassen', '2009-02-15', null, 'female', 46),
+('Tryggwi', 'Henriksen', '1991-04-16', null, 'male', -9),
+('Torah', 'Solheim', '2000-10-02', null, 'female', -25),
+('Siv', 'Haugen', '2013-01-29', null, 'female', -18),
+('Sassa', 'Solberg', '1984-07-23', null, 'female', 8),
+('Michaela', 'Johansen', '1991-08-10', null, 'female', 49),
+('Goodmund', 'Martinsen', '2017-05-11', null, 'male', -25),
+('Aslog', 'Jacobsen', '2011-09-12', null, 'female', -85),
+('Ingilev', 'Mathisen', '2016-06-29', null, 'male', 43),
+('Ragnild', 'Gundersen', '1976-02-13', null, 'female', 9),
+('Silge', 'Johnsen', '1981-09-11', null, 'female', -51),
+('Signe', 'Paulsen', '1977-09-19', null, 'female', 30),
+('Aivars', 'Nilsen', '1985-05-02', null, 'male', -71),
+('Ingolv', 'Pedersen', '1985-05-03', null, 'male', 25),
+('Carey', 'Johnsen', '1975-05-08', null, 'female', -3),
+('Bathilda', 'Knutsen', '2017-09-03', null, 'female', 31),
+('Thorbjorn', 'Svendsen', '1984-06-18', null, 'male', 44),
+('Skeggie', 'Pedersen', '1983-07-06', null, 'male', 8),
+('Guda', 'Lund', '2014-06-12', null, 'female', -23),
+('Skuld', 'Pedersen', '1976-03-03', null, 'female', 2),
+('Hannah', 'Hagen', '1993-05-08', null, 'female', -99),
+('Sigrun', 'Berg', '1987-06-03', null, 'female', 16),
+('Dan', 'Bakke', '1999-11-06', null, 'male', 7),
+('Aswald', 'Jacobsen', '2014-05-29', null, 'male', 9),
+('Eirik', 'Lunde', '1991-02-24', null, 'male', -52),
+('Torfridr', 'Moen', '2011-04-26', null, 'female', -62),
+('Lynn', 'Moe', '2004-09-10', null, 'female', 78),
+('Ingrid', 'Pettersen', '1986-12-13', null, 'female', -34),
+('Ragnbjorg', 'Johnsen', '1996-04-26', null, 'female', 2),
+('Jorgen', 'Andreassen', '2001-10-14', null, 'male', 79),
+('Ragngerd', 'Moen', '1999-04-03', null, 'female', 88),
+('Vincent', 'Rasmussen', '1978-05-02', null, 'male', 90),
+('Thorstein', 'Johannessen', '1999-03-28', null, 'male', -70),
+('Vivec', 'Rasmussen', '2012-10-10', null, 'female', -34),
+('Viva', 'Hagen', '2006-09-05', null, 'female', 90),
+('Holger', 'Eriksen', '1991-01-04', null, 'male', 5),
+('Ottalia', 'Sørensen', '2000-04-21', null, 'female', 71),
+('Vertendi', 'Lund', '2001-12-31', null, 'female', -11),
+('Arnbjörn', 'Nilsen', '1982-04-18', null, 'male', -32),
+('Loki', 'Iversen', '2008-03-07', null, 'male', 10),
+('Eisteinne', 'Nygård', '1993-06-08', null, 'male', 40),
+('Bergdis', 'Rasmussen', '1982-05-27', null, 'female', -2),
+('Dagrun', 'Eide', '1976-06-27', null, 'female', -100),
+('OL', 'Pedersen', '1986-02-20', null, 'male', 69),
+('Guda', 'Moe', '2010-09-01', null, 'female', 31),
+('Wagni', 'Solberg', '2002-12-03', null, 'male', -41),
+('Ram', 'Nguyen', '1980-01-18', null, 'male', 37),
+('Snorri', 'Nilsen', '1981-01-12', null, 'male', -76),
+('Viva', 'Hagen', '1995-07-15', null, 'female', -55),
+('Hardy', 'Lund', '2017-02-11', null, 'male', 94),
+('Webjorn', 'Paulsen', '2013-12-06', null, 'male', -3),
+('Audulv', 'Martinsen', '1983-02-11', null, 'male', -17),
+('Signe', 'Svendsen', '2015-06-10', null, 'female', -98),
+('Ingihild', 'Larsen', '2011-06-08', null, 'female', -89),
+('Ingrid', 'Knutsen', '2009-07-20', null, 'female', -60),
+('Asgeir', 'Gundersen', '2009-03-20', null, 'male', -59),
+('Solgerd', 'Moen', '2015-05-15', null, 'female', -48),
+('Torah', 'Bakke', '2007-03-09', null, 'female', -86),
+('Ode', 'Johansen', '1991-11-23', null, 'female', -55),
+('Aud', 'Pettersen', '2003-10-08', null, 'male', -92),
+('Eir', 'Johansen', '1991-04-11', null, 'female', -31),
+('Thorstein', 'Johnsen', '1980-09-29', null, 'male', -27),
+('Hertrud', 'Lunde', '1997-02-22', null, 'female', 31),
+('Bengta', 'Henriksen', '1989-04-21', null, 'female', -68),
+('Agneta', 'Jacobsen', '1971-01-31', null, 'female', -75),
+('Skuld', 'Iversen', '2009-05-20', null, 'female', 3),
+('Kelda', 'Olsen', '2015-09-24', null, 'female', 29),
+('Brand', 'Gundersen', '1980-01-29', null, 'male', -63),
+('Helmi', 'Olsen', '2012-05-10', null, 'male', 56),
+('Bergtora', 'Johannessen', '2021-09-28', null, 'female', 40),
+('Goodhild', 'Jørgensen', '1981-02-23', null, 'female', 94),
+('Sverr', 'Bakke', '1980-02-23', null, 'male', -21),
+('Stein', 'Halvorsen', '2012-11-30', null, 'male', -87),
+('Skuld', 'Paulsen', '1984-05-02', null, 'female', -61),
+('Agneta', 'Pettersen', '2004-07-01', null, 'female', -9),
+('Thorolf', 'Lund', '1991-09-25', null, 'male', -53),
+('Thorolf', 'Eriksen', '2001-03-03', null, 'male', 28),
+('Modi', 'Jensen', '1982-05-18', null, 'male', -58),
+('Alv', 'Solberg', '1976-10-18', null, 'male', 16),
+('Finr', 'Karlsen', '1980-04-05', null, 'male', -92),
+('Frita', 'Amundsen', '2007-12-19', null, 'female', 71),
+('Kollbein', 'Karlsen', '2008-05-24', null, 'male', 20),
+('Grid', 'Rasmussen', '1984-05-15', null, 'female', -61),
+('Ansgar', 'Kristiansen', '2012-08-01', null, 'male', -29),
+('Bergtora', 'Hansen', '2020-08-23', null, 'female', -85),
+('Kalle', 'Lie', '2004-05-30', null, 'male', 31),
+('Solgerd', 'Larsen', '1996-09-11', null, 'female', -48),
+('Kollbein', 'Bakke', '1989-06-24', null, 'male', -84),
+('Einar', 'Jakobsen', '1979-01-19', null, 'male', -94),
+('Grid', 'Mathisen', '1974-09-17', null, 'female', 92),
+('Ansgar', 'Berg', '2018-08-12', null, 'male', -46),
+('Annalize', 'Svendsen', '2001-10-16', null, 'female', 99),
+('Runolv', 'Dahl', '1987-10-30', null, 'male', 8),
+('Asa', 'Jørgensen', '2012-08-16', null, 'female', 13),
+('Astritr', 'Solberg', '2008-04-21', null, 'female', 42),
+('Alva', 'Knutsen', '1988-12-13', null, 'female', 43),
+('Sumarliter', 'Dahl', '1972-02-18', null, 'male', 59),
+('Frode', 'Paulsen', '1980-03-05', null, 'male', 35),
+('Silge', 'Ali', '2008-11-07', null, 'female', 90),
+('Holmi', 'Pedersen', '2000-08-08', null, 'male', 70),
+('Asver', 'Rasmussen', '1994-04-24', null, 'male', -27),
+('Helga', 'Moe', '1974-03-04', null, 'female', 86),
+('Inga', 'Jensen', '2013-04-11', null, 'female', -27),
+('Torfridr', 'Hagen', '1988-01-21', null, 'female', 90),
+('Viva', 'Dahl', '1996-05-20', null, 'female', -62),
+('Skjeld', 'Halvorsen', '2017-05-28', null, 'male', -46),
+('Eymund', 'Nguyen', '1996-12-22', null, 'male', 74),
+('Sign', 'Hansen', '2009-03-23', null, 'female', 11),
+('Vermund', 'Rasmussen', '1987-07-08', null, 'male', 43),
+('Annika', 'Iversen', '1990-10-23', null, 'female', -8),
+('Injeborg', 'Karlsen', '2014-05-07', null, 'female', -15),
+('Helgi', 'Rasmussen', '1986-09-21', null, 'male', 3),
+('Steinulv', 'Jørgensen', '1989-07-14', null, 'male', 65),
+('Randalfre', 'Johannessen', '1974-08-24', null, 'male', -50),
+('Svanhild', 'Nilsen', '2002-06-28', null, 'female', 77),
+('Ingrid', 'Sørensen', '2009-08-18', null, 'female', -5),
+('Rungerd', 'Hansen', '1984-07-01', null, 'female', 62),
+('Gretta', 'Olsen', '2017-09-04', null, 'female', 12),
+('Merith', 'Nguyen', '1984-02-09', null, 'female', 88),
+('Folkor', 'Jensen', '1984-08-17', null, 'male', 68),
+('Ittan', 'Pettersen', '2007-01-28', null, 'female', 30),
+('Vigdis', 'Johnsen', '1983-03-10', null, 'female', -61),
+('Rebecca', 'Pedersen', '1976-04-25', null, 'female', 36),
+('Skjeld', 'Mathisen', '1990-10-26', null, 'male', -26),
+('Hild', 'Johnsen', '2014-12-23', null, 'female', 44),
+('Eyvind', 'Lunde', '2008-01-13', null, 'male', 99),
+('Eir', 'Hagen', '2013-01-07', null, 'female', 86),
+('Grese', 'Lund', '1995-05-23', null, 'female', -5),
+('Bolly', 'Hansen', '1982-03-05', null, 'male', -89),
+('Vestar', 'Jørgensen', '2012-08-12', null, 'male', 17),
+('Ingolv', 'Jensen', '1977-02-28', null, 'male', -90),
+('Alvgeir', 'Gundersen', '2005-07-29', null, 'male', -15),
+('Viva', 'Hagen', '2010-09-26', null, 'female', 4),
+('Bödolv', 'Strand', '2008-10-03', null, 'male', 51),
+('Skeggie', 'Knutsen', '1994-09-13', null, 'male', -70),
+('Trude', 'Kristiansen', '1978-06-14', null, 'female', -69),
+('Signe', 'Nygård', '1991-11-05', null, 'female', 37),
+('Helvard', 'Lie', '1993-10-23', null, 'male', -86),
+('Alric', 'Nilsen', '1974-06-26', null, 'male', 1),
+('Onandr', 'Johnsen', '1975-09-11', null, 'male', -5),
+('Alfsigr', 'Johnsen', '2002-06-21', null, 'female', -80),
+('Ide', 'Hansen', '1975-05-06', null, 'female', -86),
+('Anders', 'Ali', '2019-04-27', null, 'male', 12),
+('Bolly', 'Svendsen', '2005-07-20', null, 'male', -75),
+('Ragngerd', 'Iversen', '1985-08-10', null, 'female', 4),
+('Sign', 'Strand', '1986-06-21', null, 'female', -63),
+('Gunvor', 'Halvorsen', '1993-03-21', null, 'female', -65),
+('Asweig', 'Johannessen', '2020-07-13', null, 'female', 58),
+('George', 'Bakken', '1975-06-21', null, 'male', 93),
+('Swain', 'Johannessen', '1980-08-28', null, 'male', -7),
+('Frederick', 'Karlsen', '2007-07-06', null, 'male', 62),
+('Charles', 'Halvorsen', '2020-08-31', null, 'male', 63),
+('Thorodd', 'Berge', '2005-09-25', null, 'male', -73),
+('Signe', 'Nguyen', '2009-03-31', null, 'female', -69),
+('Frita', 'Eide', '2012-10-27', null, 'female', -92),
+('Bathilda', 'Berg', '1994-04-27', null, 'female', -46),
+('Haward', 'Iversen', '1999-11-23', null, 'male', -1),
+('Hyarty', 'Knutsen', '2018-03-06', null, 'male', 59),
+('Barebra', 'Sørensen', '1990-10-19', null, 'female', 38),
+('Claus', 'Sørensen', '1991-06-28', null, 'male', 97),
+('Borghild', 'Rasmussen', '2015-08-16', null, 'female', -10),
+('Torketill', 'Nguyen', '1978-12-08', null, 'male', -7),
+('Ragnbjorg', 'Nygård', '1984-04-26', null, 'female', -36),
+('Torbjorg', 'Haugen', '2008-02-19', null, 'female', 46),
+('Randalfre', 'Karlsen', '1990-10-03', null, 'male', -81),
+('Solgerd', 'Johansen', '2010-06-25', null, 'female', 75),
+('Webrand', 'Paulsen', '1983-08-25', null, 'male', 96),
+('Alvgeir', 'Gundersen', '2001-06-05', null, 'male', 42),
+('Gunnar', 'Knutsen', '1971-12-31', null, 'male', -23),
+('Annika', 'Svendsen', '1986-10-27', null, 'female', -36),
+('Marie', 'Amundsen', '2014-05-10', null, 'male', -64),
+('Torfridr', 'Nilsen', '2015-03-12', null, 'female', -11),
+('Arngeir', 'Mathisen', '2004-05-03', null, 'male', -73),
+('Randalfre', 'Johnsen', '1989-12-17', null, 'male', -88),
+('Knud', 'Jacobsen', '2000-10-04', null, 'male', -75),
+('Bedvar', 'Halvorsen', '1978-03-10', null, 'male', 63),
+('Aslog', 'Nygård', '2010-12-12', null, 'female', -85),
+('Arnulv', 'Rasmussen', '1971-06-15', null, 'male', -48),
+('Eyleave', 'Kristoffersen', '2009-07-02', null, 'male', 79),
+('Martha', 'Halvorsen', '2015-08-16', null, 'female', 5),
+('Idannr', 'Ali', '1974-03-12', null, 'female', -78),
+('Rollo', 'Pedersen', '2019-07-06', null, 'male', 20),
+('Grid', 'Moe', '1995-02-22', null, 'female', -31),
+('Fredrika', 'Martinsen', '1999-05-27', null, 'female', 51),
+('Bathilda', 'Kristoffersen', '2013-05-02', null, 'female', 42),
+('Talek', 'Eide', '1971-12-28', null, 'male', 65),
+('Eidis', 'Kristiansen', '1982-09-20', null, 'female', 62),
+('Asweig', 'Pedersen', '1987-07-19', null, 'female', 35),
+('Bolly', 'Berg', '2009-10-29', null, 'male', -41),
+('Fredrika', 'Lund', '2011-07-23', null, 'female', 96),
+('Magni', 'Knutsen', '2014-11-24', null, 'male', 30),
+('Ragnild', 'Moen', '1975-05-14', null, 'female', -49),
+('Guest', 'Eide', '1995-02-20', null, 'male', 67),
+('Ingihild', 'Olsen', '1995-04-15', null, 'female', 40),
+('Eileithr', 'Karlsen', '1992-08-09', null, 'male', 18),
+('Hild', 'Kristoffersen', '1975-03-21', null, 'female', 57),
+('Yoran', 'Mathisen', '2016-12-17', null, 'male', -52),
+('Folkor', 'Johansen', '2014-09-08', null, 'male', -70),
+('Guda', 'Olsen', '1972-04-12', null, 'female', -21),
+('Bruni', 'Paulsen', '2018-06-13', null, 'male', 52),
+('Sign', 'Kristiansen', '2002-02-05', null, 'female', 24),
+('Roerik', 'Haugen', '2013-11-22', null, 'male', -74),
+('Modi', 'Jacobsen', '2002-12-11', null, 'male', 18),
+('Ingolv', 'Pettersen', '2003-04-04', null, 'male', 93),
+('Eir', 'Lund', '1993-04-08', null, 'female', 4),
+('Vikar', 'Kristoffersen', '1974-11-12', null, 'male', 86),
+('Henry', 'Johannessen', '2018-02-06', null, 'male', 41),
+('Bardi', 'Jørgensen', '1973-02-22', null, 'male', -61),
+('Westein', 'Hansen', '2000-05-27', null, 'male', -77),
+('Ingemar', 'Hagen', '1987-05-09', null, 'male', -49),
+('Ittan', 'Larsen', '2009-01-07', null, 'female', 15),
+('Ittan', 'Berg', '1981-01-02', null, 'female', -16),
+('Shooting', 'Larsen', '1972-06-06', null, 'male', -21),
+('Ragnild', 'Berge', '2001-08-25', null, 'female', 56),
+('Vardy', 'Lunde', '2001-01-30', null, 'male', 10),
+('Dan', 'Solberg', '2012-11-08', null, 'male', 51),
+('Eirik', 'Hagen', '1989-06-25', null, 'male', 2),
+('Gisli', 'Dahl', '1993-04-12', null, 'male', 65),
+('Agot', 'Nilsen', '2017-08-19', null, 'female', 30),
+('Alric', 'Nguyen', '1991-09-16', null, 'male', 52),
+('Ittan', 'Dahl', '1989-04-30', null, 'female', -66),
+('Miya', 'Mathisen', '2019-11-29', null, 'female', -88),
+('Grese', 'Solberg', '1988-03-20', null, 'female', -62),
+('Torgeir', 'Bakke', '2017-07-10', null, 'male', 67),
+('Ragnar', 'Halvorsen', '2007-08-11', null, 'male', 83),
+('Hring', 'Pettersen', '1985-01-23', null, 'male', -30),
+('Magnheeld', 'Nguyen', '1994-08-11', null, 'female', -22),
+('Audun', 'Kristoffersen', '2001-04-26', null, 'male', 5),
+('Saga', 'Kristiansen', '1977-10-07', null, 'female', -10),
+('Torketill', 'Lie', '2000-01-20', null, 'male', -5),
+('Sumarliter', 'Kristoffersen', '2012-02-02', null, 'male', 96),
+('Alva', 'Bakken', '1985-09-24', null, 'female', -37),
+('Loviz', 'Bakken', '2017-01-13', null, 'female', -10),
+('Guthrun', 'Svendsen', '1993-07-25', null, 'female', -20),
+('Ide', 'Solheim', '1976-02-23', null, 'female', 92),
+('Sign', 'Strand', '1972-09-21', null, 'female', -40),
+('Harold', 'Iversen', '2017-01-04', null, 'male', 83),
+('Marie', 'Henriksen', '1990-03-18', null, 'male', 96),
+('Merith', 'Jacobsen', '2016-12-10', null, 'female', 75),
+('Helmi', 'Lund', '1983-08-11', null, 'male', -33),
+('Tyra', 'Pedersen', '2004-11-29', null, 'female', -72),
+('Torger', 'Hansen', '1982-05-18', null, 'male', 75),
+('Dan', 'Martinsen', '2006-10-12', null, 'male', 13),
+('Signe', 'Haugen', '1982-06-02', null, 'female', 31),
+('Borghild', 'Eide', '2012-06-17', null, 'female', 27),
+('Skuld', 'Kristoffersen', '1972-09-21', null, 'female', 56),
+('Odd', 'Ali', '2011-10-04', null, 'male', 7),
+('Dagny', 'Hansen', '2013-07-05', null, 'female', 36),
+('Ulvar', 'Halvorsen', '1974-06-14', null, 'male', -100),
+('Loki', 'Berge', '2009-01-28', null, 'male', -27),
+('Bedmod', 'Moe', '1972-06-21', null, 'male', -33),
+('Miya', 'Bakke', '2007-09-22', null, 'female', -94),
+('Ragnild', 'Larsen', '1976-11-16', null, 'female', 74),
+('Edgill', 'Ali', '2018-02-13', null, 'male', 45),
+('Steinmod', 'Martinsen', '2004-09-28', null, 'male', -9),
+('Alva', 'Martinsen', '2014-10-29', null, 'female', 16),
+('Ragnild', 'Jørgensen', '1996-01-19', null, 'female', -39),
+('Bo', 'Knutsen', '2009-11-28', null, 'male', 17),
+('Liz', 'Hansen', '1979-04-16', null, 'female', 49),
+('Svanhild', 'Johnsen', '1999-11-02', null, 'female', 39),
+('Kia', 'Svendsen', '1998-05-20', null, 'female', 16),
+('Susann', 'Moen', '1996-09-22', null, 'female', 28),
+('Ottalia', 'Johannessen', '2015-06-28', null, 'female', 41),
+('Asbrand', 'Karlsen', '1986-10-18', null, 'male', -99),
+('Logmair', 'Solberg', '1979-10-06', null, 'male', 80),
+('Thorolf', 'Lie', '1975-09-05', null, 'male', 49),
+('Susann', 'Hagen', '1976-11-02', null, 'female', -6),
+('Helga', 'Nilsen', '2019-11-14', null, 'female', 2),
+('Ingridr', 'Halvorsen', '2019-05-11', null, 'female', 16),
+('Marne', 'Bakke', '1972-11-01', null, 'female', -86),
+('Vincent', 'Solberg', '2020-04-21', null, 'male', 55),
+('Viva', 'Eriksen', '1991-11-15', null, 'female', 22),
+('Gunnulv', 'Johannessen', '2007-03-19', null, 'male', 53),
+('Vermund', 'Mathisen', '1988-10-18', null, 'male', -24),
+('Vivec', 'Strand', '1974-07-30', null, 'female', 43),
+('Auden', 'Lunde', '1986-06-15', null, 'male', -35),
+('Solveig', 'Lund', '2001-04-11', null, 'female', -11),
+('Steinulv', 'Bakken', '1972-06-16', null, 'male', -94),
+('Fritjef', 'Lund', '1992-08-11', null, 'male', -5),
+('Helgi', 'Kristiansen', '1997-01-30', null, 'male', -32),
+('Magnheeld', 'Larsen', '1976-08-15', null, 'female', -69),
+('Akke', 'Andreassen', '1995-11-01', null, 'male', -13),
+('Torfridr', 'Johannessen', '1994-09-04', null, 'female', 14),
+('Eyleave', 'Strand', '1975-12-13', null, 'male', -23),
+('Gretta', 'Solheim', '1987-09-15', null, 'female', 77),
+('Wemund', 'Ali', '1979-05-04', null, 'male', 28),
+('Guest', 'Knutsen', '2005-05-02', null, 'male', -24),
+('Roald', 'Lie', '1975-09-11', null, 'male', 90),
+('Merith', 'Amundsen', '2016-05-05', null, 'female', 42),
+('Rollo', 'Olsen', '1971-06-25', null, 'male', -69),
+('Saga', 'Johansen', '2001-06-12', null, 'female', 91),
+('Greger', 'Andersen', '1987-02-11', null, 'male', 2),
+('Ormarr', 'Berg', '1983-07-12', null, 'male', 80),
+('Rebecca', 'Berg', '1996-12-15', null, 'female', 79),
+('Hyarty', 'Henriksen', '1986-05-28', null, 'male', 44),
+('Eymund', 'Johansen', '1990-11-08', null, 'male', 21),
+('Sumarliter', 'Bakken', '2008-12-09', null, 'male', -70),
+('Westein', 'Berg', '1989-07-03', null, 'male', 9),
+('Yoann', 'Haugen', '2013-08-10', null, 'male', 96),
+('Fritjef', 'Sørensen', '1984-10-01', null, 'male', -41),
+('Collbjorn', 'Haugen', '2010-06-28', null, 'male', -32),
+('Goodmund', 'Jørgensen', '2014-11-16', null, 'male', 8),
+('Annalize', 'Martinsen', '1978-11-16', null, 'female', 42),
+('Anders', 'Karlsen', '2007-04-14', null, 'male', -20),
+('Oystein', 'Larsen', '1979-09-18', null, 'male', 78),
+('Adela', 'Gundersen', '2007-07-21', null, 'female', -24),
+('Asa', 'Hansen', '2014-05-17', null, 'female', -27),
+('Kalle', 'Larsen', '2007-08-17', null, 'male', -81),
+('Asa', 'Dahl', '1992-12-22', null, 'female', 63),
+('Wemund', 'Amundsen', '1975-01-14', null, 'male', -48),
+('Valborg', 'Moe', '2003-01-13', null, 'female', 98),
+('Gunhield', 'Lund', '1993-04-21', null, 'female', -91),
+('Tollek', 'Kristiansen', '2013-01-17', null, 'male', -52),
+('Burnt', 'Moen', '2011-09-19', null, 'male', 79),
+('Almod', 'Kristensen', '1989-02-24', null, 'male', 16),
+('Alva', 'Strand', '1990-01-15', null, 'female', 84),
+('Folkor', 'Moen', '2006-02-28', null, 'male', 53),
+('Haltor', 'Dahl', '2019-02-27', null, 'male', 10),
+('Loviz', 'Ali', '1971-10-31', null, 'female', -55),
+('Attila', 'Jakobsen', '2007-01-19', null, 'male', -83),
+('Adela', 'Moen', '2005-06-16', null, 'female', -23),
+('Dahlia', 'Hagen', '2018-03-29', null, 'female', -4),
+('Ittan', 'Paulsen', '1993-07-03', null, 'female', 92),
+('Helga', 'Rasmussen', '1992-09-05', null, 'female', -29),
+('OL', 'Nilsen', '1994-08-24', null, 'male', 73),
+('Gerard', 'Johansen', '2019-06-26', null, 'male', 57),
+('Dagny', 'Jacobsen', '2007-11-23', null, 'female', 85),
+('Sign', 'Jørgensen', '2014-01-18', null, 'female', -89),
+('Annalize', 'Lie', '2001-08-04', null, 'female', 31),
+('Friedlave', 'Hansen', '1997-06-14', null, 'male', 65),
+('Pouring', 'Strand', '1996-12-27', null, 'male', 9),
+('Liz', 'Mathisen', '2016-06-15', null, 'female', 34),
+('Ottalia', 'Solheim', '1982-12-20', null, 'female', 53),
+('Caroline', 'Hagen', '2020-07-03', null, 'female', -2),
+('Pouring', 'Martinsen', '2001-05-03', null, 'male', -65),
+('Aivars', 'Lund', '2011-01-03', null, 'male', -82),
+('Burnt', 'Iversen', '1982-12-10', null, 'male', 0),
+('Grid', 'Moe', '1975-12-30', null, 'female', -78),
+('Solveig', 'Larsen', '1994-02-10', null, 'female', 49),
+('Lagertha', 'Jørgensen', '1981-06-26', null, 'female', 40),
+('Valborg', 'Nygård', '1984-09-21', null, 'female', -20),
+('Henry', 'Bakken', '1991-01-05', null, 'male', 71),
+('Aivars', 'Nilsen', '1990-08-12', null, 'male', -8),
+('Alfsigr', 'Mathisen', '2010-03-09', null, 'female', 93),
+('Kia', 'Jensen', '1997-12-23', null, 'female', -70),
+('Torketill', 'Haugen', '1979-06-27', null, 'male', -52),
+('Torah', 'Pedersen', '1984-04-30', null, 'female', 30),
+('Idannr', 'Johannessen', '1997-05-29', null, 'female', 96),
+('Utley', 'Nguyen', '1989-07-09', null, 'male', -19),
+('Thorstein', 'Larsen', '1988-03-28', null, 'male', -7),
+('Solgerd', 'Kristiansen', '1996-01-06', null, 'female', 78),
+('Gisli', 'Eriksen', '1972-06-24', null, 'male', 6),
+('Ulvar', 'Strand', '1994-08-22', null, 'male', 35),
+('Hrolfr', 'Berge', '2017-02-25', null, 'male', -33),
+('Lyotolf', 'Lund', '2004-06-27', null, 'male', 23),
+('OL', 'Moe', '1983-02-17', null, 'male', -50),
+('Eidis', 'Berge', '2020-02-27', null, 'female', -89),
+('Rungerd', 'Gundersen', '2011-04-02', null, 'female', -10),
+('Björn', 'Eide', '2002-05-04', null, 'male', -65),
+('Helgi', 'Johannessen', '2008-07-07', null, 'male', 7),
+('Brunhild', 'Kristensen', '1984-10-03', null, 'female', 75),
+('Marne', 'Nilsen', '1971-08-17', null, 'female', -100),
+('Eileithr', 'Johannessen', '1975-12-31', null, 'male', -94),
+('Sumarliter', 'Jacobsen', '1994-11-21', null, 'male', -40),
+('Kaisa', 'Nygård', '1986-11-06', null, 'female', 12),
+('Rungerd', 'Lunde', '1998-02-14', null, 'female', 39),
+('Bo', 'Knutsen', '1998-08-15', null, 'male', 50),
+('Tollek', 'Svendsen', '1989-04-13', null, 'male', -82),
+('Lagertha', 'Moen', '1988-03-22', null, 'female', -49),
+('Tormod', 'Lunde', '2005-05-21', null, 'male', -57),
+('Arnulv', 'Ali', '2011-07-20', null, 'male', -87),
+('Hrut', 'Dahl', '2002-12-19', null, 'male', 13),
+('Steinmunn', 'Jørgensen', '1980-02-20', null, 'female', 0),
+('Bengta', 'Johannessen', '1994-07-20', null, 'female', 27),
+('Bernard', 'Lund', '2005-08-06', null, 'male', 82),
+('Guda', 'Kristoffersen', '1993-05-09', null, 'female', -26),
+('Lyotolf', 'Pedersen', '2009-12-03', null, 'male', -62),
+('Gottfried', 'Rasmussen', '1994-10-22', null, 'male', -26),
+('Aud', 'Jørgensen', '2013-10-17', null, 'female', -97),
+('Rebecca', 'Gundersen', '1995-05-15', null, 'female', 41),
+('Thorodd', 'Rasmussen', '1986-04-08', null, 'male', 16),
+('Bernard', 'Solberg', '2009-02-10', null, 'male', -58),
+('Audulv', 'Jacobsen', '1992-06-09', null, 'male', -28),
+('Guda', 'Nygård', '1996-08-09', null, 'female', -97),
+('Injigertr', 'Pedersen', '1990-03-12', null, 'female', -13),
+('Westmar', 'Nygård', '2006-10-05', null, 'male', 32),
+('Tryggwi', 'Solberg', '1995-09-03', null, 'male', 65),
+('Akke', 'Karlsen', '2015-11-24', null, 'male', 46),
+('Hyarvard', 'Gundersen', '1988-02-09', null, 'male', -18),
+('Bercy', 'Johannessen', '1991-06-27', null, 'male', 35),
+('Kalle', 'Lie', '1978-12-16', null, 'male', -43),
+('Grese', 'Lie', '1989-09-25', null, 'female', 10),
+('Sassa', 'Bakken', '1998-05-10', null, 'female', -29),
+('Vikar', 'Nguyen', '2018-04-08', null, 'male', 22),
+('Thor', 'Pettersen', '1998-06-21', null, 'male', -9),
+('Ingihild', 'Sørensen', '1977-05-25', null, 'female', 12),
+('Svanhild', 'Iversen', '2011-03-29', null, 'female', 81),
+('Torvi', 'Jensen', '2000-05-09', null, 'female', 1),
+('Almod', 'Hansen', '2006-01-15', null, 'male', 79),
+('Kelda', 'Larsen', '1991-12-12', null, 'female', -6),
+('Svea', 'Hagen', '1984-04-11', null, 'female', -82),
+('Sigwald', 'Strand', '1994-06-10', null, 'male', 77),
+('Signe', 'Henriksen', '1985-02-11', null, 'female', 18),
+('Ragnhildr', 'Gundersen', '1971-11-23', null, 'female', 50),
+('Ketilridr', 'Henriksen', '2008-07-25', null, 'female', -49),
+('Ragnar', 'Pettersen', '2012-03-11', null, 'male', 96),
+('Astrid', 'Mathisen', '2002-08-04', null, 'female', 83),
+('Thorstein', 'Iversen', '1979-01-20', null, 'male', 91),
+('Oyvind', 'Moen', '1979-02-04', null, 'male', 95),
+('Aud', 'Kristiansen', '2002-10-29', null, 'female', -46),
+('Siggrid', 'Pedersen', '1976-06-11', null, 'female', -99),
+('Thor', 'Knutsen', '1987-02-01', null, 'male', -6),
+('Ysgerd', 'Jensen', '1971-07-13', null, 'female', -100),
+('Sigridr', 'Bakke', '1992-09-14', null, 'female', -99),
+('Goodhild', 'Rasmussen', '2012-11-02', null, 'female', -74),
+('Thorhield', 'Lie', '2020-10-17', null, 'female', -90),
+('Pouring', 'Hansen', '1993-05-04', null, 'male', 78),
+('Tyra', 'Johansen', '1984-10-24', null, 'female', -12),
+('Ode', 'Lie', '1976-03-26', null, 'female', 30),
+('Fredrika', 'Mathisen', '1972-06-07', null, 'female', -63),
+('Audulv', 'Bakken', '1972-10-13', null, 'male', 1),
+('Ragnild', 'Halvorsen', '2013-05-29', null, 'female', -62),
+('Westmar', 'Pedersen', '1988-02-07', null, 'male', -98),
+('Torah', 'Paulsen', '2010-03-07', null, 'female', -38),
+('Tollek', 'Paulsen', '2013-01-17', null, 'male', 59),
+('Agot', 'Moe', '2010-02-12', null, 'female', -92),
+('Eyolve', 'Mathisen', '1993-12-09', null, 'male', -68),
+('Skuld', 'Moe', '2008-03-29', null, 'female', -5),
+('Greenolve', 'Lunde', '1995-06-30', null, 'male', 64),
+('Vegeir', 'Lunde', '2017-01-18', null, 'male', -50),
+('Saga', 'Lund', '1983-05-12', null, 'female', 3),
+('Oddmand', 'Nguyen', '2019-09-02', null, 'male', 68),
+('Ragnhildr', 'Paulsen', '2007-01-07', null, 'female', -22),
+('Michaela', 'Pedersen', '2012-08-07', null, 'female', -48),
+('Torah', 'Johansen', '1985-08-04', null, 'female', 32),
+('Swanveig', 'Andersen', '1990-02-15', null, 'female', -78),
+('Thomas', 'Larsen', '1985-12-22', null, 'male', -28),
+('Thorgerd', 'Nygård', '1974-05-22', null, 'female', 2),
+('Ottalia', 'Eide', '2006-07-15', null, 'female', -41),
+('Frode', 'Kristoffersen', '1994-04-11', null, 'male', -64),
+('Haward', 'Larsen', '1981-12-07', null, 'male', 22),
+('Ingvar', 'Rasmussen', '2009-12-31', null, 'male', 67),
+('Ingridr', 'Kristensen', '1992-06-13', null, 'female', 45),
+('Vestar', 'Rasmussen', '2003-11-23', null, 'male', -56),
+('Torgnir', 'Hagen', '1999-02-27', null, 'male', 4),
+('Siggrid', 'Kristensen', '1987-04-03', null, 'female', -15),
+('Asweig', 'Karlsen', '1974-02-10', null, 'female', -48),
+('Eymund', 'Pettersen', '2015-12-09', null, 'male', -74),
+('Marne', 'Eide', '2014-12-27', null, 'female', -57),
+('Wagni', 'Olsen', '1983-04-13', null, 'male', 86),
+('Oyvind', 'Rasmussen', '1999-09-18', null, 'male', 90),
+('Christer', 'Berge', '2011-05-30', null, 'male', 0),
+('Thor', 'Lund', '1971-02-25', null, 'male', 22),
+('Helga', 'Nilsen', '1976-12-11', null, 'female', 96),
+('Yon', 'Olsen', '2021-10-19', null, 'male', 19),
+('Yon', 'Jensen', '2014-06-03', null, 'male', -67),
+('Ingvar', 'Karlsen', '1974-06-27', null, 'male', -10),
+('OL', 'Nilsen', '2009-12-06', null, 'male', 2),
+('Asgeir', 'Bakken', '2007-01-18', null, 'male', -44),
+('Swann', 'Paulsen', '1971-03-28', null, 'male', 17),
+('Rungerd', 'Pettersen', '1982-03-28', null, 'female', -58),
+('Gerhard', 'Svendsen', '2019-03-21', null, 'male', -21),
+('Eirik', 'Nguyen', '2013-03-11', null, 'male', 17),
+('Eivindr', 'Berge', '2021-11-12', null, 'male', 74),
+('Vestar', 'Strand', '1974-10-09', null, 'male', -42),
+('Asne', 'Pettersen', '1991-11-08', null, 'female', 58),
+('Gisli', 'Nilsen', '1995-10-13', null, 'male', -25),
+('Isunnr', 'Paulsen', '2012-11-22', null, 'female', 99),
+('Astritr', 'Strand', '1993-10-12', null, 'female', -19),
+('Khjalmer', 'Berg', '1985-03-07', null, 'male', 13),
+('Vivec', 'Karlsen', '2013-12-16', null, 'female', 75),
+('Dagny', 'Solheim', '1984-04-01', null, 'female', -22),
+('Asweig', 'Pedersen', '2002-02-02', null, 'female', 34),
+('Guthrun', 'Gundersen', '1971-11-08', null, 'female', 53),
+('Ragngerd', 'Berge', '2012-06-07', null, 'female', -61),
+('Lave', 'Bakke', '1989-05-19', null, 'male', 15),
+('Dan', 'Eriksen', '2016-10-28', null, 'male', -100),
+('Thorbjorn', 'Berg', '1990-06-04', null, 'male', 40),
+('Bercy', 'Gundersen', '2006-03-11', null, 'male', -1),
+('Grese', 'Mathisen', '2016-03-09', null, 'female', 59),
+('Sumarliter', 'Sørensen', '1984-07-17', null, 'male', 19),
+('Kelda', 'Hagen', '1999-04-10', null, 'female', -6),
+('Thor', 'Pedersen', '2002-04-02', null, 'male', 0),
+('Collbjorn', 'Henriksen', '1994-06-18', null, 'male', -22),
+('Viva', 'Larsen', '2014-07-30', null, 'female', -8),
+('Eisteinne', 'Andreassen', '2002-05-30', null, 'male', -56),
+('Hrolfr', 'Martinsen', '2009-03-24', null, 'male', -38),
+('Martha', 'Haugen', '1982-10-24', null, 'female', -2),
+('Eirik', 'Hansen', '1988-02-09', null, 'male', 33),
+('Bödolv', 'Pettersen', '1988-02-24', null, 'male', -94),
+('Agmund', 'Berge', '2006-04-17', null, 'male', 61),
+('Valgard', 'Haugen', '2004-03-14', null, 'male', 98),
+('Auden', 'Johannessen', '2002-01-05', null, 'male', 21),
+('Dyarvi', 'Berg', '2013-08-19', null, 'male', 69),
+('Valborg', 'Larsen', '1993-11-17', null, 'female', 37),
+('Merith', 'Pettersen', '1989-10-27', null, 'female', 7),
+('Asweig', 'Kristensen', '1981-02-08', null, 'female', -26),
+('Torbjorg', 'Lunde', '1984-05-16', null, 'female', -94),
+('Loviz', 'Olsen', '1988-05-15', null, 'female', -86),
+('Brinhield', 'Dahl', '2016-07-28', null, 'female', -98),
+('Vardy', 'Berge', '2002-12-29', null, 'male', -99),
+('Torgisl', 'Larsen', '1986-03-21', null, 'male', -3),
+('Goody', 'Moe', '1998-08-26', null, 'male', 34),
+('Freyr', 'Strand', '1972-04-10', null, 'male', -53),
+('Torah', 'Berge', '2007-05-06', null, 'female', -72),
+('Swain', 'Henriksen', '1990-08-13', null, 'male', -51),
+('Agot', 'Kristiansen', '1994-11-07', null, 'female', 83),
+('Gray', 'Amundsen', '2014-08-13', null, 'female', 26),
+('Annalize', 'Bakken', '1986-02-21', null, 'female', -9),
+('Arngeir', 'Kristiansen', '2008-05-07', null, 'male', 53),
+('Aud', 'Lund', '1971-07-29', null, 'male', 30),
+('Snabjorn', 'Kristoffersen', '1998-12-28', null, 'male', -23),
+('Pouring', 'Svendsen', '1984-02-13', null, 'male', -26),
+('Torbjorg', 'Haugen', '1992-12-01', null, 'female', -51),
+('Yoann', 'Pedersen', '2001-08-14', null, 'male', 46),
+('Tofa', 'Lunde', '1972-04-25', null, 'female', 9),
+('Karita', 'Jensen', '1983-08-16', null, 'female', 83),
+('Logmair', 'Sørensen', '2002-03-25', null, 'male', -72),
+('Christer', 'Jørgensen', '2001-09-28', null, 'male', -18),
+('Magnheeld', 'Olsen', '2004-06-11', null, 'female', 81),
+('Hallstein', 'Moe', '2010-01-26', null, 'male', 23),
+('Inga', 'Solberg', '1984-09-11', null, 'female', -61),
+('Injeborg', 'Hansen', '1997-03-29', null, 'female', -39),
+('Ingvar', 'Jørgensen', '1989-04-23', null, 'male', 57),
+('Asgeir', 'Solheim', '1973-03-24', null, 'male', -54),
+('Gulla', 'Jørgensen', '2003-04-21', null, 'female', -42),
+('Frederick', 'Moen', '2008-06-22', null, 'male', -77),
+('Caroline', 'Andersen', '2012-07-01', null, 'female', -1),
+('Ingvar', 'Nguyen', '1996-11-05', null, 'male', -96),
+('Guest', 'Hansen', '1990-04-02', null, 'male', 65),
+('Signe', 'Pedersen', '1976-01-24', null, 'female', 78),
+('Aud', 'Hagen', '1997-12-25', null, 'female', 66),
+('Solveig', 'Rasmussen', '1994-11-11', null, 'female', -88),
+('Raud', 'Andreassen', '2013-04-21', null, 'male', -10),
+('Alric', 'Eriksen', '2002-11-03', null, 'male', -96),
+('Frederick', 'Larsen', '2003-08-08', null, 'male', -95),
+('Ketilridr', 'Haugen', '2004-07-27', null, 'female', 4),
+('Vivec', 'Olsen', '2019-04-22', null, 'female', -65),
+('Friedmund', 'Strand', '1982-11-08', null, 'male', -95),
+('Gulla', 'Johnsen', '2008-02-03', null, 'female', -34),
+('Ide', 'Jakobsen', '1991-05-17', null, 'female', -61),
+('Ottalia', 'Olsen', '1975-11-27', null, 'female', 51),
+('Freya', 'Rasmussen', '1992-11-20', null, 'female', -87),
+('Isunnr', 'Pedersen', '1993-12-11', null, 'female', 60),
+('Miya', 'Eide', '1980-07-10', null, 'female', 51),
+('Thorbjorn', 'Svendsen', '1996-02-04', null, 'male', -6),
+('Onandr', 'Bakke', '2004-10-04', null, 'male', -90),
+('Dahlia', 'Lunde', '2016-11-08', null, 'female', 57),
+('Brand', 'Bakke', '1978-08-09', null, 'male', 99),
+('Ormarr', 'Nygård', '2002-10-21', null, 'male', -61),
+('Solgerd', 'Bakken', '1980-12-29', null, 'female', -37),
+('Saga', 'Jakobsen', '1984-01-08', null, 'female', 58),
+('Alfsigr', 'Strand', '1974-10-09', null, 'female', 77),
+('Torah', 'Nygård', '2018-10-30', null, 'female', 78),
+('Gerd', 'Kristiansen', '1995-06-29', null, 'female', -75),
+('Ragngerd', 'Berge', '1996-12-11', null, 'female', -6),
+('Gunnar', 'Olsen', '1976-09-29', null, 'male', 42),
+('Gulla', 'Paulsen', '1983-03-26', null, 'female', 67),
+('Svea', 'Pettersen', '1981-01-27', null, 'female', 48),
+('Collbjorn', 'Jakobsen', '2017-12-07', null, 'male', 47),
+('Charles', 'Lund', '1996-08-21', null, 'male', -83),
+('Alfheeld', 'Moe', '1977-09-06', null, 'female', -75),
+('Frost', 'Berg', '1988-08-05', null, 'male', -65),
+('Agneta', 'Hansen', '1990-02-14', null, 'female', 89),
+('Yoran', 'Solberg', '2021-12-02', null, 'male', -86),
+('Eirik', 'Berge', '1995-04-10', null, 'male', 19),
+('Asweig', 'Kristoffersen', '2018-10-17', null, 'female', -30),
+('Hannah', 'Svendsen', '1994-05-01', null, 'female', -81),
+('Rungerd', 'Haugen', '2010-11-18', null, 'female', -31),
+('Torbert', 'Berge', '1974-07-05', null, 'female', 13),
+('Torgeir', 'Olsen', '2015-11-22', null, 'male', 24),
+('Torbjorg', 'Rasmussen', '2012-08-29', null, 'female', -17),
+('Edgill', 'Kristensen', '1972-07-07', null, 'male', 35),
+('Asweig', 'Jensen', '2014-04-16', null, 'female', 0),
+('Bedvar', 'Karlsen', '1994-04-11', null, 'male', -60),
+('Bergtora', 'Jacobsen', '1972-03-13', null, 'female', 8),
+('Thordjorn', 'Kristiansen', '2019-02-04', null, 'male', 38),
+('Yoran', 'Solheim', '1978-12-29', null, 'male', -34),
+('Akke', 'Johansen', '1985-01-02', null, 'male', -19),
+('Frigga', 'Dahl', '1972-04-03', null, 'female', -48),
+('Siv', 'Berg', '1983-08-04', null, 'female', 68),
+('Bengta', 'Mathisen', '1991-10-06', null, 'female', 68),
+('Randalfre', 'Hagen', '1971-07-29', null, 'male', -34),
+('Frita', 'Lund', '1988-07-27', null, 'female', 54),
+('Swain', 'Kristoffersen', '2007-08-10', null, 'male', -18),
+('Torbjorn', 'Hagen', '2010-09-09', null, 'male', 65),
+('Borghild', 'Johnsen', '1978-07-30', null, 'female', -100),
+('Benedict', 'Bakke', '1976-05-02', null, 'female', -5),
+('Thorodd', 'Nguyen', '1998-01-08', null, 'male', -65),
+('Kalle', 'Moen', '1996-09-27', null, 'male', 31),
+('Tyra', 'Berg', '2014-03-21', null, 'female', 7),
+('Alvgeir', 'Knutsen', '2005-05-29', null, 'male', 57),
+('Sassa', 'Strand', '1991-07-02', null, 'female', -92),
+('Bedvar', 'Nygård', '2007-09-02', null, 'male', 58),
+('Miya', 'Kristoffersen', '1990-09-06', null, 'female', 89),
+('Magnheeld', 'Berge', '1975-03-18', null, 'female', -33),
+('Aslog', 'Eriksen', '1997-10-17', null, 'female', 63),
+('Bergtora', 'Strand', '2005-06-28', null, 'female', 42),
+('Auden', 'Lunde', '2006-11-24', null, 'male', 50),
+('Eirik', 'Amundsen', '1990-11-19', null, 'male', 0),
+('Finr', 'Bakke', '1988-01-10', null, 'male', -29),
+('Helvard', 'Jacobsen', '1972-04-19', null, 'male', -26),
+('Borghild', 'Johnsen', '2018-02-27', null, 'female', -35),
+('Agneta', 'Jakobsen', '2006-06-02', null, 'female', -48),
+('Brunhild', 'Rasmussen', '2001-01-20', null, 'female', 67),
+('Vikar', 'Pettersen', '1989-01-07', null, 'male', -66),
+('Asweig', 'Martinsen', '2020-07-04', null, 'female', 92),
+('Ragnild', 'Johansen', '2020-07-20', null, 'female', -62),
+('Edgill', 'Nilsen', '1992-08-23', null, 'male', 76),
+('Friedlave', 'Rasmussen', '2013-03-24', null, 'male', -60),
+('Fredrika', 'Lund', '1987-04-10', null, 'female', 30),
+('Saga', 'Lunde', '1992-08-07', null, 'female', 56),
+('Carey', 'Eriksen', '1979-04-09', null, 'female', 10),
+('Thorgerd', 'Olsen', '2018-07-09', null, 'female', -55),
+('Vertendi', 'Jensen', '2007-01-16', null, 'female', 42),
+('Tofa', 'Eide', '2007-08-22', null, 'female', -97),
+('Torfridr', 'Rasmussen', '2010-01-05', null, 'female', -1),
+('Agneta', 'Mathisen', '2004-12-20', null, 'female', -1),
+('Martha', 'Lie', '2015-01-26', null, 'female', 12),
+('Yoann', 'Pedersen', '1991-10-30', null, 'male', 70),
+('Aswald', 'Karlsen', '1994-08-21', null, 'male', 22),
+('Tormod', 'Dahl', '1990-02-08', null, 'male', 32),
+('Aswald', 'Larsen', '1972-06-27', null, 'male', 37),
+('Hild', 'Iversen', '1990-12-30', null, 'female', 43),
+('Eyleave', 'Larsen', '1981-01-20', null, 'male', -65),
+('Gray', 'Andreassen', '2018-07-07', null, 'female', 90),
+('Haward', 'Mathisen', '2018-01-07', null, 'male', 87),
+('Kaisa', 'Pedersen', '1998-05-17', null, 'female', -78),
+('Holger', 'Andreassen', '1976-08-28', null, 'male', -29),
+('Steinmod', 'Hansen', '1972-01-03', null, 'male', 45),
+('Charles', 'Rasmussen', '1981-12-10', null, 'male', -58),
+('Alfsigr', 'Andreassen', '2008-12-04', null, 'female', 91),
+('Swanveig', 'Lie', '1995-09-15', null, 'female', -72),
+('Helgi', 'Kristiansen', '1997-07-05', null, 'male', -5),
+('Oyvind', 'Svendsen', '1988-09-24', null, 'male', -76),
+('Karita', 'Amundsen', '2020-04-08', null, 'female', -82),
+('Arngeir', 'Amundsen', '1995-11-05', null, 'male', -89),
+('Rungerd', 'Johansen', '1999-01-23', null, 'female', -22),
+('Ingolv', 'Halvorsen', '1984-06-08', null, 'male', -36),
+('Adela', 'Knutsen', '1990-03-31', null, 'female', -67),
+('Aud', 'Moen', '1988-12-28', null, 'female', -87),
+('Rungerd', 'Karlsen', '1975-11-02', null, 'female', 41),
+('Torfridr', 'Larsen', '1990-05-01', null, 'female', 79),
+('Kaisa', 'Moen', '2011-12-12', null, 'female', 22),
+('Dagny', 'Bakken', '2018-09-26', null, 'female', -7),
+('Helga', 'Berg', '1974-12-22', null, 'female', -12),
+('Runnveig', 'Halvorsen', '2009-02-23', null, 'female', 19),
+('Eymund', 'Bakke', '2006-04-17', null, 'male', -29),
+('Clement', 'Amundsen', '1989-05-09', null, 'male', -61),
+('Kelda', 'Eide', '1978-10-10', null, 'female', -99),
+('Arnbjorg', 'Dahl', '1977-10-13', null, 'female', -97),
+('Bruni', 'Nygård', '2013-08-10', null, 'male', 40),
+('Ode', 'Andersen', '1972-06-30', null, 'female', -36),
+('Eirik', 'Andersen', '1974-08-02', null, 'male', 33),
+('Hannah', 'Larsen', '2011-11-28', null, 'female', -60),
+('Barebra', 'Moe', '1996-08-23', null, 'female', -48),
+('Isunnr', 'Eriksen', '2018-10-26', null, 'female', -54),
+('Gretta', 'Karlsen', '1987-08-24', null, 'female', 84),
+('Rebecca', 'Olsen', '1977-11-06', null, 'female', -49),
+('Thorhield', 'Knutsen', '1989-07-01', null, 'female', -36),
+('Vardy', 'Johansen', '1980-09-09', null, 'male', -22),
+('Eirik', 'Paulsen', '1986-08-02', null, 'male', -54),
+('Benedict', 'Nguyen', '2018-12-06', null, 'female', 42),
+('Goodhild', 'Rasmussen', '2003-05-12', null, 'female', 17),
+('Solveig', 'Martinsen', '1974-02-18', null, 'female', -87),
+('Tofa', 'Jacobsen', '1998-11-22', null, 'female', 98),
+('Sign', 'Karlsen', '2012-05-22', null, 'female', 24),
+('Adela', 'Knutsen', '2005-06-07', null, 'female', 44),
+('Anders', 'Kristiansen', '1973-08-10', null, 'male', -29),
+('Geirmund', 'Johansen', '1980-05-31', null, 'male', -23),
+('OL', 'Paulsen', '1991-06-12', null, 'male', 72),
+('Lyotolf', 'Dahl', '2020-10-11', null, 'male', 53),
+('Barebra', 'Strand', '2004-09-25', null, 'female', 40),
+('Asweig', 'Paulsen', '1992-02-14', null, 'female', -16),
+('Bödolv', 'Moe', '2000-10-19', null, 'male', -78),
+('Dagrun', 'Dahl', '1999-02-08', null, 'female', -83),
+('Jorgen', 'Jakobsen', '1975-10-12', null, 'male', -43),
+('Torbjorg', 'Larsen', '1996-03-04', null, 'female', -54),
+('Rungerd', 'Olsen', '1992-04-17', null, 'female', -51),
+('Finr', 'Andreassen', '2000-03-11', null, 'male', -91),
+('Kjarwal', 'Solheim', '2011-01-25', null, 'male', 7),
+('Claus', 'Jakobsen', '1997-08-31', null, 'male', -90),
+('Rebecca', 'Eriksen', '1995-01-02', null, 'female', -46),
+('Jorgen', 'Nguyen', '2007-03-15', null, 'male', -60),
+('Christer', 'Iversen', '2012-04-15', null, 'male', -29),
+('Ide', 'Andreassen', '2001-07-07', null, 'female', 70),
+('Freya', 'Jensen', '1974-01-30', null, 'female', -54),
+('Claus', 'Solberg', '1997-09-13', null, 'male', 92),
+('Dagny', 'Moe', '1980-03-25', null, 'female', -22),
+('Odd', 'Rasmussen', '1988-06-17', null, 'male', 65),
+('Adela', 'Lie', '1985-01-15', null, 'female', 11),
+('Guda', 'Larsen', '1989-08-24', null, 'female', 1),
+('Mats', 'Gundersen', '1988-02-09', null, 'male', -23),
+('Bergtora', 'Gundersen', '1980-03-31', null, 'female', 19),
+('Morten', 'Moe', '2011-05-19', null, 'male', -64),
+('Thor', 'Pedersen', '1996-06-14', null, 'male', 23),
+('Torvi', 'Knutsen', '1980-09-18', null, 'female', 12),
+('Alfsigr', 'Solberg', '2017-10-13', null, 'female', 14),
+('Bergdis', 'Berge', '2021-03-16', null, 'female', 23),
+('Gunnulv', 'Lunde', '1986-01-17', null, 'male', 7),
+('Torvi', 'Jacobsen', '2007-06-22', null, 'female', -69),
+('Guthrun', 'Mathisen', '1990-11-03', null, 'female', -59),
+('Frost', 'Berge', '1977-03-25', null, 'male', -91),
+('Hannah', 'Martinsen', '1989-03-12', null, 'female', 22),
+('Ragnwold', 'Nygård', '1977-10-21', null, 'male', 22),
+('Kjarwal', 'Andersen', '1982-01-03', null, 'male', -75),
+('Eir', 'Eriksen', '2004-06-03', null, 'female', 52),
+('Torbert', 'Moen', '2001-10-09', null, 'female', -70),
+('Liulfre', 'Larsen', '1994-06-20', null, 'male', 26),
+('Alfsigr', 'Nygård', '2000-01-18', null, 'female', 32),
+('Ysgerd', 'Pedersen', '1979-01-06', null, 'female', -11),
+('Caroline', 'Gundersen', '2018-10-25', null, 'female', -55),
+('Einar', 'Solberg', '1992-10-14', null, 'male', -65),
+('Gustav', 'Eriksen', '2001-12-03', null, 'male', 87),
+('Thorbjorn', 'Sørensen', '1989-04-30', null, 'male', 1),
+('Folkor', 'Larsen', '2011-09-12', null, 'male', -41),
+('Ottalia', 'Hagen', '1975-10-29', null, 'female', 33),
+('Freyr', 'Johansen', '2010-08-01', null, 'male', 2),
+('Greenolve', 'Knutsen', '2005-08-29', null, 'male', 82),
+('Oddmand', 'Jørgensen', '2014-03-06', null, 'male', -85),
+('Bathilda', 'Solheim', '1992-12-13', null, 'female', 82),
+('Hertrud', 'Mathisen', '1983-03-22', null, 'female', -73),
+('Bathilda', 'Henriksen', '1974-08-10', null, 'female', 24),
+('Torfridr', 'Kristoffersen', '2014-12-16', null, 'female', 39),
+('Gunvor', 'Lie', '2005-05-17', null, 'female', 26),
+('Bergtora', 'Jakobsen', '1999-06-30', null, 'female', 21),
+('Vegeir', 'Iversen', '2000-04-10', null, 'male', -98),
+('Alv', 'Strand', '2013-04-03', null, 'male', 58),
+('Fritjef', 'Nilsen', '2021-07-11', null, 'male', -27),
+('Claus', 'Lunde', '1982-11-19', null, 'male', -76),
+('Astritr', 'Nygård', '1976-12-31', null, 'female', 67),
+('Björn', 'Larsen', '1991-03-28', null, 'male', 35),
+('Ide', 'Henriksen', '2017-12-13', null, 'female', 43),
+('Arngeir', 'Johnsen', '1994-01-08', null, 'male', 3),
+('Torger', 'Johnsen', '1981-09-02', null, 'male', 61),
+('Viva', 'Johansen', '1987-05-10', null, 'female', -60),
+('Henry', 'Karlsen', '1975-08-06', null, 'male', -82),
+('Utley', 'Nilsen', '2015-11-26', null, 'male', 37),
+('Ingrid', 'Johnsen', '2017-07-21', null, 'female', 9),
+('Ansgar', 'Nilsen', '1972-03-16', null, 'male', 49),
+('Tormod', 'Amundsen', '2017-09-22', null, 'male', -51),
+('Susann', 'Hagen', '2021-06-28', null, 'female', 56),
+('Sindri', 'Kristensen', '1974-03-09', null, 'male', -66),
+('Torbjorg', 'Jørgensen', '1974-01-06', null, 'female', 11),
+('Lagertha', 'Jakobsen', '1977-07-04', null, 'female', -58),
+('Andreas', 'Kristoffersen', '1996-12-01', null, 'male', -77),
+('Goodbrand', 'Haugen', '2006-12-07', null, 'male', 64),
+('Ingired', 'Pettersen', '1987-03-17', null, 'male', -67),
+('Eymund', 'Lie', '2019-07-04', null, 'male', 8),
+('Folkor', 'Ali', '1971-06-12', null, 'male', 51),
+('Vincent', 'Martinsen', '1971-11-03', null, 'male', -63),
+('Vertendi', 'Sørensen', '1984-08-31', null, 'female', 25),
+('Sign', 'Berge', '1994-05-01', null, 'female', 79),
+('Svanhild', 'Johnsen', '2018-12-22', null, 'female', 74),
+('Annika', 'Hagen', '2012-07-09', null, 'female', 33),
+('Kia', 'Pedersen', '1997-10-24', null, 'female', -32),
+('Frigga', 'Jakobsen', '2005-09-12', null, 'female', 18),
+('Hild', 'Lund', '2005-02-12', null, 'female', -76),
+('Gisli', 'Jørgensen', '1990-10-15', null, 'male', 63),
+('Brinhield', 'Solheim', '1995-11-01', null, 'female', -59),
+('Sverr', 'Pettersen', '2004-08-26', null, 'male', 15),
+('Emily', 'Haugen', '1974-07-04', null, 'female', -57),
+('Stein', 'Hansen', '2020-01-27', null, 'male', -63),
+('Agneta', 'Mathisen', '1994-07-09', null, 'female', 84),
+('Asweig', 'Gundersen', '1985-09-26', null, 'female', -33),
+('Signe', 'Svendsen', '1995-10-18', null, 'female', 63),
+('Fritjof', 'Jakobsen', '1986-01-05', null, 'male', 47),
+('Thor', 'Jensen', '2004-03-18', null, 'male', 75),
+('Alva', 'Andreassen', '1989-11-14', null, 'female', 85),
+('Guda', 'Berge', '2002-08-15', null, 'female', -93),
+('Alric', 'Haugen', '1976-03-29', null, 'male', 84),
+('Asbrand', 'Hansen', '1997-03-16', null, 'male', 77),
+('Aivars', 'Hansen', '1979-04-03', null, 'male', 16),
+('Agot', 'Johannessen', '2016-01-01', null, 'female', -25),
+('Oyvind', 'Eriksen', '2008-11-16', null, 'male', -20),
+('Ittan', 'Hansen', '2008-10-21', null, 'female', -25),
+('Gray', 'Iversen', '2013-07-20', null, 'female', -24),
+('Asmund', 'Mathisen', '1985-07-08', null, 'male', -10),
+('Haltor', 'Nygård', '2007-11-14', null, 'male', -62),
+('Torvi', 'Ali', '1976-08-17', null, 'female', -63),
+('Tyra', 'Nygård', '2004-09-03', null, 'female', 94),
+('Annalize', 'Pettersen', '2000-06-30', null, 'female', 67),
+('Espen', 'Mathisen', '2008-01-10', null, 'male', -15),
+('Bardi', 'Ali', '1995-12-30', null, 'male', 99),
+('Roerik', 'Lunde', '1992-04-14', null, 'male', 93),
+('Vivec', 'Paulsen', '2013-04-16', null, 'female', -75),
+('Steinmod', 'Kristensen', '1979-12-28', null, 'male', -20),
+('Gunnulv', 'Nygård', '2018-05-11', null, 'male', 80),
+('Ingrid', 'Karlsen', '2015-09-19', null, 'female', -83),
+('Bolly', 'Bakke', '1992-03-09', null, 'male', 76),
+('Hyarvard', 'Lie', '1987-09-14', null, 'male', 40),
+('Burnt', 'Lund', '2018-01-24', null, 'male', 43),
+('Steinmunn', 'Jørgensen', '2011-11-29', null, 'female', -33),
+('Hring', 'Solberg', '2003-05-19', null, 'male', 44),
+('Ragnbjorg', 'Andersen', '2014-04-04', null, 'female', 5),
+('Ulv', 'Dahl', '1982-11-08', null, 'male', 85),
+('Lynn', 'Moen', '2011-09-21', null, 'female', -85),
+('Injigertr', 'Eriksen', '2021-11-27', null, 'female', 60),
+('Ingridr', 'Lie', '2006-05-29', null, 'female', -92),
+('Logmair', 'Sørensen', '1973-04-20', null, 'male', 64),
+('Goodbrand', 'Eriksen', '1982-07-18', null, 'male', -74),
+('Jerd', 'Moe', '2015-12-05', null, 'female', 92);
+
+
+
+INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES (2, 'researcher', 0, true, 'day'),
+(3, 'researcher', 0, true, 'night'),
+(4, 'researcher', 2, true, 'night'),
+(5, 'researcher', 1, true, 'night'),
+(6, 'researcher', 2, true, 'day'),
+(7, 'researcher', 2, true, 'night'),
+(8, 'researcher', 2, true, 'day'),
+(9, 'researcher', 1, true, 'day'),
+(10, 'researcher', 2, true, 'night'),
+(11, 'researcher', 1, true, 'night'),
+(12, 'researcher', 2, true, 'night'),
+(13, 'researcher', 0, true, 'night'),
+(14, 'researcher', 1, true, 'day'),
+(15, 'researcher', 2, true, 'day'),
+(16, 'researcher', 0, true, 'night'),
+(17, 'researcher', 1, true, 'night'),
+(18, 'researcher', 2, true, 'day'),
+(19, 'researcher', 2, true, 'day'),
+(20, 'researcher', 1, true, 'day'),
+(21, 'researcher', 0, true, 'night'),
+(22, 'researcher', 0, true, 'day'),
+(23, 'researcher', 0, true, 'night'),
+(24, 'researcher', 0, true, 'night'),
+(25, 'researcher', 1, true, 'night'),
+(26, 'researcher', 2, true, 'day'),
+(27, 'tamer', 0, true, 'night'),
+(28, 'tamer', 1, true, 'day'),
+(29, 'tamer', 1, true, 'day'),
+(30, 'tamer', 0, true, 'day'),
+(31, 'tamer', 0, true, 'day'),
+(32, 'tamer', 2, true, 'day'),
+(33, 'tamer', 1, true, 'day'),
+(34, 'tamer', 1, true, 'night'),
+(35, 'tamer', 1, true, 'night'),
+(36, 'tamer', 0, true, 'night'),
+(37, 'tamer', 2, true, 'day'),
+(38, 'tamer', 1, true, 'day'),
+(39, 'tamer', 0, true, 'night'),
+(40, 'tamer', 1, true, 'night'),
+(41, 'tamer', 2, true, 'night'),
+(42, 'tamer', 2, true, 'day'),
+(43, 'tamer', 2, true, 'night'),
+(44, 'tamer', 2, true, 'day'),
+(45, 'tamer', 1, true, 'night'),
+(46, 'tamer', 0, true, 'day'),
+(47, 'tamer', 0, true, 'night'),
+(48, 'tamer', 1, true, 'day'),
+(49, 'tamer', 1, true, 'night'),
+(50, 'tamer', 0, true, 'day'),
+(51, 'tamer', 0, true, 'day'),
+(52, 'tamer', 2, true, 'day'),
+(53, 'tamer', 0, true, 'day'),
+(54, 'tamer', 2, true, 'day'),
+(55, 'tamer', 2, true, 'night'),
+(56, 'tamer', 2, true, 'night'),
+(57, 'tamer', 0, true, 'day'),
+(58, 'tamer', 2, true, 'night'),
+(59, 'tamer', 1, true, 'night'),
+(60, 'tamer', 1, true, 'day'),
+(61, 'tamer', 0, true, 'night'),
+(62, 'tamer', 0, true, 'night'),
+(63, 'tamer', 2, true, 'night'),
+(64, 'tamer', 0, true, 'night'),
+(65, 'tamer', 0, true, 'night'),
+(66, 'tamer', 0, true, 'night'),
+(67, 'tamer', 2, true, 'night'),
+(68, 'tamer', 0, true, 'night'),
+(69, 'tamer', 1, true, 'day'),
+(70, 'tamer', 1, true, 'day'),
+(71, 'tamer', 0, true, 'night'),
+(72, 'tamer', 1, true, 'day'),
+(73, 'tamer', 2, true, 'day'),
+(74, 'tamer', 2, true, 'day'),
+(75, 'tamer', 0, true, 'day'),
+(76, 'tamer', 2, true, 'night'),
+(77, 'tamer', 0, true, 'night'),
+(78, 'tamer', 1, true, 'night'),
+(79, 'tamer', 1, true, 'night'),
+(80, 'tamer', 0, true, 'night'),
+(81, 'tamer', 2, true, 'day'),
+(82, 'tamer', 1, true, 'night'),
+(83, 'tamer', 0, true, 'night'),
+(84, 'tamer', 0, true, 'night'),
+(85, 'tamer', 2, true, 'day'),
+(86, 'tamer', 1, true, 'day'),
+(87, 'tamer', 2, true, 'night'),
+(88, 'tamer', 0, true, 'night'),
+(89, 'tamer', 0, true, 'day'),
+(90, 'tamer', 1, true, 'night'),
+(91, 'tamer', 2, true, 'day'),
+(92, 'tamer', 0, true, 'night'),
+(93, 'tamer', 2, true, 'night'),
+(94, 'tamer', 0, true, 'night'),
+(95, 'tamer', 0, true, 'day'),
+(96, 'tamer', 0, true, 'day'),
+(97, 'tamer', 2, true, 'day'),
+(98, 'tamer', 1, true, 'night'),
+(99, 'tamer', 1, true, 'night'),
+(100, 'tamer', 1, true, 'night'),
+(101, 'tamer', 2, true, 'night'),
+(102, 'tamer', 1, true, 'day'),
+(103, 'tamer', 0, true, 'day'),
+(104, 'tamer', 0, true, 'night'),
+(105, 'tamer', 2, true, 'day'),
+(106, 'tamer', 2, true, 'night'),
+(107, 'tamer', 1, true, 'night'),
+(108, 'tamer', 2, true, 'night'),
+(109, 'tamer', 0, true, 'night'),
+(110, 'tamer', 0, true, 'night'),
+(111, 'tamer', 2, true, 'day'),
+(112, 'tamer', 1, true, 'day'),
+(113, 'tamer', 0, true, 'day'),
+(114, 'tamer', 2, true, 'night'),
+(115, 'tamer', 2, true, 'night'),
+(116, 'tamer', 2, true, 'night'),
+(117, 'tamer', 2, true, 'night'),
+(118, 'tamer', 1, true, 'night'),
+(119, 'tamer', 1, true, 'day'),
+(120, 'tamer', 2, true, 'night'),
+(121, 'tamer', 0, true, 'day'),
+(122, 'tamer', 2, true, 'night'),
+(123, 'tamer', 0, true, 'day'),
+(124, 'tamer', 1, true, 'day'),
+(125, 'tamer', 2, true, 'day'),
+(126, 'tamer', 0, true, 'night'),
+(127, 'caretaker', 0, true, 'day'),
+(128, 'caretaker', 1, true, 'day'),
+(129, 'caretaker', 0, true, 'night'),
+(130, 'caretaker', 2, true, 'day'),
+(131, 'caretaker', 1, true, 'night'),
+(132, 'caretaker', 1, true, 'day'),
+(133, 'caretaker', 2, true, 'day'),
+(134, 'caretaker', 1, true, 'day'),
+(135, 'caretaker', 0, true, 'night'),
+(136, 'caretaker', 1, true, 'night'),
+(137, 'caretaker', 1, true, 'night'),
+(138, 'caretaker', 1, true, 'night'),
+(139, 'caretaker', 2, true, 'night'),
+(140, 'caretaker', 1, true, 'night'),
+(141, 'caretaker', 2, true, 'day'),
+(142, 'caretaker', 1, true, 'day'),
+(143, 'caretaker', 2, true, 'night'),
+(144, 'caretaker', 1, true, 'night'),
+(145, 'caretaker', 2, true, 'day'),
+(146, 'caretaker', 2, true, 'night'),
+(147, 'caretaker', 0, true, 'day'),
+(148, 'caretaker', 2, true, 'day'),
+(149, 'caretaker', 0, true, 'day'),
+(150, 'caretaker', 1, true, 'night'),
+(151, 'caretaker', 0, true, 'night'),
+(152, 'caretaker', 1, true, 'night'),
+(153, 'caretaker', 1, true, 'day'),
+(154, 'caretaker', 2, true, 'day'),
+(155, 'caretaker', 1, true, 'day'),
+(156, 'caretaker', 1, true, 'night'),
+(157, 'caretaker', 1, true, 'day'),
+(158, 'caretaker', 0, true, 'day'),
+(159, 'caretaker', 1, true, 'day'),
+(160, 'caretaker', 0, true, 'night'),
+(161, 'caretaker', 0, true, 'day'),
+(162, 'caretaker', 1, true, 'day'),
+(163, 'caretaker', 1, true, 'night'),
+(164, 'caretaker', 1, true, 'night'),
+(165, 'caretaker', 1, true, 'night'),
+(166, 'caretaker', 2, true, 'day'),
+(167, 'caretaker', 1, true, 'night'),
+(168, 'caretaker', 0, true, 'day'),
+(169, 'caretaker', 0, true, 'day'),
+(170, 'caretaker', 1, true, 'day'),
+(171, 'caretaker', 0, true, 'day'),
+(172, 'caretaker', 1, true, 'day'),
+(173, 'caretaker', 2, true, 'night'),
+(174, 'caretaker', 1, true, 'night'),
+(175, 'caretaker', 2, true, 'night'),
+(176, 'caretaker', 0, true, 'night'),
+(177, 'caretaker', 2, true, 'night'),
+(178, 'caretaker', 2, true, 'night'),
+(179, 'caretaker', 0, true, 'day'),
+(180, 'caretaker', 2, true, 'night'),
+(181, 'caretaker', 1, true, 'night'),
+(182, 'caretaker', 0, true, 'night'),
+(183, 'caretaker', 1, true, 'day'),
+(184, 'caretaker', 0, true, 'day'),
+(185, 'caretaker', 2, true, 'day'),
+(186, 'caretaker', 1, true, 'night'),
+(187, 'caretaker', 1, true, 'night'),
+(188, 'caretaker', 2, true, 'night'),
+(189, 'caretaker', 1, true, 'day'),
+(190, 'caretaker', 1, true, 'night'),
+(191, 'caretaker', 1, true, 'night'),
+(192, 'caretaker', 1, true, 'night'),
+(193, 'caretaker', 1, true, 'night'),
+(194, 'caretaker', 1, true, 'day'),
+(195, 'caretaker', 2, true, 'day'),
+(196, 'caretaker', 1, true, 'night'),
+(197, 'caretaker', 0, true, 'day'),
+(198, 'caretaker', 1, true, 'night'),
+(199, 'caretaker', 1, true, 'day'),
+(200, 'caretaker', 2, true, 'day'),
+(201, 'caretaker', 2, true, 'night'),
+(202, 'caretaker', 2, true, 'night'),
+(203, 'caretaker', 2, true, 'night'),
+(204, 'caretaker', 0, true, 'day'),
+(205, 'caretaker', 0, true, 'night'),
+(206, 'caretaker', 2, true, 'night'),
+(207, 'caretaker', 1, true, 'day'),
+(208, 'caretaker', 0, true, 'day'),
+(209, 'caretaker', 1, true, 'day'),
+(210, 'caretaker', 2, true, 'night'),
+(211, 'caretaker', 0, true, 'day'),
+(212, 'caretaker', 2, true, 'night'),
+(213, 'caretaker', 2, true, 'day'),
+(214, 'caretaker', 2, true, 'day'),
+(215, 'caretaker', 0, true, 'night'),
+(216, 'caretaker', 2, true, 'day'),
+(217, 'caretaker', 0, true, 'day'),
+(218, 'caretaker', 2, true, 'day'),
+(219, 'caretaker', 2, true, 'night'),
+(220, 'caretaker', 0, true, 'night'),
+(221, 'caretaker', 2, true, 'night'),
+(222, 'caretaker', 1, true, 'day'),
+(223, 'caretaker', 1, true, 'day'),
+(224, 'caretaker', 0, true, 'day'),
+(225, 'caretaker', 0, true, 'night'),
+(226, 'caretaker', 2, true, 'night'),
+(227, 'nanny', 1, true, 'day'),
+(228, 'nanny', 2, true, 'night'),
+(229, 'nanny', 0, true, 'day'),
+(230, 'nanny', 1, true, 'day'),
+(231, 'nanny', 2, true, 'day'),
+(232, 'nanny', 2, true, 'day'),
+(233, 'nanny', 0, true, 'day'),
+(234, 'nanny', 2, true, 'night'),
+(235, 'nanny', 2, true, 'night'),
+(236, 'nanny', 1, true, 'night'),
+(237, 'nanny', 2, true, 'day'),
+(238, 'nanny', 0, true, 'day'),
+(239, 'nanny', 2, true, 'night'),
+(240, 'nanny', 1, true, 'night'),
+(241, 'nanny', 1, true, 'day'),
+(242, 'nanny', 2, true, 'day'),
+(243, 'nanny', 1, true, 'night'),
+(244, 'nanny', 0, true, 'day'),
+(245, 'nanny', 1, true, 'night'),
+(246, 'nanny', 2, true, 'day'),
+(247, 'nanny', 0, true, 'day'),
+(248, 'nanny', 2, true, 'night'),
+(249, 'nanny', 0, true, 'night'),
+(250, 'nanny', 0, true, 'day'),
+(251, 'nanny', 0, true, 'day'),
+(252, 'nanny', 2, true, 'night'),
+(253, 'nanny', 0, true, 'day'),
+(254, 'nanny', 2, true, 'night'),
+(255, 'nanny', 2, true, 'day'),
+(256, 'nanny', 0, true, 'day'),
+(257, 'nanny', 1, true, 'day'),
+(258, 'nanny', 1, true, 'night'),
+(259, 'nanny', 1, true, 'day'),
+(260, 'nanny', 2, true, 'night'),
+(261, 'nanny', 2, true, 'night'),
+(262, 'nanny', 1, true, 'night'),
+(263, 'nanny', 0, true, 'day'),
+(264, 'nanny', 0, true, 'night'),
+(265, 'nanny', 2, true, 'night'),
+(266, 'nanny', 1, true, 'night'),
+(267, 'nanny', 0, true, 'night'),
+(268, 'nanny', 2, true, 'day'),
+(269, 'nanny', 0, true, 'day'),
+(270, 'nanny', 2, true, 'day'),
+(271, 'nanny', 2, true, 'day'),
+(272, 'nanny', 0, true, 'day'),
+(273, 'nanny', 1, true, 'day'),
+(274, 'nanny', 1, true, 'night'),
+(275, 'nanny', 0, true, 'night'),
+(276, 'nanny', 2, true, 'night'),
+(277, 'nanny', 0, true, 'night'),
+(278, 'nanny', 2, true, 'day'),
+(279, 'nanny', 0, true, 'day'),
+(280, 'nanny', 1, true, 'night'),
+(281, 'nanny', 2, true, 'night'),
+(282, 'nanny', 1, true, 'day'),
+(283, 'nanny', 0, true, 'day'),
+(284, 'nanny', 1, true, 'night'),
+(285, 'nanny', 0, true, 'night'),
+(286, 'nanny', 2, true, 'night'),
+(287, 'nanny', 1, true, 'day'),
+(288, 'nanny', 1, true, 'day'),
+(289, 'nanny', 0, true, 'night'),
+(290, 'nanny', 0, true, 'day'),
+(291, 'nanny', 1, true, 'night'),
+(292, 'nanny', 0, true, 'day'),
+(293, 'nanny', 2, true, 'day'),
+(294, 'nanny', 2, true, 'night'),
+(295, 'nanny', 2, true, 'day'),
+(296, 'nanny', 1, true, 'night'),
+(297, 'nanny', 0, true, 'day'),
+(298, 'nanny', 1, true, 'day'),
+(299, 'nanny', 1, true, 'night'),
+(300, 'nanny', 2, true, 'day'),
+(301, 'nanny', 0, true, 'day');
+
 INSERT INTO search_teams(leader) VALUES(1),(2),(3),(4),(5);
-INSERT INTO search_member values(1, 5);
-INSERT INTO search_member values(2, 1);
-INSERT INTO search_member values(3, 2);
-INSERT INTO search_member values(4, 3);
-INSERT INTO search_member values(5, 4);
-INSERT INTO search_member values(6, 5);
-INSERT INTO search_member values(7, 1);
-INSERT INTO search_member values(8, 2);
-INSERT INTO search_member values(9, 3);
-INSERT INTO search_member values(10, 4);
-INSERT INTO search_member values(11, 5);
-INSERT INTO search_member values(12, 1);
-INSERT INTO search_member values(13, 2);
-INSERT INTO search_member values(14, 3);
-INSERT INTO search_member values(15, 4);
-INSERT INTO search_member values(16, 5);
-INSERT INTO search_member values(17, 1);
-INSERT INTO search_member values(18, 2);
-INSERT INTO search_member values(19, 3);
-INSERT INTO search_member values(20, 4);
-INSERT INTO search_member values(21, 5);
-INSERT INTO search_member values(22, 1);
-INSERT INTO search_member values(23, 2);
-INSERT INTO search_member values(24, 3);
-INSERT INTO search_member values(25, 4);
+
+INSERT INTO search_member values (1, 5),
+(2, 1),
+(3, 2),
+(4, 3),
+(5, 4),
+(6, 5),
+(7, 1),
+(8, 2),
+(9, 3),
+(10, 4),
+(11, 5),
+(12, 1),
+(13, 2),
+(14, 3),
+(15, 4),
+(16, 5),
+(17, 1),
+(18, 2),
+(19, 3),
+(20, 4),
+(21, 5),
+(22, 1),
+(23, 2),
+(24, 3),
+(25, 4);
 
 INSERT INTO find_types(name ) VALUES('Remnants of flame'),
                                     ('Scales'),
@@ -2333,3 +2339,4 @@ INSERT INTO search_types(name) VALUES('Looks for footprints in the ground'),
                                      ('Inspects the area from above');
 
 alter table search_teams add foreign key (leader) references search_member on update cascade on delete cascade;
+
