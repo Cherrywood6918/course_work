@@ -75,11 +75,11 @@ CREATE TABLE IF NOT EXISTS dragons
     name          VARCHAR(30)   NOT NULL UNIQUE,
     train_level_id   SMALLINT      REFERENCES characteristic_levels ON DELETE SET NULL ON UPDATE SET NULL,
     type_id       SMALLINT      REFERENCES dragon_types ON DELETE SET NULL ON UPDATE CASCADE,
-    age           SMALLINT      NOT NULL CHECK (age > 0),
     gender        GENDER,
     cage_id       SMALLINT      REFERENCES cages ON DELETE SET NULL ON UPDATE CASCADE,
     dragon_status DRAGON_STATUS NOT NULL,
-    date_of_death DATE
+    date_of_death DATE,
+    date_of_birth DATE
 );
 CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
