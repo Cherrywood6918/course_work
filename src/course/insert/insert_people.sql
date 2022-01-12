@@ -2000,8 +2000,6 @@ INSERT INTO people(name,surname,date_of_birth,date_of_death,gender,reputation) V
 ('Goodbrand', 'Eriksen', '1982-07-18', null, 'male', -74),
 ('Jerd', 'Moe', '2015-12-05', null, 'female', 92);
 
-
-
 INSERT INTO workers(person_id,worker_type,penalty,status,work_time) VALUES (2, 'researcher', 0, true, 'day'),
 (3, 'researcher', 0, true, 'night'),
 (4, 'researcher', 2, true, 'night'),
