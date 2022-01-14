@@ -6,17 +6,14 @@ CREATE TYPE DRAGON_STATUS AS ENUM ('alive', 'escaped', 'death from old age', 'de
 CREATE TYPE TRANSFER_TYPE AS ENUM ('permanent', 'temporal');
 CREATE TYPE WORKER_TYPE AS ENUM ('tamer', 'caretaker', 'researcher', 'nanny');
 CREATE TYPE SIZE AS ENUM ('small', 'medium', 'large', 'gigantic');
+CREATE TYPE ACTION_TYPE AS ENUM ('feed', 'play', 'train', 'scold', 'hit', 'treat');
+CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('health', 'training', 'happiness');
 
 CREATE TABLE IF NOT EXISTS classes
 (
     id          SMALLSERIAL PRIMARY KEY,
     name        VARCHAR(30) NOT NULL UNIQUE,
     description TEXT
-);
-CREATE TABLE IF NOT EXISTS characteristic_types
-(
-    id   SMALLSERIAL PRIMARY KEY,
-    name VARCHAR(15) NOT NULL UNIQUE
 );
 CREATE TABLE IF NOT EXISTS characteristic_levels
 (
@@ -25,7 +22,7 @@ CREATE TABLE IF NOT EXISTS characteristic_levels
     min_value    SMALLINT    NOT NULL CHECK (min_value >= 0),
     max_value    SMALLINT    NOT NULL CHECK (max_value >= 0),
     description  TEXT,
-    char_type_id SMALLINT    NOT NULL REFERENCES characteristic_types ON DELETE CASCADE ON UPDATE CASCADE,
+    char_type    DRAGON_CHARACTERISTIC
     CHECK(max_value > min_value)
 );
 CREATE TABLE IF NOT EXISTS dragon_appearance
@@ -83,10 +80,10 @@ CREATE TABLE IF NOT EXISTS dragons
 );
 CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
-    id           SMALLSERIAL PRIMARY KEY,
     value        SMALLINT NOT NULL CHECK (value > 0),
-    char_type_id SMALLINT NOT NULL REFERENCES characteristic_types ON DELETE CASCADE ON UPDATE CASCADE,
-    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE
+    char_type    DRAGON_CHARACTERISTIC,
+    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
+    PRIMARY KEY (char_type, dragon_id)
 );
 CREATE TABLE IF NOT EXISTS people
 (
@@ -125,14 +122,9 @@ CREATE TABLE IF NOT EXISTS workers
     status      BOOLEAN     NOT NULL,
     work_time   DAY_TIME    NOT NULL
 );
-CREATE TABLE IF NOT EXISTS action_types
-(
-    id   SMALLSERIAL PRIMARY KEY,
-    name VARCHAR(50) NOT NULL UNIQUE
-);
 CREATE TABLE IF NOT EXISTS caring_and_train_actions
 (
-    action_type_id SMALLINT  NOT NULL REFERENCES action_types ON DELETE CASCADE ON UPDATE CASCADE,
+    action_type    ACTION_TYPE,
     worker_id      SMALLINT  REFERENCES workers ON DELETE CASCADE ON UPDATE CASCADE,
     time_start     TIMESTAMP NOT NULL,
     time_finish    TIMESTAMP,
@@ -143,9 +135,9 @@ CREATE TABLE IF NOT EXISTS caring_and_train_actions
 CREATE TABLE IF NOT EXISTS action_type_influence
 (
     influence_value SMALLINT NOT NULL,
-    char_type_id    SMALLINT REFERENCES characteristic_types ON DELETE CASCADE ON UPDATE CASCADE,
-    action_type_id  SMALLINT REFERENCES action_types ON DELETE CASCADE ON UPDATE CASCADE,
-    PRIMARY KEY (char_type_id, action_type_id)
+    char_type       DRAGON_CHARACTERISTIC,
+    action_type     ACTION_TYPE,
+    PRIMARY KEY (char_type, action_type)
 );
 CREATE TABLE IF NOT EXISTS dragon_carers_trainers
 (
@@ -163,8 +155,7 @@ CREATE TABLE IF NOT EXISTS dragon_couples
 CREATE TABLE IF NOT EXISTS children
 (
     child_id      INT      PRIMARY KEY REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
-    parents_id    SMALLINT REFERENCES dragon_couples	ON DELETE SET NULL ON UPDATE CASCADE,
-    date_of_birth DATE     NOT NULL
+    parents_id    SMALLINT REFERENCES dragon_couples	ON DELETE SET NULL ON UPDATE CASCADE
 );
 CREATE TABLE IF NOT EXISTS terrains
 (
