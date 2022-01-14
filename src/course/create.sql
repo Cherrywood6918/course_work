@@ -82,8 +82,7 @@ CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
     value        SMALLINT NOT NULL CHECK (value > 0),
     char_type    DRAGON_CHARACTERISTIC,
-    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
-    PRIMARY KEY (char_type, dragon_id)
+    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE
 );
 CREATE TABLE IF NOT EXISTS people
 (
@@ -129,7 +128,6 @@ CREATE TABLE IF NOT EXISTS caring_and_train_actions
     time_start     TIMESTAMP NOT NULL,
     time_finish    TIMESTAMP,
     dragon_id      INT       REFERENCES dragons  ON DELETE CASCADE ON UPDATE CASCADE,
-    PRIMARY KEY (worker_id, dragon_id),
     CHECK(time_finish > time_start)
 );
 CREATE TABLE IF NOT EXISTS action_type_influence
