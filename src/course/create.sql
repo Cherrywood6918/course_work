@@ -98,7 +98,7 @@ CREATE TABLE IF NOT EXISTS people
 CREATE TABLE IF NOT EXISTS transfer_dragon_results
 (
     id                SMALLSERIAL PRIMARY KEY,
-    name              VARCHAR(30) NOT NULL UNIQUE,
+    name              VARCHAR(50) NOT NULL UNIQUE,
     reputation_points INT         NOT NULL
 );
 CREATE TABLE IF NOT EXISTS transfer_dragon_history
@@ -110,7 +110,7 @@ CREATE TABLE IF NOT EXISTS transfer_dragon_history
     time_start    TIMESTAMP     NOT NULL,
     time_finish   TIMESTAMP,
     PRIMARY KEY (dragon_id, person_id),
-    CHECK(time_finish > time_start)
+    CHECK(time_finish >= time_start)
 );
 CREATE TABLE IF NOT EXISTS workers
 (
