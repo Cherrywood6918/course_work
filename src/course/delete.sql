@@ -1,10 +1,8 @@
 DELETE FROM action_type_influence;
-DELETE FROM action_types;
 DELETE FROM bag;
 DELETE FROM cages;
 DELETE FROM caring_and_train_actions;
 DELETE FROM characteristic_levels;
-DELETE FROM characteristic_types;
 DELETE FROM children;
 DELETE FROM classes;
 DELETE FROM dragon_appearance;
