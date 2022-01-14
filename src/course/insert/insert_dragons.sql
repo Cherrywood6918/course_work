@@ -1,1432 +1,841 @@
 INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('low', 0, 40, 'if the dragon`s health is low for a long time, then it can get sick or even die', 'health');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('average', 41, 80, null, 'health');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('high', 81, 100, null, 'health');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('wild', 0, 10, 'the dragon was tamed and brought to the farm recently.', 'training');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('elementary', 11, 40,
+VALUES ('low', 0, 40, 'if the dragon`s health is low for a long time, then it can get sick or even die', 'health'),
+       ('average', 41, 80, null, 'health'),
+       ('high', 81, 100, null, 'health'),
+       ('wild', 0, 10, 'the dragon was tamed and brought to the farm recently.', 'training'),
+       ('elementary', 11, 40,
         'A must-have for every dragon on the farm. The dragon becomes obedient and less aggressive. The dragon can participate in breeding.',
-        'training');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('intermediate', 41, 80, 'The dragon can be given for a while', 'training');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('advanced', 81, 100, 'It can be transferred to a new owner', 'training');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('low', 0, 30, 'if the dragon`s happiness is low for a long time, then it can escape from the farm',
-        'happiness');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('average', 31, 70, null, 'happiness');
-INSERT INTO characteristic_levels (name, min_value, max_value, description, char_type)
-VALUES ('high', 71, 100, null, 'happiness');
+        'training'),
+       ('intermediate', 41, 80, 'The dragon can be given for a while', 'training'),
+       ('advanced', 81, 100, 'It can be transferred to a new owner', 'training'),
+       ('low', 0, 30, 'if the dragon`s happiness is low for a long time, then it can escape from the farm',
+        'happiness'),
+       ('average', 31, 70, null, 'happiness'),
+       ('high', 71, 100, null, 'happiness');
 
 -- Dragon's food
 INSERT INTO food (name)
-VALUES ('Rocks');
-INSERT INTO food (name)
-VALUES ('Lava');
-INSERT INTO food (name)
-VALUES ('Fish');
-INSERT INTO food (name)
-VALUES ('Ham');
-INSERT INTO food (name)
-VALUES ('Iron ore');
-INSERT INTO food (name)
-VALUES ('Flowers');
-INSERT INTO food (name)
-VALUES ('Vanaheim Fruit');
-INSERT INTO food (name)
-VALUES ('Geodes');
-INSERT INTO food (name)
-VALUES ('Fire Weed');
-INSERT INTO food (name)
-VALUES ('Mutton');
-INSERT INTO food (name)
-VALUES ('Yak');
-INSERT INTO food (name)
-VALUES ('Moss');
-INSERT INTO food (name)
-VALUES ('Dragon hatchlings');
-INSERT INTO food (name)
-VALUES ('Honeycomb');
-INSERT INTO food (name)
-VALUES ('Wild Boar');
-INSERT INTO food (name)
-VALUES ('Eels');
-INSERT INTO food (name)
-VALUES ('Chickens');
-INSERT INTO food (name)
-VALUES ('Fruit');
-INSERT INTO food (name)
-VALUES ('Berries');
-INSERT INTO food (name)
-VALUES ('Crab');
-INSERT INTO food (name)
-VALUES ('Death Songs');
-INSERT INTO food (name)
-VALUES ('Worms');
-INSERT INTO food (name)
-VALUES ('Grubs');
-INSERT INTO food (name)
-VALUES ('Sea Slugs');
-INSERT INTO food (name)
-VALUES ('Honeycombs');
+VALUES ('Rocks'),
+       ('Lava'),
+       ('Fish'),
+       ('Ham'),
+       ('Iron ore'),
+       ('Flowers'),
+       ('Vanaheim Fruit'),
+       ('Geodes'),
+       ('Fire Weed'),
+       ('Mutton'),
+       ('Yak'),
+       ('Moss'),
+       ('Dragon hatchlings'),
+       ('Honeycomb'),
+       ('Wild Boar'),
+       ('Eels'),
+       ('Chickens'),
+       ('Fruit'),
+       ('Berries'),
+       ('Crab'),
+       ('Death Songs'),
+       ('Worms'),
+       ('Grubs'),
+       ('Sea Slugs'),
+       ('Honeycombs');
 
 -- Dragon's classes
 INSERT INTO classes (name, description)
 VALUES ('Boulder',
-        'Boulder Class dragons are tough and associated with the earth. They can eat rocks, which many of them melt within their stomachs and regurgitate as lava blasts. Although they have small wings compared to their body size, they are able to fly as fast and as high as most other dragons can.');
-INSERT INTO classes (name, description)
-VALUES ('Mystery',
-        'Little is known about the Mystery Class dragons, due to their stealthy and sneaky nature. Dragons in this class are generally more feared than those in other classes. This Class tends to include the most diverse and interesting range of dragons out of all, most of which exhibit extremely rare and unique traits.');
-INSERT INTO classes (name, description)
-VALUES ('Sharp',
-        'Sharp Class dragons are vain and prideful, and all of them possess sharp body parts. Most of these dragons can fire extremely sharp and poisonous projectiles from their bodies, which can quickly be regenerated. Sharp class dragons adore being stroked and generally made a fuss of. They especially love being complimented, due to their nature.');
-INSERT INTO classes (name, description)
-VALUES ('Stoker',
-        'Stoker Class dragons are hot-headed fire breathers. A notable characteristic of these dragons is their high shot limit and firepower. Some of them are capable of setting themselves, or a part of their body on fire. When Stoker Class dragons become sick or exhausted, they might loose their ability to produce flames.');
-INSERT INTO classes (name, description)
-VALUES ('Strike',
-        'Strike Class dragons are characterized by their extreme speed, high jaw strength, and superior intelligence. Some members of this Class possess pinpoint accuracy and unique abilities that allow them to navigate in their respective environment/atmosphere.');
-INSERT INTO classes (name, description)
-VALUES ('Tidal',
-        'Almost all Tidal Class dragons live in ocean, although some of them have amphibian biology allowing them to survive on land. Few of these dragons are cable of creating flames, but many can generate electricity. Dragons of this class are generally larger than those of other classes. Despite this, they are usually very peaceful ocean dwellers who prefer to be left alone and when trained, are exceedingly loyal. According to Hiccup, Tidal Class dragons don''t react well to signs of aggression.');
-INSERT INTO classes (name, description)
-VALUES ('Tracker',
-        'Tracker Class dragons have a highly acute sense of smell and taste that enables them to effortlessly track down and find anything.');
-INSERT INTO classes (name, description)
-VALUES ('Unknown',
+        'Boulder Class dragons are tough and associated with the earth. They can eat rocks, which many of them melt within their stomachs and regurgitate as lava blasts. Although they have small wings compared to their body size, they are able to fly as fast and as high as most other dragons can.'),
+       ('Mystery',
+        'Little is known about the Mystery Class dragons, due to their stealthy and sneaky nature. Dragons in this class are generally more feared than those in other classes. This Class tends to include the most diverse and interesting range of dragons out of all, most of which exhibit extremely rare and unique traits.'),
+       ('Sharp',
+        'Sharp Class dragons are vain and prideful, and all of them possess sharp body parts. Most of these dragons can fire extremely sharp and poisonous projectiles from their bodies, which can quickly be regenerated. Sharp class dragons adore being stroked and generally made a fuss of. They especially love being complimented, due to their nature.'),
+       ('Stoker',
+        'Stoker Class dragons are hot-headed fire breathers. A notable characteristic of these dragons is their high shot limit and firepower. Some of them are capable of setting themselves, or a part of their body on fire. When Stoker Class dragons become sick or exhausted, they might loose their ability to produce flames.'),
+       ('Strike',
+        'Strike Class dragons are characterized by their extreme speed, high jaw strength, and superior intelligence. Some members of this Class possess pinpoint accuracy and unique abilities that allow them to navigate in their respective environment/atmosphere.'),
+       ('Tidal',
+        'Almost all Tidal Class dragons live in ocean, although some of them have amphibian biology allowing them to survive on land. Few of these dragons are cable of creating flames, but many can generate electricity. Dragons of this class are generally larger than those of other classes. Despite this, they are usually very peaceful ocean dwellers who prefer to be left alone and when trained, are exceedingly loyal. According to Hiccup, Tidal Class dragons don''t react well to signs of aggression.'),
+       ('Tracker',
+        'Tracker Class dragons have a highly acute sense of smell and taste that enables them to effortlessly track down and find anything.'),
+       ('Unknown',
         'Some species of dragons have not yet been officially classified into any class and may be sorted in the future. The reasons for this lack of information varies.');
 
--- Boulder Class species
 INSERT INTO dragon_appearance (size, color, fire_type, features)
 VALUES ('large', 'Dark Grey or Brown with Pale underbelly', 'Magma slobber from trifurcated jaws',
-        'Filled with spikes;Triple-split jaw;Tough rock-like skin');
+        'Filled with spikes;Triple-split jaw;Tough rock-like skin'),
+       ('large', 'Crimson with purple details and light underside',
+        'Molten lava', 'Metallic, moose-like antlers;Axe-shaped tail;Rock-shaped spines'),
+       ('large', 'Bright red and yellow with dirty brown plates',
+        'Large-scale lava spew',
+        'Spiky lobes and protrusions on back and tail;Large, round head;Tiny forelegs'),
+       ('medium', 'Mainly red with yellow spots;Orange',
+        'Pulse blasts',
+        'Double-horned head;Long body;Spines along the back;Yellow rings along body'),
+       ('medium', 'Icy blue and white', 'Liquid nitrogen',
+        'Covered in snow and ice;Cold-blooded;Icicles below chin;Spikey ridges along the back, jaws, and limbs'),
+       ('medium', 'Reddish brown',
+        'Heptane/oxygen + rock = Lava blast',
+        'Eyes lower on head;Clubbed tail'),
+       ('large', 'Stony grey with mossy green highlights',
+        'Funeral pyre fire',
+        'Large body covered in scutes, rounded tail'),
+       ('medium', 'Chartreuse;Aquamarine with purple to brown stripes',
+        'Brightly-colored fire',
+        'Pointed chin;Head frill;Paddle-shaped tail;Stubby arms'),
+       ('medium', 'Blue and red;Green and orange',
+        'Crystal-flecked fireballs',
+        'Spiked tail bludgeon;Nasal horn;Diamond-sharp teeth'),
+       ('medium', 'Bright red back and wings with a white belly',
+        'Small balls of fire',
+        'Six legs;Huge clawed forearms;Small spines along the back;Small wings;A horn on chin and nose'),
+       ('large', 'Grayish steel green body with red spikes',
+        'Concentric rings of fire',
+        'Large head and mouth with rotating teeth inside;Sharp spines;White bulging eyes'),
+       ('large', 'Pale green;Purple;Orange',
+        'Oxygen-acetylene',
+        'Metal armor;Pair of twisted horns;Chain-whip tail;Long claws;Long spikes on knees'),
+       ('large', 'Pale green with white bones as armor',
+        'Billowing flames',
+        'Bone armor;Clubbed tail'),
+       ('medium', 'Brown and bronze;Green and yellow',
+        'Exploding, uncontrollable flames',
+        'Armored body;Ram-like horns;Small rows of spines along back;Short legs'),
+       ('large', 'Black with yellow stripes',
+        'Bright green fire',
+        'Glands that produce flammable mucus on back and tail;Collapsible skeleton;Upper beak;Absence of wings'),
+       ('medium', 'Green with a cream underbelly',
+        'Hot, corrosive, viscous acid',
+        'Side horns protruding from head;Antennae with leaf-like lobes;Underbite;Nasal horn'),
+       ('large', 'Striking colors of blue, yellow, and orange',
+        'Amber-like substance that hardens quickly',
+        'Colorful wings;Fins on the head;Long spines along the back;Long horns;Barbles'),
+       ('medium', 'Dark blue and red',
+        'Flaming facsimiles',
+        'Spiky head;Small forelimbs;Finned tail'),
+       ('medium', 'Bioluminescent neon blue with a lighter underbelly',
+        'Paralyzing toxic mist',
+        'Wing tendrils;Split tail;Translucent wings;Barbells;Ghostlike glow'),
+       ('gigantic', 'Light brown with green shades',
+        'Lava and acid',
+        'Wood-like skin;Covered in foliage and trees;Beard-like tendrils;Double nasal horn;Hair-like appendages'),
+       ('large', 'Mainly green, blue, or gold with spots ',
+        'Ammonium nitrate mixed with anhydrous hydrazine',
+        'Two heads;Horns;Split tail;Lobs along necks, back, and tail'),
+       ('small', 'Purple with dark spots and yellow underside',
+        'Incendiary slobber',
+        'Small thin spines on the back;Small curved nasal horn'),
+       ('small', 'Green with brown spots',
+        'Purple particles with healing properties',
+        'Horns;Double-frilled tail fin;Frill along back;Slender neck;Nasal horn'),
+       ('medium', 'GGreen and beige',
+        'Fusing blasts',
+        'Large head;Long neck;Prehensile tail;Spikes along side of body'),
+       ('large', 'Blue with black stripes',
+        'Amber-like substance',
+        'Colorful wings;Fins on the head;Long spines along back;Long horns;Barbles'),
+       ('medium', 'Red with black and yellow stripes',
+        'Venom spit',
+        'Long snake-like body;Irregular spikes on the head;Small claws on wings'),
+       ('small', 'Dark and light grey',
+        'Smoke and extremely hot air',
+        'Yellow eyes;Skull-like head;Smoke-like tail;Spines along back;Nasal horn flanked by two smaller ones'),
+       ('large', 'Green with red and yellow spots',
+        'Methane mist;Acid',
+        'Four heads;Leaf-like spines;Triple split jaws;Antennae;Forked tail'),
+       ('medium', 'Sandy yellow;Light, pale brown',
+        'Corrosive, possibly even sweet, acid',
+        'Very small eyes;Long tail;Stripes all over body;Tree-like tongue'),
+       ('large', 'Dark gray;Silver and black;White and golden',
+        'Varied depending on metal type',
+        'Magnetic skin;Metal armor over body;Red-hot glowing mouth;Spear-tipped tail;Metal spikes along neck and back'),
+       ('large', 'Black with brown horns',
+        'Orange blasts',
+        'Short forearms;Horns;Barbells;Tail that resembles a scythe'),
+       ('medium', 'Creamy underbelly and a variety of bright colors',
+        'Blasts of blue fire',
+        'Spikes at the back of head;Stocky build;Striped tail'),
+       ('medium', 'Purple;Red and purple',
+        'Teeth darts',
+        'Snake-like body;Lots of horns and spikes;Shark like-teeth'),
+       ('medium', 'Light woody-brown',
+        'Average fireballs',
+        'Elongated body;Axe-like snout;Spiky back and tail;Six legs'),
+       ('large', 'Greyish green and orange with dark red wings',
+        'Rain-resistant fireballs',
+        'Large sharp fins on the back and head;Nasal horn;Elongated neck;Short tendrils under the chin;Larger lower jaw'),
+       ('medium', 'Silver;Metallic rust',
+        'Bright blue fire',
+        'Horn on snout;Sharp spines;Spikes on the edge of wings;Reflective scales'),
+       ('medium', 'Purple and blue',
+        'Flammable drool',
+        'Zippleback-like lobs along back;Nadder-based structure;Round head'),
+       ('large', 'Blue and purple with gem-like blue spines',
+        'Frost',
+        'Two small horns under its chin;Striped body;Thin and sharp claws;Spines along the back'),
+       ('medium', 'Green',
+        'Acid blast',
+        'Razor-sharp stinger;Red stripes (Lead Stinger);Sail fin on head;Small pair of wings on back;Extendable webbed feet;Theropod-like stature'),
+       ('large', 'Woody-brown body, cream underbelly',
+        'Sustained and blazing torus of fire',
+        'Two pairs of wings;Head frills;"Smashed" face;Three tail fins'),
+       ('large', 'Blue with red patterns',
+        'Thick stream of fire',
+        'Thorn-like spikes on the head frill;Double nasal horn;Long neck with short thorns'),
+       ('large', 'Woody-brown with lighter underbelly',
+        'Oil-based fire',
+        'Huge razor-sharp wings;No legs;Long and twisted horns;Slender body and neck;Tendrils under the chin'),
+       ('large', 'Blue with yellow pattern',
+        'Super-heated air;Streams of fire',
+        'Long sharp horn on snout and chin;Long neck;Spines along the neck;Spots on body'),
+       ('medium', 'Golden brown body and tan spots',
+        'Firecomb: A topical and flammable gel',
+        'Four or five pair of legs;Glowing body;Long twisted horns for the Queen'),
+       ('medium', 'Multi-colored',
+        'Swirling explosions of fire',
+        'Membranes between the fingers;Dark-colored stripes;Thick spiked tail;Gecko-like appearance'),
+       ('medium', 'Green or blue with black stripes',
+        'Acid blast',
+        'Striped pattern on body;Spike-like frill;Horn on nose'),
+       ('gigantic', 'Dull green with red to purplish-red',
+        'Methane',
+        'Three pairs of eyes;Massive size;Clubbed tail'),
+       ('large', 'Purple;Yellow;Red',
+        'Ethane expectorant',
+        'Large head frill;Tail fin;Underbite'),
+       ('large', 'Green with white underbelly',
+        'Sonic roar',
+        'Row of triangular spines along back;Four spines on tail tip;Rounded head and snout;Wide build'),
+       ('medium', 'Red', 'Kerosene gel',
+        'Double-clawed wings;Two pairs of long horns;Sharp spines;Snake-like neck;Snake-like tail with frills;Barbels;Nasal horn;Flammable gel on skin'),
+       ('small', 'Black and dark green',
+        'Several discreet fire streams',
+        'Double nasal horn'),
+       ('large', 'blue with red spikes',
+        'Methane',
+        'Clubbed tail;Three pairs of eyes'),
+       ('large', 'Purple and white',
+        'Blue explosive flames',
+        'Diamond-shaped wing lobes'),
+       ('small', 'Orange with red spots and purple chin',
+        'Scarlet flames',
+        'Two sets of wings'),
+       ('small', 'Blue and purple',
+        'Explosive molten lava',
+        'Row of triangular spines along the back'),
+       ('small', 'highlights on back and pale belly',
+        'Propane fire',
+        'Arrow-shaped tail tip'),
+       ('large', 'Bright yellow with pale blue',
+        'Green and orange flames',
+        'Large crown-like head frill'),
+       ('medium', 'Red',
+        'Cyclonic jets of flame',
+        'Large wings'),
+       ('large', 'Red and black',
+        'Rabid acid flame bursts',
+        'Protruding retractable tusks'),
+       ('medium', 'White with a blue and pink tint',
+        'Acetylene and oxygen-shaped plasma charges',
+        'Cat-like eyes'),
+       ('medium', 'White with a blue and pink tint',
+        'Acetylene and oxygen-shaped plasma charges',
+        'Cat-like eyes'),
+       ('medium', 'Jet black',
+        'Acetylene and oxygen-shaped plasma charges',
+        'Cat-like eyes'),
+       ('medium', 'Dark gray with purple markings',
+        'Lightning',
+        'Sharp metallic spines on the back'),
+       ('large', 'Shades of Green',
+        'Unidentified breath weapon',
+        'Huge wings'),
+       ('medium', 'Snowy white with blue highlights',
+        'Frost fusillade',
+        'Long ledge under chin'),
+       ('medium', 'Brownish-black',
+        'Continuous streams of flames',
+        'Three tails that tie together to form one'),
+       ('medium', 'Dark brown with pale belly',
+        'Hail',
+        'Fur-like scales'),
+       ('gigantic', 'Snowy white',
+        'Masses of water that freeze',
+        'Large spikes protruding from back of neck'),
+       ('gigantic', 'Blue with dark green spots',
+        'water blast',
+        'Large fin on the back'),
+       ('gigantic', 'Dark navy blue',
+        'water blast',
+        'Fins instead of legs'),
+       ('medium', 'Deep purple',
+        'huge blasts',
+        'Long tendrils on chin'),
+       ('large', 'Deep blue',
+        'acid',
+        'Long tail'),
+       ('medium', 'Sandy brown',
+        'Hardened balls',
+        'Spikes on wings'),
+       ('medium', 'Sea Green',
+        'boiling hot water',
+        'Nasal horn'),
+       ('medium', 'Sea blue and black',
+        'Electric stun charges',
+        'Two heads'),
+       ('medium', 'Red with orange',
+        'Cannonball-sized plasma charges',
+        'Long but relatively small wings'),
+       ('large', 'green',
+        'Bio-electricity',
+        'Tendrils on the chin'),
+       ('small', 'Mainly blue',
+        'Fire balls',
+        'Expandable mouth'),
+       ('medium', 'Cyan',
+        'Acid blasts',
+        'Large fan-like tail fin'),
+       ('medium', 'red',
+        'Balls of fire',
+        'Long neck'),
+       ('medium', 'Light Orange',
+        'Massive balls of fire',
+        'Large fan-like tail fin'),
+       ('medium', 'Variety of colors',
+        'Magnesium fire',
+        'Nasal horn'),
+       ('medium', 'Turquoise Green',
+        'Sonic blasts',
+        'Sail on back'),
+       ('medium', 'Green with brown trim',
+        'Flaming rock "missiles"',
+        'Jackhammer-like maw'),
+       ('large', 'Different colored patterns',
+        'Fire-sneeze that can melt nearly anything',
+        'Colorful exterior'),
+       ('gigantic', 'Blue with yellow stripes',
+        'Whirlpool',
+        'Webbed feet'),
+       ('medium', 'Wide variety of colors',
+        'Green/orange fire',
+        'Sail on back'),
+       ('medium', 'green',
+        'Green or Orange Fireballs',
+        'Bumps all over body'),
+       ('small', 'red',
+        'Green or Orange Fireballs',
+        'Bumps all over body'),
+       ('large', 'blue',
+        'Green or Orange Fireballs',
+        'Bumps all over body');
+
 INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season, hatching_age,
                           puberty_age, appearance_id, rarity)
 VALUES ('Catastrophic Quaken', 1, null, false, 'Curling into a boulder;Creating a shockwave', 'day', 'autumn', 3, 10, 1,
-        0.7);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 1);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Crimson with purple details and light underside',
-        'Molten lava', 'Metallic, moose-like antlers;Axe-shaped tail;Rock-shaped spines');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Crimson Goregutter', 1, null, false,
+        0.7),
+       ('Crimson Goregutter', 1, null, false,
         'Blazing antlers;Ear-splitting call',
-        'day', 'spring', 4, 12, 2, 0.1);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 2);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Bright red and yellow with dirty brown plates',
-        'Large-scale lava spew',
-        'Spiky lobes and protrusions on back and tail;Large, round head;Tiny forelegs');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Eruptodon', 1, null, false,
+        'day', 'spring', 4, 12, 2, 0.1),
+       ('Eruptodon', 1, null, false,
         'Burrowing through the crust of a dormant volcano;Eating extremely large amounts of lava;Stopping and causing volcanic eruptions;Lava-proof skin;Heat-resistant saliva',
-        'day', 'spring', 4, 12, 3, 0.3);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 3);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Mainly red with yellow spots;Orange',
-        'Pulse blasts',
-        'Double-horned head;Long body;Spines along the back;Yellow rings along body');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Grapple Grounder', 1, null, false,
-        'Strangling victims', 'night', 'summer', 2, 7, 4, 0.12);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 4);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 4);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Icy blue and white', 'Liquid nitrogen',
-        'Covered in snow and ice;Cold-blooded;Icicles below chin;Spikey ridges along the back, jaws, and limbs');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Groncicle', 1,
+        'day', 'spring', 4, 12, 3, 0.3),
+       ('Grapple Grounder', 1, null, false,
+        'Strangling victims', 'night', 'summer', 2, 7, 4, 0.12),
+       ('Groncicle', 1,
         'Groncicles are a peaceful, friendly, non-aggressive species. Having been the first dragons to ever be peaceful with humans (with the ancient Vikings of Icestorm Island), they are naturally kind with people. So, it won`t be difficult to tame this dragon.',
-        true,
-        'Freezes water around it as it swims;Condenses the water vapor in the clouds', 'night', 'winter',
-        4, 16, 5, 0.87);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 5);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 5);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Reddish brown',
-        'Heptane/oxygen + rock = Lava blast',
-        'Eyes lower on head;Clubbed tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Hotburple', 1,
+        true, 'Freezes water around it as it swims;Condenses the water vapor in the clouds', 'night', 'winter',
+        4, 16, 5, 0.87),
+       ('Hotburple', 1,
         'Hotburples are one of the easiest dragons to tame, due to their indolent, sedentary and docile nature', true,
-        'Sleep-flying;Immense jaw strength;Biting through dragon-proof metal', 'day', 'summer', 3, 9, 6, 0.83);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 6);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 6);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (5, 6);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (6, 6);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Stony grey with mossy green highlights',
-        'Funeral pyre fire',
-        'Large body covered in scutes, rounded tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Sentinel', 1,
+        'Sleep-flying;Immense jaw strength;Biting through dragon-proof metal', 'day', 'summer', 3, 9, 6, 0.83),
+       ('Sentinel', 1,
         'To those who showcase the right intentions, Sentinels appear to be less hostile. Although their instinct to guard and protect is strong, a Sentinel will use its intelligence to know who is a friend and who is not. By helping them guard the area and proving that you are of no threat, Sentinels will grant you the respect and lower their aggression, even allowing you in and out of the island. Their trust can be earnt.',
         true,
         'Wing blasts;Remaining motionless for days at a time;Extremely developed senses except for sight;Hibernation',
-        'day', 'autumn', 1, 11, 7, 0.12);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 7);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (7, 7);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Chartreuse;Aquamarine with purple to brown stripes',
-        'Brightly-colored fire',
-        'Pointed chin;Head frill;Paddle-shaped tail;Stubby arms');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Shovelhelm', 1,
+        'day', 'autumn', 1, 11, 7, 0.12),
+       ('Shovelhelm', 1,
         'Shovelhelms can be coaxed with fish. If they are curious, let them help you build something. Like the majority of Boulder Class dragons, Shovelhelms are amiable with generally friendly personalities, unless feeling threatened: they also don''t like to jump straight into a fight, indicating that training one would presumably be fairly straightforward.',
         true,
-        'Digging with chin;Hammering with head', 'day', 'summer', 2, 19, 8, 0.97);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 8);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 8);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Blue and red;Green and orange',
-        'Crystal-flecked fireballs',
-        'Spiked tail bludgeon;Nasal horn;Diamond-sharp teeth');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Snafflefang', 1,
+        'Digging with chin;Hammering with head', 'day', 'summer', 2, 19, 8, 0.97),
+       ('Snafflefang', 1,
         'Snafflefangs are relatively easy to tame, as they are calm and peaceful dragons. If a person saves a Snafflefang`s life, the dragon will be forever thankful and will stay close to its savior.',
-        true, null, 'day', 'summer', 2, 9, 9, 0.22);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 9);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (8, 9);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Bright red back and wings with a white belly',
-        'Small balls of fire',
-        'Six legs;Huge clawed forearms;Small spines along the back;Small wings;A horn on chin and nose');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Thunderpede', 1,
+        true, null, 'day', 'summer', 2, 9, 9, 0.22),
+       ('Thunderpede', 1,
         'This dragon is difficult to tame, you need to bring a lot of delicacies and be patient.',
-        true, 'Pulverizing boulders', 'day', 'spring', 3, 13, 10, 0.27);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 10);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Grayish steel green body with red spikes',
-        'Concentric rings of fire',
-        'Large head and mouth with rotating teeth inside;Sharp spines;White bulging eyes');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Whispering Death', 1,
+        true, 'Pulverizing boulders', 'day', 'spring', 3, 13, 10, 0.27),
+       ('Whispering Death', 1,
         'Whispering Deaths are almost untrainable. They are very destructive and aggressive in nature, attacking anything in their way and are generally feared by other dragons and humans in general. The only way to train a Whispering Death would be to capture it and take your time until you eventually gain its trust or by raising one as a hatchling',
         true, 'Tunneling;Spine shot;Rotating teeth;Vacuum effect;Immunity to dragon nip', 'day', 'autumn',
-        1, 7, 11, 0.82);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 11);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (6, 11);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 11);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 11);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (11, 11);
-
--- Mystery Class species
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Pale green;Purple;Orange',
-        'Oxygen-acetylene',
-        'Metal armor;Pair of twisted horns;Chain-whip tail;Long claws;Long spikes on knees');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Armorwing', 2,
+        1, 7, 11, 0.82),
+       ('Armorwing', 2,
         'Not much is known about training Armorwings, but like most dragons, bonding with them requires trust. While they appear aggressive and somewhat stand-offish, helping them again and proving yourself as no threat will assure them that the human is trustworthy. This is seen when Hiccup passed Bandit a piece of scrap metal and the Armorwing gladly accepted it, dipping its head in gratitude.',
-        true, 'Magnetic body;Whipping tail;Blinding flames', 'night', 'summer', 2, 14, 12, 0.92);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 12);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Pale green with white bones as armor',
-        'Billowing flames',
-        'Bone armor;Clubbed tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Boneknapper', 2,
+        true, 'Magnetic body;Whipping tail;Blinding flames', 'night', 'summer', 2, 14, 12, 0.92),
+       ('Boneknapper', 2,
         'According to Gobber, to train a Boneknapper, one must give it whatever it desires. It will then become like "an overgrown puppy dog".',
-        true, 'Bone armor;Thundering roar', 'day', 'summer', 1, 7, 13, 0.28);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 13);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Brown and bronze;Green and yellow',
-        'Exploding, uncontrollable flames',
-        'Armored body;Ram-like horns;Small rows of spines along back;Short legs');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Buffalord', 2, null,
+        true, 'Bone armor;Thundering roar', 'day', 'summer', 1, 7, 13, 0.28),
+       ('Buffalord', 2, null,
         false,
         'Inflating its body to an immense size;Shooting spines from any part of its body;Extremely potent saliva',
-        'day', 'winter', 5, 17, 14, 0.43);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 14);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (6, 14);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (12, 14);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Black with yellow stripes',
-        'Bright green fire',
-        'Glands that produce flammable mucus on back and tail;Collapsible skeleton;Upper beak;Absence of wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Cavern Crasher', 2, null, false,
+        'day', 'winter', 5, 17, 14, 0.43),
+       ('Cavern Crasher', 2, null, false,
         'Fitting through small spaces;Producing a special flammable mucus from its back;Burrowing',
-        'day', 'summer', 4, 13, 15, 0.65);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (13, 15);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Green with a cream underbelly',
-        'Hot, corrosive, viscous acid',
-        'Side horns protruding from head;Antennae with leaf-like lobes;Underbite;Nasal horn');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Changewing', 2,
+        'day', 'summer', 4, 13, 15, 0.65),
+       ('Changewing', 2,
         'They enjoy mimicry, so if one tries to mimic them, be it by their noises or their movements, they will find the individual fascinating.',
-        true, 'Camouflage;Prehensile tail;Hypnosis', 'day', 'summer', 4, 14, 16, 0.77);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 16);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 16);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (14, 16);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (15, 16);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Striking colors of blue, yellow, and orange',
-        'Amber-like substance that hardens quickly',
-        'Colorful wings;Fins on the head;Long spines along the back;Long horns;Barbles');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Death Song', 2,
+        true, 'Camouflage;Prehensile tail;Hypnosis', 'day', 'summer', 4, 14, 16, 0.77),
+       ('Death Song', 2,
         'It is unknown if adult Death Songs can be trained, but it proved to be possible with a baby Death Song, Garff, who with the riders after they sang to it. Fishlegs also discovered from Garff that Death Songs can be calmed using dragon nip, though they do not take it as willingly as other dragons.',
         true, 'Siren-like luring song;Spitting amber to immobilize its prey;Immunity to eels', 'night', 'spring', 4, 12,
-        17, 0.29);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 17);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (16, 17);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (17, 17);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 17);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Dark blue and red',
-        'Flaming facsimiles',
-        'Spiky head;Small forelimbs;Finned tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Dramillion', 2,
+        17, 0.29),
+       ('Dramillion', 2,
         'Despite their near-extinction status due to the Dragon Hunters, most Dramillions can be trained very easily. In order for one to tame a Dramillion, showing the dragon that you mean no harm is enough for it to let the guard down. Like most dragons, a Dramillion''s trust can be earned by touching it gently on the snout or helping it if needed.',
         true, 'Mimic fire from other dragons;Hunting in packs;Sharing fire reserves;Camouflage', 'day', 'summer',
-        3, 17, 18, 0.92);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 18);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Bioluminescent neon blue with a lighter underbelly',
-        'Paralyzing toxic mist',
-        'Wing tendrils;Split tail;Translucent wings;Barbells;Ghostlike glow');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Flightmare', 2,
+        3, 17, 18, 0.92),
+       ('Flightmare', 2,
         'It remains unclear as to whether or not Flightmares can be trained, as their extreme aggression and hostility towards anyone in order protect their food source makes it virtually impossible to even approach one, much less train it. However, if one is willing to make an attempt at bonding with a Flightmare, approach alone and with caution, as multiple present individuals will quickly make the solitary dragon feel outnumbered, and show the Flightmare you are not a threat to either it nor its glowing food source.',
         true, 'Glows brighter when consuming glowing algae;Loud banshee-like scream;Can freeze victims with its mist',
-        'night', 'winter', 2, 13, 19, 0.64);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 19);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 19);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Light brown with green shades',
-        'Lava and acid',
-        'Wood-like skin;Covered in foliage and trees;Beard-like tendrils;Double nasal horn;Hair-like appendages');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Foreverwing', 2,
+        'night', 'winter', 2, 13, 19, 0.64),
+       ('Foreverwing', 2,
         null, false, 'Telepathy;Camouflage;Commanding dragons;Creating calming compounds',
-        'day', 'spring', 20, 130, 20, 0.46);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Mainly green, blue, or gold with spots ',
-        'Ammonium nitrate mixed with anhydrous hydrazine',
-        'Two heads;Horns;Split tail;Lobs along necks, back, and tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Hideous Zippleback', 2,
+        'day', 'spring', 20, 130, 20, 0.46),
+       ('Hideous Zippleback', 2,
         'To train a Zippleback, you must feed both heads at once, then play with the dragon to keep it occupied. Another way to train one is to save a Zippleback''s life. If this is done, they will be completely loyal to the person no matter what until they can repay the favor.',
         true, 'Flaming ouroboros; Transmitting brains',
-        'day', 'winter', 4, 15, 21, 0.74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 21);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 21);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (14, 21);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Purple with dark spots and yellow underside',
-        'Incendiary slobber',
-        'Small thin spines on the back;Small curved nasal horn');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Hobgobbler', 2,
+        'day', 'winter', 4, 15, 21, 0.74),
+       ('Hobgobbler', 2,
         'This dragons seems to be pretty docile as Valka was holding one of the rescued Hobgobblers to examine his health. One of them even ordered his packmates to attack Ragnar the Rock to save Gobber''s life.',
         true, 'Feeding frenzy;Multiplying;Covering themselves with their own slobber to slip through tight spots',
-        'day', 'autumn', 4, 11, 22, 0.83);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 22);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Green with brown spots',
-        'Purple particles with healing properties',
-        'Horns;Double-frilled tail fin;Frill along back;Slender neck;Nasal horn');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Prickleboggle', 2,
+        'day', 'autumn', 4, 11, 22, 0.83),
+       ('Prickleboggle', 2,
         null, false, 'Healing powers;Defensive skin',
-        'day', 'spring', 2, 15, 23, 0.54);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 23);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'GGreen and beige',
-        'Fusing blasts',
-        'Large head;Long neck;Prehensile tail;Spikes along side of body');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Sandbuster', 2,
+        'day', 'spring', 2, 15, 23, 0.54),
+       ('Sandbuster', 2,
         null, false, 'Burrowing',
-        'night', 'summer', 5, 15, 24, 0.65);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Blue with black stripes',
-        'Amber-like substance',
-        'Colorful wings;Fins on the head;Long spines along back;Long horns;Barbles');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Slithersong', 2,
+        'night', 'summer', 5, 15, 24, 0.65),
+       ('Slithersong', 2,
         'Not much is mentioned about training the Slithersong, apart from the fact that it is incredibly hard to do so, deemed ''impossible'' and only for the most elite of trainers.',
         true,
         'Siren-like luring song;Mimicking sounds;Immobilizing its prey;Immunity to eels;Blinding',
-        'night', 'autumn', 2, 12, 25, 0.13);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 25);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Red with black and yellow stripes',
-        'Venom spit',
-        'Long snake-like body;Irregular spikes on the head;Small claws on wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Slitherwing', 2,
+        'night', 'autumn', 2, 12, 25, 0.13),
+       ('Slitherwing', 2,
         'The Slitherwing`s extremely aggressive and instinct-driven nature and high levels of toxicity render it very difficult, if not impossible, to train. Even so, according to Rise of Berk, Slitherwings are able to be trained, although it requires some time and introductions to humans.',
         true,
         'Spilling poison secreted from the skin;Extremely foldable wings;Immunity to a Death Song`s amber and call',
-        'day', 'winter', 2, 13, 26, 0.81);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (21, 26);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Dark and light grey',
-        'Smoke and extremely hot air',
-        'Yellow eyes;Skull-like head;Smoke-like tail;Spines along back;Nasal horn flanked by two smaller ones');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Smothering Smokebreath', 2,
+        'day', 'winter', 2, 13, 26, 0.81),
+       ('Smothering Smokebreath', 2,
         'Create a fancy nest, made of the best scrap metal you can find. Whether the Smokebreaths decide to move in or take it apart is up to them, though.',
         true, 'Creating a veil of smoke;Creating nests from metal',
-        'night', 'spring', 1, 15, 27, 0.22);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 27);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (20, 27);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 27);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Green with red and yellow spots',
-        'Methane mist;Acid',
-        'Four heads;Leaf-like spines;Triple split jaws;Antennae;Forked tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Snaptrapper', 2,
+        'night', 'spring', 1, 15, 27, 0.22),
+       ('Snaptrapper', 2,
         'Just like Hideous Zipplebacks, Snaptrappers'' trust can be earned if all heads are treated in equal measure. They can also be tamed if approached while playing in mud.',
         true, 'Baits victim with a sweet smell;Emitting obnoxious odors',
-        'day', 'summer', 6, 16, 28, 0.74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 28);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Sandy yellow;Light, pale brown',
-        'Corrosive, possibly even sweet, acid',
-        'Very small eyes;Long tail;Stripes all over body;Tree-like tongue');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Sweet Death', 2,
+        'day', 'summer', 6, 16, 28, 0.74),
+       ('Sweet Death', 2,
         null, false, 'Can create a sweet odor to lure prey Tunneling',
-        'night', 'autumn', 4, 11, 29, 0.64);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Dark gray;Silver and black;White and golden',
-        'Varied depending on metal type',
-        'Magnetic skin;Metal armor over body;Red-hot glowing mouth;Spear-tipped tail;Metal spikes along neck and back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Sword Stealer', 2,
-        null,
+        'night', 'autumn', 4, 11, 29, 0.64),
+       ('Sword Stealer', 2, null,
         false, 'Magnetic skin attracts various types of metals;Fire type varies depending on metal',
-        'night', 'spring', 2, 9, 30, 0.92);
-
-
--- Sharp Class species
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Black with brown horns',
-        'Orange blasts',
-        'Short forearms;Horns;Barbells;Tail that resembles a scythe');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Devilish Dervish', 3,
+        'night', 'spring', 2, 9, 30, 0.92),
+       ('Devilish Dervish', 3,
         'Training Devilish Dervishes is said to be very hard due to their stubborn and unruly behavior, only for the most elite of trainers.',
         true, 'Slicing through trees and anything in its path',
-        'day', 'summer', 5, 15, 31, 0.25);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 31);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Creamy underbelly and a variety of bright colors',
-        'Blasts of blue fire',
-        'Spikes at the back of head;Stocky build;Striped tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Egg Biter', 3,
+        'day', 'summer', 5, 15, 31, 0.25),
+       ('Egg Biter', 3,
         null, false, 'Strong bite',
-        'night', 'winter', 1, 6, 32, 0.19);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Purple;Red and purple',
-        'Teeth darts',
-        'Snake-like body;Lots of horns and spikes;Shark like-teeth');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Grim Gnasher', 3,
+        'night', 'winter', 1, 6, 32, 0.19),
+       ('Grim Gnasher', 3,
         null, false, 'Regenerating and shooting teeth;Immunity to Slitherwing venom',
-        'day', 'spring', 1, 12, 33, 0.94);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Light woody-brown',
-        'Average fireballs',
-        'Elongated body;Axe-like snout;Spiky back and tail;Six legs');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Hackatoo', 3,
+        'day', 'spring', 1, 12, 33, 0.94),
+       ('Hackatoo', 3,
         null, false, 'Cuts through trees with its sharp snout',
-        'night', 'summer', 3, 12, 34, 0.32);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (11, 34);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Greyish green and orange with dark red wings',
-        'Rain-resistant fireballs',
-        'Large sharp fins on the back and head;Nasal horn;Elongated neck;Short tendrils under the chin;Larger lower jaw');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Raincutter', 3,
+        'night', 'summer', 3, 12, 34, 0.32),
+       ('Raincutter', 3,
         'Raincutters are relatively easy to train, as they are calm and peaceful dragons. If a person saves a Raincutters''s life, the dragon will be forever thankful and will often bring gifts to its savior, as it was the case with Thump and Valka.',
         true, 'Aerodynamic fins used for flight and offense;Picking up food with its long neck',
-        'day', 'autumn', 5, 15, 35, 0.36);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 35);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (22, 35);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (23, 35);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Silver;Metallic rust',
-        'Bright blue fire',
-        'Horn on snout;Sharp spines;Spikes on the edge of wings;Reflective scales');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Razorwhip', 3,
+        'day', 'autumn', 5, 15, 35, 0.36),
+       ('Razorwhip', 3,
         'These aggressive dragons are hard to train, due to their reclusive nature. However, trusting the dragon, and showing that you are worthy of its trust will win over this dragon''s heart. Heather, for example, nursed her to health when she was badly injured and made use of the dragon training methods the other riders taught her, presumably placing her hand against its snout to form a bond via a physical bond.',
         true,
         'Sharp and telescopic prehensile tail that can be used as a whip;Precise and easily maneuverable in flight;Poisonous tears;Shooting tail barbs',
-        'day', 'winter', 3, 12, 36, 0.02);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 36);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (24, 36);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Purple and blue',
-        'Flammable drool',
-        'Zippleback-like lobs along back;Nadder-based structure;Round head');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Scuttleclaw', 3,
+        'day', 'winter', 3, 12, 36, 0.02),
+       ('Scuttleclaw', 3,
         'Scuttleclaws are extremely easy to train, especially as juveniles. They don''t seem to mind if someone is riding them, and they will continue to play in the air. Even inexperienced riders, such as Eret, can have a partial control of the direction of flight of a Scuttleclaw.',
         true, 'Powerful bite',
-        'day', 'autumn', 1, 6, 37, 0.71);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 37);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Blue and purple with gem-like blue spines',
-        'Frost',
-        'Two small horns under its chin;Striped body;Thin and sharp claws;Spines along the back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Shivertooth', 3,
+        'day', 'autumn', 1, 6, 37, 0.71),
+       ('Shivertooth', 3,
         null,
         false, 'Slices enemies with its sharp scales;Saliva and scales with healing properties',
-        'night', 'winter', 4, 11, 38, 0.24);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Green',
-        'Acid blast',
-        'Razor-sharp stinger;Red stripes (Lead Stinger);Sail fin on head;Small pair of wings on back;Extendable webbed feet;Theropod-like stature');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Speed Stinger', 3,
+        'night', 'winter', 4, 11, 38, 0.24),
+       ('Speed Stinger', 3,
         'Speed Stingers were said to be too aggressive to be trained. However, in School of Dragons, it is revealed they can be trained, though only at a young age.',
         true, 'Paralyzing sting;Incredible night vision;Water running',
-        'night', 'summer', 1, 9, 39, 0.72);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 39);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Woody-brown body, cream underbelly',
-        'Sustained and blazing torus of fire',
-        'Two pairs of wings;Head frills;"Smashed" face;Three tail fins');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Stormcutter', 3,
+        'night', 'summer', 1, 9, 39, 0.72),
+       ('Stormcutter', 3,
         'Generally, a docile and gentle dragon, training a Stormcutter is easy. All it takes is mutual trust, respect, and a love for dragons, which is shown when Valka meets Cloudjumper. The Stormcutter will be more than willing to accept you after that, making the training process pretty easy.',
         true, 'Exceptional maneuverability and diving;Prehensile claws;Twisting head about 180°',
-        'day', 'winter', 5, 17, 40, 0.82);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 40);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Blue with red patterns',
-        'Thick stream of fire',
-        'Thorn-like spikes on the head frill;Double nasal horn;Long neck with short thorns');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Thornridge', 3,
+        'day', 'winter', 5, 17, 40, 0.82),
+       ('Thornridge', 3,
         null, false, null,
-        'night', 'spring', 2, 14, 41, 0.92);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 41);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Woody-brown with lighter underbelly',
-        'Oil-based fire',
-        'Huge razor-sharp wings;No legs;Long and twisted horns;Slender body and neck;Tendrils under the chin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Timberjack', 3,
+        'night', 'spring', 2, 14, 41, 0.92),
+       ('Timberjack', 3,
         'A Timberjack`s long wings make it impossible for the dragon to scratch its back. However, it has been discovered that if humans scratch any hard-to-reach places for it, the Timberjack will be willing to form a bond with them.',
         true, 'Wing slice;Fire nova attack;Uses its massive wings as shields',
-        'night', 'summer', 5, 9, 42, 0.27);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 42);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Blue with yellow pattern',
-        'Super-heated air;Streams of fire',
-        'Long sharp horn on snout and chin;Long neck;Spines along the neck;Spots on body');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Windstriker', 3,
+        'night', 'summer', 5, 9, 42, 0.27),
+       ('Windstriker', 3,
         null, false, 'Skydiving',
-        'day', 'autumn', 5, 18, 43, 0.72);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 43);
-
--- Stoker Class species
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Golden brown body and tan spots',
-        'Firecomb: A topical and flammable gel',
-        'Four or five pair of legs;Glowing body;Long twisted horns for the Queen');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Fireworm', 4, null, false,
+        'day', 'autumn', 5, 18, 43, 0.72),
+       ('Fireworm', 4, null, false,
         'White-hot skin;Queens have venom to reignite the flame of other Stoker Class dragons',
-        'night', 'summer', 6, 10, 44, 0.12);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (25, 44);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Multi-colored',
-        'Swirling explosions of fire',
-        'Membranes between the fingers;Dark-colored stripes;Thick spiked tail;Gecko-like appearance');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Flame Whipper', 4,
+        'night', 'summer', 6, 10, 44, 0.12),
+       ('Flame Whipper', 4,
         null, false,
         'Wall climbing;Detachable tail;Stretchable tongue;Uses the tongue to aim its fire (increasing the accuracy);Paralyzing poison stored in its tail',
-        'day', 'spring', 1, 7, 45, 0.73);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 45);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Green or blue with black stripes',
-        'Acid blast',
-        'Striped pattern on body;Spike-like frill;Horn on nose');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Gobsucker', 4,
+        'day', 'spring', 1, 7, 45, 0.73),
+       ('Gobsucker', 4,
         null, false,
         'Can produce flammable gas from its rear end to aid in taking off, building speed, flying straight, and defense',
-        'night', 'winter', 2, 15, 46, 0.48);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Dull green with red to purplish-red',
-        'Methane',
-        'Three pairs of eyes;Massive size;Clubbed tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Green Death', 4,
+        'night', 'winter', 2, 15, 46, 0.48),
+       ('Green Death', 4,
         null,
         false, 'Magma-proof skin',
-        'day', 'autumn', 4, 10, 47, 0.59);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Purple;Yellow;Red',
-        'Ethane expectorant',
-        'Large head frill;Tail fin;Underbite');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Hobblegrunt', 4,
+        'day', 'autumn', 4, 10, 47, 0.59),
+       ('Hobblegrunt', 4,
         'Hobblegrunts are relatively easy to train, as they are calm and peaceful dragons. If a person saves a Hobblegrunt''s life, the dragon will be forever thankful and will stay close to its savior,',
         true,
         'Color changing skin based on mood;Detecting frill;Altering other dragons'' mood by changing its color;Predicting the future',
-        'day', 'summer', 3, 17, 48, 0.62);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 48);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Green with white underbelly',
-        'Sonic roar',
-        'Row of triangular spines along back;Four spines on tail tip;Rounded head and snout;Wide build');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Large Shadow Wing', 4,
+        'day', 'summer', 3, 17, 48, 0.62),
+       ('Large Shadow Wing', 4,
         null, false, 'Summoning Small Shadow Wings to attach onto its wings and become its artillery guns',
-        'night', 'spring', 2, 13, 49, 0.72);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Red', 'Kerosene gel',
-        'Double-clawed wings;Two pairs of long horns;Sharp spines;Snake-like neck;Snake-like tail with frills;Barbels;Nasal horn;Flammable gel on skin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Monstrous Nightmare', 4,
+        'night', 'spring', 2, 13, 49, 0.72),
+       ('Monstrous Nightmare', 4,
         'The best way to earn the trust of a Monstrous Nightmare is simply to show it the respect it deserves. Placing a gentle hand on its snout and showing you are not a threat to it is the best way to go. Hiccup even shown to Hookfang that he was no threat to him as he toss his helmet and dagger away. While Nightmares are generally tough, tenacious and rebellious, mutual respect and trust will certainly help both parties in the long run.',
         true, 'Self-immolation;Wing blast;Jaw expansion',
-        'day', 'autumn', 4, 12, 50, 0.88);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 50);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (20, 50);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (11, 50);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 50);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Black and dark green',
-        'Several discreet fire streams',
-        'Double nasal horn');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Night Terror', 4,
+        'day', 'autumn', 4, 12, 50, 0.88),
+       ('Night Terror', 4,
         'Night Terrors are highly trainable dragons both individually or in a group. Throughout the Dragons: Race to the Edge series, Night Terrors are seen being trained to do simple tricks like fetch, trained to utilize their natural alarm instincts to protect the island, and trained to form various shapes in a group.',
         true, 'Creates massive flocks to appear as a larger dragon to scare off predators',
-        'night', 'winter', 1, 6, 51, 0.67);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 51);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'blue with red spikes',
-        'Methane',
-        'Clubbed tail;Three pairs of eyes');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Red Death', 4,
+        'night', 'winter', 1, 6, 51, 0.67),
+       ('Red Death', 4,
         null, false, 'Emits homing signal to control other dragons',
-        'day', 'spring', 4, 13, 52, 0.06);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 52);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 52);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (13, 52);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Purple and white',
-        'Blue explosive flames',
-        'Diamond-shaped wing lobes');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Silver Phantom', 4,
+        'day', 'spring', 4, 13, 52, 0.06),
+       ('Silver Phantom', 4,
         null, false, 'Camouflage above the clouds',
-        'day', 'autumn', 5, 14, 53, 0.13);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 53);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (12, 53);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (24, 53);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Orange with red spots and purple chin',
-        'Scarlet flames',
-        'Two sets of wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Singetail', 4,
+        'day', 'autumn', 5, 14, 53, 0.13),
+       ('Singetail', 4,
         null, false, 'Articulated eyes',
-        'day', 'spring', 4, 13, 54, 0.06);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 54);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (25, 54);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (7, 54);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Blue and purple',
-        'Explosive molten lava',
-        'Row of triangular spines along the back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Small Shadow Wing', 4,
+        'day', 'spring', 4, 13, 54, 0.06),
+       ('Small Shadow Wing', 4,
         null, false, 'Dive-bombing',
-        'night', 'winter', 4, 9, 55, 0.23);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 55);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 55);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (11, 55);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'highlights on back and pale belly',
-        'Propane fire',
-        'Arrow-shaped tail tip');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Terrible Terror', 4,
+        'night', 'winter', 4, 9, 55, 0.23),
+       ('Terrible Terror', 4,
         'They seem to be fairly easy to train. Giving them a light to chase can help out for training as this could be great beginner dragon for young Vikings. Or another way of training Terrible Terrors just to feed them, and, showing great trust, the Terror went to sleep next to him. As long as you prove to be of no threat to it, Terrors are easy and docile companions.',
         true, 'Amazing accuracy',
-        'day', 'summer', 2, 11, 56, 0.72);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 56);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (21, 56);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (12, 56);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Bright yellow with pale blue',
-        'Green and orange flames',
-        'Large crown-like head frill');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Threadtail', 4,
+        'day', 'summer', 2, 11, 56, 0.72),
+       ('Threadtail', 4,
         null, false, 'Poisonous skin',
-        'day', 'winter', 1, 8, 57, 0.28);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 57);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 57);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Red',
-        'Cyclonic jets of flame',
-        'Large wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Typhoomerang', 4,
+        'day', 'winter', 1, 8, 57, 0.28),
+       ('Typhoomerang', 4,
         'Training a Typhoomerang is easiest when the dragon is young. As a baby, they are rather impressionable and trustworthy. However, if one manages to successfully catch its attention and prove that they are of no harm, the Typhoomerang will slowly bond with them.',
         true, 'Flaming cyclone',
-        'day', 'autumn', 2, 14, 58, 0.89);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 58);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 58);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (13, 58);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Red and black',
-        'Rabid acid flame bursts',
-        'Protruding retractable tusks');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Deathgripper', 5,
+        'day', 'autumn', 2, 14, 58, 0.89),
+       ('Deathgripper', 5,
         'Deathgrippers are extremely difficult to train, but a person can train one by imprinting on it as a hatchling immediately after it emerges from the egg.',
         true, 'Sedative sting',
-        'night', 'spring', 4, 13, 59, 0.57);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 59);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 59);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (21, 59);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'White with a blue and pink tint',
-        'Acetylene and oxygen-shaped plasma charges',
-        'Cat-like eyes');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Blue monster', 5,
+        'night', 'spring', 4, 13, 59, 0.57),
+       ('Blue monster', 5,
         'Due to not having too much contact with humans, Light Furies are very aggressive towards them. However, a Light Fury''s trust can be slowly earned. If a person helps a Light Fury or saves its life, the dragon will return the favor, and will from then on be a friend.',
         true, 'Cloaking via plasma blasts',
-        'day', 'winter', 4, 13, 60, 0.05);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 60);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 60);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 60);
-
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'White with a blue and pink tint',
-        'Acetylene and oxygen-shaped plasma charges',
-        'Cat-like eyes');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Light Fury', 5,
+        'day', 'winter', 4, 13, 60, 0.05),
+       ('Light Fury', 5,
         'Due to not having too much contact with humans, Light Furies are very aggressive towards them. However, a Light Fury''s trust can be slowly earned. If a person helps a Light Fury or saves its life, the dragon will return the favor, and will from then on be a friend.',
         true, 'Cloaking via plasma blasts',
-        'day', 'winter', 4, 13, 61, 0.05);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 61);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 61);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 61);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Jet black',
-        'Acetylene and oxygen-shaped plasma charges',
-        'Cat-like eyes');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Night Fury', 5,
+        'day', 'winter', 4, 13, 61, 0.05),
+       ('Night Fury', 5,
         'A wild Night Fury will likely just fly away and ignore you unless you catch its interest or prevent its flight. It is preferable to catch it without hurting it. Another way is to find its egg and train it from when it hatches.',
         true, 'Dive-bombing',
-        'day', 'winter', 2, 12, 62, 0.06);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 62);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 62);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (8, 62);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Dark gray with purple markings',
-        'Lightning',
-        'Sharp metallic spines on the back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Skrill', 5,
+        'day', 'winter', 2, 12, 62, 0.06),
+       ('Skrill', 5,
         'Depending on the method, training a Skrill can be incredibly difficult or close to impossible. They are aggressive and stubborn, refusing to be trained even in times of crisis. However, by treating it with respect and showing it mercy instead of hurting it, thus showing that you can accept the Skrill for what it is, you can gain its trust.',
         true, 'Electrokinesis',
-        'night', 'winter', 1, 8, 63, 0.42);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (11, 63);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 63);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 63);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Shades of Green',
-        'Unidentified breath weapon',
-        'Huge wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Songwing', 5,
+        'night', 'winter', 1, 8, 63, 0.42),
+       ('Songwing', 5,
         null, false, 'Prehensile tail',
-        'night', 'summer', 2, 9, 64, 0.28);
-
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Snowy white with blue highlights',
-        'Frost fusillade',
-        'Long ledge under chin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Snow Wraith', 5,
+        'night', 'summer', 2, 9, 64, 0.28),
+       ('Snow Wraith', 5,
         null, false, 'Thermal vision',
-        'night', 'winter', 5, 15, 65, 0.74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 65);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 65);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (23, 65);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Brownish-black',
-        'Continuous streams of flames',
-        'Three tails that tie together to form one');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Triple Stryke', 5,
+        'night', 'winter', 5, 15, 65, 0.74),
+       ('Triple Stryke', 5,
         'These dragons are fierce and vicious, thus they are extremely hard to train. However, these dragons do repay their debts. If shown mercy and kindness, the dragon will treat you with respect and compassion and will stop at nothing to protect you.',
         true, 'Unique venom in each stinger',
-        'day', 'summer', 2, 7, 66, 0.66);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 66);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (15, 66);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 66);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Dark brown with pale belly',
-        'Hail',
-        'Fur-like scales');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Woolly Howl', 5,
+        'day', 'summer', 2, 7, 66, 0.66),
+       ('Woolly Howl', 5,
         null, false, 'Belly blends in with the white clouds',
-        'day', 'spring', 5, 21, 67, 0.12);
-
--- Tidal Class species
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Snowy white',
-        'Masses of water that freeze',
-        'Large spikes protruding from back of neck');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Bewilderbeast', 6,
+        'day', 'spring', 5, 21, 67, 0.12),
+       ('Bewilderbeast', 6,
         null, false, 'Mind controlling dragons',
-        'day', 'winter', 7, 17, 68, 0.23);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 68);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Blue with dark green spots',
-        'water blast',
-        'Large fin on the back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Fathomfin', 6,
+        'day', 'winter', 7, 17, 68, 0.23),
+       ('Fathomfin', 6,
         null, false, 'Expandable gullet',
-        'day', 'spring', 2, 5, 69, 0.53);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 69);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Dark navy blue',
-        'water blast',
-        'Fins instead of legs');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Luminous Krayfin', 6,
+        'day', 'spring', 2, 5, 69, 0.53),
+       ('Luminous Krayfin', 6,
         'Due to its sociable and intelligent nature, the Luminuous Krayfin appears to be trainable. What is unclear is whether a Krayfin is trainable if raised from an egg or if an adult is also trainable.',
         true, 'Swimming Speed',
-        'night', 'autumn', 2, 11, 70, 0.49);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 70);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 70);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 70);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Deep purple',
-        'huge blasts',
-        'Long tendrils on chin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Purple Death', 6,
+        'night', 'autumn', 2, 11, 70, 0.49),
+       ('Purple Death', 6,
         null, false, 'Creating seaquakes',
-        'night', 'spring', 2, 11, 71, 0.45);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 71);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 71);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (21, 71);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (22, 71);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Deep blue',
-        'acid',
-        'Long tail');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Submaripper', 6,
+        'night', 'spring', 2, 11, 71, 0.45),
+       ('Submaripper', 6,
         null, false, 'Creating massive whirlpools to sink ships',
-        'day', 'summer', 2, 10, 72, 0.37);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 72);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (17, 72);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Sandy brown',
-        'Hardened balls',
-        'Spikes on wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Sand Wraith', 6,
+        'day', 'summer', 2, 10, 72, 0.37),
+       ('Sand Wraith', 6,
         null, false, 'Camouflage',
-        'day', 'spring', 1, 7, 73, 0.59);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 73);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 73);
+        'day', 'spring', 1, 7, 73, 0.59),
 
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Sea Green',
-        'boiling hot water',
-        'Nasal horn');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Scauldron', 6,
+       ('Scauldron', 6,
         'training a Scauldron is incredibly difficult and close to impossible due to their aggressive nature. If you want to train a Scauldron, the best way to start is simply to cover yourself in water or anything that smells like fish.',
         true, 'Venom',
-        'night', 'winter', 2, 13, 74, 0.86);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (7, 74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (17, 74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (16, 74);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Sea blue and black',
-        'Electric stun charges',
-        'Two heads');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Seashocker', 6,
+        'night', 'winter', 2, 13, 74, 0.86),
+       ('Seashocker', 6,
         'You can train a Seashocker if you heal its injuries or get back to its pond.',
         true, 'Cutting ice with its dorsal blades',
-        'day', 'spring', 7, 11, 75, 0.75);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 75);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Red with orange',
-        'Cannonball-sized plasma charges',
-        'Long but relatively small wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Shellfire', 6,
+        'day', 'spring', 7, 11, 75, 0.75),
+       ('Shellfire', 6,
         'It is currently unknown whether or not Shellfires can be trained, as Viggo''s Shellfire, the only known individual, was so agitated that, after being captured and forced to battle a Submaripper and Dragon Riders by the Dragon Hunters, it immediately retreated to the ocean''s depths, and has not been spotted since.',
         true, 'Expelling red algae from gills',
-        'day', 'autumn', 2, 7, 76, 0.59);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 76);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 76);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (20, 76);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (13, 76);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'green',
-        'Bio-electricity',
-        'Tendrils on the chin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Shockjaw', 6,
+        'day', 'autumn', 2, 7, 76, 0.59),
+       ('Shockjaw', 6,
         null, false, 'Electrokinesis',
-        'night', 'winter', 3, 13, 77, 0.56);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 77);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (17, 77);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Sea green',
-        'Streams of acid',
-        'Fin-like wings');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Sliquifier', 6,
+        'night', 'winter', 3, 13, 77, 0.56),
+       ('Sliquifier', 6,
         null, false, 'Supersonic swimming speed',
-        'day', 'summer', 4, 11, 78, 0.24);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 78);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Blue with yellow stripes',
-        'Whirlpool',
-        'Webbed feet');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Ancient submaripper', 6,
+        'day', 'summer', 4, 11, 78, 0.24),
+       ('Ancient submaripper', 6,
         'While it is unknown if a Submaripper can be fully trained, it can be tamed to a certain extent. If one helps or saves a Submaripper, the dragon will stop being aggressive and will even return the favour. The Submaripper''s undying loyalty will have been earned.',
         true, 'Gas bubbles',
-        'day', 'spring', 2, 8, 79, 0.73);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 79);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (5, 79);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (6, 79);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (7, 79);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (8, 79);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('small', 'Mainly blue',
-        'Fire balls',
-        'Expandable mouth');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Thunderdrum', 6,
+        'day', 'spring', 2, 8, 79, 0.73),
+       ('Thunderdrum', 6,
         'Training a Thunderdrum, especially as an adult is a challenge partly due to their difficult personality and deafness. Showing protection and gaining the Thunderdrum`s trust is an easier way to train it, as seen by Stoick and Thornado.',
         true, 'Expelling air from body to swim',
-        'night', 'winter', 2, 17, 80, 0.84);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 80);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (17, 80);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 80);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 80);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Cyan',
-        'Acid blasts',
-        'Large fan-like tail fin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Tide Glider', 6,
+        'night', 'winter', 2, 17, 80, 0.84),
+       ('Tide Glider', 6,
         null, false, 'Healing saliva',
-        'day', 'spring', 7, 23, 81, 0.13);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 81);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'red',
-        'Balls of fire',
-        'Long neck');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Windwalker', 6,
+        'day', 'spring', 7, 23, 81, 0.13),
+       ('Windwalker', 6,
         null, false, 'Electrokinesis',
-        'day', 'autumn', 2, 6, 82, 0.46);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (12, 82);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (25, 82);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 82);
-
--- Tracker Class species
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Light Orange',
-        'Massive balls of fire',
-        'Large fan-like tail fin');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Moldruffle', 7,
+        'day', 'autumn', 2, 6, 82, 0.46),
+       ('Moldruffle', 7,
         'To train a Deadly Nadder, one must very carefully approach the dragon from its tail. Then, you must gently smooth its spikes down. In addition, one can also train a Nadder by sneaking up on its blind spot, then scratching its chin affectionately.',
         true, 'Sharp long ranged vision',
-        'night', 'summer', 5, 9, 83, 0.67);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 83);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (11, 83);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (22, 83);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 83);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Variety of colors',
-        'Magnesium fire',
-        'Nasal horn');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Deadly Nadder', 7,
+        'night', 'summer', 5, 9, 83, 0.67),
+       ('Deadly Nadder', 7,
         'To train a Deadly Nadder, one must very carefully approach the dragon from its tail. Then, you must gently smooth its spikes down. In addition, one can also train a Nadder by sneaking up on its blind spot, then scratching its chin affectionately.',
         true, 'Spine shot',
-        'day', 'summer', 2, 9, 84, 0.73);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 84);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (4, 84);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (25, 84);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Turquoise Green',
-        'Sonic blasts',
-        'Sail on back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Mudraker', 7,
+        'day', 'summer', 2, 9, 84, 0.73),
+       ('Mudraker', 7,
         null, false, 'Sonic blasts that travel through the water at intense speeds',
-        'night', 'spring', 2, 12, 85, 0.84);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 85);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 85);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (18, 85);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 85);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (13, 85);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Green with brown trim',
-        'Flaming rock "missiles"',
-        'Jackhammer-like maw');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Rumblehorn', 7,
+        'night', 'spring', 2, 12, 85, 0.84),
+       ('Rumblehorn', 7,
         'Rumblehorns always have their snouts to the ground, sniffing around for something edible. They can be aggressive, but they are friendly towards their riders. Their food of choice is unknown, but it is known that they are carnivorous. They are also highly intelligent and determined. They run like rhinoceroses.',
         true, 'Tracking',
-        'day', 'winter', 5, 12, 86, 0.62);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (1, 86);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 86);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (10, 86);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (9, 86);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('large', 'Different colored patterns',
-        'Fire-sneeze that can melt nearly anything',
-        'Colorful exterior');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Snifflehunch', 7,
+        'day', 'winter', 5, 12, 86, 0.62),
+       ('Snifflehunch', 7,
         'Snifflehunches are relatively easy to train, as they are calm and friendly dragons. If a person saves a Snifflehunch''s life, the dragon will be forever thankful and will stay close to its savior',
         true, 'Sniffing out friends and foes',
-        'day', 'spring', 2, 8, 87, 0.74);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (7, 87);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (8, 87);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (14, 87);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 87);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('gigantic', 'Blue with yellow stripes',
-        'Whirlpool',
-        'Webbed feet');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Submaripper horror', 7,
+        'day', 'spring', 2, 8, 87, 0.74),
+       ('Submaripper horror', 7,
         'While it is unknown if a Submaripper can be fully trained, it can be tamed to a certain extent. If one helps or saves a Submaripper, the dragon will stop being aggressive and will even return the favour. The Submaripper''s undying loyalty will have been earned.',
         true, 'Creating whirlpools and tidal waves',
-        'night', 'winter', 2, 6, 88, 0.35);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (3, 88);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (16, 88);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'Wide variety of colors',
-        'Green/orange fire',
-        'Sail on back');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Thunderclaw', 7,
+        'night', 'winter', 2, 6, 88, 0.35),
+       ('Thunderclaw', 7,
         'Thunderclaws are relatively easy to train, as they are mostly peaceful dragons. If a person saves a Thunderclaw''s life, the dragon will be forever thankful and will stay close to its savior',
         true, 'Tracking',
-        'night', 'autumn', 3, 11, 89, 0.82);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (2, 89);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (6, 89);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (7, 89);
-
-INSERT INTO dragon_appearance (size, color, fire_type, features)
-VALUES ('medium', 'green',
-        'Green or Orange Fireballs',
-        'Bumps all over body');
-INSERT INTO dragon_types (name, class_id, way_of_taming, trainable, abilities, active_time, mating_season,
-                          hatching_age, puberty_age, appearance_id, rarity)
-VALUES ('Windgnasher', 7,
+        'night', 'autumn', 3, 11, 89, 0.82),
+       ('Windgnasher', 7,
         'Windgnashers are relatively easy to train, as they are calm and friendly dragons. If a person saves a Windgnasher''s life, the dragon will be forever thankful and will stay close to its savior',
         true, 'Tracking',
         'night', 'summer', 4, 13, 90, 0.17);
 INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (19, 90);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (25, 90);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (21, 90);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (17, 90);
-INSERT INTO dragon_diet (food_id, dragon_type_id)
-VALUES (6, 90);
+VALUES (1, 1),
+       (1, 2),
+       (2, 3),
+       (3, 4),
+       (4, 4),
+       (3, 5),
+       (4, 5),
+       (1, 6),
+       (3, 6),
+       (5, 6),
+       (6, 6),
+       (3, 7),
+       (7, 7),
+       (1, 8),
+       (3, 8),
+       (3, 9),
+       (8, 9),
+       (3, 10),
+       (3, 11),
+       (6, 11),
+       (9, 11),
+       (10, 11),
+       (11, 11),
+       (3, 12),
+       (3, 13),
+       (3, 14),
+       (6, 14),
+       (12, 14),
+       (13, 15),
+       (9, 16),
+       (3, 16),
+       (14, 16),
+       (15, 16),
+       (3, 17),
+       (16, 17),
+       (17, 17),
+       (18, 17),
+       (19, 18),
+       (3, 19),
+       (19, 19),
+       (3, 21),
+       (4, 21),
+       (14, 21),
+       (3, 22),
+       (19, 23),
+       (3, 25),
+       (21, 26),
+       (3, 27),
+       (20, 27),
+       (10, 27),
+       (19, 28),
+       (3, 31),
+       (11, 34),
+       (3, 35),
+       (22, 35),
+       (23, 35),
+       (3, 36),
+       (24, 36),
+       (3, 37),
+       (3, 39),
+       (19, 40),
+       (3, 41),
+       (3, 42),
+       (3, 43),
+       (25, 44),
+       (3, 45),
+       (3, 48),
+       (3, 50),
+       (20, 50),
+       (11, 50),
+       (10, 50),
+       (3, 51),
+       (3, 52),
+       (4, 52),
+       (13, 52),
+       (2, 53),
+       (12, 53),
+       (24, 53),
+       (3, 54),
+       (25, 54),
+       (7, 54),
+       (9, 55),
+       (10, 55),
+       (11, 55),
+       (3, 56),
+       (21, 56),
+       (12, 56),
+       (1, 57),
+       (10, 57),
+       (3, 58),
+       (19, 58),
+       (13, 58),
+       (3, 59),
+       (18, 59),
+       (21, 59),
+       (3, 60),
+       (9, 60),
+       (18, 60),
+       (3, 61),
+       (9, 61),
+       (18, 61),
+       (2, 62),
+       (1, 62),
+       (8, 62),
+       (11, 63),
+       (2, 63),
+       (3, 63),
+       (3, 65),
+       (19, 65),
+       (23, 65),
+       (3, 66),
+       (15, 66),
+       (18, 66),
+       (3, 68),
+       (3, 69),
+       (3, 70),
+       (4, 70),
+       (2, 70),
+       (3, 71),
+       (18, 71),
+       (21, 71),
+       (22, 71),
+       (1, 72),
+       (17, 72),
+       (9, 73),
+       (10, 73),
+       (3, 74),
+       (7, 74),
+       (18, 74),
+       (17, 74),
+       (16, 74),
+       (3, 75),
+       (3, 76),
+       (19, 76),
+       (20, 76),
+       (13, 76),
+       (3, 77),
+       (17, 77),
+       (3, 78),
+       (4, 79),
+       (5, 79),
+       (6, 79),
+       (7, 79),
+       (8, 79),
+       (3, 80),
+       (17, 80),
+       (18, 80),
+       (19, 80),
+       (3, 81),
+       (12, 82),
+       (25, 82),
+       (1, 82),
+       (3, 83),
+       (11, 83),
+       (22, 83),
+       (9, 83),
+       (1, 84),
+       (4, 84),
+       (25, 84),
+       (1, 85),
+       (2, 85),
+       (18, 85),
+       (19, 85),
+       (13, 85),
+       (1, 86),
+       (3, 86),
+       (10, 86),
+       (9, 86),
+       (7, 87),
+       (8, 87),
+       (14, 87),
+       (19, 87),
+       (3, 88),
+       (16, 88),
+       (2, 89),
+       (6, 89),
+       (7, 89),
+       (19, 90),
+       (25, 90),
+       (21, 90),
+       (17, 90),
+       (6, 90);
 
 INSERT INTO cages (max_amount, cage_type)
 VALUES (8, 'general'),
@@ -4129,7 +3538,7 @@ VALUES (17, 'health', 1),
        (9, 'training', 18),
        (4, 'training', 19),
        (4, 'training', 20),
-       (0, 'training', 21),
+       (2, 'training', 21),
        (1, 'training', 22),
        (6, 'training', 23),
        (5, 'training', 24),
@@ -4615,3 +4024,2029 @@ VALUES (17, 'health', 1),
        (94, 'training', 504),
        (84, 'training', 505),
        (95, 'training', 506);
+
+INSERT INTO caring_and_train_actions (action_type, worker_id, time_start, time_finish, dragon_id)
+VALUES ('feed', 176, '2022-01-06', null, 1),
+       ('feed', 170, '2022-01-10', null, 2),
+       ('feed', 194, '2022-01-05', null, 3),
+       ('feed', 207, '2022-01-10', null, 4),
+       ('feed', 215, '2022-01-06', null, 5),
+       ('feed', 144, '2022-01-06', null, 6),
+       ('feed', 210, '2022-01-06', null, 7),
+       ('feed', 191, '2022-01-14', null, 8),
+       ('feed', 157, '2022-01-04', null, 9),
+       ('feed', 157, '2022-01-11', null, 10),
+       ('feed', 187, '2022-01-10', null, 11),
+       ('feed', 146, '2022-01-12', null, 12),
+       ('feed', 145, '2022-01-09', null, 13),
+       ('feed', 203, '2022-01-07', null, 14),
+       ('feed', 182, '2022-01-11', null, 15),
+       ('feed', 205, '2022-01-14', null, 16),
+       ('feed', 165, '2022-01-12', null, 17),
+       ('feed', 177, '2022-01-13', null, 18),
+       ('feed', 182, '2022-01-12', null, 19),
+       ('feed', 196, '2022-01-10', null, 20),
+       ('feed', 169, '2022-01-06', null, 21),
+       ('feed', 168, '2022-01-10', null, 22),
+       ('feed', 193, '2022-01-07', null, 23),
+       ('feed', 164, '2022-01-07', null, 24),
+       ('feed', 148, '2022-01-06', null, 25),
+       ('feed', 184, '2022-01-05', null, 26),
+       ('feed', 188, '2022-01-04', null, 27),
+       ('feed', 176, '2022-01-11', null, 28),
+       ('feed', 158, '2022-01-05', null, 29),
+       ('feed', 131, '2022-01-06', null, 30),
+       ('feed', 219, '2022-01-10', null, 31),
+       ('feed', 149, '2022-01-12', null, 32),
+       ('feed', 132, '2022-01-10', null, 33),
+       ('feed', 194, '2022-01-13', null, 34),
+       ('feed', 129, '2022-01-08', null, 35),
+       ('feed', 183, '2022-01-11', null, 36),
+       ('feed', 208, '2022-01-12', null, 37),
+       ('feed', 158, '2022-01-08', null, 38),
+       ('feed', 214, '2022-01-13', null, 39),
+       ('feed', 140, '2022-01-10', null, 40),
+       ('feed', 140, '2022-01-10', null, 41),
+       ('feed', 201, '2022-01-09', null, 42),
+       ('feed', 194, '2022-01-14', null, 43),
+       ('feed', 137, '2022-01-06', null, 44),
+       ('feed', 154, '2022-01-05', null, 45),
+       ('feed', 216, '2022-01-11', null, 46),
+       ('feed', 139, '2022-01-12', null, 47),
+       ('feed', 213, '2022-01-06', null, 48),
+       ('feed', 172, '2022-01-12', null, 49),
+       ('feed', 184, '2022-01-05', null, 50),
+       ('feed', 196, '2022-01-13', null, 51),
+       ('feed', 160, '2022-01-07', null, 52),
+       ('feed', 169, '2022-01-08', null, 53),
+       ('feed', 177, '2022-01-12', null, 54),
+       ('feed', 183, '2022-01-12', null, 55),
+       ('feed', 133, '2022-01-08', null, 56),
+       ('feed', 171, '2022-01-10', null, 57),
+       ('feed', 143, '2022-01-10', null, 58),
+       ('feed', 198, '2022-01-04', null, 59),
+       ('feed', 133, '2022-01-12', null, 60),
+       ('feed', 197, '2022-01-13', null, 61),
+       ('feed', 198, '2022-01-10', null, 62),
+       ('feed', 154, '2022-01-06', null, 63),
+       ('feed', 210, '2022-01-04', null, 64),
+       ('feed', 218, '2022-01-05', null, 65),
+       ('feed', 154, '2022-01-06', null, 66),
+       ('feed', 136, '2022-01-05', null, 67),
+       ('feed', 176, '2022-01-11', null, 68),
+       ('feed', 153, '2022-01-05', null, 69),
+       ('feed', 206, '2022-01-08', null, 70),
+       ('feed', 170, '2022-01-13', null, 71),
+       ('feed', 190, '2022-01-12', null, 72),
+       ('feed', 219, '2022-01-09', null, 73),
+       ('feed', 154, '2022-01-11', null, 74),
+       ('feed', 178, '2022-01-08', null, 75),
+       ('feed', 156, '2022-01-06', null, 76),
+       ('feed', 163, '2022-01-10', null, 77),
+       ('feed', 130, '2022-01-12', null, 78),
+       ('feed', 204, '2022-01-14', null, 79),
+       ('feed', 150, '2022-01-11', null, 80),
+       ('feed', 203, '2022-01-11', null, 81),
+       ('feed', 221, '2022-01-06', null, 82),
+       ('feed', 183, '2022-01-06', null, 83),
+       ('feed', 152, '2022-01-04', null, 84),
+       ('feed', 194, '2022-01-11', null, 85),
+       ('feed', 131, '2022-01-08', null, 86),
+       ('feed', 149, '2022-01-10', null, 87),
+       ('feed', 222, '2022-01-11', null, 88),
+       ('feed', 188, '2022-01-10', null, 89),
+       ('feed', 201, '2022-01-05', null, 90),
+       ('feed', 208, '2022-01-06', null, 91),
+       ('feed', 195, '2022-01-13', null, 92),
+       ('feed', 129, '2022-01-11', null, 93),
+       ('feed', 184, '2022-01-09', null, 94),
+       ('feed', 219, '2022-01-05', null, 95),
+       ('feed', 146, '2022-01-04', null, 96),
+       ('feed', 201, '2022-01-07', null, 97),
+       ('feed', 127, '2022-01-11', null, 98),
+       ('feed', 156, '2022-01-05', null, 99),
+       ('feed', 207, '2022-01-10', null, 100),
+       ('feed', 144, '2022-01-07', null, 101),
+       ('feed', 212, '2022-01-06', null, 102),
+       ('feed', 166, '2022-01-13', null, 103),
+       ('feed', 144, '2022-01-10', null, 104),
+       ('feed', 153, '2022-01-07', null, 105),
+       ('feed', 140, '2022-01-05', null, 106),
+       ('feed', 130, '2022-01-11', null, 107),
+       ('feed', 183, '2022-01-05', null, 108),
+       ('feed', 208, '2022-01-12', null, 109),
+       ('feed', 186, '2022-01-12', null, 110),
+       ('feed', 196, '2022-01-10', null, 111),
+       ('feed', 141, '2022-01-11', null, 112),
+       ('feed', 148, '2022-01-10', null, 113),
+       ('feed', 175, '2022-01-10', null, 114),
+       ('feed', 158, '2022-01-06', null, 115),
+       ('feed', 175, '2022-01-11', null, 116),
+       ('feed', 162, '2022-01-09', null, 117),
+       ('feed', 178, '2022-01-10', null, 118),
+       ('feed', 167, '2022-01-14', null, 119),
+       ('feed', 167, '2022-01-08', null, 120),
+       ('feed', 164, '2022-01-11', null, 121),
+       ('feed', 202, '2022-01-09', null, 122),
+       ('feed', 184, '2022-01-05', null, 123),
+       ('feed', 217, '2022-01-10', null, 124),
+       ('feed', 198, '2022-01-13', null, 125),
+       ('feed', 164, '2022-01-08', null, 126),
+       ('feed', 143, '2022-01-08', null, 127),
+       ('feed', 202, '2022-01-10', null, 128),
+       ('feed', 186, '2022-01-11', null, 129),
+       ('feed', 160, '2022-01-05', null, 130),
+       ('feed', 132, '2022-01-14', null, 131),
+       ('feed', 184, '2022-01-07', null, 132),
+       ('feed', 131, '2022-01-09', null, 133),
+       ('feed', 215, '2022-01-13', null, 134),
+       ('feed', 165, '2022-01-11', null, 135),
+       ('feed', 143, '2022-01-04', null, 136),
+       ('feed', 208, '2022-01-07', null, 137),
+       ('feed', 167, '2022-01-04', null, 138),
+       ('feed', 191, '2022-01-08', null, 139),
+       ('feed', 152, '2022-01-09', null, 140),
+       ('feed', 177, '2022-01-09', null, 141),
+       ('feed', 140, '2022-01-06', null, 142),
+       ('feed', 193, '2022-01-05', null, 143),
+       ('feed', 204, '2022-01-13', null, 144),
+       ('feed', 152, '2022-01-12', null, 145),
+       ('feed', 181, '2022-01-12', null, 146),
+       ('feed', 210, '2022-01-09', null, 147),
+       ('feed', 167, '2022-01-13', null, 148),
+       ('feed', 161, '2022-01-13', null, 149),
+       ('feed', 193, '2022-01-08', null, 150),
+       ('feed', 183, '2022-01-04', null, 151),
+       ('feed', 172, '2022-01-05', null, 152),
+       ('feed', 161, '2022-01-12', null, 153),
+       ('feed', 203, '2022-01-06', null, 154),
+       ('feed', 152, '2022-01-05', null, 155),
+       ('feed', 163, '2022-01-09', null, 156),
+       ('feed', 131, '2022-01-14', null, 157),
+       ('feed', 184, '2022-01-10', null, 158),
+       ('feed', 139, '2022-01-13', null, 159),
+       ('feed', 178, '2022-01-04', null, 160),
+       ('feed', 171, '2022-01-12', null, 161),
+       ('feed', 194, '2022-01-13', null, 162),
+       ('feed', 189, '2022-01-06', null, 163),
+       ('feed', 222, '2022-01-10', null, 164),
+       ('feed', 176, '2022-01-10', null, 165),
+       ('feed', 155, '2022-01-11', null, 166),
+       ('feed', 183, '2022-01-11', null, 167),
+       ('feed', 166, '2022-01-06', null, 168),
+       ('feed', 216, '2022-01-11', null, 169),
+       ('feed', 182, '2022-01-06', null, 170),
+       ('feed', 170, '2022-01-06', null, 171),
+       ('feed', 141, '2022-01-05', null, 172),
+       ('feed', 148, '2022-01-13', null, 173),
+       ('feed', 182, '2022-01-11', null, 174),
+       ('feed', 143, '2022-01-11', null, 175),
+       ('feed', 188, '2022-01-11', null, 176),
+       ('feed', 127, '2022-01-07', null, 177),
+       ('feed', 155, '2022-01-07', null, 178),
+       ('feed', 153, '2022-01-13', null, 179),
+       ('feed', 209, '2022-01-11', null, 180),
+       ('feed', 152, '2022-01-08', null, 181),
+       ('feed', 198, '2022-01-05', null, 182),
+       ('feed', 137, '2022-01-08', null, 183),
+       ('feed', 210, '2022-01-08', null, 184),
+       ('feed', 175, '2022-01-09', null, 185),
+       ('feed', 132, '2022-01-12', null, 186),
+       ('feed', 133, '2022-01-06', null, 187),
+       ('feed', 129, '2022-01-10', null, 188),
+       ('feed', 184, '2022-01-11', null, 189),
+       ('feed', 217, '2022-01-12', null, 190),
+       ('feed', 138, '2022-01-06', null, 191),
+       ('feed', 153, '2022-01-13', null, 192),
+       ('feed', 147, '2022-01-04', null, 193),
+       ('feed', 168, '2022-01-05', null, 194),
+       ('feed', 149, '2022-01-08', null, 195),
+       ('feed', 213, '2022-01-14', null, 196),
+       ('feed', 222, '2022-01-14', null, 197),
+       ('feed', 162, '2022-01-05', null, 198),
+       ('feed', 132, '2022-01-11', null, 199),
+       ('feed', 127, '2022-01-09', null, 200),
+       ('feed', 216, '2022-01-08', null, 201),
+       ('feed', 164, '2022-01-09', null, 202),
+       ('feed', 171, '2022-01-13', null, 203),
+       ('feed', 219, '2022-01-12', null, 204),
+       ('feed', 197, '2022-01-08', null, 205),
+       ('feed', 148, '2022-01-06', null, 206),
+       ('feed', 168, '2022-01-10', null, 207),
+       ('feed', 210, '2022-01-13', null, 208),
+       ('feed', 163, '2022-01-11', null, 209),
+       ('feed', 156, '2022-01-04', null, 210),
+       ('feed', 158, '2022-01-11', null, 211),
+       ('feed', 178, '2022-01-12', null, 212),
+       ('feed', 222, '2022-01-08', null, 213),
+       ('feed', 217, '2022-01-07', null, 214),
+       ('feed', 203, '2022-01-13', null, 215),
+       ('feed', 185, '2022-01-06', null, 216),
+       ('feed', 184, '2022-01-10', null, 217),
+       ('feed', 221, '2022-01-10', null, 218),
+       ('feed', 135, '2022-01-08', null, 219),
+       ('feed', 154, '2022-01-10', null, 220),
+       ('feed', 135, '2022-01-07', null, 221),
+       ('feed', 146, '2022-01-07', null, 222),
+       ('feed', 210, '2022-01-10', null, 223),
+       ('feed', 211, '2022-01-07', null, 224),
+       ('feed', 148, '2022-01-09', null, 225),
+       ('feed', 211, '2022-01-10', null, 226),
+       ('feed', 156, '2022-01-06', null, 227),
+       ('feed', 188, '2022-01-08', null, 228),
+       ('feed', 213, '2022-01-11', null, 229),
+       ('feed', 222, '2022-01-13', null, 230),
+       ('feed', 213, '2022-01-14', null, 231),
+       ('feed', 163, '2022-01-06', null, 232),
+       ('feed', 183, '2022-01-04', null, 233),
+       ('feed', 144, '2022-01-12', null, 234),
+       ('feed', 129, '2022-01-13', null, 235),
+       ('feed', 202, '2022-01-04', null, 236),
+       ('feed', 146, '2022-01-05', null, 237),
+       ('feed', 222, '2022-01-05', null, 238),
+       ('feed', 137, '2022-01-13', null, 239),
+       ('feed', 154, '2022-01-04', null, 240),
+       ('feed', 144, '2022-01-06', null, 241),
+       ('feed', 182, '2022-01-08', null, 242),
+       ('feed', 163, '2022-01-13', null, 243),
+       ('feed', 203, '2022-01-12', null, 244),
+       ('feed', 200, '2022-01-11', null, 245),
+       ('feed', 187, '2022-01-12', null, 246),
+       ('feed', 215, '2022-01-07', null, 247),
+       ('feed', 169, '2022-01-06', null, 248),
+       ('feed', 189, '2022-01-14', null, 249),
+       ('feed', 184, '2022-01-12', null, 250),
+       ('feed', 208, '2022-01-13', null, 251),
+       ('feed', 161, '2022-01-11', null, 252),
+       ('feed', 163, '2022-01-09', null, 253),
+       ('feed', 208, '2022-01-08', null, 254),
+       ('feed', 197, '2022-01-10', null, 255),
+       ('feed', 209, '2022-01-05', null, 256),
+       ('feed', 203, '2022-01-06', null, 257),
+       ('feed', 216, '2022-01-05', null, 258),
+       ('feed', 156, '2022-01-10', null, 259),
+       ('feed', 166, '2022-01-05', null, 260),
+       ('feed', 197, '2022-01-06', null, 261),
+       ('feed', 153, '2022-01-09', null, 262),
+       ('feed', 160, '2022-01-11', null, 263),
+       ('feed', 223, '2022-01-11', null, 264),
+       ('feed', 150, '2022-01-05', null, 265),
+       ('feed', 179, '2022-01-11', null, 266),
+       ('feed', 211, '2022-01-07', null, 267),
+       ('feed', 136, '2022-01-08', null, 268),
+       ('feed', 148, '2022-01-13', null, 269),
+       ('feed', 167, '2022-01-05', null, 270),
+       ('feed', 215, '2022-01-04', null, 271),
+       ('feed', 127, '2022-01-11', null, 272),
+       ('feed', 213, '2022-01-05', null, 273),
+       ('feed', 207, '2022-01-13', null, 274),
+       ('feed', 200, '2022-01-08', null, 275),
+       ('feed', 168, '2022-01-08', null, 276),
+       ('feed', 188, '2022-01-05', null, 277),
+       ('feed', 200, '2022-01-14', null, 278),
+       ('feed', 147, '2022-01-08', null, 279),
+       ('feed', 187, '2022-01-13', null, 280),
+       ('feed', 216, '2022-01-06', null, 281),
+       ('feed', 158, '2022-01-10', null, 282),
+       ('feed', 201, '2022-01-11', null, 283),
+       ('feed', 222, '2022-01-12', null, 284),
+       ('feed', 134, '2022-01-07', null, 285),
+       ('feed', 194, '2022-01-08', null, 286),
+       ('feed', 146, '2022-01-11', null, 287),
+       ('feed', 157, '2022-01-06', null, 288),
+       ('feed', 174, '2022-01-07', null, 289),
+       ('feed', 207, '2022-01-10', null, 290),
+       ('feed', 178, '2022-01-09', null, 291),
+       ('feed', 148, '2022-01-12', null, 292),
+       ('feed', 219, '2022-01-12', null, 293),
+       ('feed', 157, '2022-01-06', null, 294),
+       ('feed', 163, '2022-01-05', null, 295),
+       ('feed', 202, '2022-01-06', null, 296),
+       ('feed', 203, '2022-01-13', null, 297),
+       ('feed', 207, '2022-01-06', null, 298),
+       ('feed', 131, '2022-01-08', null, 299),
+       ('feed', 139, '2022-01-10', null, 300),
+       ('feed', 134, '2022-01-05', null, 301),
+       ('feed', 194, '2022-01-11', null, 302),
+       ('feed', 156, '2022-01-10', null, 303),
+       ('feed', 129, '2022-01-13', null, 304),
+       ('feed', 175, '2022-01-09', null, 305),
+       ('feed', 185, '2022-01-08', null, 306),
+       ('feed', 134, '2022-01-07', null, 307),
+       ('feed', 181, '2022-01-13', null, 308),
+       ('feed', 132, '2022-01-05', null, 309),
+       ('feed', 199, '2022-01-14', null, 310),
+       ('feed', 147, '2022-01-04', null, 311),
+       ('feed', 132, '2022-01-06', null, 312),
+       ('feed', 165, '2022-01-13', null, 313),
+       ('feed', 182, '2022-01-04', null, 314),
+       ('feed', 204, '2022-01-13', null, 315),
+       ('feed', 153, '2022-01-05', null, 316),
+       ('feed', 215, '2022-01-04', null, 317),
+       ('feed', 135, '2022-01-10', null, 318),
+       ('feed', 215, '2022-01-10', null, 319),
+       ('feed', 139, '2022-01-12', null, 320),
+       ('feed', 208, '2022-01-05', null, 321),
+       ('feed', 221, '2022-01-08', null, 322),
+       ('feed', 143, '2022-01-12', null, 323),
+       ('feed', 221, '2022-01-12', null, 324),
+       ('feed', 174, '2022-01-11', null, 325),
+       ('feed', 168, '2022-01-10', null, 326),
+       ('feed', 152, '2022-01-05', null, 327),
+       ('feed', 193, '2022-01-11', null, 328),
+       ('feed', 130, '2022-01-07', null, 329),
+       ('feed', 156, '2022-01-06', null, 330),
+       ('feed', 151, '2022-01-11', null, 331),
+       ('feed', 143, '2022-01-06', null, 332),
+       ('feed', 154, '2022-01-09', null, 333),
+       ('feed', 216, '2022-01-11', null, 334),
+       ('feed', 168, '2022-01-05', null, 335),
+       ('feed', 185, '2022-01-13', null, 336),
+       ('feed', 159, '2022-01-12', null, 337),
+       ('feed', 170, '2022-01-04', null, 338),
+       ('feed', 161, '2022-01-11', null, 339),
+       ('feed', 156, '2022-01-11', null, 340),
+       ('feed', 186, '2022-01-10', null, 341),
+       ('feed', 163, '2022-01-09', null, 342),
+       ('feed', 195, '2022-01-14', null, 343),
+       ('feed', 177, '2022-01-06', null, 344),
+       ('feed', 207, '2022-01-07', null, 345),
+       ('feed', 153, '2022-01-06', null, 346),
+       ('feed', 182, '2022-01-04', null, 347),
+       ('feed', 215, '2022-01-10', null, 348),
+       ('feed', 198, '2022-01-11', null, 349),
+       ('feed', 196, '2022-01-05', null, 350),
+       ('feed', 204, '2022-01-06', null, 351),
+       ('feed', 203, '2022-01-13', null, 352),
+       ('feed', 168, '2022-01-07', null, 353),
+       ('feed', 145, '2022-01-06', null, 354),
+       ('feed', 198, '2022-01-14', null, 355),
+       ('feed', 204, '2022-01-09', null, 356),
+       ('feed', 182, '2022-01-04', null, 357),
+       ('feed', 196, '2022-01-04', null, 358),
+       ('feed', 185, '2022-01-05', null, 359),
+       ('feed', 188, '2022-01-11', null, 360),
+       ('feed', 172, '2022-01-14', null, 361),
+       ('feed', 158, '2022-01-14', null, 362),
+       ('feed', 153, '2022-01-10', null, 363),
+       ('feed', 157, '2022-01-11', null, 364),
+       ('feed', 147, '2022-01-05', null, 365),
+       ('feed', 215, '2022-01-05', null, 366),
+       ('feed', 137, '2022-01-04', null, 367),
+       ('feed', 169, '2022-01-11', null, 368),
+       ('feed', 193, '2022-01-05', null, 369),
+       ('feed', 182, '2022-01-09', null, 370),
+       ('feed', 150, '2022-01-11', null, 371),
+       ('feed', 223, '2022-01-10', null, 372),
+       ('feed', 218, '2022-01-09', null, 373),
+       ('feed', 146, '2022-01-13', null, 374),
+       ('feed', 131, '2022-01-10', null, 375),
+       ('feed', 165, '2022-01-06', null, 376),
+       ('feed', 149, '2022-01-04', null, 377),
+       ('feed', 178, '2022-01-10', null, 378),
+       ('feed', 180, '2022-01-10', null, 379),
+       ('feed', 192, '2022-01-12', null, 380),
+       ('feed', 171, '2022-01-05', null, 381),
+       ('feed', 183, '2022-01-10', null, 382),
+       ('feed', 157, '2022-01-06', null, 383),
+       ('feed', 191, '2022-01-12', null, 384),
+       ('feed', 214, '2022-01-13', null, 385),
+       ('feed', 196, '2022-01-13', null, 386),
+       ('feed', 178, '2022-01-04', null, 387),
+       ('feed', 212, '2022-01-14', null, 388),
+       ('feed', 190, '2022-01-11', null, 389),
+       ('feed', 150, '2022-01-10', null, 390),
+       ('feed', 190, '2022-01-09', null, 391),
+       ('feed', 186, '2022-01-06', null, 392),
+       ('feed', 127, '2022-01-13', null, 393),
+       ('feed', 131, '2022-01-07', null, 394),
+       ('feed', 141, '2022-01-14', null, 395),
+       ('feed', 198, '2022-01-07', null, 396),
+       ('feed', 147, '2022-01-07', null, 397),
+       ('feed', 215, '2022-01-07', null, 398),
+       ('feed', 151, '2022-01-10', null, 399),
+       ('feed', 199, '2022-01-11', null, 400),
+       ('feed', 133, '2022-01-08', null, 401),
+       ('feed', 202, '2022-01-14', null, 402),
+       ('feed', 196, '2022-01-10', null, 403),
+       ('feed', 130, '2022-01-09', null, 404),
+       ('feed', 207, '2022-01-04', null, 405),
+       ('feed', 144, '2022-01-06', null, 406),
+       ('feed', 173, '2022-01-07', null, 407),
+       ('feed', 169, '2022-01-11', null, 408),
+       ('feed', 202, '2022-01-08', null, 409),
+       ('feed', 188, '2022-01-08', null, 410),
+       ('feed', 168, '2022-01-10', null, 411),
+       ('feed', 141, '2022-01-07', null, 412),
+       ('feed', 208, '2022-01-10', null, 413),
+       ('feed', 154, '2022-01-12', null, 414),
+       ('feed', 218, '2022-01-08', null, 415),
+       ('feed', 207, '2022-01-13', null, 416),
+       ('feed', 183, '2022-01-13', null, 417),
+       ('feed', 216, '2022-01-10', null, 418),
+       ('feed', 211, '2022-01-11', null, 419),
+       ('feed', 210, '2022-01-05', null, 420),
+       ('feed', 183, '2022-01-07', null, 421),
+       ('feed', 186, '2022-01-11', null, 422),
+       ('feed', 193, '2022-01-09', null, 423),
+       ('feed', 129, '2022-01-14', null, 424),
+       ('feed', 157, '2022-01-10', null, 425),
+       ('feed', 192, '2022-01-06', null, 426),
+       ('feed', 188, '2022-01-08', null, 427),
+       ('feed', 162, '2022-01-07', null, 428),
+       ('feed', 174, '2022-01-10', null, 429),
+       ('feed', 193, '2022-01-04', null, 430),
+       ('feed', 199, '2022-01-04', null, 431),
+       ('feed', 167, '2022-01-13', null, 432),
+       ('feed', 180, '2022-01-06', null, 433),
+       ('feed', 181, '2022-01-13', null, 434),
+       ('feed', 140, '2022-01-06', null, 435),
+       ('feed', 144, '2022-01-10', null, 436),
+       ('feed', 178, '2022-01-08', null, 437),
+       ('feed', 139, '2022-01-07', null, 438),
+       ('feed', 138, '2022-01-13', null, 439),
+       ('feed', 218, '2022-01-09', null, 440),
+       ('feed', 218, '2022-01-12', null, 441),
+       ('feed', 207, '2022-01-11', null, 442),
+       ('feed', 168, '2022-01-07', null, 443),
+       ('feed', 156, '2022-01-12', null, 444),
+       ('feed', 153, '2022-01-09', null, 445),
+       ('feed', 156, '2022-01-05', null, 446),
+       ('feed', 193, '2022-01-12', null, 447),
+       ('feed', 143, '2022-01-07', null, 448),
+       ('feed', 212, '2022-01-11', null, 449),
+       ('feed', 144, '2022-01-07', null, 450),
+       ('feed', 211, '2022-01-06', null, 451),
+       ('feed', 158, '2022-01-07', null, 452),
+       ('feed', 148, '2022-01-06', null, 453),
+       ('feed', 193, '2022-01-07', null, 454),
+       ('feed', 174, '2022-01-09', null, 455),
+       ('feed', 171, '2022-01-08', null, 456),
+       ('feed', 223, '2022-01-12', null, 457),
+       ('feed', 151, '2022-01-13', null, 458),
+       ('feed', 152, '2022-01-05', null, 459),
+       ('feed', 175, '2022-01-05', null, 460),
+       ('feed', 140, '2022-01-05', null, 461),
+       ('feed', 213, '2022-01-10', null, 462),
+       ('feed', 136, '2022-01-10', null, 463),
+       ('feed', 129, '2022-01-08', null, 464),
+       ('feed', 138, '2022-01-09', null, 465),
+       ('feed', 146, '2022-01-10', null, 466),
+       ('feed', 167, '2022-01-11', null, 467),
+       ('feed', 215, '2022-01-07', null, 468),
+       ('feed', 207, '2022-01-14', null, 469),
+       ('feed', 148, '2022-01-11', null, 470),
+       ('feed', 159, '2022-01-04', null, 471),
+       ('feed', 208, '2022-01-11', null, 472),
+       ('feed', 147, '2022-01-12', null, 473),
+       ('feed', 222, '2022-01-09', null, 474),
+       ('feed', 200, '2022-01-11', null, 475),
+       ('feed', 135, '2022-01-10', null, 476),
+       ('feed', 169, '2022-01-14', null, 477),
+       ('feed', 221, '2022-01-04', null, 478),
+       ('feed', 213, '2022-01-09', null, 479),
+       ('feed', 142, '2022-01-09', null, 480),
+       ('feed', 188, '2022-01-12', null, 481),
+       ('feed', 201, '2022-01-09', null, 482),
+       ('feed', 218, '2022-01-10', null, 483),
+       ('feed', 156, '2022-01-09', null, 484),
+       ('feed', 206, '2022-01-11', null, 485),
+       ('feed', 221, '2022-01-08', null, 486),
+       ('feed', 192, '2022-01-06', null, 487),
+       ('feed', 175, '2022-01-14', null, 488),
+       ('feed', 153, '2022-01-11', null, 489),
+       ('feed', 131, '2022-01-11', null, 490),
+       ('feed', 131, '2022-01-05', null, 491),
+       ('feed', 142, '2022-01-08', null, 492),
+       ('feed', 155, '2022-01-06', null, 493),
+       ('feed', 190, '2022-01-05', null, 494),
+       ('feed', 181, '2022-01-04', null, 495),
+       ('feed', 171, '2022-01-10', null, 496),
+       ('feed', 183, '2022-01-12', null, 497),
+       ('feed', 208, '2022-01-12', null, 498),
+       ('feed', 223, '2022-01-12', null, 499),
+       ('feed', 172, '2022-01-13', null, 500),
+       ('feed', 165, '2022-01-09', null, 501),
+       ('feed', 206, '2022-01-13', null, 502),
+       ('feed', 178, '2022-01-09', null, 503),
+       ('feed', 174, '2022-01-09', null, 504),
+       ('feed', 144, '2022-01-12', null, 505),
+       ('feed', 145, '2022-01-10', null, 506),
+       ('feed', 176, '2021-11-14', null, 1),
+       ('feed', 170, '2021-12-27', null, 2),
+       ('feed', 194, '2021-10-14', null, 3),
+       ('feed', 207, '2021-10-03', null, 4),
+       ('feed', 215, '2021-10-13', null, 5),
+       ('feed', 144, '2021-11-14', null, 6),
+       ('feed', 210, '2021-11-05', null, 7),
+       ('feed', 191, '2021-11-28', null, 8),
+       ('feed', 157, '2021-11-08', null, 9),
+       ('feed', 157, '2021-12-30', null, 10),
+       ('feed', 187, '2021-10-03', null, 11),
+       ('feed', 146, '2021-11-25', null, 12),
+       ('feed', 145, '2021-10-15', null, 13),
+       ('feed', 203, '2021-12-19', null, 14),
+       ('feed', 182, '2021-12-13', null, 15),
+       ('feed', 205, '2021-12-16', null, 16),
+       ('feed', 165, '2021-10-10', null, 17),
+       ('feed', 177, '2021-12-24', null, 18),
+       ('feed', 182, '2021-11-20', null, 19),
+       ('feed', 196, '2021-10-18', null, 20),
+       ('feed', 169, '2021-10-05', null, 21),
+       ('feed', 168, '2021-11-05', null, 22),
+       ('feed', 193, '2021-12-07', null, 23),
+       ('feed', 164, '2021-12-15', null, 24),
+       ('feed', 148, '2021-11-22', null, 25),
+       ('feed', 184, '2021-10-29', null, 26),
+       ('feed', 188, '2021-12-28', null, 27),
+       ('feed', 176, '2022-01-05', null, 28),
+       ('feed', 158, '2021-10-18', null, 29),
+       ('feed', 131, '2021-12-11', null, 30),
+       ('feed', 219, '2021-11-22', null, 31),
+       ('feed', 149, '2021-11-08', null, 32),
+       ('feed', 132, '2021-10-10', null, 33),
+       ('feed', 194, '2021-12-22', null, 34),
+       ('feed', 129, '2021-10-31', null, 35),
+       ('feed', 183, '2021-11-18', null, 36),
+       ('feed', 208, '2021-12-03', null, 37),
+       ('feed', 158, '2021-12-15', null, 38),
+       ('feed', 214, '2022-01-05', null, 39),
+       ('feed', 140, '2021-12-14', null, 40),
+       ('feed', 140, '2022-01-05', null, 41),
+       ('feed', 201, '2021-10-04', null, 42),
+       ('feed', 194, '2021-11-12', null, 43),
+       ('feed', 137, '2021-12-17', null, 44),
+       ('feed', 154, '2021-11-25', null, 45),
+       ('feed', 216, '2021-11-18', null, 46),
+       ('feed', 139, '2021-11-01', null, 47),
+       ('feed', 213, '2021-12-01', null, 48),
+       ('feed', 172, '2021-11-16', null, 49),
+       ('feed', 184, '2021-11-24', null, 50),
+       ('feed', 196, '2021-11-30', null, 51),
+       ('feed', 160, '2021-11-05', null, 52),
+       ('feed', 169, '2021-11-06', null, 53),
+       ('feed', 177, '2021-12-20', null, 54),
+       ('feed', 183, '2021-11-29', null, 55),
+       ('feed', 133, '2021-11-17', null, 56),
+       ('feed', 171, '2021-12-05', null, 57),
+       ('feed', 143, '2021-12-19', null, 58),
+       ('feed', 198, '2022-01-01', null, 59),
+       ('feed', 133, '2021-12-07', null, 60),
+       ('feed', 197, '2021-10-20', null, 61),
+       ('feed', 198, '2021-12-09', null, 62),
+       ('feed', 154, '2022-01-01', null, 63),
+       ('feed', 210, '2021-11-29', null, 64),
+       ('feed', 218, '2021-12-28', null, 65),
+       ('feed', 154, '2022-01-13', null, 66),
+       ('feed', 136, '2021-11-27', null, 67),
+       ('feed', 176, '2021-12-03', null, 68),
+       ('feed', 153, '2022-01-04', null, 69),
+       ('feed', 206, '2021-11-07', null, 70),
+       ('feed', 170, '2021-10-25', null, 71),
+       ('feed', 190, '2021-10-02', null, 72),
+       ('feed', 219, '2021-11-17', null, 73),
+       ('feed', 154, '2021-12-30', null, 74),
+       ('feed', 178, '2021-10-13', null, 75),
+       ('feed', 156, '2021-12-18', null, 76),
+       ('feed', 163, '2021-11-18', null, 77),
+       ('feed', 130, '2021-10-19', null, 78),
+       ('feed', 204, '2021-12-18', null, 79),
+       ('feed', 150, '2021-10-29', null, 80),
+       ('feed', 203, '2022-01-03', null, 81),
+       ('feed', 221, '2021-12-19', null, 82),
+       ('feed', 183, '2022-01-11', null, 83),
+       ('feed', 152, '2021-12-15', null, 84),
+       ('feed', 194, '2021-11-12', null, 85),
+       ('feed', 131, '2021-10-11', null, 86),
+       ('feed', 149, '2021-12-06', null, 87),
+       ('feed', 222, '2021-11-03', null, 88),
+       ('feed', 188, '2022-01-11', null, 89),
+       ('feed', 201, '2021-12-05', null, 90),
+       ('feed', 208, '2021-12-25', null, 91),
+       ('feed', 195, '2021-11-27', null, 92),
+       ('feed', 129, '2022-01-05', null, 93),
+       ('feed', 184, '2021-11-12', null, 94),
+       ('feed', 219, '2021-12-11', null, 95),
+       ('feed', 146, '2021-11-12', null, 96),
+       ('feed', 201, '2021-11-16', null, 97),
+       ('feed', 127, '2021-11-29', null, 98),
+       ('feed', 156, '2021-10-16', null, 99),
+       ('feed', 207, '2021-11-02', null, 100),
+       ('feed', 144, '2021-12-02', null, 101),
+       ('feed', 212, '2021-12-17', null, 102),
+       ('feed', 166, '2021-12-25', null, 103),
+       ('feed', 144, '2021-10-15', null, 104),
+       ('feed', 153, '2021-10-14', null, 105),
+       ('feed', 140, '2021-11-12', null, 106),
+       ('feed', 130, '2021-10-03', null, 107),
+       ('feed', 183, '2022-01-10', null, 108),
+       ('feed', 208, '2021-12-28', null, 109),
+       ('feed', 186, '2021-12-08', null, 110),
+       ('feed', 196, '2021-11-17', null, 111),
+       ('feed', 141, '2021-10-31', null, 112),
+       ('feed', 148, '2021-11-08', null, 113),
+       ('feed', 175, '2021-10-09', null, 114),
+       ('feed', 158, '2021-12-09', null, 115),
+       ('feed', 175, '2021-12-03', null, 116),
+       ('feed', 162, '2021-12-07', null, 117),
+       ('feed', 178, '2021-11-02', null, 118),
+       ('feed', 167, '2021-10-19', null, 119),
+       ('feed', 167, '2021-12-17', null, 120),
+       ('feed', 164, '2021-10-19', null, 121),
+       ('feed', 202, '2021-12-02', null, 122),
+       ('feed', 184, '2021-11-08', null, 123),
+       ('feed', 217, '2021-10-12', null, 124),
+       ('feed', 198, '2021-10-08', null, 125),
+       ('feed', 164, '2022-01-12', null, 126),
+       ('feed', 143, '2021-10-26', null, 127),
+       ('feed', 202, '2021-10-24', null, 128),
+       ('feed', 186, '2021-12-10', null, 129),
+       ('feed', 160, '2022-01-02', null, 130),
+       ('feed', 132, '2021-10-09', null, 131),
+       ('feed', 184, '2021-11-01', null, 132),
+       ('feed', 131, '2021-12-21', null, 133),
+       ('feed', 215, '2021-12-01', null, 134),
+       ('feed', 165, '2021-10-02', null, 135),
+       ('feed', 143, '2022-01-02', null, 136),
+       ('feed', 208, '2021-12-04', null, 137),
+       ('feed', 167, '2021-12-15', null, 138),
+       ('feed', 191, '2021-12-04', null, 139),
+       ('feed', 152, '2022-01-10', null, 140),
+       ('feed', 177, '2021-11-10', null, 141),
+       ('feed', 140, '2021-10-19', null, 142),
+       ('feed', 193, '2021-10-12', null, 143),
+       ('feed', 204, '2022-01-06', null, 144),
+       ('feed', 152, '2021-10-03', null, 145),
+       ('feed', 181, '2021-11-29', null, 146),
+       ('feed', 210, '2021-10-24', null, 147),
+       ('feed', 167, '2021-10-21', null, 148),
+       ('feed', 161, '2021-11-13', null, 149),
+       ('feed', 193, '2021-11-11', null, 150),
+       ('feed', 183, '2022-01-11', null, 151),
+       ('feed', 172, '2021-11-28', null, 152),
+       ('feed', 161, '2021-11-02', null, 153),
+       ('feed', 203, '2021-10-19', null, 154),
+       ('feed', 152, '2022-01-11', null, 155),
+       ('feed', 163, '2022-01-10', null, 156),
+       ('feed', 131, '2021-10-28', null, 157),
+       ('feed', 184, '2021-10-21', null, 158),
+       ('feed', 139, '2021-10-24', null, 159),
+       ('feed', 178, '2021-11-10', null, 160),
+       ('feed', 171, '2021-11-08', null, 161),
+       ('feed', 194, '2021-10-08', null, 162),
+       ('feed', 189, '2021-11-05', null, 163),
+       ('feed', 222, '2021-10-25', null, 164),
+       ('feed', 176, '2021-11-02', null, 165),
+       ('feed', 155, '2021-10-22', null, 166),
+       ('feed', 183, '2021-12-27', null, 167),
+       ('feed', 166, '2021-12-20', null, 168),
+       ('feed', 216, '2021-11-24', null, 169),
+       ('feed', 182, '2021-10-28', null, 170),
+       ('feed', 170, '2021-12-14', null, 171),
+       ('feed', 141, '2021-11-15', null, 172),
+       ('feed', 148, '2021-10-26', null, 173),
+       ('feed', 182, '2021-12-23', null, 174),
+       ('feed', 143, '2021-10-16', null, 175),
+       ('feed', 188, '2021-12-13', null, 176),
+       ('feed', 127, '2021-10-28', null, 177),
+       ('feed', 155, '2021-10-12', null, 178),
+       ('feed', 153, '2021-10-03', null, 179),
+       ('feed', 209, '2021-11-20', null, 180),
+       ('feed', 152, '2021-10-10', null, 181),
+       ('feed', 198, '2021-11-26', null, 182),
+       ('feed', 137, '2021-10-23', null, 183),
+       ('feed', 210, '2021-11-12', null, 184),
+       ('feed', 175, '2021-10-30', null, 185),
+       ('feed', 132, '2021-12-23', null, 186),
+       ('feed', 133, '2021-11-17', null, 187),
+       ('feed', 129, '2021-12-21', null, 188),
+       ('feed', 184, '2021-11-27', null, 189),
+       ('feed', 217, '2021-12-07', null, 190),
+       ('feed', 138, '2021-12-29', null, 191),
+       ('feed', 153, '2021-11-28', null, 192),
+       ('feed', 147, '2021-10-15', null, 193),
+       ('feed', 168, '2021-10-02', null, 194),
+       ('feed', 149, '2021-12-31', null, 195),
+       ('feed', 213, '2021-11-10', null, 196),
+       ('feed', 222, '2021-12-21', null, 197),
+       ('feed', 162, '2021-12-10', null, 198),
+       ('feed', 132, '2021-12-13', null, 199),
+       ('feed', 127, '2021-10-07', null, 200),
+       ('feed', 216, '2021-11-28', null, 201),
+       ('feed', 164, '2022-01-08', null, 202),
+       ('feed', 171, '2021-12-31', null, 203),
+       ('feed', 219, '2021-12-26', null, 204),
+       ('feed', 197, '2021-11-16', null, 205),
+       ('feed', 148, '2021-11-18', null, 206),
+       ('feed', 168, '2021-12-28', null, 207),
+       ('feed', 210, '2021-11-20', null, 208),
+       ('feed', 163, '2021-10-31', null, 209),
+       ('feed', 156, '2021-11-12', null, 210),
+       ('feed', 158, '2021-10-06', null, 211),
+       ('feed', 178, '2022-01-05', null, 212),
+       ('feed', 222, '2021-12-30', null, 213),
+       ('feed', 217, '2021-10-17', null, 214),
+       ('feed', 203, '2022-01-05', null, 215),
+       ('feed', 185, '2021-12-19', null, 216),
+       ('feed', 184, '2021-12-29', null, 217),
+       ('feed', 221, '2021-12-23', null, 218),
+       ('feed', 135, '2021-10-16', null, 219),
+       ('feed', 154, '2021-12-13', null, 220),
+       ('feed', 135, '2021-12-15', null, 221),
+       ('feed', 146, '2021-12-21', null, 222),
+       ('feed', 210, '2022-01-07', null, 223),
+       ('feed', 211, '2021-12-23', null, 224),
+       ('feed', 148, '2021-12-30', null, 225),
+       ('feed', 211, '2021-11-12', null, 226),
+       ('feed', 156, '2021-11-07', null, 227),
+       ('feed', 188, '2021-10-22', null, 228),
+       ('feed', 213, '2021-10-22', null, 229),
+       ('feed', 222, '2021-12-08', null, 230),
+       ('feed', 213, '2022-01-02', null, 231),
+       ('feed', 163, '2022-01-03', null, 232),
+       ('feed', 183, '2021-11-24', null, 233),
+       ('feed', 144, '2022-01-11', null, 234),
+       ('feed', 129, '2021-11-29', null, 235),
+       ('feed', 202, '2021-12-31', null, 236),
+       ('feed', 146, '2021-10-03', null, 237),
+       ('feed', 222, '2021-12-18', null, 238),
+       ('feed', 137, '2021-10-23', null, 239),
+       ('feed', 154, '2021-11-14', null, 240),
+       ('feed', 144, '2021-11-22', null, 241),
+       ('feed', 182, '2021-12-16', null, 242),
+       ('feed', 163, '2021-11-21', null, 243),
+       ('feed', 203, '2021-12-22', null, 244),
+       ('feed', 200, '2021-11-18', null, 245),
+       ('feed', 187, '2021-12-02', null, 246),
+       ('feed', 215, '2021-11-13', null, 247),
+       ('feed', 169, '2021-12-30', null, 248),
+       ('feed', 189, '2021-11-23', null, 249),
+       ('feed', 184, '2021-10-16', null, 250),
+       ('feed', 208, '2021-10-11', null, 251),
+       ('feed', 161, '2021-12-24', null, 252),
+       ('feed', 163, '2021-10-31', null, 253),
+       ('feed', 208, '2021-11-21', null, 254),
+       ('feed', 197, '2021-12-03', null, 255),
+       ('feed', 209, '2021-10-31', null, 256),
+       ('feed', 203, '2022-01-13', null, 257),
+       ('feed', 216, '2021-10-29', null, 258),
+       ('feed', 156, '2021-12-04', null, 259),
+       ('feed', 166, '2021-11-27', null, 260),
+       ('feed', 197, '2021-11-24', null, 261),
+       ('feed', 153, '2021-10-09', null, 262),
+       ('feed', 160, '2021-12-18', null, 263),
+       ('feed', 223, '2022-01-12', null, 264),
+       ('feed', 150, '2022-01-06', null, 265),
+       ('feed', 179, '2021-11-18', null, 266),
+       ('feed', 211, '2021-10-09', null, 267),
+       ('feed', 136, '2021-12-17', null, 268),
+       ('feed', 148, '2022-01-08', null, 269),
+       ('feed', 167, '2021-11-20', null, 270),
+       ('feed', 215, '2021-12-07', null, 271),
+       ('feed', 127, '2021-12-06', null, 272),
+       ('feed', 213, '2021-12-04', null, 273),
+       ('feed', 207, '2021-11-23', null, 274),
+       ('feed', 200, '2021-10-16', null, 275),
+       ('feed', 168, '2021-10-30', null, 276),
+       ('feed', 188, '2021-11-04', null, 277),
+       ('feed', 200, '2021-12-09', null, 278),
+       ('feed', 147, '2021-10-31', null, 279),
+       ('feed', 187, '2021-10-26', null, 280),
+       ('feed', 216, '2022-01-07', null, 281),
+       ('feed', 158, '2022-01-02', null, 282),
+       ('feed', 201, '2021-12-21', null, 283),
+       ('feed', 222, '2021-10-11', null, 284),
+       ('feed', 134, '2021-11-04', null, 285),
+       ('feed', 194, '2021-11-30', null, 286),
+       ('feed', 146, '2021-12-29', null, 287),
+       ('feed', 157, '2022-01-03', null, 288),
+       ('feed', 174, '2021-11-21', null, 289),
+       ('feed', 207, '2021-11-18', null, 290),
+       ('feed', 178, '2022-01-04', null, 291),
+       ('feed', 148, '2021-12-14', null, 292),
+       ('feed', 219, '2021-12-19', null, 293),
+       ('feed', 157, '2021-11-14', null, 294),
+       ('feed', 163, '2021-12-01', null, 295),
+       ('feed', 202, '2021-10-07', null, 296),
+       ('feed', 203, '2021-11-21', null, 297),
+       ('feed', 207, '2021-12-11', null, 298),
+       ('feed', 131, '2021-10-21', null, 299),
+       ('feed', 139, '2022-01-11', null, 300),
+       ('feed', 134, '2021-12-20', null, 301),
+       ('feed', 194, '2022-01-12', null, 302),
+       ('feed', 156, '2021-11-02', null, 303),
+       ('feed', 129, '2021-11-30', null, 304),
+       ('feed', 175, '2021-11-26', null, 305),
+       ('feed', 185, '2021-11-23', null, 306),
+       ('feed', 134, '2021-11-20', null, 307),
+       ('feed', 181, '2021-11-15', null, 308),
+       ('feed', 132, '2021-12-28', null, 309),
+       ('feed', 199, '2021-12-27', null, 310),
+       ('feed', 147, '2021-10-31', null, 311),
+       ('feed', 132, '2021-10-12', null, 312),
+       ('feed', 165, '2021-11-12', null, 313),
+       ('feed', 182, '2021-11-09', null, 314),
+       ('feed', 204, '2021-12-08', null, 315),
+       ('feed', 153, '2021-11-05', null, 316),
+       ('feed', 215, '2022-01-09', null, 317),
+       ('feed', 135, '2022-01-05', null, 318),
+       ('feed', 215, '2021-12-24', null, 319),
+       ('feed', 139, '2021-11-22', null, 320),
+       ('feed', 208, '2021-11-30', null, 321),
+       ('feed', 221, '2021-12-14', null, 322),
+       ('feed', 143, '2022-01-04', null, 323),
+       ('feed', 221, '2021-10-16', null, 324),
+       ('feed', 174, '2021-10-09', null, 325),
+       ('feed', 168, '2022-01-04', null, 326),
+       ('feed', 152, '2021-11-19', null, 327),
+       ('feed', 193, '2021-10-10', null, 328),
+       ('feed', 130, '2021-10-30', null, 329),
+       ('feed', 156, '2021-10-26', null, 330),
+       ('feed', 151, '2021-12-07', null, 331),
+       ('feed', 143, '2021-10-23', null, 332),
+       ('feed', 154, '2022-01-13', null, 333),
+       ('feed', 216, '2021-10-20', null, 334),
+       ('feed', 168, '2021-10-29', null, 335),
+       ('feed', 185, '2021-10-26', null, 336),
+       ('feed', 159, '2022-01-09', null, 337),
+       ('feed', 170, '2022-01-07', null, 338),
+       ('feed', 161, '2021-11-27', null, 339),
+       ('feed', 156, '2021-12-21', null, 340),
+       ('feed', 186, '2021-10-12', null, 341),
+       ('feed', 163, '2021-10-29', null, 342),
+       ('feed', 195, '2022-01-01', null, 343),
+       ('feed', 177, '2021-11-17', null, 344),
+       ('feed', 207, '2021-12-21', null, 345),
+       ('feed', 153, '2021-10-19', null, 346),
+       ('feed', 182, '2021-11-20', null, 347),
+       ('feed', 215, '2021-12-05', null, 348),
+       ('feed', 198, '2021-12-06', null, 349),
+       ('feed', 196, '2021-11-13', null, 350),
+       ('feed', 204, '2021-12-14', null, 351),
+       ('feed', 203, '2022-01-04', null, 352),
+       ('feed', 168, '2021-11-01', null, 353),
+       ('feed', 145, '2021-12-03', null, 354),
+       ('feed', 198, '2021-11-12', null, 355),
+       ('feed', 204, '2022-01-14', null, 356),
+       ('feed', 182, '2021-11-15', null, 357),
+       ('feed', 196, '2021-11-04', null, 358),
+       ('feed', 185, '2021-12-04', null, 359),
+       ('feed', 188, '2021-10-30', null, 360),
+       ('feed', 172, '2021-12-10', null, 361),
+       ('feed', 158, '2022-01-03', null, 362),
+       ('feed', 153, '2021-10-24', null, 363),
+       ('feed', 157, '2021-12-01', null, 364),
+       ('feed', 147, '2021-10-31', null, 365),
+       ('feed', 215, '2021-11-05', null, 366),
+       ('feed', 137, '2021-11-13', null, 367),
+       ('feed', 169, '2021-10-05', null, 368),
+       ('feed', 193, '2021-12-23', null, 369),
+       ('feed', 182, '2021-10-19', null, 370),
+       ('feed', 150, '2021-11-23', null, 371),
+       ('feed', 223, '2021-12-07', null, 372),
+       ('feed', 218, '2021-11-26', null, 373),
+       ('feed', 146, '2021-11-25', null, 374),
+       ('feed', 131, '2021-12-02', null, 375),
+       ('feed', 165, '2022-01-02', null, 376),
+       ('feed', 149, '2021-11-06', null, 377),
+       ('feed', 178, '2021-12-27', null, 378),
+       ('feed', 180, '2021-11-07', null, 379),
+       ('feed', 192, '2021-12-14', null, 380),
+       ('feed', 171, '2021-10-22', null, 381),
+       ('feed', 183, '2021-12-04', null, 382),
+       ('feed', 157, '2021-12-15', null, 383),
+       ('feed', 191, '2021-12-25', null, 384),
+       ('feed', 214, '2021-12-13', null, 385),
+       ('feed', 196, '2021-10-22', null, 386),
+       ('feed', 178, '2021-12-24', null, 387),
+       ('feed', 212, '2021-11-10', null, 388),
+       ('feed', 190, '2021-10-05', null, 389),
+       ('feed', 150, '2021-12-08', null, 390),
+       ('feed', 190, '2021-12-01', null, 391),
+       ('feed', 186, '2021-12-23', null, 392),
+       ('feed', 127, '2021-10-04', null, 393),
+       ('feed', 131, '2021-10-12', null, 394),
+       ('feed', 141, '2021-12-19', null, 395),
+       ('feed', 198, '2022-01-11', null, 396),
+       ('feed', 147, '2021-11-07', null, 397),
+       ('feed', 215, '2021-12-11', null, 398),
+       ('feed', 151, '2021-10-05', null, 399),
+       ('feed', 199, '2021-11-23', null, 400),
+       ('feed', 133, '2021-10-28', null, 401),
+       ('feed', 202, '2021-10-30', null, 402),
+       ('feed', 196, '2021-10-10', null, 403),
+       ('feed', 130, '2021-11-09', null, 404),
+       ('feed', 207, '2021-10-25', null, 405),
+       ('feed', 144, '2021-10-11', null, 406),
+       ('feed', 173, '2021-10-04', null, 407),
+       ('feed', 169, '2021-10-29', null, 408),
+       ('feed', 202, '2021-11-14', null, 409),
+       ('feed', 188, '2021-11-02', null, 410),
+       ('feed', 168, '2021-11-21', null, 411),
+       ('feed', 141, '2021-10-08', null, 412),
+       ('feed', 208, '2021-12-06', null, 413),
+       ('feed', 154, '2021-10-25', null, 414),
+       ('feed', 218, '2021-11-12', null, 415),
+       ('feed', 207, '2021-10-22', null, 416),
+       ('feed', 183, '2021-12-30', null, 417),
+       ('feed', 216, '2021-11-13', null, 418),
+       ('feed', 211, '2021-11-11', null, 419),
+       ('feed', 210, '2021-11-01', null, 420),
+       ('feed', 183, '2021-12-06', null, 421),
+       ('feed', 186, '2021-11-13', null, 422),
+       ('feed', 193, '2021-10-31', null, 423),
+       ('feed', 129, '2021-10-28', null, 424),
+       ('feed', 157, '2021-10-17', null, 425),
+       ('feed', 192, '2021-11-09', null, 426),
+       ('feed', 188, '2021-12-19', null, 427),
+       ('feed', 162, '2022-01-03', null, 428),
+       ('feed', 174, '2021-12-02', null, 429),
+       ('feed', 193, '2021-12-10', null, 430),
+       ('feed', 199, '2021-10-31', null, 431),
+       ('feed', 167, '2021-12-10', null, 432),
+       ('feed', 180, '2021-12-15', null, 433),
+       ('feed', 181, '2021-11-04', null, 434),
+       ('feed', 140, '2021-12-01', null, 435),
+       ('feed', 144, '2021-10-17', null, 436),
+       ('feed', 178, '2021-10-04', null, 437),
+       ('feed', 139, '2021-12-03', null, 438),
+       ('feed', 138, '2021-12-23', null, 439),
+       ('feed', 218, '2022-01-13', null, 440),
+       ('feed', 218, '2021-12-01', null, 441),
+       ('feed', 207, '2021-10-21', null, 442),
+       ('feed', 168, '2021-12-21', null, 443),
+       ('feed', 156, '2021-12-14', null, 444),
+       ('feed', 153, '2021-12-02', null, 445),
+       ('feed', 156, '2021-10-25', null, 446),
+       ('feed', 193, '2022-01-13', null, 447),
+       ('feed', 143, '2021-12-11', null, 448),
+       ('feed', 212, '2021-12-07', null, 449),
+       ('feed', 144, '2021-10-21', null, 450),
+       ('feed', 211, '2021-10-29', null, 451),
+       ('feed', 158, '2021-11-24', null, 452),
+       ('feed', 148, '2021-11-12', null, 453),
+       ('feed', 193, '2021-12-26', null, 454),
+       ('feed', 174, '2021-12-06', null, 455),
+       ('feed', 171, '2022-01-04', null, 456),
+       ('feed', 223, '2021-11-17', null, 457),
+       ('feed', 151, '2021-11-09', null, 458),
+       ('feed', 152, '2021-12-25', null, 459),
+       ('feed', 175, '2021-10-29', null, 460),
+       ('feed', 140, '2021-11-23', null, 461),
+       ('feed', 213, '2021-10-05', null, 462),
+       ('feed', 136, '2021-10-29', null, 463),
+       ('feed', 129, '2021-10-28', null, 464),
+       ('feed', 138, '2021-11-11', null, 465),
+       ('feed', 146, '2021-11-06', null, 466),
+       ('feed', 167, '2021-12-28', null, 467),
+       ('feed', 215, '2021-12-09', null, 468),
+       ('feed', 207, '2021-11-11', null, 469),
+       ('feed', 148, '2021-12-24', null, 470),
+       ('feed', 159, '2022-01-11', null, 471),
+       ('feed', 208, '2021-10-20', null, 472),
+       ('feed', 147, '2021-12-23', null, 473),
+       ('feed', 222, '2021-12-11', null, 474),
+       ('feed', 200, '2021-10-10', null, 475),
+       ('feed', 135, '2021-12-18', null, 476),
+       ('feed', 169, '2021-12-16', null, 477),
+       ('feed', 221, '2021-12-26', null, 478),
+       ('feed', 213, '2021-11-18', null, 479),
+       ('feed', 142, '2021-11-26', null, 480),
+       ('feed', 188, '2021-10-20', null, 481),
+       ('feed', 201, '2021-11-10', null, 482),
+       ('feed', 218, '2021-10-11', null, 483),
+       ('feed', 156, '2022-01-13', null, 484),
+       ('feed', 206, '2021-12-14', null, 485),
+       ('feed', 221, '2021-12-07', null, 486),
+       ('feed', 192, '2022-01-13', null, 487),
+       ('feed', 175, '2021-12-08', null, 488),
+       ('feed', 153, '2021-12-30', null, 489),
+       ('feed', 131, '2021-12-15', null, 490),
+       ('feed', 131, '2021-12-26', null, 491),
+       ('feed', 142, '2021-12-17', null, 492),
+       ('feed', 155, '2021-12-30', null, 493),
+       ('feed', 190, '2021-12-06', null, 494),
+       ('feed', 181, '2022-01-09', null, 495),
+       ('feed', 171, '2021-11-27', null, 496),
+       ('feed', 183, '2021-12-09', null, 497),
+       ('feed', 208, '2021-10-19', null, 498),
+       ('feed', 223, '2021-12-19', null, 499),
+       ('feed', 172, '2021-11-16', null, 500),
+       ('feed', 165, '2022-01-11', null, 501),
+       ('feed', 206, '2021-11-07', null, 502),
+       ('feed', 178, '2021-11-28', null, 503),
+       ('feed', 174, '2021-11-14', null, 504),
+       ('feed', 144, '2021-10-21', null, 505),
+       ('feed', 145, '2021-10-25', null, 506),
+       ('treat', 176, '2021-12-28', null, 1),
+       ('treat', 170, '2021-12-30', null, 2),
+       ('treat', 194, '2021-12-11', null, 3),
+       ('treat', 207, '2021-12-19', null, 4),
+       ('treat', 215, '2021-10-05', null, 5),
+       ('treat', 144, '2021-11-12', null, 6),
+       ('treat', 210, '2022-01-11', null, 7),
+       ('treat', 191, '2021-11-02', null, 8),
+       ('treat', 157, '2021-11-13', null, 9),
+       ('treat', 157, '2021-12-21', null, 10),
+       ('treat', 187, '2021-12-03', null, 11),
+       ('treat', 146, '2021-10-03', null, 12),
+       ('treat', 145, '2021-12-07', null, 13),
+       ('treat', 203, '2021-10-24', null, 14),
+       ('treat', 182, '2021-10-02', null, 15),
+       ('treat', 205, '2021-11-20', null, 16),
+       ('treat', 165, '2021-11-28', null, 17),
+       ('treat', 177, '2021-10-02', null, 18),
+       ('treat', 182, '2021-10-25', null, 19),
+       ('treat', 196, '2021-11-04', null, 20),
+       ('treat', 169, '2021-10-26', null, 21),
+       ('treat', 168, '2021-12-20', null, 22),
+       ('treat', 193, '2021-12-06', null, 23),
+       ('treat', 164, '2021-12-12', null, 24),
+       ('treat', 148, '2021-10-06', null, 25),
+       ('treat', 184, '2021-10-07', null, 26),
+       ('treat', 188, '2021-12-01', null, 27),
+       ('treat', 176, '2021-11-02', null, 28),
+       ('treat', 158, '2021-12-22', null, 29),
+       ('treat', 131, '2021-12-25', null, 30),
+       ('treat', 219, '2022-01-01', null, 31),
+       ('treat', 149, '2021-12-17', null, 32),
+       ('treat', 132, '2021-10-10', null, 33),
+       ('treat', 194, '2021-10-26', null, 34),
+       ('treat', 129, '2021-12-18', null, 35),
+       ('treat', 183, '2021-10-24', null, 36),
+       ('treat', 208, '2021-10-25', null, 37),
+       ('treat', 158, '2021-12-21', null, 38),
+       ('treat', 214, '2021-10-22', null, 39),
+       ('treat', 140, '2021-12-16', null, 40),
+       ('treat', 140, '2021-11-21', null, 41),
+       ('treat', 201, '2021-11-13', null, 42),
+       ('treat', 194, '2021-12-09', null, 43),
+       ('treat', 137, '2021-12-25', null, 44),
+       ('treat', 154, '2021-10-25', null, 45),
+       ('treat', 216, '2022-01-13', null, 46),
+       ('treat', 139, '2021-11-18', null, 47),
+       ('treat', 213, '2021-12-19', null, 48),
+       ('treat', 172, '2021-12-26', null, 49),
+       ('treat', 184, '2021-10-13', null, 50),
+       ('treat', 196, '2021-10-15', null, 51),
+       ('treat', 160, '2021-11-24', null, 52),
+       ('treat', 169, '2021-10-18', null, 53),
+       ('treat', 177, '2021-11-07', null, 54),
+       ('treat', 183, '2021-12-17', null, 55),
+       ('treat', 133, '2022-01-06', null, 56),
+       ('treat', 171, '2021-10-12', null, 57),
+       ('treat', 143, '2021-11-22', null, 58),
+       ('treat', 198, '2021-10-15', null, 59),
+       ('treat', 133, '2021-11-07', null, 60),
+       ('treat', 197, '2021-12-24', null, 61),
+       ('treat', 198, '2021-11-30', null, 62),
+       ('treat', 154, '2021-12-23', null, 63),
+       ('treat', 210, '2022-01-07', null, 64),
+       ('treat', 218, '2021-11-05', null, 65),
+       ('treat', 154, '2021-10-25', null, 66),
+       ('treat', 136, '2021-10-10', null, 67),
+       ('treat', 176, '2021-11-29', null, 68),
+       ('treat', 153, '2022-01-03', null, 69),
+       ('treat', 206, '2021-10-20', null, 70),
+       ('treat', 170, '2021-12-20', null, 71),
+       ('treat', 190, '2022-01-09', null, 72),
+       ('treat', 219, '2021-12-22', null, 73),
+       ('treat', 154, '2021-10-18', null, 74),
+       ('treat', 178, '2021-11-24', null, 75),
+       ('treat', 156, '2021-12-23', null, 76),
+       ('treat', 163, '2021-11-21', null, 77),
+       ('treat', 130, '2021-12-24', null, 78),
+       ('treat', 204, '2021-11-09', null, 79),
+       ('treat', 150, '2021-12-13', null, 80),
+       ('treat', 203, '2022-01-10', null, 81),
+       ('treat', 221, '2021-11-19', null, 82),
+       ('treat', 183, '2021-11-12', null, 83),
+       ('treat', 152, '2021-11-06', null, 84),
+       ('treat', 194, '2021-11-28', null, 85),
+       ('treat', 131, '2021-11-14', null, 86),
+       ('treat', 149, '2021-12-25', null, 87),
+       ('treat', 222, '2022-01-13', null, 88),
+       ('treat', 188, '2021-12-16', null, 89),
+       ('treat', 201, '2021-11-25', null, 90),
+       ('treat', 208, '2021-10-07', null, 91),
+       ('treat', 195, '2022-01-02', null, 92),
+       ('treat', 129, '2021-12-05', null, 93),
+       ('treat', 184, '2021-12-16', null, 94),
+       ('treat', 219, '2021-10-20', null, 95),
+       ('treat', 146, '2021-10-15', null, 96),
+       ('treat', 201, '2021-12-13', null, 97),
+       ('treat', 127, '2021-12-18', null, 98),
+       ('treat', 156, '2021-11-12', null, 99),
+       ('treat', 207, '2021-12-05', null, 100),
+       ('treat', 144, '2021-10-22', null, 101),
+       ('treat', 212, '2021-12-08', null, 102),
+       ('treat', 166, '2022-01-02', null, 103),
+       ('treat', 144, '2021-12-21', null, 104),
+       ('treat', 153, '2021-10-30', null, 105),
+       ('treat', 140, '2021-10-22', null, 106),
+       ('treat', 130, '2021-10-02', null, 107),
+       ('treat', 183, '2021-12-10', null, 108),
+       ('treat', 208, '2021-10-11', null, 109),
+       ('treat', 186, '2021-12-12', null, 110),
+       ('treat', 196, '2021-12-07', null, 111),
+       ('treat', 141, '2021-11-01', null, 112),
+       ('treat', 148, '2021-12-22', null, 113),
+       ('treat', 175, '2021-12-02', null, 114),
+       ('treat', 158, '2021-10-14', null, 115),
+       ('treat', 175, '2021-11-14', null, 116),
+       ('treat', 162, '2021-11-05', null, 117),
+       ('treat', 178, '2021-12-12', null, 118),
+       ('treat', 167, '2021-12-19', null, 119),
+       ('treat', 167, '2021-12-26', null, 120),
+       ('treat', 164, '2021-11-03', null, 121),
+       ('treat', 202, '2021-10-15', null, 122),
+       ('treat', 184, '2021-12-05', null, 123),
+       ('treat', 217, '2022-01-03', null, 124),
+       ('treat', 198, '2021-12-30', null, 125),
+       ('treat', 164, '2021-10-24', null, 126),
+       ('treat', 143, '2022-01-11', null, 127),
+       ('treat', 202, '2021-11-04', null, 128),
+       ('treat', 186, '2021-12-19', null, 129),
+       ('treat', 160, '2021-10-18', null, 130),
+       ('treat', 132, '2021-12-21', null, 131),
+       ('treat', 184, '2021-11-13', null, 132),
+       ('treat', 131, '2021-11-17', null, 133),
+       ('treat', 215, '2021-11-28', null, 134),
+       ('treat', 165, '2021-10-18', null, 135),
+       ('treat', 143, '2021-11-18', null, 136),
+       ('treat', 208, '2021-12-11', null, 137),
+       ('treat', 167, '2021-12-11', null, 138),
+       ('treat', 191, '2022-01-10', null, 139),
+       ('treat', 152, '2021-10-20', null, 140),
+       ('treat', 177, '2021-11-20', null, 141),
+       ('treat', 140, '2021-10-07', null, 142),
+       ('treat', 193, '2021-11-01', null, 143),
+       ('treat', 204, '2021-10-14', null, 144),
+       ('treat', 152, '2021-10-23', null, 145),
+       ('treat', 181, '2021-10-19', null, 146),
+       ('treat', 210, '2022-01-08', null, 147),
+       ('treat', 167, '2021-11-27', null, 148),
+       ('treat', 161, '2021-11-07', null, 149),
+       ('treat', 193, '2021-11-06', null, 150),
+       ('treat', 183, '2021-12-25', null, 151),
+       ('treat', 172, '2022-01-08', null, 152),
+       ('treat', 161, '2021-10-19', null, 153),
+       ('treat', 203, '2021-10-28', null, 154),
+       ('treat', 152, '2021-11-04', null, 155),
+       ('treat', 163, '2021-10-10', null, 156),
+       ('treat', 131, '2021-10-04', null, 157),
+       ('treat', 184, '2021-12-09', null, 158),
+       ('treat', 139, '2021-10-24', null, 159),
+       ('treat', 178, '2022-01-08', null, 160),
+       ('treat', 171, '2022-01-02', null, 161),
+       ('treat', 194, '2021-10-22', null, 162),
+       ('treat', 189, '2021-10-08', null, 163),
+       ('treat', 222, '2021-12-03', null, 164),
+       ('treat', 176, '2021-12-02', null, 165),
+       ('treat', 155, '2021-10-29', null, 166),
+       ('treat', 183, '2021-11-15', null, 167),
+       ('treat', 166, '2021-11-14', null, 168),
+       ('treat', 216, '2021-12-08', null, 169),
+       ('treat', 182, '2021-10-19', null, 170),
+       ('treat', 170, '2021-12-03', null, 171),
+       ('treat', 141, '2022-01-06', null, 172),
+       ('treat', 148, '2021-10-03', null, 173),
+       ('treat', 182, '2021-12-18', null, 174),
+       ('treat', 143, '2021-11-02', null, 175),
+       ('treat', 188, '2021-11-21', null, 176),
+       ('treat', 127, '2021-12-03', null, 177),
+       ('treat', 155, '2022-01-04', null, 178),
+       ('treat', 153, '2021-11-26', null, 179),
+       ('treat', 209, '2021-10-03', null, 180),
+       ('treat', 152, '2021-12-06', null, 181),
+       ('treat', 198, '2021-11-29', null, 182),
+       ('treat', 137, '2021-11-12', null, 183),
+       ('treat', 210, '2022-01-14', null, 184),
+       ('treat', 175, '2021-12-05', null, 185),
+       ('treat', 132, '2021-10-13', null, 186),
+       ('treat', 133, '2021-10-17', null, 187),
+       ('treat', 129, '2021-12-04', null, 188),
+       ('treat', 184, '2021-12-09', null, 189),
+       ('treat', 217, '2021-11-05', null, 190),
+       ('treat', 138, '2021-12-23', null, 191),
+       ('treat', 153, '2021-12-31', null, 192),
+       ('treat', 147, '2021-11-15', null, 193),
+       ('treat', 168, '2021-12-12', null, 194),
+       ('treat', 149, '2021-10-23', null, 195),
+       ('treat', 213, '2021-12-06', null, 196),
+       ('treat', 222, '2021-10-20', null, 197),
+       ('treat', 162, '2021-12-02', null, 198),
+       ('treat', 132, '2021-11-30', null, 199),
+       ('treat', 127, '2021-12-06', null, 200),
+       ('treat', 216, '2022-01-07', null, 201),
+       ('treat', 164, '2021-12-21', null, 202),
+       ('treat', 171, '2021-12-13', null, 203),
+       ('treat', 219, '2021-10-04', null, 204),
+       ('treat', 197, '2021-10-14', null, 205),
+       ('treat', 148, '2022-01-02', null, 206),
+       ('treat', 168, '2021-11-03', null, 207),
+       ('treat', 210, '2021-10-24', null, 208),
+       ('treat', 163, '2021-12-16', null, 209),
+       ('treat', 156, '2021-10-15', null, 210),
+       ('treat', 158, '2021-11-30', null, 211),
+       ('treat', 178, '2021-12-10', null, 212),
+       ('treat', 222, '2021-10-25', null, 213),
+       ('treat', 217, '2021-12-24', null, 214),
+       ('treat', 203, '2021-12-11', null, 215),
+       ('treat', 185, '2021-10-10', null, 216),
+       ('treat', 184, '2022-01-14', null, 217),
+       ('treat', 221, '2021-10-19', null, 218),
+       ('treat', 135, '2021-12-08', null, 219),
+       ('treat', 154, '2021-12-04', null, 220),
+       ('treat', 135, '2021-10-23', null, 221),
+       ('treat', 146, '2022-01-03', null, 222),
+       ('treat', 210, '2022-01-04', null, 223),
+       ('treat', 211, '2021-10-07', null, 224),
+       ('treat', 148, '2021-11-21', null, 225),
+       ('treat', 211, '2022-01-13', null, 226),
+       ('treat', 156, '2021-10-16', null, 227),
+       ('treat', 188, '2021-12-13', null, 228),
+       ('treat', 213, '2021-10-28', null, 229),
+       ('treat', 222, '2022-01-04', null, 230),
+       ('treat', 213, '2021-12-31', null, 231),
+       ('treat', 163, '2021-12-20', null, 232),
+       ('treat', 183, '2021-10-13', null, 233),
+       ('treat', 144, '2021-10-05', null, 234),
+       ('treat', 129, '2021-11-23', null, 235),
+       ('treat', 202, '2021-11-18', null, 236),
+       ('treat', 146, '2022-01-09', null, 237),
+       ('treat', 222, '2021-11-28', null, 238),
+       ('treat', 137, '2022-01-08', null, 239),
+       ('treat', 154, '2021-11-01', null, 240),
+       ('treat', 144, '2021-11-18', null, 241),
+       ('treat', 182, '2021-10-06', null, 242),
+       ('treat', 163, '2021-12-09', null, 243),
+       ('treat', 203, '2021-12-18', null, 244),
+       ('treat', 200, '2021-10-09', null, 245),
+       ('treat', 187, '2021-12-31', null, 246),
+       ('treat', 215, '2022-01-01', null, 247),
+       ('treat', 169, '2021-12-10', null, 248),
+       ('treat', 189, '2021-10-30', null, 249),
+       ('treat', 184, '2022-01-06', null, 250),
+       ('treat', 208, '2021-12-12', null, 251),
+       ('treat', 161, '2021-11-19', null, 252),
+       ('treat', 163, '2021-12-13', null, 253),
+       ('treat', 208, '2022-01-04', null, 254),
+       ('treat', 197, '2021-11-11', null, 255),
+       ('treat', 209, '2021-10-10', null, 256),
+       ('treat', 203, '2021-12-02', null, 257),
+       ('treat', 216, '2021-10-27', null, 258),
+       ('treat', 156, '2021-11-25', null, 259),
+       ('treat', 166, '2021-11-16', null, 260),
+       ('treat', 197, '2022-01-07', null, 261),
+       ('treat', 153, '2021-10-15', null, 262),
+       ('treat', 160, '2021-10-28', null, 263),
+       ('treat', 223, '2021-10-11', null, 264),
+       ('treat', 150, '2021-10-18', null, 265),
+       ('treat', 179, '2021-11-25', null, 266),
+       ('treat', 211, '2021-11-12', null, 267),
+       ('treat', 136, '2021-10-23', null, 268),
+       ('treat', 148, '2022-01-14', null, 269),
+       ('treat', 167, '2021-10-09', null, 270),
+       ('treat', 215, '2022-01-10', null, 271),
+       ('treat', 127, '2021-10-22', null, 272),
+       ('treat', 213, '2021-11-03', null, 273),
+       ('treat', 207, '2022-01-04', null, 274),
+       ('treat', 200, '2022-01-06', null, 275),
+       ('treat', 168, '2021-11-10', null, 276),
+       ('treat', 188, '2021-11-02', null, 277),
+       ('treat', 200, '2021-12-13', null, 278),
+       ('treat', 147, '2021-11-06', null, 279),
+       ('treat', 187, '2021-11-22', null, 280),
+       ('treat', 216, '2021-11-25', null, 281),
+       ('treat', 158, '2021-11-16', null, 282),
+       ('treat', 201, '2021-10-02', null, 283),
+       ('treat', 222, '2021-12-19', null, 284),
+       ('treat', 134, '2021-10-14', null, 285),
+       ('treat', 194, '2022-01-12', null, 286),
+       ('treat', 146, '2021-12-10', null, 287),
+       ('treat', 157, '2021-11-06', null, 288),
+       ('treat', 174, '2021-10-09', null, 289),
+       ('treat', 207, '2021-10-26', null, 290),
+       ('treat', 178, '2021-10-29', null, 291),
+       ('treat', 148, '2021-11-08', null, 292),
+       ('treat', 219, '2021-12-18', null, 293),
+       ('treat', 157, '2021-11-09', null, 294),
+       ('treat', 163, '2021-10-23', null, 295),
+       ('treat', 202, '2021-10-19', null, 296),
+       ('treat', 203, '2021-12-22', null, 297),
+       ('treat', 207, '2021-11-04', null, 298),
+       ('treat', 131, '2021-11-05', null, 299),
+       ('treat', 139, '2021-10-17', null, 300),
+       ('treat', 134, '2021-11-02', null, 301),
+       ('treat', 194, '2021-10-15', null, 302),
+       ('treat', 156, '2021-10-18', null, 303),
+       ('treat', 129, '2022-01-10', null, 304),
+       ('treat', 175, '2021-12-13', null, 305),
+       ('treat', 185, '2021-12-20', null, 306),
+       ('treat', 134, '2021-11-06', null, 307),
+       ('treat', 181, '2022-01-10', null, 308),
+       ('treat', 132, '2021-12-01', null, 309),
+       ('treat', 199, '2022-01-04', null, 310),
+       ('treat', 147, '2021-11-09', null, 311),
+       ('treat', 132, '2021-10-04', null, 312),
+       ('treat', 165, '2021-10-10', null, 313),
+       ('treat', 182, '2021-11-27', null, 314),
+       ('treat', 204, '2021-11-26', null, 315),
+       ('treat', 153, '2021-10-04', null, 316),
+       ('treat', 215, '2021-12-01', null, 317),
+       ('treat', 135, '2021-12-31', null, 318),
+       ('treat', 215, '2021-11-26', null, 319),
+       ('treat', 139, '2022-01-12', null, 320),
+       ('treat', 208, '2021-10-15', null, 321),
+       ('treat', 221, '2021-10-20', null, 322),
+       ('treat', 143, '2021-12-14', null, 323),
+       ('treat', 221, '2022-01-14', null, 324),
+       ('treat', 174, '2021-12-12', null, 325),
+       ('treat', 168, '2021-11-05', null, 326),
+       ('treat', 152, '2021-11-22', null, 327),
+       ('treat', 193, '2021-10-22', null, 328),
+       ('treat', 130, '2021-11-16', null, 329),
+       ('treat', 156, '2021-10-08', null, 330),
+       ('treat', 151, '2022-01-07', null, 331),
+       ('treat', 143, '2021-12-08', null, 332),
+       ('treat', 154, '2021-11-23', null, 333),
+       ('treat', 216, '2021-12-12', null, 334),
+       ('treat', 168, '2022-01-10', null, 335),
+       ('treat', 185, '2021-10-07', null, 336),
+       ('treat', 159, '2021-12-30', null, 337),
+       ('treat', 170, '2021-10-10', null, 338),
+       ('treat', 161, '2021-12-29', null, 339),
+       ('treat', 156, '2021-10-24', null, 340),
+       ('treat', 186, '2022-01-11', null, 341),
+       ('treat', 163, '2021-10-11', null, 342),
+       ('treat', 195, '2021-12-24', null, 343),
+       ('treat', 177, '2021-12-20', null, 344),
+       ('treat', 207, '2021-11-19', null, 345),
+       ('treat', 153, '2022-01-06', null, 346),
+       ('treat', 182, '2021-11-08', null, 347),
+       ('treat', 215, '2021-11-01', null, 348),
+       ('treat', 198, '2021-10-24', null, 349),
+       ('treat', 196, '2021-10-14', null, 350),
+       ('treat', 204, '2021-12-10', null, 351),
+       ('treat', 203, '2021-12-12', null, 352),
+       ('treat', 168, '2021-12-18', null, 353),
+       ('treat', 145, '2021-10-15', null, 354),
+       ('treat', 198, '2021-12-02', null, 355),
+       ('treat', 204, '2022-01-06', null, 356),
+       ('treat', 182, '2021-10-11', null, 357),
+       ('treat', 196, '2021-11-22', null, 358),
+       ('treat', 185, '2021-12-01', null, 359),
+       ('treat', 188, '2021-10-25', null, 360),
+       ('treat', 172, '2021-10-16', null, 361),
+       ('treat', 158, '2022-01-03', null, 362),
+       ('treat', 153, '2021-11-20', null, 363),
+       ('treat', 157, '2022-01-08', null, 364),
+       ('treat', 147, '2021-12-04', null, 365),
+       ('treat', 215, '2021-11-26', null, 366),
+       ('treat', 137, '2021-12-28', null, 367),
+       ('treat', 169, '2022-01-08', null, 368),
+       ('treat', 193, '2021-12-07', null, 369),
+       ('treat', 182, '2021-10-09', null, 370),
+       ('treat', 150, '2021-10-23', null, 371),
+       ('treat', 223, '2022-01-08', null, 372),
+       ('treat', 218, '2021-12-16', null, 373),
+       ('treat', 146, '2021-12-30', null, 374),
+       ('treat', 131, '2021-11-01', null, 375),
+       ('treat', 165, '2021-10-28', null, 376),
+       ('treat', 149, '2021-10-11', null, 377),
+       ('treat', 178, '2021-12-28', null, 378),
+       ('treat', 180, '2021-12-01', null, 379),
+       ('treat', 192, '2021-11-02', null, 380),
+       ('treat', 171, '2021-12-23', null, 381),
+       ('treat', 183, '2021-12-02', null, 382),
+       ('treat', 157, '2021-12-30', null, 383),
+       ('treat', 191, '2021-10-07', null, 384),
+       ('treat', 214, '2021-10-30', null, 385),
+       ('treat', 196, '2021-10-23', null, 386),
+       ('treat', 178, '2021-12-27', null, 387),
+       ('treat', 212, '2021-11-07', null, 388),
+       ('treat', 190, '2021-10-21', null, 389),
+       ('treat', 150, '2021-10-06', null, 390),
+       ('treat', 190, '2021-12-28', null, 391),
+       ('treat', 186, '2021-10-04', null, 392),
+       ('treat', 127, '2021-10-05', null, 393),
+       ('treat', 131, '2021-10-11', null, 394),
+       ('treat', 141, '2021-11-22', null, 395),
+       ('treat', 198, '2021-10-29', null, 396),
+       ('treat', 147, '2021-11-27', null, 397),
+       ('treat', 215, '2021-12-08', null, 398),
+       ('treat', 151, '2021-11-14', null, 399),
+       ('treat', 199, '2021-11-19', null, 400),
+       ('treat', 133, '2022-01-14', null, 401),
+       ('treat', 202, '2021-12-16', null, 402),
+       ('treat', 196, '2021-12-01', null, 403),
+       ('treat', 130, '2021-12-06', null, 404),
+       ('treat', 207, '2021-12-07', null, 405),
+       ('treat', 144, '2021-12-08', null, 406),
+       ('treat', 173, '2021-11-13', null, 407),
+       ('treat', 169, '2022-01-04', null, 408),
+       ('treat', 202, '2021-12-10', null, 409),
+       ('treat', 188, '2021-12-09', null, 410),
+       ('treat', 168, '2021-12-26', null, 411),
+       ('treat', 141, '2021-11-24', null, 412),
+       ('treat', 208, '2021-10-18', null, 413),
+       ('treat', 154, '2021-12-13', null, 414),
+       ('treat', 218, '2021-10-06', null, 415),
+       ('treat', 207, '2022-01-03', null, 416),
+       ('treat', 183, '2021-12-26', null, 417),
+       ('treat', 216, '2021-11-23', null, 418),
+       ('treat', 211, '2022-01-08', null, 419),
+       ('treat', 210, '2021-12-03', null, 420),
+       ('treat', 183, '2021-11-19', null, 421),
+       ('treat', 186, '2021-11-28', null, 422),
+       ('treat', 193, '2021-11-22', null, 423),
+       ('treat', 129, '2021-12-18', null, 424),
+       ('treat', 157, '2021-12-12', null, 425),
+       ('treat', 192, '2021-11-14', null, 426),
+       ('treat', 188, '2021-10-29', null, 427),
+       ('treat', 162, '2021-12-16', null, 428),
+       ('treat', 174, '2021-11-06', null, 429),
+       ('treat', 193, '2021-11-07', null, 430),
+       ('treat', 199, '2021-11-11', null, 431),
+       ('treat', 167, '2022-01-02', null, 432),
+       ('treat', 180, '2021-10-25', null, 433),
+       ('treat', 181, '2021-12-14', null, 434),
+       ('treat', 140, '2022-01-03', null, 435),
+       ('treat', 144, '2021-12-19', null, 436),
+       ('treat', 178, '2021-11-10', null, 437),
+       ('treat', 139, '2021-10-26', null, 438),
+       ('treat', 138, '2021-11-18', null, 439),
+       ('treat', 218, '2021-11-20', null, 440),
+       ('treat', 218, '2021-11-09', null, 441),
+       ('treat', 207, '2021-10-12', null, 442),
+       ('treat', 168, '2021-11-22', null, 443),
+       ('treat', 156, '2021-12-28', null, 444),
+       ('treat', 153, '2021-11-07', null, 445),
+       ('treat', 156, '2021-11-07', null, 446),
+       ('treat', 193, '2021-10-07', null, 447),
+       ('treat', 143, '2021-10-22', null, 448),
+       ('treat', 212, '2021-11-07', null, 449),
+       ('treat', 144, '2021-12-30', null, 450),
+       ('treat', 211, '2021-11-01', null, 451),
+       ('treat', 158, '2021-11-05', null, 452),
+       ('treat', 148, '2021-12-16', null, 453),
+       ('treat', 193, '2021-11-08', null, 454),
+       ('treat', 174, '2021-11-03', null, 455),
+       ('treat', 171, '2021-11-05', null, 456),
+       ('treat', 223, '2021-10-17', null, 457),
+       ('treat', 151, '2021-11-04', null, 458),
+       ('treat', 152, '2022-01-02', null, 459),
+       ('treat', 175, '2022-01-06', null, 460),
+       ('treat', 140, '2021-10-29', null, 461),
+       ('treat', 213, '2021-10-13', null, 462),
+       ('treat', 136, '2021-10-13', null, 463),
+       ('treat', 129, '2021-12-23', null, 464),
+       ('treat', 138, '2022-01-06', null, 465),
+       ('treat', 146, '2021-12-29', null, 466),
+       ('treat', 167, '2022-01-09', null, 467),
+       ('treat', 215, '2021-12-29', null, 468),
+       ('treat', 207, '2021-11-10', null, 469),
+       ('treat', 148, '2021-10-11', null, 470),
+       ('treat', 159, '2021-10-05', null, 471),
+       ('treat', 208, '2021-11-11', null, 472),
+       ('treat', 147, '2021-12-25', null, 473),
+       ('treat', 222, '2021-11-02', null, 474),
+       ('treat', 200, '2022-01-02', null, 475),
+       ('treat', 135, '2021-10-18', null, 476),
+       ('treat', 169, '2021-11-25', null, 477),
+       ('treat', 221, '2021-12-18', null, 478),
+       ('treat', 213, '2021-10-14', null, 479),
+       ('treat', 142, '2021-12-19', null, 480),
+       ('treat', 188, '2021-11-28', null, 481),
+       ('treat', 201, '2021-10-27', null, 482),
+       ('treat', 218, '2021-10-09', null, 483),
+       ('treat', 156, '2021-11-13', null, 484),
+       ('treat', 206, '2022-01-07', null, 485),
+       ('treat', 221, '2021-12-22', null, 486),
+       ('treat', 192, '2021-10-07', null, 487),
+       ('treat', 175, '2021-12-12', null, 488),
+       ('treat', 153, '2021-12-18', null, 489),
+       ('treat', 131, '2021-12-21', null, 490),
+       ('treat', 131, '2021-10-29', null, 491),
+       ('treat', 142, '2021-11-06', null, 492),
+       ('treat', 155, '2021-11-25', null, 493),
+       ('treat', 190, '2021-10-21', null, 494),
+       ('treat', 181, '2022-01-12', null, 495),
+       ('treat', 171, '2021-12-05', null, 496),
+       ('treat', 183, '2021-12-21', null, 497),
+       ('treat', 208, '2021-11-30', null, 498),
+       ('treat', 223, '2021-10-30', null, 499),
+       ('treat', 172, '2021-11-03', null, 500),
+       ('treat', 165, '2021-11-26', null, 501),
+       ('treat', 206, '2021-11-08', null, 502),
+       ('treat', 178, '2021-11-06', null, 503),
+       ('treat', 174, '2021-12-16', null, 504),
+       ('treat', 144, '2021-12-11', null, 505),
+       ('treat', 145, '2021-11-23', null, 506),
+       ('train', 176, '2022-01-10', null, 1),
+       ('train', 170, '2022-01-14', null, 2),
+       ('train', 194, '2022-01-11', null, 3),
+       ('train', 207, '2022-01-04', null, 4),
+       ('train', 215, '2022-01-10', null, 5),
+       ('train', 144, '2022-01-12', null, 6),
+       ('train', 210, '2022-01-10', null, 7),
+       ('train', 191, '2022-01-06', null, 8),
+       ('train', 157, '2022-01-08', null, 9),
+       ('train', 157, '2022-01-06', null, 10),
+       ('train', 187, '2022-01-05', null, 11),
+       ('train', 146, '2022-01-09', null, 12),
+       ('train', 145, '2022-01-07', null, 13),
+       ('train', 203, '2022-01-07', null, 14),
+       ('train', 182, '2022-01-05', null, 15),
+       ('train', 205, '2022-01-12', null, 16),
+       ('train', 165, '2022-01-11', null, 17),
+       ('train', 177, '2022-01-13', null, 18),
+       ('train', 182, '2022-01-11', null, 19),
+       ('train', 196, '2022-01-13', null, 20),
+       ('train', 169, '2022-01-11', null, 21),
+       ('train', 168, '2022-01-09', null, 22),
+       ('train', 193, '2022-01-07', null, 23),
+       ('train', 164, '2022-01-12', null, 24),
+       ('train', 148, '2022-01-07', null, 25),
+       ('train', 184, '2022-01-12', null, 26),
+       ('train', 188, '2022-01-14', null, 27),
+       ('train', 176, '2022-01-13', null, 28),
+       ('train', 158, '2022-01-09', null, 29),
+       ('train', 131, '2022-01-14', null, 30),
+       ('train', 219, '2022-01-08', null, 31),
+       ('train', 149, '2022-01-08', null, 32),
+       ('train', 132, '2022-01-07', null, 33),
+       ('train', 194, '2022-01-05', null, 34),
+       ('train', 129, '2022-01-07', null, 35),
+       ('train', 183, '2022-01-13', null, 36),
+       ('train', 208, '2022-01-12', null, 37),
+       ('train', 158, '2022-01-08', null, 38),
+       ('train', 214, '2022-01-07', null, 39),
+       ('train', 140, '2022-01-07', null, 40),
+       ('train', 140, '2022-01-06', null, 41),
+       ('train', 201, '2022-01-05', null, 42),
+       ('train', 194, '2022-01-09', null, 43),
+       ('train', 137, '2022-01-06', null, 44),
+       ('train', 154, '2022-01-11', null, 45),
+       ('train', 216, '2022-01-07', null, 46),
+       ('train', 139, '2022-01-07', null, 47),
+       ('train', 213, '2022-01-11', null, 48),
+       ('train', 172, '2022-01-08', null, 49),
+       ('train', 184, '2022-01-07', null, 50),
+       ('train', 196, '2022-01-12', null, 51),
+       ('train', 160, '2022-01-04', null, 52),
+       ('train', 169, '2022-01-11', null, 53),
+       ('train', 177, '2022-01-11', null, 54),
+       ('train', 183, '2022-01-12', null, 55),
+       ('train', 133, '2022-01-04', null, 56),
+       ('train', 171, '2022-01-13', null, 57),
+       ('train', 143, '2022-01-06', null, 58),
+       ('train', 198, '2022-01-06', null, 59),
+       ('train', 133, '2022-01-13', null, 60),
+       ('train', 197, '2022-01-04', null, 61),
+       ('train', 198, '2022-01-14', null, 62),
+       ('train', 154, '2022-01-14', null, 63),
+       ('train', 210, '2022-01-05', null, 64),
+       ('train', 218, '2022-01-08', null, 65),
+       ('train', 154, '2022-01-08', null, 66),
+       ('train', 136, '2022-01-11', null, 67),
+       ('train', 176, '2022-01-13', null, 68),
+       ('train', 153, '2022-01-08', null, 69),
+       ('train', 206, '2022-01-13', null, 70),
+       ('train', 170, '2022-01-12', null, 71),
+       ('train', 190, '2022-01-09', null, 72),
+       ('train', 219, '2022-01-11', null, 73),
+       ('train', 154, '2022-01-05', null, 74),
+       ('train', 178, '2022-01-06', null, 75),
+       ('train', 156, '2022-01-12', null, 76),
+       ('train', 163, '2022-01-04', null, 77),
+       ('train', 130, '2022-01-05', null, 78),
+       ('train', 204, '2022-01-09', null, 79),
+       ('train', 150, '2022-01-13', null, 80),
+       ('train', 203, '2022-01-07', null, 81),
+       ('train', 221, '2022-01-10', null, 82),
+       ('train', 183, '2022-01-13', null, 83),
+       ('train', 152, '2022-01-06', null, 84),
+       ('train', 194, '2022-01-06', null, 85),
+       ('train', 131, '2022-01-09', null, 86),
+       ('train', 149, '2022-01-05', null, 87),
+       ('train', 222, '2022-01-11', null, 88),
+       ('train', 188, '2022-01-04', null, 89),
+       ('train', 201, '2022-01-13', null, 90),
+       ('train', 208, '2022-01-06', null, 91),
+       ('train', 195, '2022-01-05', null, 92),
+       ('train', 129, '2022-01-10', null, 93),
+       ('train', 184, '2022-01-12', null, 94),
+       ('train', 219, '2022-01-10', null, 95),
+       ('train', 146, '2022-01-05', null, 96),
+       ('train', 201, '2022-01-12', null, 97),
+       ('train', 127, '2022-01-05', null, 98),
+       ('train', 156, '2022-01-13', null, 99),
+       ('train', 207, '2022-01-13', null, 100),
+       ('train', 144, '2022-01-04', null, 101),
+       ('train', 212, '2022-01-09', null, 102),
+       ('train', 166, '2022-01-04', null, 103),
+       ('train', 144, '2022-01-09', null, 104),
+       ('train', 153, '2022-01-14', null, 105),
+       ('train', 140, '2022-01-14', null, 106),
+       ('train', 130, '2022-01-11', null, 107),
+       ('train', 183, '2022-01-05', null, 108),
+       ('train', 208, '2022-01-13', null, 109),
+       ('train', 186, '2022-01-07', null, 110),
+       ('train', 196, '2022-01-08', null, 111),
+       ('train', 141, '2022-01-05', null, 112),
+       ('train', 148, '2022-01-08', null, 113),
+       ('train', 175, '2022-01-05', null, 114),
+       ('train', 158, '2022-01-08', null, 115),
+       ('train', 175, '2022-01-04', null, 116),
+       ('train', 162, '2022-01-05', null, 117),
+       ('train', 178, '2022-01-08', null, 118),
+       ('train', 167, '2022-01-10', null, 119),
+       ('train', 167, '2022-01-10', null, 120),
+       ('train', 164, '2022-01-14', null, 121),
+       ('train', 202, '2022-01-04', null, 122),
+       ('train', 184, '2022-01-11', null, 123),
+       ('train', 217, '2022-01-14', null, 124),
+       ('train', 198, '2022-01-10', null, 125),
+       ('train', 164, '2022-01-12', null, 126),
+       ('train', 143, '2022-01-07', null, 127),
+       ('train', 202, '2022-01-12', null, 128),
+       ('train', 186, '2022-01-05', null, 129),
+       ('train', 160, '2022-01-10', null, 130),
+       ('train', 132, '2022-01-13', null, 131),
+       ('train', 184, '2022-01-06', null, 132),
+       ('train', 131, '2022-01-07', null, 133),
+       ('train', 215, '2022-01-04', null, 134),
+       ('train', 165, '2022-01-08', null, 135),
+       ('train', 143, '2022-01-12', null, 136),
+       ('train', 208, '2022-01-08', null, 137),
+       ('train', 167, '2022-01-12', null, 138),
+       ('train', 191, '2022-01-11', null, 139),
+       ('train', 152, '2022-01-11', null, 140),
+       ('train', 177, '2022-01-08', null, 141),
+       ('train', 140, '2022-01-09', null, 142),
+       ('train', 193, '2022-01-11', null, 143),
+       ('train', 204, '2022-01-13', null, 144),
+       ('train', 152, '2022-01-09', null, 145),
+       ('train', 181, '2022-01-04', null, 146),
+       ('train', 210, '2022-01-10', null, 147),
+       ('train', 167, '2022-01-10', null, 148),
+       ('train', 161, '2022-01-12', null, 149),
+       ('train', 193, '2022-01-05', null, 150),
+       ('train', 183, '2022-01-14', null, 151),
+       ('train', 172, '2022-01-12', null, 152),
+       ('train', 161, '2022-01-08', null, 153),
+       ('train', 203, '2022-01-10', null, 154),
+       ('train', 152, '2022-01-08', null, 155),
+       ('train', 163, '2022-01-13', null, 156),
+       ('train', 131, '2022-01-05', null, 157),
+       ('train', 184, '2022-01-08', null, 158),
+       ('train', 139, '2022-01-09', null, 159),
+       ('train', 178, '2022-01-09', null, 160),
+       ('train', 171, '2022-01-05', null, 161),
+       ('train', 194, '2022-01-10', null, 162),
+       ('train', 189, '2022-01-05', null, 163),
+       ('train', 222, '2022-01-12', null, 164),
+       ('train', 176, '2022-01-14', null, 165),
+       ('train', 155, '2022-01-12', null, 166),
+       ('train', 183, '2022-01-09', null, 167),
+       ('train', 166, '2022-01-11', null, 168),
+       ('train', 216, '2022-01-10', null, 169),
+       ('train', 182, '2022-01-11', null, 170),
+       ('train', 170, '2022-01-06', null, 171),
+       ('train', 141, '2022-01-13', null, 172),
+       ('train', 148, '2022-01-04', null, 173),
+       ('train', 182, '2022-01-07', null, 174),
+       ('train', 143, '2022-01-06', null, 175),
+       ('train', 188, '2022-01-11', null, 176),
+       ('train', 127, '2022-01-05', null, 177),
+       ('train', 155, '2022-01-09', null, 178),
+       ('train', 153, '2022-01-10', null, 179),
+       ('train', 209, '2022-01-06', null, 180),
+       ('train', 152, '2022-01-06', null, 181),
+       ('train', 198, '2022-01-04', null, 182),
+       ('train', 137, '2022-01-07', null, 183),
+       ('train', 210, '2022-01-11', null, 184),
+       ('train', 175, '2022-01-14', null, 185),
+       ('train', 132, '2022-01-14', null, 186),
+       ('train', 133, '2022-01-11', null, 187),
+       ('train', 129, '2022-01-04', null, 188),
+       ('train', 184, '2022-01-08', null, 189),
+       ('train', 217, '2022-01-07', null, 190),
+       ('train', 138, '2022-01-04', null, 191),
+       ('train', 153, '2022-01-11', null, 192),
+       ('train', 147, '2022-01-13', null, 193),
+       ('train', 168, '2022-01-04', null, 194),
+       ('train', 149, '2022-01-08', null, 195),
+       ('train', 213, '2022-01-09', null, 196),
+       ('train', 222, '2022-01-11', null, 197),
+       ('train', 162, '2022-01-09', null, 198),
+       ('train', 132, '2022-01-14', null, 199),
+       ('train', 127, '2022-01-06', null, 200),
+       ('train', 216, '2022-01-06', null, 201),
+       ('train', 164, '2022-01-06', null, 202),
+       ('train', 171, '2022-01-11', null, 203),
+       ('train', 219, '2022-01-07', null, 204),
+       ('train', 197, '2022-01-12', null, 205),
+       ('train', 148, '2022-01-14', null, 206),
+       ('train', 168, '2022-01-13', null, 207),
+       ('train', 210, '2022-01-10', null, 208),
+       ('train', 163, '2022-01-05', null, 209),
+       ('train', 156, '2022-01-08', null, 210),
+       ('train', 158, '2022-01-07', null, 211),
+       ('train', 178, '2022-01-14', null, 212),
+       ('train', 222, '2022-01-14', null, 213),
+       ('train', 217, '2022-01-13', null, 214),
+       ('train', 203, '2022-01-04', null, 215),
+       ('train', 185, '2022-01-09', null, 216),
+       ('train', 184, '2022-01-11', null, 217),
+       ('train', 221, '2022-01-05', null, 218),
+       ('train', 135, '2022-01-14', null, 219),
+       ('train', 154, '2022-01-10', null, 220),
+       ('train', 135, '2022-01-06', null, 221),
+       ('train', 146, '2022-01-11', null, 222),
+       ('train', 210, '2022-01-08', null, 223),
+       ('train', 211, '2022-01-07', null, 224),
+       ('train', 148, '2022-01-07', null, 225),
+       ('train', 211, '2022-01-08', null, 226),
+       ('train', 156, '2022-01-13', null, 227),
+       ('train', 188, '2022-01-09', null, 228),
+       ('train', 213, '2022-01-07', null, 229),
+       ('train', 222, '2022-01-12', null, 230),
+       ('train', 213, '2022-01-08', null, 231),
+       ('train', 163, '2022-01-07', null, 232),
+       ('train', 183, '2022-01-04', null, 233),
+       ('train', 144, '2022-01-06', null, 234),
+       ('train', 129, '2022-01-11', null, 235),
+       ('train', 202, '2022-01-12', null, 236),
+       ('train', 146, '2022-01-12', null, 237),
+       ('train', 222, '2022-01-05', null, 238),
+       ('train', 137, '2022-01-14', null, 239),
+       ('train', 154, '2022-01-09', null, 240),
+       ('train', 144, '2022-01-11', null, 241),
+       ('train', 182, '2022-01-05', null, 242),
+       ('train', 163, '2022-01-09', null, 243),
+       ('train', 203, '2022-01-13', null, 244),
+       ('train', 200, '2022-01-10', null, 245),
+       ('train', 187, '2022-01-09', null, 246),
+       ('train', 215, '2022-01-08', null, 247),
+       ('train', 169, '2022-01-13', null, 248),
+       ('train', 189, '2022-01-07', null, 249),
+       ('train', 184, '2022-01-14', null, 250),
+       ('train', 208, '2022-01-05', null, 251),
+       ('train', 161, '2022-01-13', null, 252),
+       ('train', 163, '2022-01-06', null, 253),
+       ('train', 208, '2022-01-07', null, 254),
+       ('train', 197, '2022-01-11', null, 255),
+       ('train', 209, '2022-01-06', null, 256),
+       ('train', 203, '2022-01-10', null, 257),
+       ('train', 216, '2022-01-12', null, 258),
+       ('train', 156, '2022-01-10', null, 259),
+       ('train', 166, '2022-01-07', null, 260),
+       ('train', 197, '2022-01-10', null, 261),
+       ('train', 153, '2022-01-09', null, 262),
+       ('train', 160, '2022-01-13', null, 263),
+       ('train', 223, '2022-01-09', null, 264),
+       ('train', 150, '2022-01-06', null, 265),
+       ('train', 179, '2022-01-13', null, 266),
+       ('train', 211, '2022-01-13', null, 267),
+       ('train', 136, '2022-01-11', null, 268),
+       ('train', 148, '2022-01-10', null, 269),
+       ('train', 167, '2022-01-09', null, 270),
+       ('train', 215, '2022-01-13', null, 271),
+       ('train', 127, '2022-01-13', null, 272),
+       ('train', 213, '2022-01-10', null, 273),
+       ('train', 207, '2022-01-09', null, 274),
+       ('train', 200, '2022-01-13', null, 275),
+       ('train', 168, '2022-01-09', null, 276),
+       ('train', 188, '2022-01-06', null, 277),
+       ('train', 200, '2022-01-05', null, 278),
+       ('train', 147, '2022-01-08', null, 279),
+       ('train', 187, '2022-01-11', null, 280),
+       ('train', 216, '2022-01-07', null, 281),
+       ('train', 158, '2022-01-06', null, 282),
+       ('train', 201, '2022-01-13', null, 283),
+       ('train', 222, '2022-01-09', null, 284),
+       ('train', 134, '2022-01-12', null, 285),
+       ('train', 194, '2022-01-08', null, 286),
+       ('train', 146, '2022-01-11', null, 287),
+       ('train', 157, '2022-01-09', null, 288),
+       ('train', 174, '2022-01-10', null, 289),
+       ('train', 207, '2022-01-10', null, 290),
+       ('train', 178, '2022-01-10', null, 291),
+       ('train', 148, '2022-01-10', null, 292),
+       ('train', 219, '2022-01-13', null, 293),
+       ('train', 157, '2022-01-11', null, 294),
+       ('train', 163, '2022-01-10', null, 295),
+       ('train', 202, '2022-01-11', null, 296),
+       ('train', 203, '2022-01-07', null, 297),
+       ('train', 207, '2022-01-08', null, 298),
+       ('train', 131, '2022-01-10', null, 299),
+       ('train', 139, '2022-01-10', null, 300),
+       ('train', 134, '2022-01-08', null, 301),
+       ('train', 194, '2022-01-10', null, 302),
+       ('train', 156, '2022-01-04', null, 303),
+       ('train', 129, '2022-01-05', null, 304),
+       ('train', 175, '2022-01-06', null, 305),
+       ('train', 185, '2022-01-13', null, 306),
+       ('train', 134, '2022-01-08', null, 307),
+       ('train', 181, '2022-01-07', null, 308),
+       ('train', 132, '2022-01-06', null, 309),
+       ('train', 199, '2022-01-14', null, 310),
+       ('train', 147, '2022-01-08', null, 311),
+       ('train', 132, '2022-01-09', null, 312),
+       ('train', 165, '2022-01-06', null, 313),
+       ('train', 182, '2022-01-05', null, 314),
+       ('train', 204, '2022-01-06', null, 315),
+       ('train', 153, '2022-01-10', null, 316),
+       ('train', 215, '2022-01-13', null, 317),
+       ('train', 135, '2022-01-14', null, 318),
+       ('train', 215, '2022-01-11', null, 319),
+       ('train', 139, '2022-01-12', null, 320),
+       ('train', 208, '2022-01-14', null, 321),
+       ('train', 221, '2022-01-05', null, 322),
+       ('train', 143, '2022-01-13', null, 323),
+       ('train', 221, '2022-01-04', null, 324),
+       ('train', 174, '2022-01-06', null, 325),
+       ('train', 168, '2022-01-08', null, 326),
+       ('train', 152, '2022-01-05', null, 327),
+       ('train', 193, '2022-01-14', null, 328),
+       ('train', 130, '2022-01-07', null, 329),
+       ('train', 156, '2022-01-12', null, 330),
+       ('train', 151, '2022-01-08', null, 331),
+       ('train', 143, '2022-01-10', null, 332),
+       ('train', 154, '2022-01-12', null, 333),
+       ('train', 216, '2022-01-13', null, 334),
+       ('train', 168, '2022-01-07', null, 335),
+       ('train', 185, '2022-01-13', null, 336),
+       ('train', 159, '2022-01-06', null, 337),
+       ('train', 170, '2022-01-08', null, 338),
+       ('train', 161, '2022-01-10', null, 339),
+       ('train', 156, '2022-01-07', null, 340),
+       ('train', 186, '2022-01-08', null, 341),
+       ('train', 163, '2022-01-07', null, 342),
+       ('train', 195, '2022-01-10', null, 343),
+       ('train', 177, '2022-01-09', null, 344),
+       ('train', 207, '2022-01-10', null, 345),
+       ('train', 153, '2022-01-08', null, 346),
+       ('train', 182, '2022-01-04', null, 347),
+       ('train', 215, '2022-01-07', null, 348),
+       ('train', 198, '2022-01-13', null, 349),
+       ('train', 196, '2022-01-06', null, 350),
+       ('train', 204, '2022-01-09', null, 351),
+       ('train', 203, '2022-01-08', null, 352),
+       ('train', 168, '2022-01-10', null, 353),
+       ('train', 145, '2022-01-06', null, 354),
+       ('train', 198, '2022-01-13', null, 355),
+       ('train', 204, '2022-01-14', null, 356),
+       ('train', 182, '2022-01-08', null, 357),
+       ('train', 196, '2022-01-08', null, 358),
+       ('train', 185, '2022-01-07', null, 359),
+       ('train', 188, '2022-01-08', null, 360),
+       ('train', 172, '2022-01-09', null, 361),
+       ('train', 158, '2022-01-13', null, 362),
+       ('train', 153, '2022-01-11', null, 363),
+       ('train', 157, '2022-01-12', null, 364),
+       ('train', 147, '2022-01-10', null, 365),
+       ('train', 215, '2022-01-07', null, 366),
+       ('train', 137, '2022-01-09', null, 367),
+       ('train', 169, '2022-01-12', null, 368),
+       ('train', 193, '2022-01-12', null, 369),
+       ('train', 182, '2022-01-12', null, 370),
+       ('train', 150, '2022-01-11', null, 371),
+       ('train', 223, '2022-01-13', null, 372),
+       ('train', 218, '2022-01-11', null, 373),
+       ('train', 146, '2022-01-09', null, 374),
+       ('train', 131, '2022-01-05', null, 375),
+       ('train', 165, '2022-01-11', null, 376),
+       ('train', 149, '2022-01-05', null, 377),
+       ('train', 178, '2022-01-06', null, 378),
+       ('train', 180, '2022-01-13', null, 379),
+       ('train', 192, '2022-01-06', null, 380),
+       ('train', 171, '2022-01-13', null, 381),
+       ('train', 183, '2022-01-11', null, 382),
+       ('train', 157, '2022-01-09', null, 383),
+       ('train', 191, '2022-01-09', null, 384),
+       ('train', 214, '2022-01-05', null, 385),
+       ('train', 196, '2022-01-13', null, 386),
+       ('train', 178, '2022-01-08', null, 387),
+       ('train', 212, '2022-01-06', null, 388),
+       ('train', 190, '2022-01-05', null, 389),
+       ('train', 150, '2022-01-07', null, 390),
+       ('train', 190, '2022-01-12', null, 391),
+       ('train', 186, '2022-01-11', null, 392),
+       ('train', 127, '2022-01-09', null, 393),
+       ('train', 131, '2022-01-08', null, 394),
+       ('train', 141, '2022-01-08', null, 395),
+       ('train', 198, '2022-01-06', null, 396),
+       ('train', 147, '2022-01-09', null, 397),
+       ('train', 215, '2022-01-13', null, 398),
+       ('train', 151, '2022-01-04', null, 399),
+       ('train', 199, '2022-01-10', null, 400),
+       ('train', 133, '2022-01-09', null, 401),
+       ('train', 202, '2022-01-06', null, 402),
+       ('train', 196, '2022-01-11', null, 403),
+       ('train', 130, '2022-01-07', null, 404),
+       ('train', 207, '2022-01-04', null, 405),
+       ('train', 144, '2022-01-08', null, 406),
+       ('train', 173, '2022-01-07', null, 407),
+       ('train', 169, '2022-01-07', null, 408),
+       ('train', 202, '2022-01-08', null, 409),
+       ('train', 188, '2022-01-05', null, 410),
+       ('train', 168, '2022-01-09', null, 411),
+       ('train', 141, '2022-01-11', null, 412),
+       ('train', 208, '2022-01-09', null, 413),
+       ('train', 154, '2022-01-11', null, 414),
+       ('train', 218, '2022-01-06', null, 415),
+       ('train', 207, '2022-01-14', null, 416),
+       ('train', 183, '2022-01-08', null, 417),
+       ('train', 216, '2022-01-08', null, 418),
+       ('train', 211, '2022-01-05', null, 419),
+       ('train', 210, '2022-01-07', null, 420),
+       ('train', 183, '2022-01-11', null, 421),
+       ('train', 186, '2022-01-11', null, 422),
+       ('train', 193, '2022-01-07', null, 423),
+       ('train', 129, '2022-01-14', null, 424),
+       ('train', 157, '2022-01-14', null, 425),
+       ('train', 192, '2022-01-13', null, 426),
+       ('train', 188, '2022-01-13', null, 427),
+       ('train', 162, '2022-01-09', null, 428),
+       ('train', 174, '2022-01-07', null, 429),
+       ('train', 193, '2022-01-09', null, 430),
+       ('train', 199, '2022-01-13', null, 431),
+       ('train', 167, '2022-01-07', null, 432),
+       ('train', 180, '2022-01-07', null, 433),
+       ('train', 181, '2022-01-05', null, 434),
+       ('train', 140, '2022-01-06', null, 435),
+       ('train', 144, '2022-01-13', null, 436),
+       ('train', 178, '2022-01-11', null, 437),
+       ('train', 139, '2022-01-09', null, 438),
+       ('train', 138, '2022-01-04', null, 439),
+       ('train', 218, '2022-01-09', null, 440),
+       ('train', 218, '2022-01-09', null, 441),
+       ('train', 207, '2022-01-08', null, 442),
+       ('train', 168, '2022-01-11', null, 443),
+       ('train', 156, '2022-01-13', null, 444),
+       ('train', 153, '2022-01-05', null, 445),
+       ('train', 156, '2022-01-04', null, 446),
+       ('train', 193, '2022-01-04', null, 447),
+       ('train', 143, '2022-01-09', null, 448),
+       ('train', 212, '2022-01-08', null, 449),
+       ('train', 144, '2022-01-14', null, 450),
+       ('train', 211, '2022-01-05', null, 451),
+       ('train', 158, '2022-01-08', null, 452),
+       ('train', 148, '2022-01-09', null, 453),
+       ('train', 193, '2022-01-10', null, 454),
+       ('train', 174, '2022-01-12', null, 455),
+       ('train', 171, '2022-01-04', null, 456),
+       ('train', 223, '2022-01-13', null, 457),
+       ('train', 151, '2022-01-04', null, 458),
+       ('train', 152, '2022-01-10', null, 459),
+       ('train', 175, '2022-01-08', null, 460),
+       ('train', 140, '2022-01-04', null, 461),
+       ('train', 213, '2022-01-08', null, 462),
+       ('train', 136, '2022-01-05', null, 463),
+       ('train', 129, '2022-01-07', null, 464),
+       ('train', 138, '2022-01-14', null, 465),
+       ('train', 146, '2022-01-13', null, 466),
+       ('train', 167, '2022-01-09', null, 467),
+       ('train', 215, '2022-01-11', null, 468),
+       ('train', 207, '2022-01-07', null, 469),
+       ('train', 148, '2022-01-11', null, 470),
+       ('train', 159, '2022-01-07', null, 471),
+       ('train', 208, '2022-01-05', null, 472),
+       ('train', 147, '2022-01-08', null, 473),
+       ('train', 222, '2022-01-14', null, 474),
+       ('train', 200, '2022-01-10', null, 475),
+       ('train', 135, '2022-01-06', null, 476),
+       ('train', 169, '2022-01-09', null, 477),
+       ('train', 221, '2022-01-09', null, 478),
+       ('train', 213, '2022-01-07', null, 479),
+       ('train', 142, '2022-01-05', null, 480),
+       ('train', 188, '2022-01-12', null, 481),
+       ('train', 201, '2022-01-10', null, 482),
+       ('train', 218, '2022-01-07', null, 483),
+       ('train', 156, '2022-01-07', null, 484),
+       ('train', 206, '2022-01-06', null, 485),
+       ('train', 221, '2022-01-12', null, 486),
+       ('train', 192, '2022-01-05', null, 487),
+       ('train', 175, '2022-01-05', null, 488),
+       ('train', 153, '2022-01-13', null, 489),
+       ('train', 131, '2022-01-12', null, 490),
+       ('train', 131, '2022-01-05', null, 491),
+       ('train', 142, '2022-01-06', null, 492),
+       ('train', 155, '2022-01-10', null, 493),
+       ('train', 190, '2022-01-05', null, 494),
+       ('train', 181, '2022-01-13', null, 495),
+       ('train', 171, '2022-01-13', null, 496),
+       ('train', 183, '2022-01-06', null, 497),
+       ('train', 208, '2022-01-09', null, 498),
+       ('train', 223, '2022-01-08', null, 499),
+       ('train', 172, '2022-01-10', null, 500),
+       ('train', 165, '2022-01-04', null, 501),
+       ('train', 206, '2022-01-04', null, 502),
+       ('train', 178, '2022-01-09', null, 503),
+       ('train', 174, '2022-01-12', null, 504),
+       ('train', 144, '2022-01-11', null, 505),
+       ('train', 145, '2022-01-05', null, 506);
