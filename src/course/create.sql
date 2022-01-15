@@ -82,7 +82,8 @@ CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
     value        SMALLINT NOT NULL CHECK (value > 0),
     char_type    DRAGON_CHARACTERISTIC,
-    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE
+    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
+    PRIMARY KEY (char_type, dragon_id)
 );
 CREATE TABLE IF NOT EXISTS people
 (
