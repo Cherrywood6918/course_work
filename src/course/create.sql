@@ -8,6 +8,7 @@ CREATE TYPE WORKER_TYPE AS ENUM ('tamer', 'caretaker', 'researcher', 'nanny');
 CREATE TYPE SIZE AS ENUM ('small', 'medium', 'large', 'gigantic');
 CREATE TYPE ACTION_TYPE AS ENUM ('feed', 'play', 'train', 'scold', 'hit', 'treat');
 CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('health', 'training', 'happiness');
+CREATE TYPE TERRAIN AS ENUM ('volcanoes', 'cave', 'swamp', 'snow-ravaged mountains', 'dragon graveyards', 'mountain', 'grassy plain', 'beach', 'forest');
 
 CREATE TABLE IF NOT EXISTS classes
 (
@@ -82,7 +83,8 @@ CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
     value        SMALLINT NOT NULL CHECK (value > 0),
     char_type    DRAGON_CHARACTERISTIC,
-    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE
+    dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
+    PRIMARY KEY (char_type, dragon_id)
 );
 CREATE TABLE IF NOT EXISTS people
 (
@@ -123,6 +125,7 @@ CREATE TABLE IF NOT EXISTS workers
 );
 CREATE TABLE IF NOT EXISTS caring_and_train_actions
 (
+    id             BIGSERIAL PRIMARY KEY,
     action_type    ACTION_TYPE,
     worker_id      SMALLINT  REFERENCES workers ON DELETE CASCADE ON UPDATE CASCADE,
     time_start     TIMESTAMP NOT NULL,
@@ -155,22 +158,18 @@ CREATE TABLE IF NOT EXISTS children
     child_id      INT      PRIMARY KEY REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
     parents_id    SMALLINT REFERENCES dragon_couples	ON DELETE SET NULL ON UPDATE CASCADE
 );
-CREATE TABLE IF NOT EXISTS terrains
-(
-    id        SMALLSERIAL PRIMARY KEY,
-    name      VARCHAR(50) NOT NULL UNIQUE
-);
+
 CREATE TABLE IF NOT EXISTS places
 (
     id        	SMALLSERIAL PRIMARY KEY,
-    terrain_id  SMALLINT REFERENCES terrains ON DELETE CASCADE ON UPDATE CASCADE,
-    name	VARCHAR(100) NOT NULL
+    name	VARCHAR(100) NOT NULL UNIQUE,
+    terrain	TERRAIN NOT NULL
 );
 CREATE TABLE IF NOT EXISTS habitat
 (
-    terrain_id	   SMALLINT REFERENCES terrains ON DELETE CASCADE ON UPDATE CASCADE, 	
+    places_id	   SMALLINT REFERENCES places ON DELETE CASCADE ON UPDATE CASCADE, 	
     dragon_type_id SMALLINT REFERENCES dragon_types ON DELETE CASCADE ON UPDATE CASCADE,	
-    PRIMARY KEY (terrain_id, dragon_type_id)
+    PRIMARY KEY (places_id, dragon_type_id)
 );
 CREATE TABLE IF NOT EXISTS search_teams
 (

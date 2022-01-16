@@ -28,7 +28,6 @@ DELETE FROM seartch_history;
 DELETE FROM tamer_outing;
 DELETE FROM tamer_outing_history;
 DELETE FROM taming_stage;
-DELETE FROM terrains;
 DELETE FROM things;
 DELETE FROM transfer_dragon_history;
 DELETE FROM transfer_dragon_results;
