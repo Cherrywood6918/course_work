@@ -9,21 +9,31 @@ CREATE TYPE SIZE AS ENUM ('small', 'medium', 'large', 'gigantic');
 CREATE TYPE ACTION_TYPE AS ENUM ('feed', 'play', 'train', 'scold', 'hit', 'treat');
 CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('health', 'training', 'happiness');
 CREATE TYPE TERRAIN AS ENUM ('volcanoes', 'cave', 'swamp', 'snow-ravaged mountains', 'dragon graveyards', 'mountain', 'grassy plain', 'beach', 'forest');
+CREATE TYPE TRAINING_LEVEL AS ENUM ('wild', 'elementary', 'intermediate', 'advanced');
 
+CREATE TABLE IF NOT EXISTS dragon_abilities
+(
+    id   SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL UNIQUE
+);
 CREATE TABLE IF NOT EXISTS classes
 (
     id          SMALLSERIAL PRIMARY KEY,
     name        VARCHAR(30) NOT NULL UNIQUE,
     description TEXT
 );
+CREATE TABLE IF NOT EXISTS classes_to_abilities
+(
+    dragon_ability_id INT REFERENCES dragon_abilities ON DELETE SET NULL ON UPDATE CASCADE,
+    class_id SMALLINT REFERENCES classes ON DELETE SET NULL ON UPDATE CASCADE,
+    PRIMARY KEY (dragon_ability_id, class_id)
+);
 CREATE TABLE IF NOT EXISTS characteristic_levels
 (
-    id           SMALLSERIAL PRIMARY KEY,
-    name         VARCHAR(15) NOT NULL,
+    training_level training_level PRIMARY KEY NOT NULL,
     min_value    SMALLINT    NOT NULL CHECK (min_value >= 0),
     max_value    SMALLINT    NOT NULL CHECK (max_value >= 0),
     description  TEXT,
-    char_type    DRAGON_CHARACTERISTIC
     CHECK(max_value > min_value)
 );
 CREATE TABLE IF NOT EXISTS dragon_appearance
@@ -47,7 +57,6 @@ CREATE TABLE IF NOT EXISTS dragon_types
     rarity	  NUMERIC     CHECK (rarity >= 0 AND rarity <= 1),
     way_of_taming TEXT,
     trainable     BOOLEAN     NOT NULL,
-    abilities     TEXT,
     active_time   DAY_TIME    NOT NULL,
     mating_season SEASON      NOT NULL,
     hatching_age  SMALLINT    NOT NULL CHECK (hatching_age > 0),
@@ -71,7 +80,7 @@ CREATE TABLE IF NOT EXISTS dragons
 (
     id            SERIAL PRIMARY KEY,
     name          VARCHAR(30)   NOT NULL UNIQUE,
-    train_level_id   SMALLINT      REFERENCES characteristic_levels ON DELETE SET NULL ON UPDATE SET NULL,
+    training_level training_level,
     type_id       SMALLINT      REFERENCES dragon_types ON DELETE SET NULL ON UPDATE CASCADE,
     gender        GENDER,
     cage_id       SMALLINT      REFERENCES cages ON DELETE SET NULL ON UPDATE CASCADE,
@@ -81,7 +90,7 @@ CREATE TABLE IF NOT EXISTS dragons
 );
 CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
-    value        SMALLINT NOT NULL CHECK (value > 0),
+    value        SMALLINT NOT NULL,
     char_type    DRAGON_CHARACTERISTIC,
     dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
     PRIMARY KEY (char_type, dragon_id)
