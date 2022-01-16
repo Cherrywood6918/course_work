@@ -138,9 +138,7 @@ CREATE TABLE IF NOT EXISTS caring_and_train_actions
     action_type    ACTION_TYPE,
     worker_id      SMALLINT  REFERENCES workers ON DELETE CASCADE ON UPDATE CASCADE,
     time_start     TIMESTAMP NOT NULL,
-    time_finish    TIMESTAMP,
-    dragon_id      INT       REFERENCES dragons  ON DELETE CASCADE ON UPDATE CASCADE,
-    CHECK(time_finish > time_start)
+    dragon_id      INT       REFERENCES dragons  ON DELETE CASCADE ON UPDATE CASCADE
 );
 CREATE TABLE IF NOT EXISTS action_type_influence
 (
