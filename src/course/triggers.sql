@@ -208,3 +208,138 @@ $$ LANGUAGE 'plpgsql';
 
 CREATE TRIGGER add_carers_trainers_dragon BEFORE INSERT ON dragon_carers_trainers
 FOR EACH ROW EXECUTE PROCEDURE check_worker_and_dragon_time();
+
+/* Обновления уровня дрессировки */
+CREATE OR REPLACE FUNCTION update_train_level()
+RETURNS TRIGGER AS $$
+DECLARE
+    new_training_level training_level = (SELECT training_level FROM characteristic_levels WHERE min_value <= new.value AND max_value >= new.value);
+BEGIN
+    IF (dragon_characteristics.char_type = 'training')
+    THEN
+        UPDATE dragons SET training_level = new_training_level WHERE dragons.id = dragon_id;
+    END IF;
+    RETURN new;
+END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER add_caring_and_train_action AFTER UPDATE on dragon_characteristics
+FOR ROW EXECUTE PROCEDURE update_train_level();
+
+/* Установка нового смотрителя/дрессировщика для дракона */
+CREATE OR REPLACE FUNCTION update_carers_trainers_status()
+    RETURNS TRIGGER AS $$
+DECLARE
+    change_influence_value int = 5;
+    new_worker_type worker_type = (SELECT worker_type FROM workers WHERE workers.id = new.worker_id);
+    old_worker_id int = (
+        SELECT worker_id FROM dragon_carers_trainers
+            INNER JOIN workers w on dragon_carers_trainers.worker_id = w.id
+            WHERE dragon_carers_trainers.dragon_id = new.dragon_id AND w.worker_type = new_worker_type);
+BEGIN
+    IF (new.status = true)
+    THEN
+        UPDATE dragon_carers_trainers SET status = false WHERE dragon_id = new.dragon_id AND worker_id = old_worker_id;
+        UPDATE dragon_characteristics SET value = (value - change_influence_value) WHERE dragon_id = new.dragon_id AND char_type = 'happiness';
+    END IF;
+    RETURN new;
+END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER change_carers_trainers BEFORE INSERT ON dragon_carers_trainers
+FOR ROW EXECUTE PROCEDURE update_carers_trainers_status();
+
+/* Проверка условий для создания новой пары драконов */
+CREATE OR REPLACE FUNCTION check_new_couple()
+    RETURNS TRIGGER AS $$
+DECLARE
+    mother dragons = (SELECT type_id, gender, date_of_birth FROM dragons WHERE mother_id = dragons.id);
+    father dragons = (SELECT type_id, gender, date_of_birth FROM dragons WHERE father_id = dragons.id);
+    puberty_age int = (SELECT puberty_age FROM dragon_types WHERE dragon_types.id = new.mother_id);
+BEGIN
+    IF (father.type_id != mother.type_id)
+    THEN
+        RAISE EXCEPTION 'Can not create a couple of different dragon types: mother_type_id = %, father_type_id = %',
+            mother.type_id, father.type_id;
+    END IF;
+    IF (mother.gender == father.gender)
+    THEN
+        RAISE EXCEPTION 'Can not create a couple of the same gender';
+    END IF;
+    IF (puberty_age > now() - mother.date_of_birth OR puberty_age > now() - father.date_of_birth)
+    THEN
+        RAISE EXCEPTION 'Can not create a couple, dragons haven`t reached puberty age';
+    END IF;
+    RETURN new;
+END;
+$$ LANGUAGE 'plpgsql';
+
+/* */
+CREATE TRIGGER check_new_couple BEFORE INSERT ON dragon_couples
+FOR ROW EXECUTE PROCEDURE check_new_couple();
+
+CREATE OR REPLACE FUNCTION check_cage()
+    RETURNS TRIGGER AS $$
+DECLARE
+    max_amount int = (SELECT max_amount FROM cages WHERE cages.id = new.cage_id);
+    cur_amount int = (SELECT count(*) FROM dragons WHERE dragons.cage_id = new.cage_id);
+BEGIN
+    IF (cur_amount + 1 > max_amount)
+    THEN
+        RAISE EXCEPTION 'Can not add a dragon to the cage with id = %, cage is full', new.cage_id;
+    END IF;
+    RETURN new;
+END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER check_cage_before_insert BEFORE INSERT ON dragons
+FOR ROW EXECUTE PROCEDURE check_cage();
+
+CREATE TRIGGER check_cage_before_update BEFORE UPDATE ON dragons
+FOR ROW EXECUTE PROCEDURE check_cage();
+
+/* */
+CREATE OR REPLACE FUNCTION check_new_transfer()
+    RETURNS TRIGGER AS $$
+DECLARE
+    reputation int = (SELECT reputation FROM people WHERE people.id = new.person_id);
+    training_level training_level = (SELECT training_level FROM dragons WHERE new.dragon_id = dragons.id);
+BEGIN
+    IF (reputation < 0)
+    THEN
+        RAISE EXCEPTION 'A person with a negative reputation cannot take or rent a dragon';
+    END IF;
+    IF (reputation < 50 AND new.transfer_type == 'permanent')
+    THEN
+        RAISE EXCEPTION 'A person with a reputation of 50 or more can take a dragon permanently';
+    END IF;
+    IF (new.transfer_type == 'temporal' AND (training_level != 'advanced' OR training_level != 'intermediate'))
+    THEN
+        RAISE EXCEPTION 'A dragon can be taken temporarily only when it''s training level is intermediate or advanced';
+    END IF;
+    IF (new.transfer_type == 'permanent' AND training_level != 'advanced')
+    THEN
+        RAISE EXCEPTION 'A dragon can be taken permanently only when it''s training level is advanced';
+    END IF;
+    new.time_start = now();
+    RETURN new;
+END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER create_transfer BEFORE INSERT ON transfer_dragon_history
+FOR ROW EXECUTE PROCEDURE check_new_transfer();
+
+/* */
+CREATE OR REPLACE FUNCTION finish_transfer()
+    RETURNS TRIGGER AS $$
+DECLARE
+    reputation_points int = (SELECT reputation_points FROM transfer_dragon_results WHERE new.result_id = transfer_dragon_results.id);
+BEGIN
+    UPDATE people SET reputation = (reputation + reputation_points) WHERE people.id = new.person_id;
+    new.time_finish = now();
+    RETURN new;
+END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER finish_transfer BEFORE UPDATE ON transfer_dragon_history
+FOR ROW EXECUTE PROCEDURE finish_transfer();
