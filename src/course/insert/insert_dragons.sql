@@ -5992,11 +5992,12 @@ VALUES ('feed', 176, '2022-01-06', 1),
 
 
 INSERT INTO transfer_dragon_results (name, reputation_points)
-VALUES ('dragon`s characteristics got better', 20),
+VALUES ('dragon is dead because of old age', 30),
+       ('dragon`s characteristics got better', 20),
        ('dragon`s characteristics have not changed', 10),
        ('dragon`s characteristics got worst', -10),
        ('dragon escaped', -20),
-       ('dragon is dead', -30);
+       ('dragon is dead because of poor care', -30);
 
 INSERT INTO transfer_dragon_history (result_id, transfer_type, dragon_id, person_id, time_start, time_finish)
 VALUES (2, 'temporal', 142, 142, '2021-04-07', '2021-06-04'),
