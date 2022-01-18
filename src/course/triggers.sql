@@ -146,7 +146,7 @@ FOR EACH ROW EXECUTE PROCEDURE check_evidence_time_finish();
 /* работники в зависимости от типа могут выполнять только определенные обязанности
 *  worker - id работника в таблице workers
 *  type - тип, который мы хотим проверить: занимает*/
-CREATE FUNCTION check_worker_type(type worker_type, worker int)
+CREATE OR REPLACE FUNCTION check_worker_type(type worker_type, worker int)
 RETURNS BOOLEAN AS $$
 DECLARE
 	find_type worker_type = (SELECT worker_type FROM workers WHERE id = worker);
@@ -165,7 +165,7 @@ END;
 $$ LANGUAGE 'plpgsql';
 
 /*работники могут работать только в опеределлое время*/
-CREATE FUNCTION check_working_day(worker int, time_start time)
+CREATE OR REPLACE FUNCTION check_working_day(worker int, time_start time)
 RETURNS BOOLEAN AS $$
 DECLARE
     worker_time day_time := (SELECT work_time FROM workers where id = worker);
@@ -215,7 +215,7 @@ RETURNS TRIGGER AS $$
 DECLARE
     new_training_level training_level = (SELECT training_level FROM characteristic_levels WHERE min_value <= new.value AND max_value >= new.value);
 BEGIN
-    IF (dragon_characteristics.char_type = 'training')
+    IF (dragon_characteristics.char_type = 'TRAINING')
     THEN
         UPDATE dragons SET training_level = new_training_level WHERE dragons.id = dragon_id;
     END IF;
@@ -240,7 +240,7 @@ BEGIN
     IF (new.status = true)
     THEN
         UPDATE dragon_carers_trainers SET status = false WHERE dragon_id = new.dragon_id AND worker_id = old_worker_id;
-        UPDATE dragon_characteristics SET value = (value - change_influence_value) WHERE dragon_id = new.dragon_id AND char_type = 'happiness';
+        UPDATE dragon_characteristics SET value = (value - change_influence_value) WHERE dragon_id = new.dragon_id AND char_type = 'HAPPINESS';
     END IF;
     RETURN new;
 END;
@@ -253,8 +253,8 @@ FOR ROW EXECUTE PROCEDURE update_carers_trainers_status();
 CREATE OR REPLACE FUNCTION check_new_couple()
     RETURNS TRIGGER AS $$
 DECLARE
-    mother dragons = (SELECT type_id, gender, date_of_birth FROM dragons WHERE mother_id = dragons.id);
-    father dragons = (SELECT type_id, gender, date_of_birth FROM dragons WHERE father_id = dragons.id);
+    mother dragons = (SELECT type_id, gender, date_of_birth FROM dragons WHERE new.mother_id = dragons.id);
+    father dragons = (SELECT type_id, gender, date_of_birth FROM dragons WHERE new.father_id = dragons.id);
     puberty_age int = (SELECT puberty_age FROM dragon_types WHERE dragon_types.id = new.mother_id);
 BEGIN
     IF (father.type_id != mother.type_id)
@@ -313,11 +313,11 @@ BEGIN
     THEN
         RAISE EXCEPTION 'A person with a reputation of 50 or more can take a dragon permanently';
     END IF;
-    IF (new.transfer_type == 'temporal' AND (training_level != 'advanced' OR training_level != 'intermediate'))
+    IF (new.transfer_type == 'temporal' AND (training_level != 'ADVANCED' OR training_level != 'INTERMEDIATE'))
     THEN
         RAISE EXCEPTION 'A dragon can be taken temporarily only when it''s training level is intermediate or advanced';
     END IF;
-    IF (new.transfer_type == 'permanent' AND training_level != 'advanced')
+    IF (new.transfer_type == 'permanent' AND training_level != 'ADVANCED')
     THEN
         RAISE EXCEPTION 'A dragon can be taken permanently only when it''s training level is advanced';
     END IF;

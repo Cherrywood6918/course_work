@@ -1,15 +1,15 @@
-CREATE TYPE DAY_TIME AS ENUM ('day', 'night');
-CREATE TYPE SEASON AS ENUM ('summer', 'autumn', 'winter', 'spring');
-CREATE TYPE CAGE_TYPE AS ENUM ('general', 'incubator', 'nursery', 'couple');
-CREATE TYPE GENDER AS ENUM ('male', 'female');
-CREATE TYPE DRAGON_STATUS AS ENUM ('alive', 'escaped', 'death from old age', 'death due to poor care');
-CREATE TYPE TRANSFER_TYPE AS ENUM ('permanent', 'temporal');
-CREATE TYPE WORKER_TYPE AS ENUM ('tamer', 'caretaker', 'researcher', 'nanny');
-CREATE TYPE SIZE AS ENUM ('small', 'medium', 'large', 'gigantic');
-CREATE TYPE ACTION_TYPE AS ENUM ('feed', 'play', 'train', 'scold', 'hit', 'treat');
-CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('health', 'training', 'happiness');
-CREATE TYPE TERRAIN AS ENUM ('volcanoes', 'cave', 'swamp', 'snow-ravaged mountains', 'dragon graveyards', 'mountain', 'grassy plain', 'beach', 'forest');
-CREATE TYPE TRAINING_LEVEL AS ENUM ('wild', 'elementary', 'intermediate', 'advanced');
+CREATE TYPE DAY_TIME AS ENUM ('DAY', 'NIGHT');
+CREATE TYPE SEASON AS ENUM ('SUMMER', 'AUTUMN', 'WINTER', 'SPRING');
+CREATE TYPE CAGE_TYPE AS ENUM ('GENERAL', 'INCUBATOR', 'NURSERY', 'COUPLE');
+CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
+CREATE TYPE DRAGON_STATUS AS ENUM ('ALIVE', 'ESCAPED', 'DEATH_FROM_OLD_AGE', 'DEATH_DUE_TO_POOR_CARE');
+CREATE TYPE TRANSFER_TYPE AS ENUM ('PERMANENT', 'TEMPORAL');
+CREATE TYPE WORKER_TYPE AS ENUM ('TAMER', 'CARETAKER', 'RESEARCHER', 'NANNY');
+CREATE TYPE SIZE AS ENUM ('SMALL', 'MEDIUM', 'LARGE', 'GIGANTIC');
+CREATE TYPE ACTION_TYPE AS ENUM ('FEED', 'PLAY', 'TRAIN', 'SCOLD', 'HIT', 'TREAT');
+CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('HEALTH', 'TRAINING', 'HAPPINESS');
+CREATE TYPE TERRAIN AS ENUM ('VOLCANOES', 'CAVE', 'SWAMP', 'SNOW_RAVAGED_MOUNTAINS', 'DRAGON_GRAVEYARDS', 'MOUNTAIN', 'GRASSY_PLAIN', 'BEACH', 'FOREST');
+CREATE TYPE TRAINING_LEVEL AS ENUM ('WILD', 'ELEMENTARY', 'INTERMEDIATE', 'ADVANCED');
 
 CREATE TABLE IF NOT EXISTS dragon_abilities
 (
