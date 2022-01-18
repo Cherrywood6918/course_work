@@ -8,7 +8,7 @@ CREATE TYPE WORKER_TYPE AS ENUM ('TAMER', 'CARETAKER', 'RESEARCHER', 'NANNY');
 CREATE TYPE SIZE AS ENUM ('SMALL', 'MEDIUM', 'LARGE', 'GIGANTIC');
 CREATE TYPE ACTION_TYPE AS ENUM ('FEED', 'PLAY', 'TRAIN', 'SCOLD', 'HIT', 'TREAT');
 CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('HEALTH', 'TRAINING', 'HAPPINESS');
-CREATE TYPE TERRAIN AS ENUM ('VOLCANOES', 'CAVE', 'SWAMP', 'SNOW_RAVAGED_MOUNTAINS', 'DRAGON_GRAVEYARDS', 'MOUNTAIN', 'GRASSY_PLAIN', 'BEACH', 'FOREST');
+CREATE TYPE TERRAIN AS ENUM ('VOLCANOES', 'CAVE', 'SWAMP', 'SNOW_RAVAGED_MOUNTAINS', 'DRAGON_GRAVEYARDS', 'MOUNTAIN', 'GRASSY_PLAIN', 'BEACH', 'FOREST','REEF');
 CREATE TYPE TRAINING_LEVEL AS ENUM ('WILD', 'ELEMENTARY', 'INTERMEDIATE', 'ADVANCED');
 
 CREATE CAST (character varying as DAY_TIME) WITH INOUT AS IMPLICIT;
@@ -218,7 +218,7 @@ CREATE TABLE IF NOT EXISTS search_outing
     time_finish TIMESTAMP,
     result      BOOLEAN,
     team_id     SMALLINT   NOT NULL REFERENCES search_teams ON DELETE CASCADE ON UPDATE CASCADE,
-    CHECK(time_finish > time_start)
+    CHECK(time_finish >= time_start)
 );
 CREATE TABLE IF NOT EXISTS find_types
 (
@@ -245,7 +245,7 @@ CREATE TABLE IF NOT EXISTS seartch_history
     time_start       TIMESTAMP NOT NULL,
     time_finish      TIMESTAMP,
     evidence_id      INT       UNIQUE REFERENCES evidence ON DELETE CASCADE ON UPDATE CASCADE,
-    CHECK (time_finish > time_start)
+    CHECK (time_finish >= time_start)
 );  
 CREATE TABLE IF NOT EXISTS messages
 (
@@ -266,7 +266,7 @@ CREATE TABLE IF NOT EXISTS tamer_outing
     time_finish TIMESTAMP,
     result      BOOLEAN,
     dragon_id   INT        UNIQUE REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
-    CHECK(time_finish > time_start)
+    CHECK(time_finish >= time_start)
 );
 CREATE TABLE IF NOT EXISTS taming_stage
 (
@@ -281,7 +281,7 @@ CREATE TABLE IF NOT EXISTS tamer_outing_history
     time_start       TIMESTAMP NOT NULL,
     time_finish      TIMESTAMP,
     dragon_reaction  BOOLEAN,
-    CHECK (time_finish > time_start)
+    CHECK (time_finish >= time_start)
 ); 
 CREATE TABLE IF NOT EXISTS things
 (
