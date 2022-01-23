@@ -2338,3 +2338,5 @@ INSERT INTO search_types(name) VALUES('Looks for footprints in the ground'),
 
 alter table search_teams add foreign key (leader) references search_member on update cascade on delete cascade;
 
+insert into user_details (user_name, password, role, person_id) VALUES ('worker1', '$2a$10$tX.4s5JlpByjef6ePk7P2.zeGFqi4ianU9xt3T/aYX3b1p/RoYYea', 'WORKER', 128);
+
