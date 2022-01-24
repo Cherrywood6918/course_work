@@ -1,30 +1,30 @@
-CREATE TYPE DAY_TIME AS ENUM ('DAY', 'NIGHT');
-CREATE TYPE SEASON AS ENUM ('SUMMER', 'AUTUMN', 'WINTER', 'SPRING');
-CREATE TYPE CAGE_TYPE AS ENUM ('GENERAL', 'INCUBATOR', 'NURSERY', 'COUPLE');
-CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
-CREATE TYPE DRAGON_STATUS AS ENUM ('ALIVE', 'ESCAPED', 'DEATH_FROM_OLD_AGE', 'DEATH_DUE_TO_POOR_CARE');
-CREATE TYPE TRANSFER_TYPE AS ENUM ('PERMANENT', 'TEMPORAL');
-CREATE TYPE WORKER_TYPE AS ENUM ('TAMER', 'CARETAKER', 'RESEARCHER', 'NANNY');
-CREATE TYPE SIZE AS ENUM ('SMALL', 'MEDIUM', 'LARGE', 'GIGANTIC');
-CREATE TYPE ACTION_TYPE AS ENUM ('FEED', 'PLAY', 'TRAIN', 'SCOLD', 'HIT', 'TREAT');
-CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('HEALTH', 'TRAINING', 'HAPPINESS');
-CREATE TYPE TERRAIN AS ENUM ('VOLCANOES', 'CAVE', 'SWAMP', 'SNOW_RAVAGED_MOUNTAINS', 'DRAGON_GRAVEYARDS', 'MOUNTAIN', 'GRASSY_PLAIN', 'BEACH', 'FOREST','REEF');
-CREATE TYPE TRAINING_LEVEL AS ENUM ('WILD', 'ELEMENTARY', 'INTERMEDIATE', 'ADVANCED');
-CREATE TYPE USER_ROLE AS ENUM ('USER', 'WORKER');
-
-CREATE CAST (character varying as DAY_TIME) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as SEASON) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as CAGE_TYPE) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as GENDER) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as DRAGON_STATUS) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as TRANSFER_TYPE) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as WORKER_TYPE) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as SIZE) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as ACTION_TYPE) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as DRAGON_CHARACTERISTIC) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as TERRAIN) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as TRAINING_LEVEL) WITH INOUT AS IMPLICIT;
-CREATE CAST (character varying as USER_ROLE) WITH INOUT AS IMPLICIT;
+-- CREATE TYPE DAY_TIME AS ENUM ('DAY', 'NIGHT');
+-- CREATE TYPE SEASON AS ENUM ('SUMMER', 'AUTUMN', 'WINTER', 'SPRING');
+-- CREATE TYPE CAGE_TYPE AS ENUM ('GENERAL', 'INCUBATOR', 'NURSERY', 'COUPLE');
+-- CREATE TYPE GENDER AS ENUM ('MALE', 'FEMALE');
+-- CREATE TYPE DRAGON_STATUS AS ENUM ('ALIVE', 'ESCAPED', 'DEATH_FROM_OLD_AGE', 'DEATH_DUE_TO_POOR_CARE');
+-- CREATE TYPE TRANSFER_TYPE AS ENUM ('PERMANENT', 'TEMPORAL');
+-- CREATE TYPE WORKER_TYPE AS ENUM ('TAMER', 'CARETAKER', 'RESEARCHER', 'NANNY');
+-- CREATE TYPE SIZE AS ENUM ('SMALL', 'MEDIUM', 'LARGE', 'GIGANTIC');
+-- CREATE TYPE ACTION_TYPE AS ENUM ('FEED', 'PLAY', 'TRAIN', 'SCOLD', 'HIT', 'TREAT');
+-- CREATE TYPE DRAGON_CHARACTERISTIC AS ENUM ('HEALTH', 'TRAINING', 'HAPPINESS');
+-- CREATE TYPE TERRAIN AS ENUM ('VOLCANOES', 'CAVE', 'SWAMP', 'SNOW_RAVAGED_MOUNTAINS', 'DRAGON_GRAVEYARDS', 'MOUNTAIN', 'GRASSY_PLAIN', 'BEACH', 'FOREST','REEF');
+-- CREATE TYPE TRAINING_LEVEL AS ENUM ('WILD', 'ELEMENTARY', 'INTERMEDIATE', 'ADVANCED');
+-- CREATE TYPE USER_ROLE AS ENUM ('USER', 'WORKER');
+--
+-- CREATE CAST (character varying as DAY_TIME) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as SEASON) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as CAGE_TYPE) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as GENDER) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as DRAGON_STATUS) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as TRANSFER_TYPE) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as WORKER_TYPE) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as SIZE) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as ACTION_TYPE) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as DRAGON_CHARACTERISTIC) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as TERRAIN) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as TRAINING_LEVEL) WITH INOUT AS IMPLICIT;
+-- CREATE CAST (character varying as USER_ROLE) WITH INOUT AS IMPLICIT;
 
 CREATE TABLE IF NOT EXISTS dragon_abilities
 (
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS classes_to_abilities
 );
 CREATE TABLE IF NOT EXISTS characteristic_levels
 (
-    training_level training_level PRIMARY KEY NOT NULL,
+    training_level VARCHAR(255) PRIMARY KEY NOT NULL,
     min_value    SMALLINT    NOT NULL CHECK (min_value >= 0),
     max_value    SMALLINT    NOT NULL CHECK (max_value >= 0),
     description  TEXT,
@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS characteristic_levels
 CREATE TABLE IF NOT EXISTS dragon_appearance
 (
     id        SMALLSERIAL PRIMARY KEY,
-    size      SIZE        NOT NULL,
+    size      VARCHAR(255)        NOT NULL,
     color     VARCHAR(50) NOT NULL,
     fire_type VARCHAR(50) NOT NULL,
     features  TEXT        NOT NULL
@@ -72,8 +72,8 @@ CREATE TABLE IF NOT EXISTS dragon_types
     rarity	  NUMERIC     CHECK (rarity >= 0 AND rarity <= 1),
     way_of_taming TEXT,
     trainable     BOOLEAN     NOT NULL,
-    active_time   DAY_TIME    NOT NULL,
-    mating_season SEASON      NOT NULL,
+    active_time   VARCHAR(255)    NOT NULL,
+    mating_season VARCHAR(255)      NOT NULL,
     hatching_age  SMALLINT    NOT NULL CHECK (hatching_age > 0),
     puberty_age   SMALLINT    NOT NULL CHECK (puberty_age > 0),
     appearance_id SMALLINT    UNIQUE REFERENCES dragon_appearance ON DELETE SET NULL ON UPDATE CASCADE,
@@ -89,24 +89,24 @@ CREATE TABLE IF NOT EXISTS cages
 (
     id         SMALLSERIAL PRIMARY KEY,
     max_amount SMALLINT  NOT NULL CHECK (max_amount > 0),
-    cage_type  CAGE_TYPE NOT NULL
+    cage_type  VARCHAR(255) NOT NULL
 );
 CREATE TABLE IF NOT EXISTS dragons
 (
     id            SERIAL PRIMARY KEY,
     name          VARCHAR(30)   NOT NULL UNIQUE,
-    training_level training_level,
+    training_level VARCHAR(255),
     type_id       SMALLINT      REFERENCES dragon_types ON DELETE SET NULL ON UPDATE CASCADE,
-    gender        GENDER,
+    gender        VARCHAR(255),
     cage_id       SMALLINT      REFERENCES cages ON DELETE SET NULL ON UPDATE CASCADE,
-    dragon_status DRAGON_STATUS NOT NULL,
+    dragon_status VARCHAR(255) NOT NULL,
     date_of_death DATE,
     date_of_birth DATE
 );
 CREATE TABLE IF NOT EXISTS dragon_characteristics
 (
     value        SMALLINT NOT NULL,
-    char_type    DRAGON_CHARACTERISTIC,
+    char_type    VARCHAR(255),
     dragon_id    INT      NOT NULL REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
     PRIMARY KEY (char_type, dragon_id)
 );
@@ -117,7 +117,7 @@ CREATE TABLE IF NOT EXISTS people
     surname       VARCHAR(25) NOT NULL,
     date_of_birth DATE        NOT NULL,
     date_of_death DATE,
-    gender        GENDER      NOT NULL,
+    gender        VARCHAR(255)      NOT NULL,
     reputation    INT         NOT NULL DEFAULT 0,
     CHECK (date_of_death > date_of_birth)
 );
@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS transfer_dragon_results
 CREATE TABLE IF NOT EXISTS transfer_dragon_history
 (
     result_id     SMALLINT      REFERENCES transfer_dragon_results ON DELETE SET NULL ON UPDATE CASCADE,
-    transfer_type TRANSFER_TYPE NOT NULL,
+    transfer_type VARCHAR(255) NOT NULL,
     dragon_id     INT           REFERENCES dragons ON DELETE CASCADE ON UPDATE CASCADE,
     person_id     INT           REFERENCES people ON DELETE CASCADE ON UPDATE CASCADE,
     time_start    TIMESTAMP     NOT NULL,
@@ -142,15 +142,15 @@ CREATE TABLE IF NOT EXISTS workers
 (
     id          SMALLSERIAL PRIMARY KEY,
     person_id   INT         NOT NULL UNIQUE REFERENCES people ON DELETE CASCADE ON UPDATE CASCADE,
-    worker_type WORKER_TYPE NOT NULL,
+    worker_type VARCHAR(255) NOT NULL,
     penalty     SMALLINT    NOT NULL DEFAULT 0 CHECK (penalty >= 0),
     status      BOOLEAN     NOT NULL,
-    work_time   DAY_TIME    NOT NULL
+    work_time   VARCHAR(255)    NOT NULL
 );
 CREATE TABLE IF NOT EXISTS caring_and_train_actions
 (
     id             BIGSERIAL PRIMARY KEY,
-    action_type    ACTION_TYPE,
+    action_type    VARCHAR(255),
     worker_id      SMALLINT  REFERENCES workers ON DELETE CASCADE ON UPDATE CASCADE,
     time_start     TIMESTAMP NOT NULL,
     dragon_id      INT       REFERENCES dragons  ON DELETE CASCADE ON UPDATE CASCADE
@@ -158,8 +158,8 @@ CREATE TABLE IF NOT EXISTS caring_and_train_actions
 CREATE TABLE IF NOT EXISTS action_type_influence
 (
     influence_value SMALLINT NOT NULL,
-    char_type       DRAGON_CHARACTERISTIC,
-    action_type     ACTION_TYPE,
+    char_type       VARCHAR(255),
+    action_type     VARCHAR(255),
     PRIMARY KEY (char_type, action_type)
 );
 CREATE TABLE IF NOT EXISTS dragon_carers_trainers
@@ -185,7 +185,7 @@ CREATE TABLE IF NOT EXISTS places
 (
     id        	SMALLSERIAL PRIMARY KEY,
     name	VARCHAR(100) NOT NULL UNIQUE,
-    terrain	TERRAIN NOT NULL
+    terrain	VARCHAR(255) NOT NULL
 );
 CREATE TABLE IF NOT EXISTS habitat
 (
@@ -309,6 +309,6 @@ CREATE TABLE IF NOT EXISTS user_details
     id   SERIAL      PRIMARY KEY,
     user_name VARCHAR NOT NULL UNIQUE,
     password VARCHAR NOT NULL,
-    role USER_ROLE NOT NULL,
+    role VARCHAR(255) NOT NULL,
     person_id INT NOT NULL UNIQUE REFERENCES people ON DELETE CASCADE ON UPDATE CASCADE
 );

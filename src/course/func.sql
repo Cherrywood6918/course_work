@@ -1,3 +1,41 @@
+CREATE OR REPLACE FUNCTION update_charssss(update_dragon_id int)
+    RETURNS void AS
+$$
+DECLARE
+    cur_char_type dragon_characteristic;
+BEGIN
+    FOR cur_char_type IN select char_type from action_type_influence where action_type = 'FEED'
+        LOOP
+            update dragon_characteristics
+            set value = value + (select influence_value
+                                 from action_type_influence
+                                 where action_type_influence.char_type = cur_char_type
+                                   AND action_type_influence.action_type = 'FEED')
+            where dragon_id = update_dragon_id
+              and dragon_characteristics.char_type = cur_char_type;
+        END LOOP;
+END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE OR REPLACE FUNCTION updat(update_dragon_id int)
+    RETURNS void AS
+$$
+DECLARE
+    cur_char_type dragon_characteristic;
+BEGIN
+    FOR cur_char_type IN select char_type from action_type_influence where action_type = 'FEED'
+        LOOP
+            update dragon_characteristics
+            set value = value + (select influence_value
+                                 from action_type_influence
+                                 where action_type_influence.char_type = cur_char_type
+                                   AND action_type_influence.action_type = 'FEED')
+            where dragon_id = update_dragon_id
+              and dragon_characteristics.char_type = cur_char_type;
+        END LOOP;
+END;
+$$ LANGUAGE 'plpgsql';
+
 
 CREATE OR REPLACE FUNCTION update_chars(update_dragon_id int, update_action_type action_type)
     RETURNS void AS
@@ -18,6 +56,7 @@ BEGIN
 END;
 $$ LANGUAGE 'plpgsql';
 
+call update_all_chars(1, 'HIT');
 
 CREATE OR REPLACE FUNCTION check_is_not_relatives(cur_mother_id int, cur_father_id int)
     RETURNS bool AS
